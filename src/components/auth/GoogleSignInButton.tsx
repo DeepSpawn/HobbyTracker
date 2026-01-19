@@ -70,9 +70,9 @@ export function GoogleSignInButton({
       isLoading={isLoading}
       onClick={handleClick}
       className={className}
+      leftIcon={<GoogleIcon />}
     >
-      <GoogleIcon />
-      <span className="ml-2">Continue with Google</span>
+      Continue with Google
     </Button>
   );
 }
