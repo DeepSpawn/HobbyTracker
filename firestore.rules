@@ -1,0 +1,32 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Paint database - public read access (no auth required for browsing paints)
+    // Write access requires authentication for future admin operations
+    match /paints/{paintId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+
+    // User inventory - users can only access their own inventory
+    match /users/{userId}/inventory/{paintId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Projects - users can only access their own projects
+    match /users/{userId}/projects/{projectId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Project units - nested under projects
+    match /users/{userId}/projects/{projectId}/units/{unitId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Recipes - users can read/write their own recipes
+    match /users/{userId}/recipes/{recipeId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+  }
+}

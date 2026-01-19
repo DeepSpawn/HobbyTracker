@@ -21,4 +21,16 @@ export const db = getFirestore(app);
 // Auth providers
 export const googleProvider = new GoogleAuthProvider();
 
+// Collection names for type-safe references
+export const COLLECTIONS = {
+  PAINTS: 'paints',
+  USERS: 'users',
+  // Subcollections under users/{userId}
+  USER_INVENTORY: 'inventory',
+  USER_PROJECTS: 'projects',
+  USER_RECIPES: 'recipes',
+  // Subcollections under projects/{projectId}
+  PROJECT_UNITS: 'units',
+} as const;
+
 export default app;
