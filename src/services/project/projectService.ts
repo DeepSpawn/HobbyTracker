@@ -4,6 +4,8 @@ import {
   addDoc,
   getDoc,
   getDocs,
+  updateDoc,
+  deleteDoc,
   serverTimestamp,
   query,
   orderBy,
@@ -12,7 +14,13 @@ import {
   type Timestamp,
 } from 'firebase/firestore';
 import { db, COLLECTIONS } from '../../lib/firebase';
-import type { Project, ProjectDocument, ProjectUnitDocument } from '../../types/project';
+import type {
+  Project,
+  ProjectDocument,
+  ProjectUnit,
+  ProjectUnitDocument,
+  UnitStatus,
+} from '../../types/project';
 
 /**
  * Get the projects collection reference for a user
@@ -155,4 +163,124 @@ export async function getProjectUnitCounts(
   });
 
   return { total, complete };
+}
+
+/**
+ * Convert Firestore document to ProjectUnit
+ */
+function toProjectUnit(docId: string, data: ProjectUnitDocument): ProjectUnit {
+  return {
+    id: docId,
+    name: data.name,
+    quantity: data.quantity,
+    status: data.status,
+    pointsCost: data.pointsCost,
+    recipeId: data.recipeId,
+  };
+}
+
+/**
+ * Input type for creating a unit
+ */
+export interface CreateProjectUnitInput {
+  name: string;
+  quantity: number;
+  status: UnitStatus;
+  pointsCost: number;
+  recipeId?: string | null;
+}
+
+/**
+ * Input type for updating a unit
+ */
+export interface UpdateProjectUnitInput {
+  name?: string;
+  quantity?: number;
+  status?: UnitStatus;
+  pointsCost?: number;
+  recipeId?: string | null;
+}
+
+/**
+ * Subscribe to project units (real-time updates)
+ */
+export function subscribeToProjectUnits(
+  userId: string,
+  projectId: string,
+  callback: (units: ProjectUnit[]) => void
+): Unsubscribe {
+  const unitsRef = getProjectUnitsCollection(userId, projectId);
+  const q = query(unitsRef, orderBy('name', 'asc'));
+
+  return onSnapshot(q, (snapshot) => {
+    const units: ProjectUnit[] = [];
+    snapshot.forEach((doc) => {
+      units.push(toProjectUnit(doc.id, doc.data() as ProjectUnitDocument));
+    });
+    callback(units);
+  });
+}
+
+/**
+ * Create a new unit in a project
+ */
+export async function createProjectUnit(
+  userId: string,
+  projectId: string,
+  input: CreateProjectUnitInput
+): Promise<string> {
+  const unitsRef = getProjectUnitsCollection(userId, projectId);
+
+  const docRef = await addDoc(unitsRef, {
+    name: input.name,
+    quantity: input.quantity,
+    status: input.status,
+    pointsCost: input.pointsCost,
+    recipeId: input.recipeId ?? null,
+  });
+
+  return docRef.id;
+}
+
+/**
+ * Update an existing unit
+ */
+export async function updateProjectUnit(
+  userId: string,
+  projectId: string,
+  unitId: string,
+  updates: UpdateProjectUnitInput
+): Promise<void> {
+  const unitRef = doc(
+    db,
+    COLLECTIONS.USERS,
+    userId,
+    COLLECTIONS.USER_PROJECTS,
+    projectId,
+    COLLECTIONS.PROJECT_UNITS,
+    unitId
+  );
+
+  await updateDoc(unitRef, { ...updates });
+}
+
+/**
+ * Delete a unit from a project
+ */
+export async function deleteProjectUnit(
+  userId: string,
+  projectId: string,
+  unitId: string
+): Promise<void> {
+  const unitRef = doc(
+    db,
+    COLLECTIONS.USERS,
+    userId,
+    COLLECTIONS.USER_PROJECTS,
+    projectId,
+    COLLECTIONS.PROJECT_UNITS,
+    unitId
+  );
+
+  await deleteDoc(unitRef);
 }
