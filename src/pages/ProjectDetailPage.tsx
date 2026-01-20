@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Button, Card, ProgressBar } from '../components/ui';
-import { AddUnitForm, UnitList } from '../components/projects';
+import { AddUnitForm, BulkActionToolbar, UnitList } from '../components/projects';
 import { useAuth } from '../hooks/useAuth';
 import { useProjectDetail } from '../hooks/useProjectDetail';
-import { updateProjectUnit } from '../services/project';
+import { updateProjectUnit, batchUpdateUnitStatus } from '../services/project';
 import type { UnitStatus } from '../types/project';
 
 export function ProjectDetailPage() {
@@ -14,12 +14,64 @@ export function ProjectDetailPage() {
     useProjectDetail(id);
   const [showAddUnitForm, setShowAddUnitForm] = useState(false);
 
+  // Selection state
+  const [selectionMode, setSelectionMode] = useState(false);
+  const [selectedUnitIds, setSelectedUnitIds] = useState<Set<string>>(new Set());
+  const [isBatchUpdating, setIsBatchUpdating] = useState(false);
+
+  // Individual status change handler (for clicking StatusBadge)
   const handleStatusChange = async (unitId: string, newStatus: UnitStatus) => {
     if (!user || !id) return;
     try {
       await updateProjectUnit(user.uid, id, unitId, { status: newStatus });
     } catch (err) {
       console.error('Failed to update unit status:', err);
+    }
+  };
+
+  // Selection handlers
+  const handleSelectionChange = (unitId: string, selected: boolean) => {
+    setSelectedUnitIds((prev) => {
+      const next = new Set(prev);
+      if (selected) {
+        next.add(unitId);
+      } else {
+        next.delete(unitId);
+      }
+      return next;
+    });
+  };
+
+  const handleSelectAll = () => {
+    setSelectedUnitIds(new Set(units.map((u) => u.id)));
+  };
+
+  const handleDeselectAll = () => {
+    setSelectedUnitIds(new Set());
+  };
+
+  const handleCancelSelection = () => {
+    setSelectionMode(false);
+    setSelectedUnitIds(new Set());
+  };
+
+  const handleMarkAsOwned = async () => {
+    if (!user || !id || selectedUnitIds.size === 0) return;
+
+    setIsBatchUpdating(true);
+    try {
+      await batchUpdateUnitStatus(
+        user.uid,
+        id,
+        Array.from(selectedUnitIds),
+        'owned'
+      );
+      // Clear selection after successful update
+      handleCancelSelection();
+    } catch (err) {
+      console.error('Failed to batch update units:', err);
+    } finally {
+      setIsBatchUpdating(false);
     }
   };
 
@@ -139,12 +191,38 @@ export function ProjectDetailPage() {
         {/* Units Section */}
         <div className="mb-4 flex items-center justify-between">
           <h3 className="text-lg font-semibold text-gray-900">Units</h3>
-          {!showAddUnitForm && (
-            <Button variant="primary" size="sm" onClick={() => setShowAddUnitForm(true)}>
-              Add Unit
-            </Button>
-          )}
+          <div className="flex items-center gap-2">
+            {!selectionMode && units.length > 0 && (
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => setSelectionMode(true)}
+              >
+                Select
+              </Button>
+            )}
+            {!showAddUnitForm && !selectionMode && (
+              <Button variant="primary" size="sm" onClick={() => setShowAddUnitForm(true)}>
+                Add Unit
+              </Button>
+            )}
+          </div>
         </div>
+
+        {/* Bulk Action Toolbar - shown when in selection mode */}
+        {selectionMode && (
+          <div className="mb-4">
+            <BulkActionToolbar
+              selectedCount={selectedUnitIds.size}
+              totalCount={units.length}
+              onSelectAll={handleSelectAll}
+              onDeselectAll={handleDeselectAll}
+              onMarkAsOwned={handleMarkAsOwned}
+              onCancel={handleCancelSelection}
+              isLoading={isBatchUpdating}
+            />
+          </div>
+        )}
 
         {/* Add Unit Form */}
         {showAddUnitForm && (
@@ -162,6 +240,9 @@ export function ProjectDetailPage() {
           units={units}
           emptyMessage="No units yet. Add your first unit to get started!"
           onStatusChange={handleStatusChange}
+          selectionMode={selectionMode}
+          selectedUnitIds={selectedUnitIds}
+          onSelectionChange={handleSelectionChange}
         />
       </main>
     </div>

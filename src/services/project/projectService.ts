@@ -10,6 +10,7 @@ import {
   query,
   orderBy,
   onSnapshot,
+  writeBatch,
   type Unsubscribe,
   type Timestamp,
 } from 'firebase/firestore';
@@ -283,4 +284,41 @@ export async function deleteProjectUnit(
   );
 
   await deleteDoc(unitRef);
+}
+
+/**
+ * Batch update status for multiple units
+ * Uses Firestore batch writes for atomic operation
+ */
+export async function batchUpdateUnitStatus(
+  userId: string,
+  projectId: string,
+  unitIds: string[],
+  newStatus: UnitStatus
+): Promise<void> {
+  if (unitIds.length === 0) return;
+
+  // Firestore batches are limited to 500 operations
+  // For safety, chunk into batches of 450
+  const BATCH_SIZE = 450;
+
+  for (let i = 0; i < unitIds.length; i += BATCH_SIZE) {
+    const chunk = unitIds.slice(i, i + BATCH_SIZE);
+    const batch = writeBatch(db);
+
+    for (const unitId of chunk) {
+      const unitRef = doc(
+        db,
+        COLLECTIONS.USERS,
+        userId,
+        COLLECTIONS.USER_PROJECTS,
+        projectId,
+        COLLECTIONS.PROJECT_UNITS,
+        unitId
+      );
+      batch.update(unitRef, { status: newStatus });
+    }
+
+    await batch.commit();
+  }
 }

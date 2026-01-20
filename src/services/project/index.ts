@@ -7,6 +7,7 @@ export {
   createProjectUnit,
   updateProjectUnit,
   deleteProjectUnit,
+  batchUpdateUnitStatus,
   type CreateProjectInput,
   type ProjectUnitCounts,
   type CreateProjectUnitInput,
