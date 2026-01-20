@@ -27,5 +27,8 @@ export type {
   ProgressBarVariant,
 } from './ProgressBar';
 
+export { StatusBadge, getNextStatus } from './StatusBadge';
+export type { StatusBadgeProps } from './StatusBadge';
+
 export { FileDropZone } from './FileDropZone';
 export type { FileDropZoneProps } from './FileDropZone';

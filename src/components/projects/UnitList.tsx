@@ -1,19 +1,14 @@
-import { Card, Badge } from '../ui';
+import { Card, StatusBadge, getNextStatus } from '../ui';
 import type { ProjectUnit, UnitStatus } from '../../types/project';
 
 interface UnitListProps {
   units: ProjectUnit[];
   emptyMessage?: string;
   onUnitClick?: (unit: ProjectUnit) => void;
+  onStatusChange?: (unitId: string, newStatus: UnitStatus) => void;
 }
 
-const statusLabels: Record<UnitStatus, string> = {
-  to_buy: 'To Buy',
-  owned: 'Owned',
-  complete: 'Complete',
-};
-
-export function UnitList({ units, emptyMessage, onUnitClick }: UnitListProps) {
+export function UnitList({ units, emptyMessage, onUnitClick, onStatusChange }: UnitListProps) {
   if (units.length === 0) {
     return (
       <Card variant="outlined" padding="lg">
@@ -42,9 +37,14 @@ export function UnitList({ units, emptyMessage, onUnitClick }: UnitListProps) {
                   {unit.pointsCost > 0 && ` • ${unit.pointsCost} pts`}
                 </p>
               </div>
-              <Badge variant={unit.status} size="md">
-                {statusLabels[unit.status]}
-              </Badge>
+              <StatusBadge
+                status={unit.status}
+                onClick={
+                  onStatusChange
+                    ? () => onStatusChange(unit.id, getNextStatus(unit.status))
+                    : undefined
+                }
+              />
             </div>
           </Card.Body>
         </Card>
