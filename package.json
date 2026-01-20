@@ -12,7 +12,8 @@
     "format": "prettier --write \"src/**/*.{ts,tsx,css}\"",
     "test": "vitest",
     "test:run": "vitest run",
-    "parse-paints": "tsx scripts/parse-paints.ts"
+    "parse-paints": "tsx scripts/parse-paints.ts",
+    "import-paints": "tsx scripts/import-paints-to-firestore.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
@@ -42,6 +43,7 @@
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.26",
+    "firebase-admin": "^13.6.0",
     "globals": "^17.0.0",
     "jsdom": "^27.4.0",
     "postcss": "^8.5.6",

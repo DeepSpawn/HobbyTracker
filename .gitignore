@@ -36,3 +36,7 @@ dev-dist
 .env
 .env.local
 .env.*.local
+
+# Firebase service account keys
+*-service-account*.json
+firebase-adminsdk*.json
