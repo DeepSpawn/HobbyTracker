@@ -6,6 +6,7 @@ interface PaintCardProps {
   isOwned: boolean;
   isPending: boolean;
   onToggleOwnership: () => void;
+  onClick?: () => void;
 }
 
 function PaintCardComponent({
@@ -13,6 +14,7 @@ function PaintCardComponent({
   isOwned,
   isPending,
   onToggleOwnership,
+  onClick,
 }: PaintCardProps) {
   const formatBrand = (brand: string) => {
     return brand
@@ -21,8 +23,30 @@ function PaintCardComponent({
       .join(' ');
   };
 
+  const handleCardClick = () => {
+    onClick?.();
+  };
+
+  const handleToggleClick = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    onToggleOwnership();
+  };
+
   return (
     <div
+      role={onClick ? 'button' : undefined}
+      tabIndex={onClick ? 0 : undefined}
+      onClick={handleCardClick}
+      onKeyDown={
+        onClick
+          ? (e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                handleCardClick();
+              }
+            }
+          : undefined
+      }
       className={`
         relative flex items-center gap-3 rounded-lg border p-3
         transition-all duration-150
@@ -32,7 +56,9 @@ function PaintCardComponent({
             : 'border-gray-200 bg-white hover:border-gray-300'
         }
         ${isPending ? 'opacity-70' : ''}
+        ${onClick ? 'cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500' : ''}
       `}
+      aria-label={onClick ? `View details for ${paint.name}` : undefined}
     >
       {/* Color swatch */}
       <div
@@ -52,7 +78,7 @@ function PaintCardComponent({
       {/* Toggle button */}
       <button
         type="button"
-        onClick={onToggleOwnership}
+        onClick={handleToggleClick}
         disabled={isPending}
         className={`
           shrink-0 rounded-full p-2 transition-colors duration-150

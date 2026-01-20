@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Card } from '../components/ui';
-import { PaintList, PaintFilters } from '../components/paints';
+import { PaintList, PaintFilters, PaintDetailModal } from '../components/paints';
 import { useAuth } from '../hooks/useAuth';
 import { useInventory } from '../hooks/useInventory';
 import { usePaints } from '../hooks/usePaints';
+import type { Paint } from '../types/paint';
 
 type TabValue = 'all' | 'owned';
 
@@ -25,6 +26,19 @@ export function PaintsPage() {
   const [searchQuery, setSearchQuery] = useState('');
   const [brandFilter, setBrandFilter] = useState('');
 
+  // Modal state
+  const [selectedPaint, setSelectedPaint] = useState<Paint | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handlePaintClick = (paint: Paint) => {
+    setSelectedPaint(paint);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
+
   // Get paints with filters
   const {
     paints,
@@ -39,7 +53,9 @@ export function PaintsPage() {
     ownedPaintIds,
   });
 
-  const isLoading = paintsLoading || inventoryLoading;
+  // Only block on inventory loading for "My Paints" tab (which filters by ownership)
+  // "All Paints" tab can render immediately once paints are loaded
+  const isLoading = paintsLoading || (activeTab === 'owned' && inventoryLoading);
 
   // Stats for display
   const ownedCount = ownedPaintIds.size;
@@ -152,6 +168,7 @@ export function PaintsPage() {
             isOwned={isOwned}
             isPending={isPending}
             onToggleOwnership={toggleOwnership}
+            onPaintClick={handlePaintClick}
             emptyMessage={
               activeTab === 'owned'
                 ? 'No paints in your collection yet. Browse All Paints to add some!'
@@ -159,6 +176,20 @@ export function PaintsPage() {
             }
           />
         )}
+
+        {/* Paint Detail Modal */}
+        <PaintDetailModal
+          paint={selectedPaint}
+          isOpen={isModalOpen}
+          onClose={handleCloseModal}
+          isOwned={selectedPaint ? isOwned(selectedPaint.id) : false}
+          isPending={selectedPaint ? isPending(selectedPaint.id) : false}
+          onToggleOwnership={() => {
+            if (selectedPaint) {
+              toggleOwnership(selectedPaint.id);
+            }
+          }}
+        />
       </main>
     </div>
   );

@@ -6,6 +6,7 @@ interface PaintListProps {
   isOwned: (paintId: string) => boolean;
   isPending: (paintId: string) => boolean;
   onToggleOwnership: (paintId: string) => void;
+  onPaintClick?: (paint: Paint) => void;
   emptyMessage?: string;
 }
 
@@ -14,6 +15,7 @@ export function PaintList({
   isOwned,
   isPending,
   onToggleOwnership,
+  onPaintClick,
   emptyMessage = 'No paints found',
 }: PaintListProps) {
   if (paints.length === 0) {
@@ -33,6 +35,7 @@ export function PaintList({
           isOwned={isOwned(paint.id)}
           isPending={isPending(paint.id)}
           onToggleOwnership={() => onToggleOwnership(paint.id)}
+          onClick={onPaintClick ? () => onPaintClick(paint) : undefined}
         />
       ))}
     </div>
