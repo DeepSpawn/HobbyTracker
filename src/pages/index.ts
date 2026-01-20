@@ -5,3 +5,4 @@ export { ProfilePage } from './ProfilePage';
 export { ProjectDetailPage } from './ProjectDetailPage';
 export { ProjectsPage } from './ProjectsPage';
 export { RegisterPage } from './RegisterPage';
+export { ShoppingListPage } from './ShoppingListPage';

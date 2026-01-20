@@ -13,3 +13,9 @@ export {
   type CreateProjectUnitInput,
   type UpdateProjectUnitInput,
 } from './projectService';
+
+export {
+  subscribeToShoppingList,
+  type ShoppingListData,
+  type ShoppingListProjectGroup,
+} from './shoppingListService';
