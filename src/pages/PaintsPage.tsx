@@ -53,7 +53,9 @@ export function PaintsPage() {
     ownedPaintIds,
   });
 
-  const isLoading = paintsLoading || inventoryLoading;
+  // Only block on inventory loading for "My Paints" tab (which filters by ownership)
+  // "All Paints" tab can render immediately once paints are loaded
+  const isLoading = paintsLoading || (activeTab === 'owned' && inventoryLoading);
 
   // Stats for display
   const ownedCount = ownedPaintIds.size;
