@@ -28,17 +28,25 @@ function getInventoryDocRef(userId: string, paintId: string) {
  */
 export function subscribeToInventory(
   userId: string,
-  callback: (paintIds: Set<string>) => void
+  callback: (paintIds: Set<string>) => void,
+  onError?: (error: Error) => void
 ): Unsubscribe {
   const inventoryRef = getInventoryCollection(userId);
 
-  return onSnapshot(inventoryRef, (snapshot) => {
-    const paintIds = new Set<string>();
-    snapshot.forEach((doc) => {
-      paintIds.add(doc.id);
-    });
-    callback(paintIds);
-  });
+  return onSnapshot(
+    inventoryRef,
+    (snapshot) => {
+      const paintIds = new Set<string>();
+      snapshot.forEach((doc) => {
+        paintIds.add(doc.id);
+      });
+      callback(paintIds);
+    },
+    (error) => {
+      console.error('Inventory subscription error:', error);
+      onError?.(error);
+    }
+  );
 }
 
 /**

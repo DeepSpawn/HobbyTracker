@@ -30,11 +30,18 @@ export function useInventory(): UseInventoryReturn {
     }
 
     setIsLoading(true);
-    const unsubscribe = subscribeToInventory(user.uid, (paintIds) => {
-      setOwnedPaintIds(paintIds);
-      setIsLoading(false);
-      setError(null);
-    });
+    const unsubscribe = subscribeToInventory(
+      user.uid,
+      (paintIds) => {
+        setOwnedPaintIds(paintIds);
+        setIsLoading(false);
+        setError(null);
+      },
+      (err) => {
+        setError(err);
+        setIsLoading(false);
+      }
+    );
 
     return () => unsubscribe();
   }, [user, isAuthenticated]);
