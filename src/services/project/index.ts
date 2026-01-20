@@ -3,6 +3,12 @@ export {
   subscribeToProjects,
   getProject,
   getProjectUnitCounts,
+  subscribeToProjectUnits,
+  createProjectUnit,
+  updateProjectUnit,
+  deleteProjectUnit,
   type CreateProjectInput,
   type ProjectUnitCounts,
+  type CreateProjectUnitInput,
+  type UpdateProjectUnitInput,
 } from './projectService';
