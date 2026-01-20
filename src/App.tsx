@@ -1,6 +1,6 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { ProtectedRoute, PublicOnlyRoute } from './components/routes';
-import { HomePage, LoginPage, RegisterPage, ProfilePage } from './pages';
+import { HomePage, LoginPage, PaintsPage, RegisterPage, ProfilePage } from './pages';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       {/* Protected routes - redirect to login if not authenticated */}
       <Route element={<ProtectedRoute />}>
         <Route path="/" element={<HomePage />} />
+        <Route path="/paints" element={<PaintsPage />} />
         <Route path="/profile" element={<ProfilePage />} />
       </Route>
 
