@@ -52,6 +52,11 @@ export function HomePage() {
                   Manage Paint Inventory
                 </Button>
               </Link>
+              <Link to="/shopping-list" className="flex-1">
+                <Button variant="outline" fullWidth>
+                  Shopping List
+                </Button>
+              </Link>
             </div>
           </Card.Body>
         </Card>
