@@ -1,14 +1,21 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Button, Card } from '../components/ui';
 import { CreateProjectForm, ProjectList } from '../components/projects';
+import { ImportWizardModal } from '../components/import';
 import { useAuth } from '../hooks/useAuth';
 import { useProjectsWithCompletion } from '../hooks/useProjectsWithCompletion';
 
 export function ProjectsPage() {
   const { user } = useAuth();
+  const navigate = useNavigate();
   const { projects, isLoading, error } = useProjectsWithCompletion();
   const [showCreateForm, setShowCreateForm] = useState(false);
+  const [showImportWizard, setShowImportWizard] = useState(false);
+
+  const handleProjectCreated = (projectId: string) => {
+    navigate(`/projects/${projectId}`);
+  };
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -47,9 +54,14 @@ export function ProjectsPage() {
             </p>
           </div>
           {!showCreateForm && (
-            <Button variant="primary" onClick={() => setShowCreateForm(true)}>
-              New Project
-            </Button>
+            <div className="flex gap-2">
+              <Button variant="secondary" onClick={() => setShowImportWizard(true)}>
+                Import Army List
+              </Button>
+              <Button variant="primary" onClick={() => setShowCreateForm(true)}>
+                New Project
+              </Button>
+            </div>
           )}
         </div>
 
@@ -84,6 +96,13 @@ export function ProjectsPage() {
             emptyMessage="No projects yet. Create your first project to get started!"
           />
         )}
+
+        {/* Import Wizard Modal */}
+        <ImportWizardModal
+          isOpen={showImportWizard}
+          onClose={() => setShowImportWizard(false)}
+          onProjectCreated={handleProjectCreated}
+        />
       </main>
     </div>
   );
