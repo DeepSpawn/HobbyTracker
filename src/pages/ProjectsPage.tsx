@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 import { Button, Card } from '../components/ui';
 import { CreateProjectForm, ProjectList } from '../components/projects';
 import { useAuth } from '../hooks/useAuth';
-import { useProjects } from '../hooks/useProjects';
+import { useProjectsWithCompletion } from '../hooks/useProjectsWithCompletion';
 
 export function ProjectsPage() {
   const { user } = useAuth();
-  const { projects, isLoading, error } = useProjects();
+  const { projects, isLoading, error } = useProjectsWithCompletion();
   const [showCreateForm, setShowCreateForm] = useState(false);
 
   return (

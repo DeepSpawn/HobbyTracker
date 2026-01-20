@@ -3,6 +3,7 @@ import {
   collection,
   addDoc,
   getDoc,
+  getDocs,
   serverTimestamp,
   query,
   orderBy,
@@ -11,7 +12,7 @@ import {
   type Timestamp,
 } from 'firebase/firestore';
 import { db, COLLECTIONS } from '../../lib/firebase';
-import type { Project, ProjectDocument } from '../../types/project';
+import type { Project, ProjectDocument, ProjectUnitDocument } from '../../types/project';
 
 /**
  * Get the projects collection reference for a user
@@ -25,6 +26,20 @@ function getProjectsCollection(userId: string) {
  */
 function getProjectDocRef(userId: string, projectId: string) {
   return doc(db, COLLECTIONS.USERS, userId, COLLECTIONS.USER_PROJECTS, projectId);
+}
+
+/**
+ * Get the units subcollection reference for a project
+ */
+function getProjectUnitsCollection(userId: string, projectId: string) {
+  return collection(
+    db,
+    COLLECTIONS.USERS,
+    userId,
+    COLLECTIONS.USER_PROJECTS,
+    projectId,
+    COLLECTIONS.PROJECT_UNITS
+  );
 }
 
 /**
@@ -108,4 +123,36 @@ export async function getProject(
   }
 
   return toProject(docSnap.id, docSnap.data() as ProjectDocument);
+}
+
+/**
+ * Unit counts for calculating project completion
+ */
+export interface ProjectUnitCounts {
+  total: number;
+  complete: number;
+}
+
+/**
+ * Get unit counts for a single project
+ */
+export async function getProjectUnitCounts(
+  userId: string,
+  projectId: string
+): Promise<ProjectUnitCounts> {
+  const unitsRef = getProjectUnitsCollection(userId, projectId);
+  const snapshot = await getDocs(unitsRef);
+
+  let total = 0;
+  let complete = 0;
+
+  snapshot.forEach((doc) => {
+    const data = doc.data() as ProjectUnitDocument;
+    total += data.quantity;
+    if (data.status === 'complete') {
+      complete += data.quantity;
+    }
+  });
+
+  return { total, complete };
 }

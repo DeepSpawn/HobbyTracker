@@ -16,3 +16,10 @@ export type {
 
 export { Modal } from './Modal';
 export type { ModalProps, ModalSize } from './Modal';
+
+export { ProgressBar } from './ProgressBar';
+export type {
+  ProgressBarProps,
+  ProgressBarSize,
+  ProgressBarVariant,
+} from './ProgressBar';
