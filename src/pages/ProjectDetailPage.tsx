@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Button, Card, ProgressBar } from '../components/ui';
 import { AddUnitForm, UnitList } from '../components/projects';
-import { ImportWizardModal } from '../components/import';
 import { useAuth } from '../hooks/useAuth';
 import { useProjectDetail } from '../hooks/useProjectDetail';
 
@@ -12,7 +11,6 @@ export function ProjectDetailPage() {
   const { project, units, unitCounts, completionPercentage, isLoading, error } =
     useProjectDetail(id);
   const [showAddUnitForm, setShowAddUnitForm] = useState(false);
-  const [showImportWizard, setShowImportWizard] = useState(false);
 
   // Loading state
   if (isLoading) {
@@ -131,14 +129,9 @@ export function ProjectDetailPage() {
         <div className="mb-4 flex items-center justify-between">
           <h3 className="text-lg font-semibold text-gray-900">Units</h3>
           {!showAddUnitForm && (
-            <div className="flex gap-2">
-              <Button variant="secondary" size="sm" onClick={() => setShowImportWizard(true)}>
-                Import Army List
-              </Button>
-              <Button variant="primary" size="sm" onClick={() => setShowAddUnitForm(true)}>
-                Add Unit
-              </Button>
-            </div>
+            <Button variant="primary" size="sm" onClick={() => setShowAddUnitForm(true)}>
+              Add Unit
+            </Button>
           )}
         </div>
 
@@ -157,12 +150,6 @@ export function ProjectDetailPage() {
         <UnitList
           units={units}
           emptyMessage="No units yet. Add your first unit to get started!"
-        />
-
-        {/* Import Wizard Modal */}
-        <ImportWizardModal
-          isOpen={showImportWizard}
-          onClose={() => setShowImportWizard(false)}
         />
       </main>
     </div>
