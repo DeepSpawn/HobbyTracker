@@ -31,6 +31,8 @@ export const COLLECTIONS = {
   USER_RECIPES: 'recipes',
   // Subcollections under projects/{projectId}
   PROJECT_UNITS: 'units',
+  // Subcollections under recipes/{recipeId}
+  RECIPE_STEPS: 'steps',
 } as const;
 
 export default app;
