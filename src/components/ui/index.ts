@@ -26,3 +26,6 @@ export type {
   ProgressBarSize,
   ProgressBarVariant,
 } from './ProgressBar';
+
+export { FileDropZone } from './FileDropZone';
+export type { FileDropZoneProps } from './FileDropZone';
