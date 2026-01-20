@@ -271,10 +271,31 @@ From `examples/2k KB.json` (Age of Sigmar Kruleboyz army):
 
 The `.ros` file is XML with the same structure. The `.rosz` is a ZIP-compressed `.ros`.
 
-**For future BattleScribe import support:**
-1. If `.rosz`, decompress to get `.ros`
-2. Parse XML to JS object
-3. Use same extraction logic as JSON
+## Parser Implementation
+
+A parser service is available at `src/services/armyListParser/` that handles all supported formats:
+
+```typescript
+import { parseArmyListFile } from '@/services/armyListParser';
+
+// Parse any supported file (.rosz, .ros, .json)
+const result = await parseArmyListFile(file);
+
+// Result structure:
+interface NewRecruitParseResult {
+  listName: string;      // "2k KB"
+  faction: string;       // "Kruleboyz"
+  gameSystem: string;    // "Age of Sigmar 4.0"
+  totalPoints: number;   // 1930
+  units: NewRecruitImportUnit[];
+  generatedBy: string;
+  dataVersion: string;
+}
+```
+
+**Dependencies:**
+- `jszip` - ZIP decompression for .rosz files
+- `fast-xml-parser` - XML parsing for .ros files
 
 ## References
 
