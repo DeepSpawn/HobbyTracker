@@ -20,6 +20,9 @@ export type {
 export { Modal } from './Modal';
 export type { ModalProps, ModalSize } from './Modal';
 
+export { ConfirmationModal } from './ConfirmationModal';
+export type { ConfirmationModalProps } from './ConfirmationModal';
+
 export { ProgressBar } from './ProgressBar';
 export type {
   ProgressBarProps,

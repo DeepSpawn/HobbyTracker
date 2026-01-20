@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Button, Card, ProgressBar } from '../components/ui';
-import { AddUnitForm, BulkActionToolbar, UnitList } from '../components/projects';
+import { Button, Card, ProgressBar, ConfirmationModal } from '../components/ui';
+import { AddUnitForm, BulkActionToolbar, UnitList, EditUnitModal } from '../components/projects';
 import { useAuth } from '../hooks/useAuth';
 import { useProjectDetail } from '../hooks/useProjectDetail';
-import { updateProjectUnit, batchUpdateUnitStatus } from '../services/project';
-import type { UnitStatus } from '../types/project';
+import { updateProjectUnit, batchUpdateUnitStatus, deleteProjectUnit } from '../services/project';
+import type { ProjectUnit, UnitStatus } from '../types/project';
 
 export function ProjectDetailPage() {
   const { id } = useParams<{ id: string }>();
@@ -18,6 +18,11 @@ export function ProjectDetailPage() {
   const [selectionMode, setSelectionMode] = useState(false);
   const [selectedUnitIds, setSelectedUnitIds] = useState<Set<string>>(new Set());
   const [isBatchUpdating, setIsBatchUpdating] = useState(false);
+
+  // Edit/Delete modal state
+  const [editingUnit, setEditingUnit] = useState<ProjectUnit | null>(null);
+  const [deletingUnit, setDeletingUnit] = useState<ProjectUnit | null>(null);
+  const [isDeleting, setIsDeleting] = useState(false);
 
   // Individual status change handler (for clicking StatusBadge)
   const handleStatusChange = async (unitId: string, newStatus: UnitStatus) => {
@@ -72,6 +77,26 @@ export function ProjectDetailPage() {
       console.error('Failed to batch update units:', err);
     } finally {
       setIsBatchUpdating(false);
+    }
+  };
+
+  // Edit/Delete handlers
+  const handleEditUnit = (unit: ProjectUnit) => setEditingUnit(unit);
+  const handleDeleteUnit = (unit: ProjectUnit) => setDeletingUnit(unit);
+  const handleCloseEditModal = () => setEditingUnit(null);
+  const handleCloseDeleteModal = () => setDeletingUnit(null);
+
+  const handleConfirmDelete = async () => {
+    if (!user || !id || !deletingUnit) return;
+
+    setIsDeleting(true);
+    try {
+      await deleteProjectUnit(user.uid, id, deletingUnit.id);
+      setDeletingUnit(null);
+    } catch (err) {
+      console.error('Failed to delete unit:', err);
+    } finally {
+      setIsDeleting(false);
     }
   };
 
@@ -240,9 +265,37 @@ export function ProjectDetailPage() {
           units={units}
           emptyMessage="No units yet. Add your first unit to get started!"
           onStatusChange={handleStatusChange}
+          onEditUnit={handleEditUnit}
+          onDeleteUnit={handleDeleteUnit}
           selectionMode={selectionMode}
           selectedUnitIds={selectedUnitIds}
           onSelectionChange={handleSelectionChange}
+        />
+
+        {/* Edit Unit Modal */}
+        <EditUnitModal
+          isOpen={!!editingUnit}
+          onClose={handleCloseEditModal}
+          unit={editingUnit}
+          projectId={id || ''}
+        />
+
+        {/* Delete Unit Confirmation Modal */}
+        <ConfirmationModal
+          isOpen={!!deletingUnit}
+          onClose={handleCloseDeleteModal}
+          onConfirm={handleConfirmDelete}
+          title="Delete Unit"
+          message={
+            <>
+              Are you sure you want to delete{' '}
+              <strong>{deletingUnit?.name}</strong>? This action cannot be
+              undone.
+            </>
+          }
+          confirmLabel="Delete"
+          variant="danger"
+          isLoading={isDeleting}
         />
       </main>
     </div>
