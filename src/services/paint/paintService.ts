@@ -122,6 +122,28 @@ export async function getPaintById(id: string): Promise<Paint | null> {
 }
 
 /**
+ * Get a paint by its SKU/barcode
+ * Normalizes SKUs by stripping leading zeros for comparison
+ * Returns null if no paint matches the SKU
+ */
+export async function getPaintBySku(sku: string): Promise<Paint | null> {
+  if (!sku || !sku.trim()) {
+    return null;
+  }
+
+  const paints = await getCachedPaints();
+  const normalizedSku = sku.trim().replace(/^0+/, '');
+
+  return (
+    paints.find((p) => {
+      if (!p.sku) return false;
+      const paintSku = p.sku.replace(/^0+/, '');
+      return paintSku === normalizedSku || p.sku === sku.trim();
+    }) ?? null
+  );
+}
+
+/**
  * Get available filter options
  */
 export async function getPaintFilterOptions(): Promise<PaintFilterOptions> {

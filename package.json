@@ -17,6 +17,8 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
+    "@zxing/browser": "^0.1.5",
+    "@zxing/library": "^0.21.3",
     "fast-xml-parser": "^5.3.3",
     "firebase": "^12.8.0",
     "jszip": "^3.10.1",
