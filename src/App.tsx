@@ -8,6 +8,7 @@ import {
   ProjectDetailPage,
   ProjectsPage,
   RegisterPage,
+  ShoppingListPage,
 } from './pages';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/projects/:id" element={<ProjectDetailPage />} />
+        <Route path="/shopping-list" element={<ShoppingListPage />} />
       </Route>
 
       {/* Fallback - redirect to home */}
