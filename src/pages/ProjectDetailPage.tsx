@@ -4,6 +4,8 @@ import { Button, Card, ProgressBar } from '../components/ui';
 import { AddUnitForm, UnitList } from '../components/projects';
 import { useAuth } from '../hooks/useAuth';
 import { useProjectDetail } from '../hooks/useProjectDetail';
+import { updateProjectUnit } from '../services/project';
+import type { UnitStatus } from '../types/project';
 
 export function ProjectDetailPage() {
   const { id } = useParams<{ id: string }>();
@@ -11,6 +13,15 @@ export function ProjectDetailPage() {
   const { project, units, unitCounts, completionPercentage, isLoading, error } =
     useProjectDetail(id);
   const [showAddUnitForm, setShowAddUnitForm] = useState(false);
+
+  const handleStatusChange = async (unitId: string, newStatus: UnitStatus) => {
+    if (!user || !id) return;
+    try {
+      await updateProjectUnit(user.uid, id, unitId, { status: newStatus });
+    } catch (err) {
+      console.error('Failed to update unit status:', err);
+    }
+  };
 
   // Loading state
   if (isLoading) {
@@ -150,6 +161,7 @@ export function ProjectDetailPage() {
         <UnitList
           units={units}
           emptyMessage="No units yet. Add your first unit to get started!"
+          onStatusChange={handleStatusChange}
         />
       </main>
     </div>

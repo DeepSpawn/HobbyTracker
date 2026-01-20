@@ -26,3 +26,6 @@ export type {
   ProgressBarSize,
   ProgressBarVariant,
 } from './ProgressBar';
+
+export { StatusBadge, getNextStatus } from './StatusBadge';
+export type { StatusBadgeProps } from './StatusBadge';
