@@ -41,9 +41,14 @@ export function HomePage() {
               <li>Import army lists from popular apps</li>
               <li>Generate shopping lists for your projects</li>
             </ul>
-            <div className="mt-6">
-              <Link to="/paints">
+            <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+              <Link to="/projects" className="flex-1">
                 <Button variant="primary" fullWidth>
+                  View Projects
+                </Button>
+              </Link>
+              <Link to="/paints" className="flex-1">
+                <Button variant="outline" fullWidth>
                   Manage Paint Inventory
                 </Button>
               </Link>

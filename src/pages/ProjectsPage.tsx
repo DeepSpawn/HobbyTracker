@@ -1,0 +1,90 @@
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { Button, Card } from '../components/ui';
+import { CreateProjectForm, ProjectList } from '../components/projects';
+import { useAuth } from '../hooks/useAuth';
+import { useProjects } from '../hooks/useProjects';
+
+export function ProjectsPage() {
+  const { user } = useAuth();
+  const { projects, isLoading, error } = useProjects();
+  const [showCreateForm, setShowCreateForm] = useState(false);
+
+  return (
+    <div className="min-h-screen bg-gray-50">
+      {/* Header */}
+      <header className="border-b border-gray-200 bg-white shadow-sm">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+          <h1 className="text-xl font-bold text-gray-900">HobbyTracker</h1>
+          <div className="flex items-center gap-4">
+            <Link to="/">
+              <Button variant="ghost" size="sm">
+                Home
+              </Button>
+            </Link>
+            <Link to="/paints">
+              <Button variant="ghost" size="sm">
+                Paints
+              </Button>
+            </Link>
+            <Link to="/profile">
+              <Button variant="ghost" size="sm">
+                {user?.displayName || user?.email || 'Profile'}
+              </Button>
+            </Link>
+          </div>
+        </div>
+      </header>
+
+      {/* Main content */}
+      <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+        {/* Page header with action */}
+        <div className="mb-6 flex items-center justify-between">
+          <div>
+            <h2 className="text-2xl font-bold text-gray-900">Projects</h2>
+            <p className="mt-1 text-sm text-gray-500">
+              {projects.length} {projects.length === 1 ? 'project' : 'projects'}
+            </p>
+          </div>
+          {!showCreateForm && (
+            <Button variant="primary" onClick={() => setShowCreateForm(true)}>
+              New Project
+            </Button>
+          )}
+        </div>
+
+        {/* Error state */}
+        {error && (
+          <Card variant="outlined" className="mb-6 border-error/20 bg-error/10">
+            <Card.Body>
+              <p className="text-error">Error loading projects: {error.message}</p>
+            </Card.Body>
+          </Card>
+        )}
+
+        {/* Create form (conditionally shown) */}
+        {showCreateForm && (
+          <div className="mb-6">
+            <CreateProjectForm
+              onSuccess={() => setShowCreateForm(false)}
+              onCancel={() => setShowCreateForm(false)}
+            />
+          </div>
+        )}
+
+        {/* Loading state */}
+        {isLoading ? (
+          <div className="py-12 text-center">
+            <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-gray-200 border-t-blue-500" />
+            <p className="mt-2 text-gray-500">Loading projects...</p>
+          </div>
+        ) : (
+          <ProjectList
+            projects={projects}
+            emptyMessage="No projects yet. Create your first project to get started!"
+          />
+        )}
+      </main>
+    </div>
+  );
+}

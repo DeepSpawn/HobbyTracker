@@ -1,6 +1,14 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { ProtectedRoute, PublicOnlyRoute } from './components/routes';
-import { HomePage, LoginPage, PaintsPage, RegisterPage, ProfilePage } from './pages';
+import {
+  HomePage,
+  LoginPage,
+  PaintsPage,
+  ProfilePage,
+  ProjectDetailPage,
+  ProjectsPage,
+  RegisterPage,
+} from './pages';
 
 function App() {
   return (
@@ -16,6 +24,8 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/paints" element={<PaintsPage />} />
         <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/projects/:id" element={<ProjectDetailPage />} />
       </Route>
 
       {/* Fallback - redirect to home */}
