@@ -14,6 +14,7 @@ import {
   signOut as authSignOut,
   onAuthStateChange,
 } from '../services/auth';
+import { createOrUpdateUserProfile } from '../services/user';
 
 /**
  * Auth context - null when outside provider
@@ -38,6 +39,18 @@ export function AuthProvider({ children }: AuthProviderProps) {
     const unsubscribe = onAuthStateChange((authUser) => {
       setUser(authUser);
       setIsLoading(false);
+
+      // Create or update user profile in Firestore when authenticated
+      if (authUser) {
+        createOrUpdateUserProfile({
+          uid: authUser.uid,
+          email: authUser.email,
+          displayName: authUser.displayName,
+          photoURL: authUser.photoURL,
+        }).catch((err) => {
+          console.error('Failed to create/update user profile:', err);
+        });
+      }
     });
 
     return unsubscribe;
