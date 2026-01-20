@@ -41,6 +41,13 @@ export function HomePage() {
               <li>Import army lists from popular apps</li>
               <li>Generate shopping lists for your projects</li>
             </ul>
+            <div className="mt-6">
+              <Link to="/paints">
+                <Button variant="primary" fullWidth>
+                  Manage Paint Inventory
+                </Button>
+              </Link>
+            </div>
           </Card.Body>
         </Card>
       </main>
