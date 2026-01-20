@@ -1,0 +1,46 @@
+2k KB (1930 points) - ✦ General's Handbook 2025-26
+
+Kruleboyz
+Middul Finga
+Auxiliaries: 0
+Drops: 3
+
+Battle Tactic Cards - 
+Manifestation Lore - 
+Spell Lore - Lore of the Swamp
+
+Regiment 1
+Breaka-boss on Mirebrute Troggoth (200)
+Kruleboyz Monsta-killaz (120)
+• 1x Champion
+• 1x Musician
+
+Regiment 2
+Snatchaboss on Sludgeraker Beast (200)
+Murknob with Belcha-banna (90)
+Gutrippaz (320)
+• Reinforced
+• 1x Champion
+• 1x Musician
+• 1x Standard Bearer
+Beast-skewer Killbow (140)
+
+Regiment 3
+Swampcalla Shaman with Pot-grot (120)
+Gutrippaz (320)
+• Reinforced
+• 1x Champion
+• 1x Musician
+• 1x Standard Bearer
+Man-skewer Boltboyz (200)
+• Reinforced
+• 1x Champion
+Man-skewer Boltboyz (200)
+• Reinforced
+• 1x Champion
+
+Faction Terrain
+Skaregob Totem
+
+Created with New Recruit
+Data Version: v33
