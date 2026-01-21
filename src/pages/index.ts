@@ -4,5 +4,7 @@ export { PaintsPage } from './PaintsPage';
 export { ProfilePage } from './ProfilePage';
 export { ProjectDetailPage } from './ProjectDetailPage';
 export { ProjectsPage } from './ProjectsPage';
+export { RecipeDetailPage } from './RecipeDetailPage';
+export { RecipesPage } from './RecipesPage';
 export { RegisterPage } from './RegisterPage';
 export { ShoppingListPage } from './ShoppingListPage';
