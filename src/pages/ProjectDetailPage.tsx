@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Button, Card, ProgressBar } from '../components/ui';
-import { AddUnitForm, BulkActionToolbar, UnitList } from '../components/projects';
+import { Button, Card, ProgressBar, ConfirmationModal } from '../components/ui';
+import { AppHeader } from '../components/layout';
+import { AddUnitForm, BulkActionToolbar, UnitList, EditUnitModal } from '../components/projects';
 import { useAuth } from '../hooks/useAuth';
 import { useProjectDetail } from '../hooks/useProjectDetail';
-import { updateProjectUnit, batchUpdateUnitStatus } from '../services/project';
-import type { UnitStatus } from '../types/project';
+import { updateProjectUnit, batchUpdateUnitStatus, deleteProjectUnit } from '../services/project';
+import type { ProjectUnit, UnitStatus } from '../types/project';
 
 export function ProjectDetailPage() {
   const { id } = useParams<{ id: string }>();
@@ -18,6 +19,11 @@ export function ProjectDetailPage() {
   const [selectionMode, setSelectionMode] = useState(false);
   const [selectedUnitIds, setSelectedUnitIds] = useState<Set<string>>(new Set());
   const [isBatchUpdating, setIsBatchUpdating] = useState(false);
+
+  // Edit/Delete modal state
+  const [editingUnit, setEditingUnit] = useState<ProjectUnit | null>(null);
+  const [deletingUnit, setDeletingUnit] = useState<ProjectUnit | null>(null);
+  const [isDeleting, setIsDeleting] = useState(false);
 
   // Individual status change handler (for clicking StatusBadge)
   const handleStatusChange = async (unitId: string, newStatus: UnitStatus) => {
@@ -75,11 +81,31 @@ export function ProjectDetailPage() {
     }
   };
 
+  // Edit/Delete handlers
+  const handleEditUnit = (unit: ProjectUnit) => setEditingUnit(unit);
+  const handleDeleteUnit = (unit: ProjectUnit) => setDeletingUnit(unit);
+  const handleCloseEditModal = () => setEditingUnit(null);
+  const handleCloseDeleteModal = () => setDeletingUnit(null);
+
+  const handleConfirmDelete = async () => {
+    if (!user || !id || !deletingUnit) return;
+
+    setIsDeleting(true);
+    try {
+      await deleteProjectUnit(user.uid, id, deletingUnit.id);
+      setDeletingUnit(null);
+    } catch (err) {
+      console.error('Failed to delete unit:', err);
+    } finally {
+      setIsDeleting(false);
+    }
+  };
+
   // Loading state
   if (isLoading) {
     return (
       <div className="min-h-screen bg-gray-50">
-        <Header user={user} />
+        <AppHeader user={user} />
         <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
           <div className="py-12 text-center">
             <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-gray-200 border-t-blue-500" />
@@ -94,7 +120,7 @@ export function ProjectDetailPage() {
   if (error || !project) {
     return (
       <div className="min-h-screen bg-gray-50">
-        <Header user={user} />
+        <AppHeader user={user} />
         <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
           <Card variant="outlined" className="border-error/20 bg-error/10">
             <Card.Body>
@@ -113,7 +139,7 @@ export function ProjectDetailPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Header user={user} />
+      <AppHeader user={user} />
 
       <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
         {/* Back navigation */}
@@ -240,39 +266,39 @@ export function ProjectDetailPage() {
           units={units}
           emptyMessage="No units yet. Add your first unit to get started!"
           onStatusChange={handleStatusChange}
+          onEditUnit={handleEditUnit}
+          onDeleteUnit={handleDeleteUnit}
           selectionMode={selectionMode}
           selectedUnitIds={selectedUnitIds}
           onSelectionChange={handleSelectionChange}
         />
+
+        {/* Edit Unit Modal */}
+        <EditUnitModal
+          isOpen={!!editingUnit}
+          onClose={handleCloseEditModal}
+          unit={editingUnit}
+          projectId={id || ''}
+        />
+
+        {/* Delete Unit Confirmation Modal */}
+        <ConfirmationModal
+          isOpen={!!deletingUnit}
+          onClose={handleCloseDeleteModal}
+          onConfirm={handleConfirmDelete}
+          title="Delete Unit"
+          message={
+            <>
+              Are you sure you want to delete{' '}
+              <strong>{deletingUnit?.name}</strong>? This action cannot be
+              undone.
+            </>
+          }
+          confirmLabel="Delete"
+          variant="danger"
+          isLoading={isDeleting}
+        />
       </main>
     </div>
-  );
-}
-
-// Header component extracted for reuse in loading/error states
-function Header({ user }: { user: ReturnType<typeof useAuth>['user'] }) {
-  return (
-    <header className="border-b border-gray-200 bg-white shadow-sm">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        <h1 className="text-xl font-bold text-gray-900">HobbyTracker</h1>
-        <div className="flex items-center gap-4">
-          <Link to="/">
-            <Button variant="ghost" size="sm">
-              Home
-            </Button>
-          </Link>
-          <Link to="/projects">
-            <Button variant="ghost" size="sm">
-              Projects
-            </Button>
-          </Link>
-          <Link to="/profile">
-            <Button variant="ghost" size="sm">
-              {user?.displayName || user?.email || 'Profile'}
-            </Button>
-          </Link>
-        </div>
-      </div>
-    </header>
   );
 }

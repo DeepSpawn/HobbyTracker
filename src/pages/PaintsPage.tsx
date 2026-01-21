@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { Button, Card } from '../components/ui';
+import { Card } from '../components/ui';
+import { AppHeader } from '../components/layout';
 import { PaintList, PaintFilters, PaintDetailModal } from '../components/paints';
 import { BarcodeScannerModal } from '../components/scanner';
 import { useAuth } from '../hooks/useAuth';
@@ -81,24 +81,7 @@ export function PaintsPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <header className="border-b border-gray-200 bg-white shadow-sm">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-          <h1 className="text-xl font-bold text-gray-900">HobbyTracker</h1>
-          <div className="flex items-center gap-4">
-            <Link to="/">
-              <Button variant="ghost" size="sm">
-                Home
-              </Button>
-            </Link>
-            <Link to="/profile">
-              <Button variant="ghost" size="sm">
-                {user?.displayName || user?.email || 'Profile'}
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </header>
+      <AppHeader user={user} />
 
       {/* Main content */}
       <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
