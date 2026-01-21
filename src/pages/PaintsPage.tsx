@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Card } from '../components/ui';
+import { Button, Card } from '../components/ui';
 import { AppHeader } from '../components/layout';
 import { PaintList, PaintFilters, PaintDetailModal } from '../components/paints';
 import { BarcodeScannerModal } from '../components/scanner';
