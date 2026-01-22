@@ -59,7 +59,8 @@ function toRecipe(docId: string, data: RecipeDocument): Recipe {
     name: data.name,
     description: data.description,
     authorId: data.authorId,
-    createdAt: (data.createdAt as Timestamp).toDate(),
+    // Handle pending serverTimestamp (null before server confirms)
+    createdAt: data.createdAt ? (data.createdAt as Timestamp).toDate() : new Date(),
   };
 }
 

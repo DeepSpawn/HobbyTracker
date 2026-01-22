@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button, Card } from '../components/ui';
+import { AppHeader } from '../components/layout';
 import { useAuth } from '../hooks/useAuth';
 
 /**
@@ -27,8 +28,10 @@ export function ProfilePage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 px-4 py-8">
-      <div className="mx-auto max-w-2xl">
+    <div className="min-h-screen bg-gray-50">
+      <AppHeader user={user} />
+
+      <div className="mx-auto max-w-2xl px-4 py-8">
         <h1 className="mb-6 text-2xl font-bold text-gray-900">Profile</h1>
 
         <Card variant="elevated" padding="lg">
