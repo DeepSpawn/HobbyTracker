@@ -1,0 +1,797 @@
+{
+  "source": "ean-db",
+  "queriedAt": "2026-01-21T20:32:27.775Z",
+  "stats": {
+    "totalQueried": 45,
+    "found": 18,
+    "notFound": 27,
+    "matched": 2,
+    "apiBalance": 230
+  },
+  "results": [
+    {
+      "ean": "5011921032662",
+      "found": true,
+      "title": "Screamers of Tzeentch",
+      "rawResponse": {
+        "manufacturer": {
+          "id": null,
+          "titles": {
+            "en": "Games Workshop"
+          },
+          "wikidataId": null
+        },
+        "relatedBrands": [],
+        "categories": [],
+        "titles": {
+          "en": "Screamers of Tzeentch"
+        },
+        "metadata": {
+          "generic": {
+            "ingredients": [
+              {
+                "groupName": null,
+                "ingredientsGroup": [
+                  {
+                    "originalNames": {
+                      "en": "Plastic"
+                    },
+                    "id": "plastic",
+                    "canonicalNames": {
+                      "en": "Plastic",
+                      "ru": "Пластик"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "images": [],
+        "descriptions": null,
+        "barcode": "5011921032662",
+        "barcodeDetails": {
+          "type": "EAN-13",
+          "description": "GS1 UK",
+          "country": "gb"
+        }
+      }
+    },
+    {
+      "ean": "5011921073559",
+      "found": true,
+      "title": "Games Workshop 60010199015\" Warhammer 40,000\" Dark Imperium Action Figure",
+      "rawResponse": {
+        "manufacturer": {
+          "id": null,
+          "titles": {
+            "en": "Games Workshop"
+          },
+          "wikidataId": null
+        },
+        "relatedBrands": [],
+        "categories": [],
+        "titles": {
+          "en": "Games Workshop 60010199015\" Warhammer 40,000\" Dark Imperium Action Figure"
+        },
+        "metadata": null,
+        "images": [],
+        "descriptions": null,
+        "barcode": "5011921073559",
+        "barcodeDetails": {
+          "type": "EAN-13",
+          "description": "GS1 UK",
+          "country": "gb"
+        }
+      }
+    },
+    {
+      "ean": "5011921061211",
+      "found": true,
+      "title": "Warhammer Age of Sigmar - Stormcast Eternals Liberators",
+      "rawResponse": {
+        "manufacturer": null,
+        "relatedBrands": [],
+        "categories": [],
+        "titles": {
+          "en": "Warhammer Age of Sigmar - Stormcast Eternals Liberators"
+        },
+        "metadata": null,
+        "images": [],
+        "descriptions": null,
+        "barcode": "5011921061211",
+        "barcodeDetails": {
+          "type": "EAN-13",
+          "description": "GS1 UK",
+          "country": "gb"
+        }
+      }
+    },
+    {
+      "ean": "5011921064953",
+      "found": true,
+      "title": "Warhammer 40.000 Tau Empire XV8 Crisis Battlesuit Team",
+      "rawResponse": {
+        "manufacturer": {
+          "id": null,
+          "titles": {
+            "en": "Games Workshop"
+          },
+          "wikidataId": null
+        },
+        "relatedBrands": [],
+        "categories": [],
+        "titles": {
+          "en": "Warhammer 40.000 Tau Empire XV8 Crisis Battlesuit Team"
+        },
+        "metadata": {
+          "generic": {
+            "ingredients": [
+              {
+                "groupName": null,
+                "ingredientsGroup": [
+                  {
+                    "originalNames": {
+                      "en": "Plastic"
+                    },
+                    "id": "plastic",
+                    "canonicalNames": {
+                      "en": "Plastic",
+                      "ru": "Пластик"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "images": [],
+        "descriptions": null,
+        "barcode": "5011921064953",
+        "barcodeDetails": {
+          "type": "EAN-13",
+          "description": "GS1 UK",
+          "country": "gb"
+        }
+      }
+    },
+    {
+      "ean": "5011921065028",
+      "found": true,
+      "title": "Warhammer 40,000 Xenos T'au Empire: XV88 Broadside Battlesuit",
+      "rawResponse": {
+        "manufacturer": {
+          "id": null,
+          "titles": {
+            "en": "Games Workshop"
+          },
+          "wikidataId": null
+        },
+        "relatedBrands": [],
+        "categories": [],
+        "titles": {
+          "en": "Warhammer 40,000 Xenos T'au Empire: XV88 Broadside Battlesuit"
+        },
+        "metadata": {
+          "generic": {
+            "ingredients": [
+              {
+                "groupName": null,
+                "ingredientsGroup": [
+                  {
+                    "originalNames": {
+                      "de": "Kunststof"
+                    },
+                    "id": "plastic",
+                    "canonicalNames": {
+                      "en": "Plastic",
+                      "ru": "Пластик"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "images": [
+          {
+            "url": "https://images.ean-db.com/501/192/106/5011921065028/89fed30eae8a0d3e46e7036180740b6b65cac45ebf609f68e4f08ae5b2c9f3f0.jpg",
+            "isCatalog": true,
+            "width": 500,
+            "height": 382
+          }
+        ],
+        "descriptions": null,
+        "barcode": "5011921065028",
+        "barcodeDetails": {
+          "type": "EAN-13",
+          "description": "GS1 UK",
+          "country": "gb"
+        }
+      }
+    },
+    {
+      "ean": "5011921079261",
+      "found": true,
+      "title": "Warhammer Age of Sigmar Stormcast Eternals Liberators",
+      "rawResponse": {
+        "manufacturer": {
+          "id": null,
+          "titles": {
+            "en": "Games Workshop"
+          },
+          "wikidataId": null
+        },
+        "relatedBrands": [],
+        "categories": [],
+        "titles": {
+          "en": "Warhammer Age of Sigmar Stormcast Eternals Liberators"
+        },
+        "metadata": {
+          "generic": {
+            "manufacturerCode": "96-10",
+            "ingredients": [
+              {
+                "groupName": null,
+                "ingredientsGroup": [
+                  {
+                    "originalNames": {
+                      "de": "Kunststof"
+                    },
+                    "id": "plastic",
+                    "canonicalNames": {
+                      "en": "Plastic",
+                      "ru": "Пластик"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "images": [],
+        "descriptions": null,
+        "barcode": "5011921079261",
+        "barcodeDetails": {
+          "type": "EAN-13",
+          "description": "GS1 UK",
+          "country": "gb"
+        }
+      }
+    },
+    {
+      "ean": "5011921085507",
+      "found": true,
+      "title": "Games Workshop Know No Fear: A Warhammer 40,000 Starter Set",
+      "rawResponse": {
+        "manufacturer": {
+          "id": null,
+          "titles": {
+            "en": "Games Workshop"
+          },
+          "wikidataId": null
+        },
+        "relatedBrands": [],
+        "categories": [],
+        "titles": {
+          "en": "Games Workshop Know No Fear: A Warhammer 40,000 Starter Set"
+        },
+        "metadata": {
+          "generic": {
+            "manufacturerCode": "40-03-60"
+          }
+        },
+        "images": [],
+        "descriptions": null,
+        "barcode": "5011921085507",
+        "barcodeDetails": {
+          "type": "EAN-13",
+          "description": "GS1 UK",
+          "country": "gb"
+        }
+      }
+    },
+    {
+      "ean": "5011921028276",
+      "found": true,
+      "title": "Citadel Technical: Blood for the Blood God",
+      "rawResponse": {
+        "manufacturer": {
+          "id": null,
+          "titles": {
+            "en": "Citadel"
+          },
+          "wikidataId": null
+        },
+        "relatedBrands": [],
+        "categories": [],
+        "titles": {
+          "en": "Citadel Technical: Blood for the Blood God"
+        },
+        "metadata": {
+          "generic": {
+            "colors": [
+              {
+                "baseColor": "white"
+              }
+            ]
+          }
+        },
+        "images": [],
+        "descriptions": null,
+        "barcode": "5011921028276",
+        "barcodeDetails": {
+          "type": "EAN-13",
+          "description": "GS1 UK",
+          "country": "gb"
+        }
+      }
+    },
+    {
+      "ean": "5011921050505",
+      "found": true,
+      "title": "Games Workshop Citadel Base Paint Set",
+      "rawResponse": {
+        "manufacturer": {
+          "id": null,
+          "titles": {
+            "en": "Games Workshop"
+          },
+          "wikidataId": null
+        },
+        "relatedBrands": [],
+        "categories": [],
+        "titles": {
+          "en": "Games Workshop Citadel Base Paint Set"
+        },
+        "metadata": null,
+        "images": [],
+        "descriptions": null,
+        "barcode": "5011921050505",
+        "barcodeDetails": {
+          "type": "EAN-13",
+          "description": "GS1 UK",
+          "country": "gb"
+        }
+      }
+    },
+    {
+      "ean": "5011921060115",
+      "found": true,
+      "title": "Warhammer 40.000 Space Marine Tactical Squad",
+      "rawResponse": {
+        "manufacturer": {
+          "id": null,
+          "titles": {
+            "en": "Games Workshop Limited"
+          },
+          "wikidataId": null
+        },
+        "relatedBrands": [],
+        "categories": [],
+        "titles": {
+          "en": "Warhammer 40.000 Space Marine Tactical Squad",
+          "de": "Taktischer Trupp der Space Marines"
+        },
+        "metadata": null,
+        "images": [
+          {
+            "url": "https://images.ean-db.com/501/192/106/5011921060115/9db153f9c1b4b53b9ba780ef7b5ddf3ae781d7b12f464a67235377d39163b698.jpg",
+            "isCatalog": false,
+            "width": 396,
+            "height": 261
+          }
+        ],
+        "descriptions": null,
+        "barcode": "5011921060115",
+        "barcodeDetails": {
+          "type": "EAN-13",
+          "description": "GS1 UK",
+          "country": "gb"
+        }
+      }
+    },
+    {
+      "ean": "5011921062164",
+      "found": true,
+      "title": "Sylvaneth Dryads",
+      "rawResponse": {
+        "manufacturer": {
+          "id": null,
+          "titles": {
+            "en": "Games Workshop"
+          },
+          "wikidataId": null
+        },
+        "relatedBrands": [],
+        "categories": [],
+        "titles": {
+          "en": "Sylvaneth Dryads"
+        },
+        "metadata": {
+          "generic": {
+            "manufacturerCode": "92-06",
+            "ingredients": [
+              {
+                "groupName": null,
+                "ingredientsGroup": [
+                  {
+                    "originalNames": {
+                      "en": "Plastic"
+                    },
+                    "id": "plastic",
+                    "canonicalNames": {
+                      "en": "Plastic",
+                      "ru": "Пластик"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "images": [],
+        "descriptions": null,
+        "barcode": "5011921062164",
+        "barcodeDetails": {
+          "type": "EAN-13",
+          "description": "GS1 UK",
+          "country": "gb"
+        }
+      }
+    },
+    {
+      "ean": "5011921081271",
+      "found": true,
+      "title": "The Gouged Eye Orc Blood Bowl Team",
+      "rawResponse": {
+        "manufacturer": {
+          "id": null,
+          "titles": {
+            "en": "Games Workshop"
+          },
+          "wikidataId": null
+        },
+        "relatedBrands": [],
+        "categories": [],
+        "titles": {
+          "en": "The Gouged Eye Orc Blood Bowl Team"
+        },
+        "metadata": {
+          "generic": {
+            "ingredients": [
+              {
+                "groupName": null,
+                "ingredientsGroup": [
+                  {
+                    "originalNames": {
+                      "en": "Plastic"
+                    },
+                    "id": "plastic",
+                    "canonicalNames": {
+                      "en": "Plastic",
+                      "ru": "Пластик"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "images": [],
+        "descriptions": null,
+        "barcode": "5011921081271",
+        "barcodeDetails": {
+          "type": "EAN-13",
+          "description": "GS1 UK",
+          "country": "gb"
+        }
+      }
+    },
+    {
+      "ean": "5011921018192",
+      "found": true,
+      "title": "Warhammer 40,000: Tyranid Termagant Brood",
+      "rawResponse": {
+        "manufacturer": {
+          "id": null,
+          "titles": {
+            "en": "Games Workshop"
+          },
+          "wikidataId": null
+        },
+        "relatedBrands": [],
+        "categories": [],
+        "titles": {
+          "nl": "Warhammer 40,000: Tyranid Termagant Brood"
+        },
+        "metadata": {
+          "generic": {
+            "dimensions": {
+              "packaging": {
+                "width": {
+                  "equals": {
+                    "value": "15.7",
+                    "unit": "cm"
+                  }
+                },
+                "length": {
+                  "equals": {
+                    "value": "22.9",
+                    "unit": "cm"
+                  }
+                },
+                "height": {
+                  "equals": {
+                    "value": "6.5",
+                    "unit": "cm"
+                  }
+                }
+              }
+            },
+            "ingredients": [
+              {
+                "groupName": null,
+                "ingredientsGroup": [
+                  {
+                    "originalNames": {
+                      "de": "Kunststof"
+                    },
+                    "id": "plastic",
+                    "canonicalNames": {
+                      "en": "Plastic",
+                      "ru": "Пластик"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "images": [],
+        "descriptions": null,
+        "barcode": "5011921018192",
+        "barcodeDetails": {
+          "type": "EAN-13",
+          "description": "GS1 UK",
+          "country": "gb"
+        }
+      }
+    },
+    {
+      "ean": "5011921031627",
+      "found": true,
+      "title": "Games Workshop 44-10 collectible figure/statue",
+      "rawResponse": {
+        "manufacturer": {
+          "id": null,
+          "titles": {
+            "en": "Games Workshop"
+          },
+          "wikidataId": null
+        },
+        "relatedBrands": [],
+        "categories": [],
+        "titles": {
+          "nl": "Warhammer 40.000 Dark Angels Deathwing Command Squad",
+          "en": "Games Workshop 44-10 collectible figure/statue"
+        },
+        "metadata": {
+          "generic": {
+            "manufacturerCode": "44-10",
+            "ingredients": [
+              {
+                "groupName": null,
+                "ingredientsGroup": [
+                  {
+                    "originalNames": {
+                      "de": "Kunststof"
+                    },
+                    "id": "plastic",
+                    "canonicalNames": {
+                      "en": "Plastic",
+                      "ru": "Пластик"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "images": [],
+        "descriptions": null,
+        "barcode": "5011921031627",
+        "barcodeDetails": {
+          "type": "EAN-13",
+          "description": "GS1 UK",
+          "country": "gb"
+        }
+      }
+    },
+    {
+      "ean": "5011921061198",
+      "found": true,
+      "title": "Age of Sigmar - Stormcast Eternals Paladins",
+      "rawResponse": {
+        "manufacturer": {
+          "id": null,
+          "titles": {
+            "en": "Games Workshop"
+          },
+          "wikidataId": null
+        },
+        "relatedBrands": [],
+        "categories": [],
+        "titles": {
+          "en": "Age of Sigmar - Stormcast Eternals Paladins"
+        },
+        "metadata": {
+          "generic": {
+            "dimensions": {
+              "packaging": {
+                "width": {
+                  "equals": {
+                    "value": "15.5",
+                    "unit": "cm"
+                  }
+                },
+                "length": {
+                  "equals": {
+                    "value": "23.5",
+                    "unit": "cm"
+                  }
+                },
+                "height": {
+                  "equals": {
+                    "value": "4.8",
+                    "unit": "cm"
+                  }
+                }
+              }
+            },
+            "manufacturerCode": "96-12",
+            "ingredients": [
+              {
+                "groupName": null,
+                "ingredientsGroup": [
+                  {
+                    "originalNames": {
+                      "de": "Kunststof"
+                    },
+                    "id": "plastic",
+                    "canonicalNames": {
+                      "en": "Plastic",
+                      "ru": "Пластик"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "images": [],
+        "descriptions": null,
+        "barcode": "5011921061198",
+        "barcodeDetails": {
+          "type": "EAN-13",
+          "description": "GS1 UK",
+          "country": "gb"
+        }
+      }
+    },
+    {
+      "ean": "5011921064915",
+      "found": true,
+      "title": "Games Workshop Shade Citadel Paint Set acrylic paint",
+      "rawResponse": {
+        "manufacturer": {
+          "id": null,
+          "titles": {
+            "en": "Games Workshop"
+          },
+          "wikidataId": null
+        },
+        "relatedBrands": [],
+        "categories": [],
+        "titles": {
+          "en": "Games Workshop Shade Citadel Paint Set acrylic paint"
+        },
+        "metadata": {
+          "generic": {
+            "manufacturerCode": "60-23"
+          }
+        },
+        "images": [],
+        "descriptions": null,
+        "barcode": "5011921064915",
+        "barcodeDetails": {
+          "type": "EAN-13",
+          "description": "GS1 UK",
+          "country": "gb"
+        }
+      }
+    },
+    {
+      "ean": "5011921066490",
+      "found": true,
+      "title": "Games Workshop Skink Starpriest",
+      "rawResponse": {
+        "manufacturer": {
+          "id": null,
+          "titles": {
+            "en": "Games Workshop"
+          },
+          "wikidataId": null
+        },
+        "relatedBrands": [],
+        "categories": [],
+        "titles": {
+          "en": "Games Workshop Skink Starpriest"
+        },
+        "metadata": {
+          "generic": {
+            "manufacturerCode": "88-16"
+          }
+        },
+        "images": [],
+        "descriptions": null,
+        "barcode": "5011921066490",
+        "barcodeDetails": {
+          "type": "EAN-13",
+          "description": "GS1 UK",
+          "country": "gb"
+        }
+      }
+    },
+    {
+      "ean": "5011921071906",
+      "found": true,
+      "title": "Games Workshop 70-93 collectible figure",
+      "rawResponse": {
+        "manufacturer": {
+          "id": null,
+          "titles": {
+            "en": "Games Workshop"
+          },
+          "wikidataId": null
+        },
+        "relatedBrands": [],
+        "categories": [],
+        "titles": {
+          "en": "Games Workshop 70-93 collectible figure"
+        },
+        "metadata": {
+          "generic": {
+            "manufacturerCode": "70-93"
+          }
+        },
+        "images": [],
+        "descriptions": null,
+        "barcode": "5011921071906",
+        "barcodeDetails": {
+          "type": "EAN-13",
+          "description": "GS1 UK",
+          "country": "gb"
+        }
+      }
+    }
+  ],
+  "matches": [
+    {
+      "paintId": "af02a496-2bc2-4bc7-9be3-0d07e28f89ee",
+      "paintName": "Blood For The Blood God",
+      "productLine": "Technical",
+      "ean": "5011921028276",
+      "matchedTitle": "Citadel Technical: Blood for the Blood God",
+      "confidence": "exact"
+    },
+    {
+      "paintId": "af02a496-2bc2-4bc7-9be3-0d07e28f89ee",
+      "paintName": "Blood For The Blood God",
+      "productLine": "Technical",
+      "ean": "5011921081271",
+      "matchedTitle": "The Gouged Eye Orc Blood Bowl Team",
+      "confidence": "high"
+    }
+  ]
+}

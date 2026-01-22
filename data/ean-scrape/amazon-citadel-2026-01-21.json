@@ -1,0 +1,40 @@
+{
+  "brand": "citadel",
+  "source": "amazon",
+  "startedAt": "2026-01-21T19:35:56.889Z",
+  "lastUpdatedAt": "2026-01-21T19:35:56.889Z",
+  "completedCount": 3,
+  "totalCount": 5,
+  "results": [
+    {
+      "paintId": "d8b9bb20-3742-4a28-9145-ed702ff26560",
+      "paintName": "'Ardcoat",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "Citadel 'Ardcoat Technical paint",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:35:27.883Z",
+      "error": "CAPTCHA detected - need to slow down or use different approach"
+    },
+    {
+      "paintId": "b8679628-2860-49da-96ec-83a13c56229f",
+      "paintName": "Abaddon Black",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "Citadel Abaddon Black Air paint",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:35:41.968Z",
+      "error": "CAPTCHA detected - need to slow down or use different approach"
+    },
+    {
+      "paintId": "d39a4782-f336-4af3-b11e-7286f5039da8",
+      "paintName": "Abaddon Black",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "Citadel Abaddon Black Base paint",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:35:55.975Z",
+      "error": "CAPTCHA detected - need to slow down or use different approach"
+    }
+  ]
+}

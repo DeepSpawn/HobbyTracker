@@ -1,0 +1,4090 @@
+{
+  "brand": "citadel",
+  "source": "upcitemdb-enriched",
+  "startedAt": "2026-01-21T19:43:02.411Z",
+  "lastUpdatedAt": "2026-01-21T19:43:02.411Z",
+  "completedCount": 452,
+  "totalCount": 452,
+  "results": [
+    {
+      "paintId": "d8b9bb20-3742-4a28-9145-ed702ff26560",
+      "paintName": "'Ardcoat",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel 'Ardcoat",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "b8679628-2860-49da-96ec-83a13c56229f",
+      "paintName": "Abaddon Black",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Abaddon Black",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "d39a4782-f336-4af3-b11e-7286f5039da8",
+      "paintName": "Abaddon Black",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Abaddon Black",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "fba59d64-59b5-43a9-8a0f-d8254fd8c9d5",
+      "paintName": "Adeptus Battlegrey",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Adeptus Battlegrey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "c4dcd4f1-e28b-429a-9944-df46b6ecc2bb",
+      "paintName": "Administratum Grey",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Administratum Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "787dc772-a067-4d2a-87e0-8a3e35a663ec",
+      "paintName": "Administratum Grey",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Administratum Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "2ae747b4-a2b3-4c66-9348-980a98fb4fee",
+      "paintName": "Aethermatic Blue",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Aethermatic Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "94da1f05-9795-45cd-a36b-a202ed344725",
+      "paintName": "Aggaros Dunes",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Aggaros Dunes",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "399bbc92-6da2-4459-a839-20c98d7ca922",
+      "paintName": "Agrax Earthshade",
+      "brand": "citadel",
+      "productLine": "Shade",
+      "searchQuery": "citadel Agrax Earthshade",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "5158df44-82d4-4133-80bb-a33217d2ac54",
+      "paintName": "Agrax Earthshade Gloss",
+      "brand": "citadel",
+      "productLine": "Shade",
+      "searchQuery": "citadel Agrax Earthshade Gloss",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "8c55f779-7803-4f6c-a6cd-527008342ef7",
+      "paintName": "Agrellan Badland",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Agrellan Badland",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "196cd6d6-4ed6-485a-91d5-6cc7e68e56d9",
+      "paintName": "Agrellan Earth",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Agrellan Earth",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "ebc614a0-5b72-4f38-8ca7-d4764b5c3dea",
+      "paintName": "Ahriman Blue",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Ahriman Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "d00746b4-b484-4092-8446-9d8335117953",
+      "paintName": "Air Caste Thinner",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Air Caste Thinner",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "d09c1316-682b-4604-8c00-2ce3e185dcbf",
+      "paintName": "Akhelian Green",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Akhelian Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "3b0cf3d2-3d1a-4515-aa6a-e1ac16d106b7",
+      "paintName": "Alaitoc Blue",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Alaitoc Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "f2e7ef51-e840-4d87-8a97-ada5aaab86a2",
+      "paintName": "Altdorf Guard Blue",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Altdorf Guard Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "821b3051-a1e4-4640-b9cd-74c46d1727e9",
+      "paintName": "Angron Red Clear",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Angron Red Clear",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "493d96df-26d6-4598-bb58-62daf5ae6220",
+      "paintName": "Apothecary White",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Apothecary White",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "7ce6e511-f161-4bac-9f74-a1843a76ab11",
+      "paintName": "Armageddon Dunes",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Armageddon Dunes",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "16038960-d971-4108-9c92-62d870cb886f",
+      "paintName": "Armageddon Dust",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Armageddon Dust",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "b324527f-c4ff-46b2-91a1-6ddfbc178071",
+      "paintName": "Astorath Red",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Astorath Red",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "c461a9c0-da35-4209-8fa2-108a47c559d9",
+      "paintName": "Astrogranite",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Astrogranite",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "4b2f8bc8-44b5-4bc5-9c6e-cc9210df3ce8",
+      "paintName": "Astrogranite Debris",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Astrogranite Debris",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "d734d406-c489-489c-98c0-ebdbf4c320ac",
+      "paintName": "Astronomicon Grey",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Astronomicon Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "d71981cf-45be-46cb-a021-610ae15146fb",
+      "paintName": "Asurmen Blue Wash",
+      "brand": "citadel",
+      "productLine": "Foundation Wash (discontinued)",
+      "searchQuery": "citadel Asurmen Blue Wash",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "04e3e71b-4bc7-4d47-a968-5711a3affa2c",
+      "paintName": "Athonian Camoshade",
+      "brand": "citadel",
+      "productLine": "Shade",
+      "searchQuery": "citadel Athonian Camoshade",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "149bab58-c1da-46a9-aea6-3091cf98fd0f",
+      "paintName": "Auric Armour Gold",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Auric Armour Gold",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "9efd8900-0acc-4554-b302-61ccfec599ef",
+      "paintName": "Averland Sunset",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Averland Sunset",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "4d24306d-9add-4800-852d-88e5d7328344",
+      "paintName": "Averland Sunset",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Averland Sunset",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "80f95964-b903-4e74-beaf-8d3c5e192d3e",
+      "paintName": "Baal Red Wash",
+      "brand": "citadel",
+      "productLine": "Foundation Wash (discontinued)",
+      "searchQuery": "citadel Baal Red Wash",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "b63146ed-814a-400f-8c80-87669617fbe6",
+      "paintName": "Bad Moon Yellow",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Bad Moon Yellow",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "cdd4630e-9ee7-46a5-a263-6d661f85a238",
+      "paintName": "Badab Black Wash",
+      "brand": "citadel",
+      "productLine": "Foundation Wash (discontinued)",
+      "searchQuery": "citadel Badab Black Wash",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "cbbd1880-ddae-4b85-9467-6531d2f37631",
+      "paintName": "Baharroth Blue",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Baharroth Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "b903c359-ccf0-4dac-9fca-acc582df6c4f",
+      "paintName": "Balor Brown",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Balor Brown",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "fbdfeaab-5dac-4b22-8c11-8a2b7544eb15",
+      "paintName": "Balor Brown",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Balor Brown",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "97dd00e5-cee9-401a-93ab-78f37af2b83a",
+      "paintName": "Balthasar Gold",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Balthasar Gold",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "65f7fcc7-7754-43dd-a70d-750da8c48dde",
+      "paintName": "Balthasar Gold",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Balthasar Gold",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "323c3240-5019-4bf5-a729-db0c500d93e7",
+      "paintName": "Baneblade Brown",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Baneblade Brown",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "10eeebc4-d6a2-43ae-b228-675c6bb55ea3",
+      "paintName": "Baneblade Brown",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Baneblade Brown",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "08895c77-6b49-439b-adfa-39146d01cc09",
+      "paintName": "Barak-Nar Burgundy",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Barak-Nar Burgundy",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "c9ce275f-f09f-4150-9dff-06d8541b6a6f",
+      "paintName": "Basilicanum Grey",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Basilicanum Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "d23f7613-e4d3-48ed-ae89-17c142f0a6aa",
+      "paintName": "Beaten Copper",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Beaten Copper",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "d0b9cbbb-26f3-4c52-b944-208cfb9524f8",
+      "paintName": "Bestial Brown",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Bestial Brown",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "275de1cb-e5b1-4036-9978-369d08051ca6",
+      "paintName": "Bestigor Flesh",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Bestigor Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "6e7c8cd4-818a-4d38-8870-65aac5392ab1",
+      "paintName": "Biel-Tan Green",
+      "brand": "citadel",
+      "productLine": "Shade",
+      "searchQuery": "citadel Biel-Tan Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "bdcc2117-5ca0-4211-a03e-00316fea4ebf",
+      "paintName": "Bilious Green",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Bilious Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "5577d12b-f340-4f6b-8800-31da121e66ed",
+      "paintName": "Black Ink",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Black Ink",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "cb0d6fdc-9cf4-4e52-a7ba-3e1fa86e9d1e",
+      "paintName": "Black Legion",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Black Legion",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "488815a1-3abd-428a-ba77-89172fe22ce0",
+      "paintName": "Black Templar",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Black Templar",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "cda7cf8e-6e44-46a1-85d5-9d9719101de0",
+      "paintName": "Blazing Orange",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Blazing Orange",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "4ffe69bd-912a-4caf-bfb2-2dd397ad7860",
+      "paintName": "Bleached Bone",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Bleached Bone",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "6942b4c2-a848-475d-a015-f41ab54371dc",
+      "paintName": "Blood Angels Red",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Blood Angels Red",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "af02a496-2bc2-4bc7-9be3-0d07e28f89ee",
+      "paintName": "Blood For The Blood God",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Blood For The Blood God",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "010ec85b-d1a5-4ef8-bb74-0ae9a005584b",
+      "paintName": "Blood Red",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Blood Red",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "7709d712-eca3-40ca-9795-f2cb6be9cd31",
+      "paintName": "Bloodletter",
+      "brand": "citadel",
+      "productLine": "Glaze",
+      "searchQuery": "citadel Bloodletter",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "dc894c2a-1653-4508-9b56-a63b3251f603",
+      "paintName": "Bloodreaver Flesh",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Bloodreaver Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "a0aef4f2-d429-4a82-8b49-bc4dca7f8b60",
+      "paintName": "Blue Horror",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Blue Horror",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "d1db1026-3b47-4883-9d87-370be423dcde",
+      "paintName": "Boltgun Metal",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Boltgun Metal",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "17888dc7-79fb-43a2-9eee-866850339500",
+      "paintName": "Brass Scorpion",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Brass Scorpion",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "292693fa-4dd4-4539-a0f6-2949a283807b",
+      "paintName": "Brazen Brass",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Brazen Brass",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "8614c3e8-acc6-47db-a5bf-1e152ad96f2c",
+      "paintName": "Bronzed Flesh",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Bronzed Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "8be99fa5-f69a-42f6-abea-e8801adb5b86",
+      "paintName": "Bubonic Brown",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Bubonic Brown",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "ce35d2b9-ed77-4dc7-812c-6f33b96bf01b",
+      "paintName": "Bugman Glow",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Bugman Glow",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "3cc2c102-3dfc-4cfd-b3b4-71345ad23ddb",
+      "paintName": "Burnished Gold",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Burnished Gold",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "1cc25e88-8452-4ab8-89ba-c25add826f8f",
+      "paintName": "Cadian Fleshtone",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Cadian Fleshtone",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "abaa0457-4a81-4d3e-b948-b363a6ae57bd",
+      "paintName": "Caledor Sky",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Caledor Sky",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "1cb961f4-4680-491d-8fc3-f6f727f81b69",
+      "paintName": "Caledor Sky",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Caledor Sky",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "f96b08cc-5dad-41a0-92e8-149bc44eacf4",
+      "paintName": "Calgar Blue",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Calgar Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "0c3549a5-b419-44c8-846f-8fa382b23393",
+      "paintName": "Calgar Blue",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Calgar Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "89229052-0ef2-4563-8ca0-44ff99af0d9b",
+      "paintName": "Caliban Green",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Caliban Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "dde84e5c-284e-4579-bcac-c7c0ccb58036",
+      "paintName": "Caliban Green",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Caliban Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "532e9e7a-c82b-4c6c-8fd2-eab843ecb781",
+      "paintName": "Calth Blue Clear",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Calth Blue Clear",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "eb65567d-d88a-4a63-b9aa-362137e3c751",
+      "paintName": "Calthan Brown",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Calthan Brown",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "114153f3-6773-4596-802b-45f84514ed40",
+      "paintName": "Camo Green",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Camo Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "8b3ba43b-3498-4ffe-be0c-4e9373b10375",
+      "paintName": "Canoptek Alloy",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Canoptek Alloy",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "0eef8f10-a465-4281-81d7-af7bb2ee56c1",
+      "paintName": "Carroburg Crimson",
+      "brand": "citadel",
+      "productLine": "Shade",
+      "searchQuery": "citadel Carroburg Crimson",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "73901158-a718-4ad6-aa71-3ab7e585cae9",
+      "paintName": "Cassandora Yellow",
+      "brand": "citadel",
+      "productLine": "Shade",
+      "searchQuery": "citadel Cassandora Yellow",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "fcf8609f-49a6-4833-985f-aaf8fd5a8a15",
+      "paintName": "Castellan Green",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Castellan Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "e1f7a21e-3541-412a-ba6a-c795a388d71d",
+      "paintName": "Castellan Green",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Castellan Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "de2bbe93-ea10-40b2-9f73-ac89abe1b679",
+      "paintName": "Castellax Bronze",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Castellax Bronze",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "332ecfc4-66a8-48b7-b8b1-4eb850ca9885",
+      "paintName": "Castellax Bronze",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Castellax Bronze",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "e5935894-83a5-4304-8326-d8d92be20ced",
+      "paintName": "Catachan Fleshtone",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Catachan Fleshtone",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "0dc1dfa4-3f6a-4334-9715-6c4ed75063fd",
+      "paintName": "Catachan Green",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Catachan Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "c63c2a45-a63b-4549-ae0e-8c66e32885ba",
+      "paintName": "Celestra Grey",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Celestra Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "7d351f84-355a-4694-97e9-f73227ec2424",
+      "paintName": "Chainmail",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Chainmail",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "6c27a128-8538-4e72-ac83-b6132030630a",
+      "paintName": "Changeling Pink",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Changeling Pink",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "bdc1a505-60e6-40d1-92fa-eb2a6b454ffc",
+      "paintName": "Chaos Black",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Chaos Black",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "7331f3d6-70e4-457e-be83-b5ac6cec3b60",
+      "paintName": "Chaos Black",
+      "brand": "citadel",
+      "productLine": "Spray",
+      "searchQuery": "citadel Chaos Black",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "c3632292-7a14-433e-a274-4769aae521ea",
+      "paintName": "Charadon Granite",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Charadon Granite",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "6f144286-fdd6-4e82-9d18-45a11f7b39d8",
+      "paintName": "Chemos Purple",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Chemos Purple",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "ab04f085-3d40-4873-88d4-971b99eaee95",
+      "paintName": "Chronus Blue",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Chronus Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "784c0938-7e32-42fe-8377-13034a0f5d1a",
+      "paintName": "Codex Grey",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Codex Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "da144ec5-6730-41bd-985e-5acf6d5d460a",
+      "paintName": "Coelia Greenshade",
+      "brand": "citadel",
+      "productLine": "Shade",
+      "searchQuery": "citadel Coelia Greenshade",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "0b8c85fc-b07a-4567-92d3-9664753c3f01",
+      "paintName": "Commando Khaki",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Commando Khaki",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "7a616e11-7d13-402c-909f-768afec807af",
+      "paintName": "Contrast Medium",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Contrast Medium",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "f277b277-2f67-4c08-bfa9-52c3ba3c2b8b",
+      "paintName": "Corax White",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Corax White",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "dd0b0508-8f68-42af-b1b1-734c1e43f88b",
+      "paintName": "Corax White",
+      "brand": "citadel",
+      "productLine": "Spray",
+      "searchQuery": "citadel Corax White",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "1ee99b7a-aaa0-418f-8d4c-7d0ab23e4008",
+      "paintName": "Corvus Black",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Corvus Black",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "774010b5-8db5-4aee-bc85-fc1bd7edeb3b",
+      "paintName": "Corvus Black",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Corvus Black",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "9896849a-f41f-4e83-b830-9aede6cb43eb",
+      "paintName": "Creed Camo",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Creed Camo",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "fcf9a215-cfe3-481c-8b7f-60645dbcf405",
+      "paintName": "Cryptek Armourshade Gloss",
+      "brand": "citadel",
+      "productLine": "Shade",
+      "searchQuery": "citadel Cryptek Armourshade Gloss",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "cd68febd-271e-4137-a420-9ebd0e0bee0b",
+      "paintName": "Cygor Brown",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Cygor Brown",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "fb369330-5ca5-4945-8f2f-a76aef47aa0c",
+      "paintName": "Daemonette Hide",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Daemonette Hide",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "a0693ca1-70ce-4041-b9ee-3a3ce093e639",
+      "paintName": "Dark Angels Green",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Dark Angels Green",
+      "results": [
+        {
+          "ean": "5011921060047",
+          "title": "EAN 5011921060047 - Datacards - Dark Angels Great Condition",
+          "brand": "citadel"
+        }
+      ],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "6d71549c-edb2-4405-829c-99346318d2a0",
+      "paintName": "Dark Angels Green",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Dark Angels Green",
+      "results": [
+        {
+          "ean": "5011921060047",
+          "title": "EAN 5011921060047 - Datacards - Dark Angels Great Condition",
+          "brand": "citadel"
+        }
+      ],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "a5310e7b-dca3-4c02-91ff-bd8fe05d8ef2",
+      "paintName": "Dark Flesh",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Dark Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "00874caf-7029-44a5-a293-43661be1662c",
+      "paintName": "Dark Green Ink",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Dark Green Ink",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "ad078081-6fd5-41cc-8c0a-db069f7b5cd9",
+      "paintName": "Dark Reaper",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Dark Reaper",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "7281cbbb-24e4-491d-925d-0ae7622946eb",
+      "paintName": "Darkoath Flesh",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Darkoath Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "86b8fa4f-2e98-4c0d-9d60-b46c8960e358",
+      "paintName": "Dawnstone",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Dawnstone",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "aa6613d4-7513-47ef-af0c-0e9fc319e38e",
+      "paintName": "Dawnstone",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Dawnstone",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "dd3a710f-175a-48c1-ac64-0e4223d82e17",
+      "paintName": "Dawnstone",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Dawnstone",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "5dd3d721-049b-47b2-b444-0935d14a430e",
+      "paintName": "Death Guard Green",
+      "brand": "citadel",
+      "productLine": "Spray",
+      "searchQuery": "citadel Death Guard Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "a2fa9708-616d-4d2d-8278-7bf191e4f399",
+      "paintName": "Death Guard Green",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Death Guard Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "e1c09f11-abdf-4cdc-a373-52c834f49143",
+      "paintName": "Death Korps Drab",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Death Korps Drab",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "be5a76a2-4a94-4f64-af27-972f4199d602",
+      "paintName": "Death Korps Drab",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Death Korps Drab",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "a343f709-ac1b-4786-ac25-36224de2740c",
+      "paintName": "Deathclaw Brown",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Deathclaw Brown",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "0629b1f3-51f3-4451-b4ac-44b2d09d9e07",
+      "paintName": "Deathclaw Brown",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Deathclaw Brown",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "808aacf0-785a-46cd-9f8f-b5de6f6b001b",
+      "paintName": "Deathshroud Clear",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Deathshroud Clear",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "b4c052e1-ab9e-470d-9c77-0e071d1d2ebd",
+      "paintName": "Deathworld Forest",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Deathworld Forest",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "6079aa8d-346c-4ea5-b17a-a5bfb97e16d0",
+      "paintName": "Deathworld Forest",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Deathworld Forest",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "8904427d-b744-4e16-8e14-1078d9a08e7d",
+      "paintName": "Dechala Lilac",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Dechala Lilac",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "ecb1ca07-1368-41ac-a342-6296a10e8a88",
+      "paintName": "Deepkin Flesh",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Deepkin Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "61f52af8-9c34-414c-8626-31c417858296",
+      "paintName": "Desert Yellow",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Desert Yellow",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "93b27874-504c-4e79-b2e4-8608a805eed8",
+      "paintName": "Devlan Mud Wash",
+      "brand": "citadel",
+      "productLine": "Foundation Wash (discontinued)",
+      "searchQuery": "citadel Devlan Mud Wash",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "6f068700-735a-4ccc-b9d0-2fc3a50d11b1",
+      "paintName": "Dheneb Stone",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Dheneb Stone",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "81cd1de2-7c11-4102-a95e-453f05e5ba39",
+      "paintName": "Doombull Brown",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Doombull Brown",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "e84e55ab-177c-4a00-95f1-e81f614492fe",
+      "paintName": "Dorn Yellow",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Dorn Yellow",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "b64784eb-da7d-40d0-b26b-fdf23f99de24",
+      "paintName": "Drakenhof Nightshade",
+      "brand": "citadel",
+      "productLine": "Shade",
+      "searchQuery": "citadel Drakenhof Nightshade",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "9e6714ef-a3d8-4270-8b00-a691ba728112",
+      "paintName": "Druchii Violet",
+      "brand": "citadel",
+      "productLine": "Shade",
+      "searchQuery": "citadel Druchii Violet",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "069cfe9a-5580-43a2-8b87-b846dc9a8121",
+      "paintName": "Dryad Bark",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Dryad Bark",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "7deba0f3-5f83-49f4-a25b-dfc605675d6d",
+      "paintName": "Dryad Bark",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Dryad Bark",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "d0dfb0db-333a-4abf-b8c3-9206f4d4dde5",
+      "paintName": "Dwarf Bronze",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Dwarf Bronze",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "118dcb27-7188-4c1d-914b-b647025dc995",
+      "paintName": "Dwarf Flesh",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Dwarf Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "3f7e8a6b-ff6a-4daa-8a6a-20b1b97469a8",
+      "paintName": "Eidolon Purple Clear",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Eidolon Purple Clear",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "c31017bf-9650-4a7e-b259-064636b46f5f",
+      "paintName": "Eldar Flesh",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Eldar Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "9ef6275a-03e5-4d38-bd99-fb77ff247e03",
+      "paintName": "Elf Flesh",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Elf Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "d3465417-710a-4a97-a9a1-7e65eb057482",
+      "paintName": "Elysian Green",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Elysian Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "80a2ff74-81be-4755-971a-b1d6391811dd",
+      "paintName": "Elysian Green",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Elysian Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "eef4185f-7e69-4a12-a733-bc398b865fdb",
+      "paintName": "Emperor Children",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Emperor Children",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "b606c750-9fb8-4043-8c7b-e97c503c7076",
+      "paintName": "Enchanted Blue",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Enchanted Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "e6b8dbe9-ecc4-4d02-8e36-f2520ea25e76",
+      "paintName": "Eshin Grey",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Eshin Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "8f270053-c20f-4f94-97b5-869a5a87ae28",
+      "paintName": "Etherium Blue",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Etherium Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "b8a7e43a-83b1-40e7-80be-f5ff302e7257",
+      "paintName": "Evil Sunz Scarlet",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Evil Sunz Scarlet",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "e98c83ab-99ef-4384-a310-306fa84f7ce7",
+      "paintName": "Evil Sunz Scarlet",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Evil Sunz Scarlet",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "075035ce-f535-4a81-a762-c436775a2829",
+      "paintName": "Fenrisian Grey",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Fenrisian Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "fdcbb5e0-d6f3-43d7-8972-d3605c5d6918",
+      "paintName": "Fenrisian Grey",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Fenrisian Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "7e2be25b-8358-42b5-9f86-cf6658924683",
+      "paintName": "Fenrys Grey",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Fenrys Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "7248cabe-109a-4b07-bb2e-38931c0e282d",
+      "paintName": "Fiery Orange",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Fiery Orange",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "bab47d7c-88f6-47b6-b11c-f0219037fe3e",
+      "paintName": "Fire Dragon Bright",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Fire Dragon Bright",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "cd55523e-f913-4793-ac94-7e52021a058a",
+      "paintName": "Flash Gitz Yellow",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Flash Gitz Yellow",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "82551c51-a353-4bd3-9318-e915e17d1c36",
+      "paintName": "Flash Gitz Yellow",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Flash Gitz Yellow",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "4ce1ecef-3674-4a7e-9caa-a14eaab253f7",
+      "paintName": "Flayed One Flesh",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Flayed One Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "e4e34367-44ab-4145-ac69-05db603aa4d1",
+      "paintName": "Flesh Tearers Red",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Flesh Tearers Red",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "257a4cf8-05c8-4d7f-9ed1-83a448e7714d",
+      "paintName": "Flesh Wash",
+      "brand": "citadel",
+      "productLine": "Foundation Wash (discontinued)",
+      "searchQuery": "citadel Flesh Wash",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "1de7d2d6-c2cd-44ef-89d8-eeb9a9385682",
+      "paintName": "Fortress Grey",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Fortress Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "29327d68-48f4-4a6d-ba50-1f261b3044cb",
+      "paintName": "Fuegan Orange",
+      "brand": "citadel",
+      "productLine": "Shade",
+      "searchQuery": "citadel Fuegan Orange",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "068d6b37-0310-4a4c-8f21-c3e0900da5b2",
+      "paintName": "Fulgrim Pink",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Fulgrim Pink",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "0a94a93a-8d8c-44f6-8f8e-e02b0cea7ac0",
+      "paintName": "Fulgurite Copper",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Fulgurite Copper",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "c156955a-ea7a-4aa7-97c4-d8b5c83aef6c",
+      "paintName": "Fyreslayer Flesh",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Fyreslayer Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "f924f3f5-7c6d-4f87-979c-8a984d9192f2",
+      "paintName": "Gal Vorbak Red",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Gal Vorbak Red",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "062ad81c-8482-4b05-8912-c601ed64ae6b",
+      "paintName": "Gal Vorbak Red",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Gal Vorbak Red",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "4df73321-0dda-453b-a203-6611da7a3778",
+      "paintName": "Gauss Blaster Green",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Gauss Blaster Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "0a9df168-89d8-432c-9ed4-e5cdd0973b32",
+      "paintName": "Gehenna Gold",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Gehenna Gold",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "ce8e69dc-d411-4f59-8361-4ea2943767b8",
+      "paintName": "Genestealer Purple",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Genestealer Purple",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "8380a054-1321-4862-8172-65bd61d66163",
+      "paintName": "Genestealer Purple",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Genestealer Purple",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "f978f6a3-8920-4633-a3d2-15793c8f701c",
+      "paintName": "Ghostly Grey",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Ghostly Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "b4ab9049-b336-4ed9-881d-355398e5b434",
+      "paintName": "Goblin Green",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Goblin Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "42cbf9cd-3085-40b3-8de7-a33283a03182",
+      "paintName": "Golden Griffon",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Golden Griffon",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "27a50835-dfb1-4c01-b2f4-9478ffa7c2bf",
+      "paintName": "Golden Yellow",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Golden Yellow",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "132e29ff-de9e-4fda-a9c1-8e13c7b7fa1c",
+      "paintName": "Golgfag Brown",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Golgfag Brown",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "a9f37a39-f801-43ff-8d15-79f2f1ba81ce",
+      "paintName": "Gore-Grunta Fur",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Gore-Grunta Fur",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "3ac36217-e531-4df9-b00f-ef0c2cb7e9b1",
+      "paintName": "Gorthor Brown",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Gorthor Brown",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "a61b3e7d-ccd1-4ffd-b182-c92714be0c1f",
+      "paintName": "Graveyard Earth",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Graveyard Earth",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "bc2d75c7-9ac3-4e92-b027-8e336691b1a4",
+      "paintName": "Gretchin Green",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Gretchin Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "17b621ba-1949-419d-b588-7479771ea5f7",
+      "paintName": "Grey Knights Steel",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Grey Knights Steel",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "a79d6d18-dcb9-4274-887a-1e0482ab45b8",
+      "paintName": "Grey Knights Steel",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Grey Knights Steel",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "67c5ec9a-775b-4c6f-b9d6-7ea982e2a704",
+      "paintName": "Grey Seer",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Grey Seer",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "9bc64f99-7db0-4d02-9a03-2e2cc4a56ea2",
+      "paintName": "Grey Seer",
+      "brand": "citadel",
+      "productLine": "Spray",
+      "searchQuery": "citadel Grey Seer",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "0d91cf19-e9dd-46c3-ba5b-c13ef13cf648",
+      "paintName": "Gryph-Charger Grey",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Gryph-Charger Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "ef80e0b0-5220-4ff2-9df9-1dbf9f414683",
+      "paintName": "Gryph-Hound Orange",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Gryph-Hound Orange",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "37fc7278-ae26-4785-ae1c-9c3c9327e767",
+      "paintName": "Gryphonne Sepia Wash",
+      "brand": "citadel",
+      "productLine": "Foundation Wash (discontinued)",
+      "searchQuery": "citadel Gryphonne Sepia Wash",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "9fc99862-622f-47a8-a266-77c7fb21387e",
+      "paintName": "Guilliman Blue",
+      "brand": "citadel",
+      "productLine": "Glaze",
+      "searchQuery": "citadel Guilliman Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "4a78c345-9c64-4b00-86ef-3e27d61a2c4d",
+      "paintName": "Guilliman Flesh",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Guilliman Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "61045225-9ebc-4250-9022-7ce69c0eda49",
+      "paintName": "Hashut Copper",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Hashut Copper",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "7ef4bfde-baca-48dd-9009-784fe0792cfc",
+      "paintName": "Hawk Turquoise",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Hawk Turquoise",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "ce780c96-f525-4ccf-a845-0a602f11b030",
+      "paintName": "Hellion Green",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Hellion Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "3eed5786-f94c-43fb-a8e9-6358f9a3b949",
+      "paintName": "Hexos Palesun",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Hexos Palesun",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "9d27a5cd-b8e8-4bb3-85c9-b352fffcbbfe",
+      "paintName": "Hexwraith Flame",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Hexwraith Flame",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "86f15b1e-e548-4d8b-8373-c33c1369732b",
+      "paintName": "Hobgrot Hide",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Hobgrot Hide",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "b9a21e9d-8d74-4f16-be89-d01c21a6c309",
+      "paintName": "Hoeth Blue",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Hoeth Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "e77f8c9a-7c1b-48b0-a942-5980bc9b9d9c",
+      "paintName": "Hoeth Blue",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Hoeth Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "c1964718-a8e3-4e63-9bea-28349022904f",
+      "paintName": "Hormagaunt Purple",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Hormagaunt Purple",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "72edd995-27c0-4caa-a29c-a2ca8ca56bc9",
+      "paintName": "Ice Blue",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Ice Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "3a49caba-ec42-4cfe-8ba7-f531bd240442",
+      "paintName": "Imperial Purple",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Imperial Purple",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "44490e49-0db6-4010-b792-7f6194726461",
+      "paintName": "Imrik Blue",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Imrik Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "68639520-7352-49ac-b9e0-6883c8068195",
+      "paintName": "Incubi Darkness",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Incubi Darkness",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "4fcda34d-21a6-4ced-92f2-d6ce52d9de62",
+      "paintName": "Ionrach Skin",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Ionrach Skin",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "e0b38d9f-49dc-458f-8924-37625d909a0d",
+      "paintName": "Iron Hands Steel",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Iron Hands Steel",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "509c0061-b643-41ee-bbe3-5f237922d058",
+      "paintName": "Iron Hands Steel",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Iron Hands Steel",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "00c69829-6715-499c-84cb-060162910cb3",
+      "paintName": "Iron Warriors",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Iron Warriors",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "99f52a86-2e55-47a5-8b3b-c9805d6763fb",
+      "paintName": "Ironbreaker",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Ironbreaker",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "3103166b-29d5-4f9c-89f9-59f23ed584de",
+      "paintName": "Ironbreaker",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Ironbreaker",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "c2da84a5-5666-4853-af32-45a9a1314856",
+      "paintName": "Iyanden Darksun",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Iyanden Darksun",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "ef997713-b00a-434e-9143-2e8ef4b9d856",
+      "paintName": "Iyanden Yellow",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Iyanden Yellow",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "43e825ba-1719-4a10-ae53-fdee70d6db4c",
+      "paintName": "Jade Green",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Jade Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "ba60e828-6b3b-46c3-8d2c-85455b4f0e25",
+      "paintName": "Jokaero Orange",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Jokaero Orange",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "9d7c1125-b735-4f95-b7fd-5794edd3cc26",
+      "paintName": "Kabalite Green",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Kabalite Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "b2a3560d-3f0c-4a5a-860b-ad454427e231",
+      "paintName": "Kakophoni Purple",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Kakophoni Purple",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "caca308a-694e-44a1-a31b-2ad129490a96",
+      "paintName": "Kakophoni Purple",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Kakophoni Purple",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "e6ddb222-7d5c-4a06-aae0-d969ae7b6094",
+      "paintName": "Kantor Blue",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Kantor Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "13296e80-3df9-4067-b9ba-733d7f5127e3",
+      "paintName": "Kantor Blue",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Kantor Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "b6403047-a4ba-440a-97c5-dddb38ec322a",
+      "paintName": "Karak Stone",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Karak Stone",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "a40dbfcc-e602-4836-9d37-295af921b8e9",
+      "paintName": "Karak Stone",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Karak Stone",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "c38c9e14-e680-4be2-9ab7-a6e3356213e2",
+      "paintName": "Khemri Brown",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Khemri Brown",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "8717869f-349d-45e0-8fac-82dbc6b2530c",
+      "paintName": "Khorne Red",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Khorne Red",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "ca94d95a-f222-4b8f-b44b-cfa3497636d3",
+      "paintName": "Khorne Red",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Khorne Red",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "0cd24003-3d3c-4d5b-a6a6-b9539c81e90f",
+      "paintName": "Kindleflame",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Kindleflame",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "7d065645-fa4a-48a9-a32b-622225874ed2",
+      "paintName": "Kislev Flesh",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Kislev Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "d484f51c-87d4-45fa-8c57-d0a04a182f93",
+      "paintName": "Kislev Flesh",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Kislev Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "470c7699-d440-463e-9002-95a589222a0f",
+      "paintName": "Knarloc Green",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Knarloc Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "cf8d3d84-db03-4517-a703-b995fdc1a524",
+      "paintName": "Knight-Questor Flesh",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Knight-Questor Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "5fd864bf-0d13-48aa-aeb1-a47441bc4c13",
+      "paintName": "Kommando Khaki",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Kommando Khaki",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "019c7a9e-204b-45b2-b140-81547d8da5ff",
+      "paintName": "Kommando Khaki",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Kommando Khaki",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "518dd243-402f-4855-9a9a-9a9b09343653",
+      "paintName": "Krieg Khaki",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Krieg Khaki",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "74c15aaa-d921-4933-9602-896bd15ff5f6",
+      "paintName": "Lahmian Medium",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Lahmian Medium",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "c06d95a3-cef1-4795-a041-43acac3247b3",
+      "paintName": "Lamenters Yellow",
+      "brand": "citadel",
+      "productLine": "Glaze",
+      "searchQuery": "citadel Lamenters Yellow",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "67de00b1-2dff-4ceb-86e4-6a06a523c368",
+      "paintName": "Leadbelcher",
+      "brand": "citadel",
+      "productLine": "Spray",
+      "searchQuery": "citadel Leadbelcher",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "8234a5fc-4066-46c9-a323-1e5e9502acea",
+      "paintName": "Leadbelcher",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Leadbelcher",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "a469db31-ec65-4edc-9b4f-a3cd5e67b329",
+      "paintName": "Leadbelcher",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Leadbelcher",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "672fbb9a-17f5-4b12-b7de-0fdb33ac2c48",
+      "paintName": "Leprous Brown",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Leprous Brown",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "cdab12d6-3f4f-46c1-a99b-43c41ab6be17",
+      "paintName": "Leviadon Blue",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Leviadon Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "983e36b0-1a3f-4b5c-810a-76f6bee3723d",
+      "paintName": "Leviathan Purple Wash",
+      "brand": "citadel",
+      "productLine": "Foundation Wash (discontinued)",
+      "searchQuery": "citadel Leviathan Purple Wash",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "1bdaedc1-1fd5-4fff-b33d-1d904c5a0215",
+      "paintName": "Liberator Gold",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Liberator Gold",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "4e5b8748-d388-49c4-aa17-903627a84fbf",
+      "paintName": "Liche Purple",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Liche Purple",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "241d5ac6-0368-4aca-a1cd-925a1fd2b226",
+      "paintName": "Lightning Bolt Blue",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Lightning Bolt Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "2f8f83d8-cedb-4b00-aa09-6da484666f55",
+      "paintName": "Longbeard Grey",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Longbeard Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "d4f81a55-32d4-4f3b-ac47-c733949561c3",
+      "paintName": "Loren Forest",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Loren Forest",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "c0a4314f-26d9-47eb-890e-068b0a1fd6d6",
+      "paintName": "Lothern Blue",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Lothern Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "b84c81b1-f11e-4cdb-a9fd-9f2b87fc504c",
+      "paintName": "Lothern Blue",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Lothern Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "a0e1e266-f6a3-415c-8121-6e108dd0a019",
+      "paintName": "Lucius Lilac",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Lucius Lilac",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "43ba4676-9294-452b-8c7b-32dcece22126",
+      "paintName": "Lugganath Orange",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Lugganath Orange",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "5bbd99de-b61e-4cd8-848e-424ff0a88fa9",
+      "paintName": "Lupercal Green",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Lupercal Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "b0102795-651c-4735-88a9-6323db9f2725",
+      "paintName": "Lupercal Green",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Lupercal Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "f93a62bc-4af9-4ac1-93a5-066e242dcfcf",
+      "paintName": "Macharius Solar Orange",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Macharius Solar Orange",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "f519edef-379b-4cb4-8b2c-6a1871981354",
+      "paintName": "Macragge Blue",
+      "brand": "citadel",
+      "productLine": "Spray",
+      "searchQuery": "citadel Macragge Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "bcd89365-9a8f-4b89-a7cd-bf827fa4fbb0",
+      "paintName": "Macragge Blue",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Macragge Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "6890a49a-db97-41ce-97a5-4bac07009453",
+      "paintName": "Macragge Blue",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Macragge Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "0e3fc461-3cf5-4950-ac73-852aa1fe9053",
+      "paintName": "Magenta Ink",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Magenta Ink",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "6eb79db5-ff1f-4f49-8c40-9de26b79df68",
+      "paintName": "Magos Purple",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Magos Purple",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "175630eb-9429-48ff-91bd-83896f0d48c4",
+      "paintName": "Martian Ironcrust",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Martian Ironcrust",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "e9dfb564-a628-4dc8-bc71-d4221661b9be",
+      "paintName": "Martian Ironearth",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Martian Ironearth",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "70a9829f-c95d-4060-ae21-83793a137cef",
+      "paintName": "Mechanicus Standard Grey",
+      "brand": "citadel",
+      "productLine": "Spray",
+      "searchQuery": "citadel Mechanicus Standard Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "5095c1a5-24d9-44d1-83b9-e07eef641f03",
+      "paintName": "Mechanicus Standard Grey",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Mechanicus Standard Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "db40ef17-6290-4f57-ba8d-64307176ce25",
+      "paintName": "Mechanicus Standard Grey",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Mechanicus Standard Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "59c5ee4f-ec6e-4ad3-af9c-acaa5530721a",
+      "paintName": "Mechrite Red",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Mechrite Red",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "e5a7f473-553e-4b26-8a59-780fe91f26f5",
+      "paintName": "Mephiston Red",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Mephiston Red",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "af03d42a-8aaf-4696-b4eb-9e8af46d5706",
+      "paintName": "Mephiston Red",
+      "brand": "citadel",
+      "productLine": "Spray",
+      "searchQuery": "citadel Mephiston Red",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "7cbaff73-577a-489d-b176-d762330c3997",
+      "paintName": "Mephiston Red",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Mephiston Red",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "05dc4852-d5db-4dfd-aa63-acb2dcb5f8b3",
+      "paintName": "Midnight Blue",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Midnight Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "c10b1aa3-c0d5-4abb-8b52-915efb11ff4e",
+      "paintName": "Militarum Green",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Militarum Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "0e3df5a9-de9b-45af-a424-893df6c465bd",
+      "paintName": "Mithril Silver",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Mithril Silver",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "a19a15d8-3468-4e07-b880-13625c4a6d99",
+      "paintName": "Moot Green",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Moot Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "9b0be980-2dd3-479a-ae1c-e1fa811dde20",
+      "paintName": "Moot Green",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Moot Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "45524c91-07ee-421c-a00e-0a9fe03416c8",
+      "paintName": "Mordant Earth",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Mordant Earth",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "37b43f00-fc1c-4923-99f7-3b8ac8eac8d4",
+      "paintName": "Mordian Blue",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Mordian Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "91cbe43c-46b5-4813-bbc6-896f89a65ac4",
+      "paintName": "Morghast Bone",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Morghast Bone",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "b5505b8b-a441-4cf2-8f29-d3ae07b45206",
+      "paintName": "Mortarion Green Clear",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Mortarion Green Clear",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "711d159a-5eed-4c39-bd1d-260b47f47541",
+      "paintName": "Mournfang Brown",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Mournfang Brown",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "0bb4cc2e-cafc-45ad-8817-6ad243a4dcee",
+      "paintName": "Mournfang Brown",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Mournfang Brown",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "b788cb1e-4367-4c2a-ad34-c7b69670c9af",
+      "paintName": "Munitorum Varnish",
+      "brand": "citadel",
+      "productLine": "Spray",
+      "searchQuery": "citadel Munitorum Varnish",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "b9fbeae5-b5d5-4762-b434-a294c70fe22d",
+      "paintName": "Naggaroth Night",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Naggaroth Night",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "c64f0d01-5680-4f19-9344-160f6823e367",
+      "paintName": "Nauseating Blue",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Nauseating Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "53769527-9c27-442f-81c2-7a0dcbd7e401",
+      "paintName": "Nazdreg Yellow",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Nazdreg Yellow",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "e917df04-2a51-4c58-b3ca-bcc97889bd05",
+      "paintName": "Necron Abyss",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Necron Abyss",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "1727410f-6ea6-4960-8e67-6d4c5bf2ff6a",
+      "paintName": "Necron Compound",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Necron Compound",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "0f63d0c4-da84-48f0-bc42-b5e0994c0048",
+      "paintName": "Niblet Green",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Niblet Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "7396ff18-059d-40b3-a8dc-8e51169072a1",
+      "paintName": "Night Lords Blue",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Night Lords Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "54cacbdd-8f8e-43b5-8e34-267442191c51",
+      "paintName": "Night Lords Blue",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Night Lords Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "2d31627a-9083-4642-9e6a-d61e4a7de41d",
+      "paintName": "Nighthaunt Gloom",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Nighthaunt Gloom",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "6e10123f-9168-4348-871a-194c478bba29",
+      "paintName": "Nihilakh Oxide",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Nihilakh Oxide",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "5969403d-16eb-4d64-b9a0-388f10885d5e",
+      "paintName": "Nocturne Green",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Nocturne Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "89a12e92-7037-4c8f-bbee-5ce47047dce2",
+      "paintName": "Nocturne Green",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Nocturne Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "5006f0ac-c1f1-4878-9dcc-af8ecd97486d",
+      "paintName": "Nuln Oil",
+      "brand": "citadel",
+      "productLine": "Shade",
+      "searchQuery": "citadel Nuln Oil",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "858999fc-e8b6-4256-87b0-075c1a80062a",
+      "paintName": "Nuln Oil Gloss",
+      "brand": "citadel",
+      "productLine": "Shade",
+      "searchQuery": "citadel Nuln Oil Gloss",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "d31a7bc1-4609-460a-becd-2f01da210846",
+      "paintName": "Nurgles Rot",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Nurgles Rot",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "6b189ecf-2599-4703-8eb6-3af3c282d371",
+      "paintName": "Nurgling Green",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Nurgling Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "b2dcc749-6c67-46e5-8741-6e4ece0eee04",
+      "paintName": "Nurgling Green",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Nurgling Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "cd0930fd-a238-4560-9d6e-5d5e34b26260",
+      "paintName": "Ogryn Camo",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Ogryn Camo",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "8100045f-47c4-43f5-b9b1-e92c485fd8c4",
+      "paintName": "Ogryn Camo",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Ogryn Camo",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "efcfb0e6-3175-4e31-9b9b-c65898c496bc",
+      "paintName": "Ogryn Flesh Wash",
+      "brand": "citadel",
+      "productLine": "Foundation Wash (discontinued)",
+      "searchQuery": "citadel Ogryn Flesh Wash",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "817767e4-3b1e-4111-8057-45cdfbb152ac",
+      "paintName": "Ork Flesh",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Ork Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "d79dc255-a9e3-4737-830a-78052453de7f",
+      "paintName": "Orkhide Shade",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Orkhide Shade",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "3faff938-832a-487f-9465-21518f80ce21",
+      "paintName": "Orruk Flesh",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Orruk Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "b568ca75-b3d5-42c7-a3a2-abefe075d17d",
+      "paintName": "Pallid Flesh",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Pallid Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "250aab63-06b8-41f3-ba56-eeb7c5b0dc59",
+      "paintName": "Pallid Wych Flesh",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Pallid Wych Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "0e08c8ae-f3c9-4817-8fff-c84f45e4ce74",
+      "paintName": "Phalanx Yellow",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Phalanx Yellow",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "e4597def-6c16-46c1-be64-d41337b68a1c",
+      "paintName": "Phalanx Yellow",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Phalanx Yellow",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "80a5342d-0088-40b1-910d-242dba4f7bb9",
+      "paintName": "Phoenician Purple",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Phoenician Purple",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "7dff5824-ed4d-4a4d-b3df-6bfe124989bb",
+      "paintName": "Phoenician Purple",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Phoenician Purple",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "ed8a24b8-62a6-4457-84fe-2d87e946664f",
+      "paintName": "Pink Horror",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Pink Horror",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "0cb1a834-98f2-44f2-8d86-c26c69f8fc65",
+      "paintName": "Plaguebearer Flesh",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Plaguebearer Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "eddfce1b-4f8e-467c-b4e4-1cfa211419c9",
+      "paintName": "Praxeti White",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Praxeti White",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "c9db32c7-ec56-401e-b4ca-37d5e1fda7f8",
+      "paintName": "Purple Ink",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Purple Ink",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "646a6c5c-c487-4140-b9f7-2449c3c13f83",
+      "paintName": "Pyroclast Orange Clear",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Pyroclast Orange Clear",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "720e3272-f2b2-4721-be18-ab38557dc76c",
+      "paintName": "Rakarth Flesh",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Rakarth Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "1fecc4ec-ead2-45b4-a668-d3ba3e8b44e2",
+      "paintName": "Ratskin Flesh",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Ratskin Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "4951d3fd-45ed-49d0-8104-90be27a40d79",
+      "paintName": "Red Gore",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Red Gore",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "5c2b2cd7-aa6d-44ae-ac6a-e4278fa7e6f7",
+      "paintName": "Regal Blue",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Regal Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "0267abc1-f281-469e-92c8-6a6c7ff61c83",
+      "paintName": "Reikland Fleshshade",
+      "brand": "citadel",
+      "productLine": "Shade",
+      "searchQuery": "citadel Reikland Fleshshade",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "25d0bef8-7a6c-4eba-bea5-9d9d57990450",
+      "paintName": "Reikland Fleshshade Gloss",
+      "brand": "citadel",
+      "productLine": "Shade",
+      "searchQuery": "citadel Reikland Fleshshade Gloss",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "5dc13ac8-f95b-41f9-9be5-42d181bb1036",
+      "paintName": "Relictor Gold",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Relictor Gold",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "243a8ca1-253f-4aa8-8381-41978aabddd5",
+      "paintName": "Retributor Armour",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Retributor Armour",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "74a608e6-4e69-4842-ada7-972f85d0a2d7",
+      "paintName": "Retributor Armour",
+      "brand": "citadel",
+      "productLine": "Spray",
+      "searchQuery": "citadel Retributor Armour",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "9e4fdeff-e3e0-4b63-8bb5-9a5f95634763",
+      "paintName": "Rhinox Hide",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Rhinox Hide",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "b714b727-c443-46a7-83b7-99da90d3778f",
+      "paintName": "Rotting Flesh",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Rotting Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "82fc42a7-2621-4df1-95e2-b9e2c9a3381e",
+      "paintName": "Runefang Steel",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Runefang Steel",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "85f4c6f2-8017-4a5e-843e-7d56bf0114c6",
+      "paintName": "Runefang Steel",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Runefang Steel",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "6d9f7f81-ba36-4754-a89c-ea8fae53933d",
+      "paintName": "Runelord Brass",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Runelord Brass",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "b98f302b-5e0c-4e12-ab9c-d4ec06bc2c0e",
+      "paintName": "Russ Grey",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Russ Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "f5940903-d9af-4acd-8443-70b6fe9d14ff",
+      "paintName": "Russ Grey",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Russ Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "fdbc9e87-ffbd-43b8-94c3-008c27e27893",
+      "paintName": "Ryza Rust",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Ryza Rust",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "77b55ab4-52a5-4b95-8279-e32efcedd495",
+      "paintName": "Scab Red",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Scab Red",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "f7ac077e-7905-450a-8661-7761917efea4",
+      "paintName": "Scaly Green",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Scaly Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "c568588f-6be3-41f7-9923-32b6f389fe96",
+      "paintName": "Scorched Brown",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Scorched Brown",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "7c92d5e3-38f9-4b4a-aae7-f6397105d980",
+      "paintName": "Scorpion Green",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Scorpion Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "bb013178-4605-4d01-8a4d-5a72438c0e65",
+      "paintName": "Screamer Pink",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Screamer Pink",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "24db3150-938e-4d7f-8c11-ab27e6aab6ac",
+      "paintName": "Screaming Bell",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Screaming Bell",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "bef866f2-a6eb-40b7-8f92-01970b66146e",
+      "paintName": "Screaming Skull",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Screaming Skull",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "3598ea80-de36-4f83-9ef3-92f32a5f7a1a",
+      "paintName": "Seraphim Sepia",
+      "brand": "citadel",
+      "productLine": "Shade",
+      "searchQuery": "citadel Seraphim Sepia",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "73705b15-aa92-4b55-845a-35d7c5859d2d",
+      "paintName": "Shadow Grey",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Shadow Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "508a1426-c57f-4387-a736-1f2eb3ab81c6",
+      "paintName": "Shining Gold",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Shining Gold",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "6b9c57a5-9140-4177-82fd-0f460c6e4936",
+      "paintName": "Shyish Purple",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Shyish Purple",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "5946a50c-e01d-4fc6-8bf8-92f3f43f81e1",
+      "paintName": "Sigismund Yellow Clear",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Sigismund Yellow Clear",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "704788f8-bd76-46f3-baec-a3032d1e2895",
+      "paintName": "Sigmarite",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Sigmarite",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "4d56762a-6093-4eba-82b1-1a2cbd55e37c",
+      "paintName": "Skarsnik Green",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Skarsnik Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "5e18d65d-645a-47f6-a4b3-0443ca4b6bd5",
+      "paintName": "Skavenblight Dinge",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Skavenblight Dinge",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "1326c339-080c-47e6-990e-9e520a345fb1",
+      "paintName": "Skeleton Horde",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Skeleton Horde",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "11b6d19c-8efc-445e-b49e-9d42ecc9890d",
+      "paintName": "Skink Blue",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Skink Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "16c01019-4d14-4276-8dfe-73f49c3d32d6",
+      "paintName": "Skrag Brown",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Skrag Brown",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "6e8c8479-e5b3-4b28-a30f-cb14a79b09ce",
+      "paintName": "Skull White",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Skull White",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "44e9fb61-19ba-40c2-abba-e536c30e83ba",
+      "paintName": "Skullcrusher Brass",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Skullcrusher Brass",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "aa05fe99-b8b4-473e-b9a6-be65ed1c3e50",
+      "paintName": "Slaanesh Grey",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Slaanesh Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "2ecbafad-b041-46c7-82f9-42e296777788",
+      "paintName": "Slaanesh Grey",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Slaanesh Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "590fcd25-64f2-4860-a3eb-4f5d7b3565fe",
+      "paintName": "Smelly Primer",
+      "brand": "citadel",
+      "productLine": "Foundation Primer (discontinued)",
+      "searchQuery": "citadel Smelly Primer",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "0c207648-dddd-432c-8e6d-2b97c4bc2587",
+      "paintName": "Snakebite Leather",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Snakebite Leather",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "7a2d5ef7-918a-4b01-98c2-da1a5edc9b7b",
+      "paintName": "Snakebite Leather",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Snakebite Leather",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "7d66339b-ca75-4f99-999c-9fd1fd02500c",
+      "paintName": "Snot Green",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Snot Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "f49ddbe7-a1d6-4503-9081-8970f7d74d9e",
+      "paintName": "Sons of Horus Green",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Sons of Horus Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "5bfb5cf4-0ccc-4ec1-9899-0c7556f39c07",
+      "paintName": "Sons of Horus Green",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Sons of Horus Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "f7703846-8a69-4f68-ab6a-95551ec0bae9",
+      "paintName": "Sotek Green",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Sotek Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "5e5d22f7-aac8-43ae-9db4-aef0da5e628b",
+      "paintName": "Soulstone Blue",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Soulstone Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "2092f30e-37fa-4094-8150-ee919fcf1003",
+      "paintName": "Space Wolves Grey",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Space Wolves Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "388c53b9-eac2-4ca8-9b15-c486a93c90cb",
+      "paintName": "Space Wolves Grey",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Space Wolves Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "28664e87-89c7-4c62-98e6-1462e1c09e91",
+      "paintName": "Spiritstone Red",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Spiritstone Red",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "2567b90a-07c3-4152-8472-51184d72074a",
+      "paintName": "Squig Orange",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Squig Orange",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "feb11dcb-5c7c-474b-84a1-eca6ef95eabf",
+      "paintName": "Steel Legion Drab",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Steel Legion Drab",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "4d6c39c2-7410-441a-b818-d16007f8a3ab",
+      "paintName": "Steel Legion Drab",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Steel Legion Drab",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "fee0f04e-2d0e-4766-badc-e6436a48302c",
+      "paintName": "Stegadon Scale Green",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Stegadon Scale Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "b94b671f-7263-4d11-aa79-67e314b4f94e",
+      "paintName": "Stirland Battlemire",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Stirland Battlemire",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "32f605a4-f4fc-4a95-b17d-d2960f35c47c",
+      "paintName": "Stirland Mud",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Stirland Mud",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "e40c0a42-9925-4ee3-8ec2-e67ec2eb7839",
+      "paintName": "Storm Blue",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Storm Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "e4d6924b-951e-493e-ac5e-44c0a0a7b110",
+      "paintName": "Stormfang",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Stormfang",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "65a82750-7c32-42a5-a8d2-b0e12cbb9e60",
+      "paintName": "Stormhost Silver",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Stormhost Silver",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "1bbd1a4d-6cf2-48a8-838e-86ef47ff2f05",
+      "paintName": "Stormshield",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Stormshield",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "b2339661-c24c-4fd9-8236-d90621ee03b4",
+      "paintName": "Stormvermin Fur",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Stormvermin Fur",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "4c77b04f-a38a-4804-81cd-c396737105b7",
+      "paintName": "Straken Green",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Straken Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "5a6dbcc3-0a4e-479f-aaba-e82854e49a0e",
+      "paintName": "Straken Green",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Straken Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "394b0278-d9e9-44b8-bd3e-78f6b0024119",
+      "paintName": "Sunburst Yellow",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Sunburst Yellow",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "36590942-de30-491a-8015-9ccee37612f0",
+      "paintName": "Sybarite Green",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Sybarite Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "2223e184-575a-4ab3-9c7d-d67172651476",
+      "paintName": "Sybarite Green",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Sybarite Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "c2e4629b-c21b-4bdf-8c41-2f94d0531a26",
+      "paintName": "Sycorax Bronze",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Sycorax Bronze",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "8be5a32e-cb48-44a5-8c6a-36bc3af91a41",
+      "paintName": "Sylvaneth Bark",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Sylvaneth Bark",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "1fd4b865-7832-475e-a53b-4aefc1a627f9",
+      "paintName": "Talassar Blue",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Talassar Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "2d63b302-54f4-46c0-a45e-750b23b0847f",
+      "paintName": "Tallarn Flesh",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Tallarn Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "13672291-0ea6-4159-86f3-332dd24751a2",
+      "paintName": "Tallarn Sand",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Tallarn Sand",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "34e81abd-0c52-42e2-958b-4597d2f8b3cc",
+      "paintName": "Tallarn Sand",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Tallarn Sand",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "9e590bd7-f591-41e7-a78a-cfadbdbdb87c",
+      "paintName": "Tanned Flesh",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Tanned Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "3e2f9238-02da-49ae-b8d1-7bcbfab2d783",
+      "paintName": "Tau Light Ochre",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Tau Light Ochre",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "98c808a5-3696-45ae-aa4f-4827070f1df4",
+      "paintName": "Tau Light Ochre",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Tau Light Ochre",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "5a443ee0-c5d8-42e6-a399-8f6cf1b2b244",
+      "paintName": "Tausept Ochre",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Tausept Ochre",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "29cb8723-7818-461c-9f9c-9c0ed57bc16d",
+      "paintName": "Teclis Blue",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Teclis Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "a70026ad-53ce-414d-abf0-0b4443d5b3d7",
+      "paintName": "Temple Guard Blue",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Temple Guard Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "1de166da-6cde-4604-8bb9-27ab955e4d4f",
+      "paintName": "Temple Guard Blue",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Temple Guard Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "6b5babe1-3065-49be-a9db-9ed3bc2d3679",
+      "paintName": "Tentacle Pink",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Tentacle Pink",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "745e56a9-b6b4-4437-936c-d1f78e596fe6",
+      "paintName": "Terminatus Stone",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Terminatus Stone",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "9b0b00af-270e-4168-ae3a-e834b57e026c",
+      "paintName": "Terminatus Stone",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Terminatus Stone",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "fb769816-f718-417c-b41e-1c133e554025",
+      "paintName": "Terracotta",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Terracotta",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "0abde352-e482-457c-bb12-d7f2c5bb8814",
+      "paintName": "Terradon Turquoise",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Terradon Turquoise",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "0f200b14-a9f6-4ec9-82c3-e289f4903159",
+      "paintName": "Tesseract Glow",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Tesseract Glow",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "ec68d5be-799e-49a0-8a53-cc6a3cfaa6ab",
+      "paintName": "Thallax Gold",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Thallax Gold",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "5b9a855f-35f6-41e7-b554-6140786fa9ea",
+      "paintName": "The Fang",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel The Fang",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "3400bd74-8da2-4878-bf4b-05b0b508f489",
+      "paintName": "The Fang",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel The Fang",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "50405f31-437c-4bad-983c-5ac9599aedb6",
+      "paintName": "Thondia Brown",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Thondia Brown",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "911607b1-cc71-4512-9646-b49130bd0773",
+      "paintName": "Thousand Sons Blue",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Thousand Sons Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "e5bd9f4a-0071-4284-a7cf-307d2834b604",
+      "paintName": "Thunderhawk Blue",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Thunderhawk Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "4682a0fb-93ee-4ce1-bf08-8e5306d62deb",
+      "paintName": "Thunderhawk Blue",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Thunderhawk Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "e0aedbf2-d3fb-48fe-be69-8aa6ed7b60ea",
+      "paintName": "Tin Bitz",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Tin Bitz",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "af88c43d-9377-4050-88d2-0cd3e492e6ad",
+      "paintName": "Troll Slayer Orange",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Troll Slayer Orange",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "70e3939f-aa38-4653-b2d0-7f64c20e11ac",
+      "paintName": "Troll Slayer Orange",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Troll Slayer Orange",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "a4b5c5ca-f192-4157-aacf-5bdd76be27d4",
+      "paintName": "Tuskgor Fur",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Tuskgor Fur",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "c1af4258-0bff-47f1-a2cc-012809af2bda",
+      "paintName": "Tuskgor Fur",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Tuskgor Fur",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "c329cee3-2911-4716-8156-7f7c462daf13",
+      "paintName": "Typhon Ash",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Typhon Ash",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "86ad8267-d420-472a-8363-b76c917ff12a",
+      "paintName": "Typhus Corrosion",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Typhus Corrosion",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "3ebe8fbf-cbca-4fb4-b2c6-40abd93fc4f8",
+      "paintName": "Tyrant Skull",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Tyrant Skull",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "95236af0-769f-42c6-b827-f84c586a6baf",
+      "paintName": "Ulthuan Grey",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Ulthuan Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "d74417f6-874a-4bc1-8edc-21a7ab1c00bb",
+      "paintName": "Ulthuan Grey",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Ulthuan Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "c1dde427-a1a3-414b-8e82-2e40658f5321",
+      "paintName": "Ultramarine Blue",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Ultramarine Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "ab7fae7a-16a2-4c4f-8764-3f0342bd48c0",
+      "paintName": "Ultramarines Blue",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Ultramarines Blue",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "c69ffbda-de83-43d9-a0e0-d896ba3c38f2",
+      "paintName": "Underhive Ash",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Underhive Ash",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "a7f68355-9105-43a3-afe1-7efb42bca555",
+      "paintName": "Ungor Flesh",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Ungor Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "0be7c6af-bf7e-4e32-9b20-eb5235114fe0",
+      "paintName": "Ushabti Bone",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Ushabti Bone",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "8dc7c8f3-7dff-4e4f-b40e-2b775211cdef",
+      "paintName": "Ushabti Bone",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Ushabti Bone",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "1046c0bc-2424-45cd-94ca-eba1b7c796ae",
+      "paintName": "Valdor Gold",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Valdor Gold",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "a2dc9e7c-fadf-444d-9dcb-8d48869247c0",
+      "paintName": "Valhallan Blizzard",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Valhallan Blizzard",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "554985f1-737b-4600-bfa0-4cada139a60e",
+      "paintName": "Vermin Brown",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Vermin Brown",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "a8bcc371-4f78-487c-bdfb-ee8147d00869",
+      "paintName": "Vermin Fur",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Vermin Fur",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "4982dbbb-1606-4694-9b66-a2b41c1cc2be",
+      "paintName": "Verminlord Hide",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Verminlord Hide",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "a51dd78e-f451-40ac-9eea-9616f284482b",
+      "paintName": "Vile Green",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Vile Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "a71261be-d7c6-43bf-a151-9b3838bd0ce9",
+      "paintName": "Volupus Pink",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Volupus Pink",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "7ed59f61-6f7b-4006-a0ee-f2c3c5474670",
+      "paintName": "Vomit Brown",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Vomit Brown",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "9ad733b1-d50b-4d57-b068-78e6cfe4d911",
+      "paintName": "Vulkan Green",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Vulkan Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "2d1465ff-d761-4b7f-8bbe-2b303d09c1d0",
+      "paintName": "Vulkan Green",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Vulkan Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "a65acbe4-f15f-4659-b1db-b5aa62780ae8",
+      "paintName": "Waaagh! Flesh",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Waaagh! Flesh",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "eb4f9531-bd86-4bfc-be2f-71b8e6f41e8d",
+      "paintName": "Warboss Green",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Warboss Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "45c50865-5a5e-45fb-b87c-c6d1f3480fbd",
+      "paintName": "Warboss Green",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Warboss Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "db6543b2-1320-4236-a42e-54c8baeaf861",
+      "paintName": "Warlock Purple",
+      "brand": "citadel",
+      "productLine": "Foundation (discontinued)",
+      "searchQuery": "citadel Warlock Purple",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "7c51ddec-33ae-42fa-a1b0-7767b4974005",
+      "paintName": "Warp Lightning",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Warp Lightning",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "7379bd56-988b-46f2-961b-cfa609635ffe",
+      "paintName": "Warpfiend Grey",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Warpfiend Grey",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "3d32cf08-8b70-48f1-8819-2a6cb1aa21df",
+      "paintName": "Warplock Bronze",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Warplock Bronze",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "eb2a9b1b-9602-459e-a847-743c7b0ad5f2",
+      "paintName": "Warpstone Glow",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Warpstone Glow",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "546ea251-f634-4b23-aaed-7b23965fe919",
+      "paintName": "Waystone Green",
+      "brand": "citadel",
+      "productLine": "Technical",
+      "searchQuery": "citadel Waystone Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "ec8b9888-4288-49e6-a408-5de21ddf5e72",
+      "paintName": "Waywatcher Green",
+      "brand": "citadel",
+      "productLine": "Glaze",
+      "searchQuery": "citadel Waywatcher Green",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "cea03a9e-f76a-47e3-9571-3c5cbaa6cc66",
+      "paintName": "Wazdakka Red",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Wazdakka Red",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "cb0b2cb2-83c1-4f6f-b707-f07e5f837167",
+      "paintName": "White Scar",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel White Scar",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "d76ace43-984b-40f6-96e3-87bb0bff31c8",
+      "paintName": "White Scar",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel White Scar",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "d30827fb-db25-4a23-bccf-ab132686703e",
+      "paintName": "Wild Rider Red",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Wild Rider Red",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "5d9c4c03-cd3a-44e1-8f66-f56d184126a0",
+      "paintName": "Word Bearers Red",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Word Bearers Red",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "7b1c7437-adb3-4c4b-85f2-b593d403c543",
+      "paintName": "Word Bearers Red",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Word Bearers Red",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "e2ce8c70-2ac7-4880-a8a5-a4073e1a3a41",
+      "paintName": "Wrack White",
+      "brand": "citadel",
+      "productLine": "Dry",
+      "searchQuery": "citadel Wrack White",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "1a31272e-d670-4b07-ad25-81588aa5bfb5",
+      "paintName": "Wraithbone",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Wraithbone",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "cf2203fe-f8d9-4286-acbf-0d56742debee",
+      "paintName": "Wraithbone",
+      "brand": "citadel",
+      "productLine": "Spray",
+      "searchQuery": "citadel Wraithbone",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "6f2f7796-03ba-4e28-9561-6d86ea4ca864",
+      "paintName": "Wyldwood",
+      "brand": "citadel",
+      "productLine": "Contrast",
+      "searchQuery": "citadel Wyldwood",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "02661834-0c6d-4b7f-aed1-d75e6d5fefc5",
+      "paintName": "XV-88",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel XV-88",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "bba1bb12-69df-4cb0-9bc2-074077abe77e",
+      "paintName": "XV-88",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel XV-88",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "3b3ba61a-b18f-4c37-8855-60474e1636ab",
+      "paintName": "Xereus Purple",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Xereus Purple",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "ae01cb4d-177b-448d-9c42-161f8facc660",
+      "paintName": "Yriel Yellow",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Yriel Yellow",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "ab30b12c-1c4a-43eb-a381-62a9a31d6515",
+      "paintName": "Zamesi Desert",
+      "brand": "citadel",
+      "productLine": "Layer",
+      "searchQuery": "citadel Zamesi Desert",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "8991e6a4-d8c8-4ce1-92b2-81114f5e5223",
+      "paintName": "Zandri Dust",
+      "brand": "citadel",
+      "productLine": "Spray",
+      "searchQuery": "citadel Zandri Dust",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "cbd743c5-33dd-447d-bd00-183daa8830e1",
+      "paintName": "Zandri Dust",
+      "brand": "citadel",
+      "productLine": "Base",
+      "searchQuery": "citadel Zandri Dust",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    },
+    {
+      "paintId": "6ce643ce-0fc3-4b53-81b7-42fd4cf72728",
+      "paintName": "Zandri Dust",
+      "brand": "citadel",
+      "productLine": "Air",
+      "searchQuery": "citadel Zandri Dust",
+      "results": [],
+      "scrapedAt": "2026-01-21T19:43:02.411Z"
+    }
+  ]
+}

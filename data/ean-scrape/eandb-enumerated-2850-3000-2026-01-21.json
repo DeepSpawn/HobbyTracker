@@ -1,0 +1,37 @@
+{
+  "source": "ean-db-enumeration",
+  "range": {
+    "start": 2850,
+    "end": 3000
+  },
+  "queriedAt": "2026-01-21T20:39:58.496Z",
+  "stats": {
+    "checked": 150,
+    "found": 4,
+    "paints": 1,
+    "matched": 0
+  },
+  "foundProducts": [
+    {
+      "ean": "5011921028627",
+      "title": "Necron Warrior Squad",
+      "isPaint": false
+    },
+    {
+      "ean": "5011921029136",
+      "title": "Citadel Middenlands Tufts -66-79-",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921029327",
+      "title": "Warhammer Necromancer Heinrich Kemmler",
+      "isPaint": false
+    },
+    {
+      "ean": "5011921029914",
+      "title": "Games Workshop Green Stuff Modeling Putty",
+      "isPaint": false
+    }
+  ],
+  "matches": []
+}

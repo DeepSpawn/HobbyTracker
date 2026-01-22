@@ -1,0 +1,767 @@
+{
+  "source": "ean-db-enumeration",
+  "range": {
+    "start": 2700,
+    "end": 2850
+  },
+  "queriedAt": "2026-01-21T20:38:14.765Z",
+  "stats": {
+    "checked": 150,
+    "found": 70,
+    "paints": 62,
+    "matched": 57
+  },
+  "foundProducts": [
+    {
+      "ean": "5011921027002",
+      "title": "Citadel Layer 1: Hoeth Blue",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027019",
+      "title": "Citadel Layer: Altdorf Guard Blue",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027026",
+      "title": "Games Workshop Citadel Layer 1: Calgar Blue",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027033",
+      "title": "Citadel Dry: Hexos Palesun",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027040",
+      "title": "Citadel Dry: Kindleflame",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027057",
+      "title": "Citadel Dry: Lucius Lilac",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027064",
+      "title": "Games Workshop Citadel Drybrush: Praxeti White",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027071",
+      "title": "Citadel Dry: Etherium Blue",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027088",
+      "title": "Citadel Dry: Skink Blue",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027095",
+      "title": "Citadel Dry: Hellion Green",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027101",
+      "title": "Games Workshop Dry Underhive Ash acrielverf Pot 12 ml",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027118",
+      "title": "Eldar Flesh (Dry)",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027125",
+      "title": "Tyrant Skull (Citadel)",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027132",
+      "title": "Citadel Dry: Terminatus Stone",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027149",
+      "title": "Citadel Dry: Longbeard Grey",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027156",
+      "title": "Warhammer Games Workshop - Necron Compound (Citadel)",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027163",
+      "title": "Citadel Dry: Golden Griffon",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027200",
+      "title": "Games Workshop Citadel Layer 1: Teclis Blue",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027217",
+      "title": "Citadel Verf - Lothern blauw",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027224",
+      "title": "Citadel Layer: Sotek Green 12ml Paint",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027231",
+      "title": "Citadel Layer: Temple Guard Blue",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027248",
+      "title": "Citadel Verf - Kabalite groen",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027255",
+      "title": "Citadel Layer: Sybarite Green",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027262",
+      "title": "Citadel Layer: Warpstone Glow",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027279",
+      "title": "Citadel Layer: Moot Green",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027286",
+      "title": "Citadel Layer: Warboss Green",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027408",
+      "title": "Citadel Burnt Grass Flock",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027422",
+      "title": "Citadel Layer: Skarsnik Green",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027439",
+      "title": "Loren Forest",
+      "isPaint": false
+    },
+    {
+      "ean": "5011921027446",
+      "title": "Straken Green (Citadel)",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027453",
+      "title": "Games Workshop Citadel Layer 1: Nurgling Green",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027590",
+      "title": "Citadel Layer: Elysian Green",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027606",
+      "title": "Citadel Layer: Ogryn Camo",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027620",
+      "title": "Screaming Skull (Citadel)",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027637",
+      "title": "Citadel Layer: Tallarn Sand",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027644",
+      "title": "Citadel – Paint – Layer Karak Stone – 22-35",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027651",
+      "title": "Games Workshop Citadel Layer Paint Cadian Fleshtone 12Ml",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027668",
+      "title": "Citadel Layer: Kislev Flesh",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027675",
+      "title": "Citadel Layer: Bestigor Flesh",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027682",
+      "title": "Ungor Flesh",
+      "isPaint": false
+    },
+    {
+      "ean": "5011921027699",
+      "title": "Citadel Layer: Skrag Brown",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027705",
+      "title": "Deathclaw Brown",
+      "isPaint": false
+    },
+    {
+      "ean": "5011921027712",
+      "title": "Citadel Layer: Tau Light Ochre",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027729",
+      "title": "Citadel Base: Balor Brown",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027736",
+      "title": "Citadel Layer: Zamesi Desert",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027743",
+      "title": "Doombulbrawn",
+      "isPaint": false
+    },
+    {
+      "ean": "5011921027750",
+      "title": "Citadel Layer: Tuskgor Fur",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027767",
+      "title": "Gorthor Brown",
+      "isPaint": false
+    },
+    {
+      "ean": "5011921027781",
+      "title": "Dawnstone 12ml Paint",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027798",
+      "title": "Citadel Layer: Administratum Grey",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027804",
+      "title": "Citadel Layer: Eshin Grey",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027811",
+      "title": "Dark Reaper (Citadel)",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027828",
+      "title": "Citadel Layer: Thunderhawk Blue",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027835",
+      "title": "Citadel - Paint - Layer Brass Scorpion - 22-65",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027842",
+      "title": "Citadel Layer: Sycorax Bronze",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027859",
+      "title": "Games Workshop 22-66 acrylic paint",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027873",
+      "title": "Citadel – Paint – Layer Fenrisian Grey – 22-68",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027880",
+      "title": "Citadel Layer: Pink Horror",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027897",
+      "title": "Citadel Layer: Emperor's Children",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027903",
+      "title": "Citadel Layer 2: Skavenblight Dinge",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027910",
+      "title": "Citadel Layer: Stormvermin Fur",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027927",
+      "title": "Citadel Layer: Ulthuan Grey",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027934",
+      "title": "Citadel Layer: White Scar",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027941",
+      "title": "Citadel Layer: Pallid Wych Flesh",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027958",
+      "title": "Citadel Layer: Ironbreaker - Iron",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921027972",
+      "title": "Gehenna S Gold",
+      "isPaint": false
+    },
+    {
+      "ean": "5011921027989",
+      "title": "Citadel Layer: Auric Armour Gold",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921028214",
+      "title": "Games Workshop GW49-63 NECRON IMOTEKH THE STORMLORD",
+      "isPaint": false
+    },
+    {
+      "ean": "5011921028276",
+      "title": "Citadel Technical: Blood for the Blood God",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921028368",
+      "title": "Warhammer 40k: Necrons - Ghost Ark / Doomsday Ark",
+      "isPaint": false
+    }
+  ],
+  "matches": [
+    {
+      "paintId": "b9a21e9d-8d74-4f16-be89-d01c21a6c309",
+      "paintName": "Hoeth Blue",
+      "productLine": "Layer",
+      "ean": "5011921027002",
+      "title": "Citadel Layer 1: Hoeth Blue"
+    },
+    {
+      "paintId": "f2e7ef51-e840-4d87-8a97-ada5aaab86a2",
+      "paintName": "Altdorf Guard Blue",
+      "productLine": "Layer",
+      "ean": "5011921027019",
+      "title": "Citadel Layer: Altdorf Guard Blue"
+    },
+    {
+      "paintId": "f96b08cc-5dad-41a0-92e8-149bc44eacf4",
+      "paintName": "Calgar Blue",
+      "productLine": "Air",
+      "ean": "5011921027026",
+      "title": "Games Workshop Citadel Layer 1: Calgar Blue"
+    },
+    {
+      "paintId": "3eed5786-f94c-43fb-a8e9-6358f9a3b949",
+      "paintName": "Hexos Palesun",
+      "productLine": "Dry",
+      "ean": "5011921027033",
+      "title": "Citadel Dry: Hexos Palesun"
+    },
+    {
+      "paintId": "0cd24003-3d3c-4d5b-a6a6-b9539c81e90f",
+      "paintName": "Kindleflame",
+      "productLine": "Dry",
+      "ean": "5011921027040",
+      "title": "Citadel Dry: Kindleflame"
+    },
+    {
+      "paintId": "a0e1e266-f6a3-415c-8121-6e108dd0a019",
+      "paintName": "Lucius Lilac",
+      "productLine": "Dry",
+      "ean": "5011921027057",
+      "title": "Citadel Dry: Lucius Lilac"
+    },
+    {
+      "paintId": "eddfce1b-4f8e-467c-b4e4-1cfa211419c9",
+      "paintName": "Praxeti White",
+      "productLine": "Dry",
+      "ean": "5011921027064",
+      "title": "Games Workshop Citadel Drybrush: Praxeti White"
+    },
+    {
+      "paintId": "8f270053-c20f-4f94-97b5-869a5a87ae28",
+      "paintName": "Etherium Blue",
+      "productLine": "Dry",
+      "ean": "5011921027071",
+      "title": "Citadel Dry: Etherium Blue"
+    },
+    {
+      "paintId": "11b6d19c-8efc-445e-b49e-9d42ecc9890d",
+      "paintName": "Skink Blue",
+      "productLine": "Dry",
+      "ean": "5011921027088",
+      "title": "Citadel Dry: Skink Blue"
+    },
+    {
+      "paintId": "ce780c96-f525-4ccf-a845-0a602f11b030",
+      "paintName": "Hellion Green",
+      "productLine": "Dry",
+      "ean": "5011921027095",
+      "title": "Citadel Dry: Hellion Green"
+    },
+    {
+      "paintId": "c69ffbda-de83-43d9-a0e0-d896ba3c38f2",
+      "paintName": "Underhive Ash",
+      "productLine": "Dry",
+      "ean": "5011921027101",
+      "title": "Games Workshop Dry Underhive Ash acrielverf Pot 12 ml"
+    },
+    {
+      "paintId": "c31017bf-9650-4a7e-b259-064636b46f5f",
+      "paintName": "Eldar Flesh",
+      "productLine": "Dry",
+      "ean": "5011921027118",
+      "title": "Eldar Flesh (Dry)"
+    },
+    {
+      "paintId": "3ebe8fbf-cbca-4fb4-b2c6-40abd93fc4f8",
+      "paintName": "Tyrant Skull",
+      "productLine": "Dry",
+      "ean": "5011921027125",
+      "title": "Tyrant Skull (Citadel)"
+    },
+    {
+      "paintId": "745e56a9-b6b4-4437-936c-d1f78e596fe6",
+      "paintName": "Terminatus Stone",
+      "productLine": "Air",
+      "ean": "5011921027132",
+      "title": "Citadel Dry: Terminatus Stone"
+    },
+    {
+      "paintId": "2f8f83d8-cedb-4b00-aa09-6da484666f55",
+      "paintName": "Longbeard Grey",
+      "productLine": "Dry",
+      "ean": "5011921027149",
+      "title": "Citadel Dry: Longbeard Grey"
+    },
+    {
+      "paintId": "1727410f-6ea6-4960-8e67-6d4c5bf2ff6a",
+      "paintName": "Necron Compound",
+      "productLine": "Dry",
+      "ean": "5011921027156",
+      "title": "Warhammer Games Workshop - Necron Compound (Citadel)"
+    },
+    {
+      "paintId": "42cbf9cd-3085-40b3-8de7-a33283a03182",
+      "paintName": "Golden Griffon",
+      "productLine": "Dry",
+      "ean": "5011921027163",
+      "title": "Citadel Dry: Golden Griffon"
+    },
+    {
+      "paintId": "29cb8723-7818-461c-9f9c-9c0ed57bc16d",
+      "paintName": "Teclis Blue",
+      "productLine": "Layer",
+      "ean": "5011921027200",
+      "title": "Games Workshop Citadel Layer 1: Teclis Blue"
+    },
+    {
+      "paintId": "f7703846-8a69-4f68-ab6a-95551ec0bae9",
+      "paintName": "Sotek Green",
+      "productLine": "Layer",
+      "ean": "5011921027224",
+      "title": "Citadel Layer: Sotek Green 12ml Paint"
+    },
+    {
+      "paintId": "a70026ad-53ce-414d-abf0-0b4443d5b3d7",
+      "paintName": "Temple Guard Blue",
+      "productLine": "Layer",
+      "ean": "5011921027231",
+      "title": "Citadel Layer: Temple Guard Blue"
+    },
+    {
+      "paintId": "36590942-de30-491a-8015-9ccee37612f0",
+      "paintName": "Sybarite Green",
+      "productLine": "Air",
+      "ean": "5011921027255",
+      "title": "Citadel Layer: Sybarite Green"
+    },
+    {
+      "paintId": "eb2a9b1b-9602-459e-a847-743c7b0ad5f2",
+      "paintName": "Warpstone Glow",
+      "productLine": "Layer",
+      "ean": "5011921027262",
+      "title": "Citadel Layer: Warpstone Glow"
+    },
+    {
+      "paintId": "a19a15d8-3468-4e07-b880-13625c4a6d99",
+      "paintName": "Moot Green",
+      "productLine": "Air",
+      "ean": "5011921027279",
+      "title": "Citadel Layer: Moot Green"
+    },
+    {
+      "paintId": "eb4f9531-bd86-4bfc-be2f-71b8e6f41e8d",
+      "paintName": "Warboss Green",
+      "productLine": "Layer",
+      "ean": "5011921027286",
+      "title": "Citadel Layer: Warboss Green"
+    },
+    {
+      "paintId": "4d56762a-6093-4eba-82b1-1a2cbd55e37c",
+      "paintName": "Skarsnik Green",
+      "productLine": "Layer",
+      "ean": "5011921027422",
+      "title": "Citadel Layer: Skarsnik Green"
+    },
+    {
+      "paintId": "4c77b04f-a38a-4804-81cd-c396737105b7",
+      "paintName": "Straken Green",
+      "productLine": "Air",
+      "ean": "5011921027446",
+      "title": "Straken Green (Citadel)"
+    },
+    {
+      "paintId": "6b189ecf-2599-4703-8eb6-3af3c282d371",
+      "paintName": "Nurgling Green",
+      "productLine": "Layer",
+      "ean": "5011921027453",
+      "title": "Games Workshop Citadel Layer 1: Nurgling Green"
+    },
+    {
+      "paintId": "d3465417-710a-4a97-a9a1-7e65eb057482",
+      "paintName": "Elysian Green",
+      "productLine": "Layer",
+      "ean": "5011921027590",
+      "title": "Citadel Layer: Elysian Green"
+    },
+    {
+      "paintId": "cd0930fd-a238-4560-9d6e-5d5e34b26260",
+      "paintName": "Ogryn Camo",
+      "productLine": "Layer",
+      "ean": "5011921027606",
+      "title": "Citadel Layer: Ogryn Camo"
+    },
+    {
+      "paintId": "bef866f2-a6eb-40b7-8f92-01970b66146e",
+      "paintName": "Screaming Skull",
+      "productLine": "Layer",
+      "ean": "5011921027620",
+      "title": "Screaming Skull (Citadel)"
+    },
+    {
+      "paintId": "13672291-0ea6-4159-86f3-332dd24751a2",
+      "paintName": "Tallarn Sand",
+      "productLine": "Layer",
+      "ean": "5011921027637",
+      "title": "Citadel Layer: Tallarn Sand"
+    },
+    {
+      "paintId": "b6403047-a4ba-440a-97c5-dddb38ec322a",
+      "paintName": "Karak Stone",
+      "productLine": "Layer",
+      "ean": "5011921027644",
+      "title": "Citadel – Paint – Layer Karak Stone – 22-35"
+    },
+    {
+      "paintId": "1cc25e88-8452-4ab8-89ba-c25add826f8f",
+      "paintName": "Cadian Fleshtone",
+      "productLine": "Layer",
+      "ean": "5011921027651",
+      "title": "Games Workshop Citadel Layer Paint Cadian Fleshtone 12Ml"
+    },
+    {
+      "paintId": "7d065645-fa4a-48a9-a32b-622225874ed2",
+      "paintName": "Kislev Flesh",
+      "productLine": "Layer",
+      "ean": "5011921027668",
+      "title": "Citadel Layer: Kislev Flesh"
+    },
+    {
+      "paintId": "275de1cb-e5b1-4036-9978-369d08051ca6",
+      "paintName": "Bestigor Flesh",
+      "productLine": "Layer",
+      "ean": "5011921027675",
+      "title": "Citadel Layer: Bestigor Flesh"
+    },
+    {
+      "paintId": "16c01019-4d14-4276-8dfe-73f49c3d32d6",
+      "paintName": "Skrag Brown",
+      "productLine": "Layer",
+      "ean": "5011921027699",
+      "title": "Citadel Layer: Skrag Brown"
+    },
+    {
+      "paintId": "3e2f9238-02da-49ae-b8d1-7bcbfab2d783",
+      "paintName": "Tau Light Ochre",
+      "productLine": "Air",
+      "ean": "5011921027712",
+      "title": "Citadel Layer: Tau Light Ochre"
+    },
+    {
+      "paintId": "b903c359-ccf0-4dac-9fca-acc582df6c4f",
+      "paintName": "Balor Brown",
+      "productLine": "Layer",
+      "ean": "5011921027729",
+      "title": "Citadel Base: Balor Brown"
+    },
+    {
+      "paintId": "ab30b12c-1c4a-43eb-a381-62a9a31d6515",
+      "paintName": "Zamesi Desert",
+      "productLine": "Layer",
+      "ean": "5011921027736",
+      "title": "Citadel Layer: Zamesi Desert"
+    },
+    {
+      "paintId": "a4b5c5ca-f192-4157-aacf-5bdd76be27d4",
+      "paintName": "Tuskgor Fur",
+      "productLine": "Air",
+      "ean": "5011921027750",
+      "title": "Citadel Layer: Tuskgor Fur"
+    },
+    {
+      "paintId": "86b8fa4f-2e98-4c0d-9d60-b46c8960e358",
+      "paintName": "Dawnstone",
+      "productLine": "Dry",
+      "ean": "5011921027781",
+      "title": "Dawnstone 12ml Paint"
+    },
+    {
+      "paintId": "c4dcd4f1-e28b-429a-9944-df46b6ecc2bb",
+      "paintName": "Administratum Grey",
+      "productLine": "Layer",
+      "ean": "5011921027798",
+      "title": "Citadel Layer: Administratum Grey"
+    },
+    {
+      "paintId": "e6b8dbe9-ecc4-4d02-8e36-f2520ea25e76",
+      "paintName": "Eshin Grey",
+      "productLine": "Layer",
+      "ean": "5011921027804",
+      "title": "Citadel Layer: Eshin Grey"
+    },
+    {
+      "paintId": "ad078081-6fd5-41cc-8c0a-db069f7b5cd9",
+      "paintName": "Dark Reaper",
+      "productLine": "Layer",
+      "ean": "5011921027811",
+      "title": "Dark Reaper (Citadel)"
+    },
+    {
+      "paintId": "e5bd9f4a-0071-4284-a7cf-307d2834b604",
+      "paintName": "Thunderhawk Blue",
+      "productLine": "Dry",
+      "ean": "5011921027828",
+      "title": "Citadel Layer: Thunderhawk Blue"
+    },
+    {
+      "paintId": "17888dc7-79fb-43a2-9eee-866850339500",
+      "paintName": "Brass Scorpion",
+      "productLine": "Layer",
+      "ean": "5011921027835",
+      "title": "Citadel - Paint - Layer Brass Scorpion - 22-65"
+    },
+    {
+      "paintId": "c2e4629b-c21b-4bdf-8c41-2f94d0531a26",
+      "paintName": "Sycorax Bronze",
+      "productLine": "Layer",
+      "ean": "5011921027842",
+      "title": "Citadel Layer: Sycorax Bronze"
+    },
+    {
+      "paintId": "075035ce-f535-4a81-a762-c436775a2829",
+      "paintName": "Fenrisian Grey",
+      "productLine": "Layer",
+      "ean": "5011921027873",
+      "title": "Citadel – Paint – Layer Fenrisian Grey – 22-68"
+    },
+    {
+      "paintId": "ed8a24b8-62a6-4457-84fe-2d87e946664f",
+      "paintName": "Pink Horror",
+      "productLine": "Layer",
+      "ean": "5011921027880",
+      "title": "Citadel Layer: Pink Horror"
+    },
+    {
+      "paintId": "5e18d65d-645a-47f6-a4b3-0443ca4b6bd5",
+      "paintName": "Skavenblight Dinge",
+      "productLine": "Layer",
+      "ean": "5011921027903",
+      "title": "Citadel Layer 2: Skavenblight Dinge"
+    },
+    {
+      "paintId": "b2339661-c24c-4fd9-8236-d90621ee03b4",
+      "paintName": "Stormvermin Fur",
+      "productLine": "Layer",
+      "ean": "5011921027910",
+      "title": "Citadel Layer: Stormvermin Fur"
+    },
+    {
+      "paintId": "95236af0-769f-42c6-b827-f84c586a6baf",
+      "paintName": "Ulthuan Grey",
+      "productLine": "Layer",
+      "ean": "5011921027927",
+      "title": "Citadel Layer: Ulthuan Grey"
+    },
+    {
+      "paintId": "cb0b2cb2-83c1-4f6f-b707-f07e5f837167",
+      "paintName": "White Scar",
+      "productLine": "Layer",
+      "ean": "5011921027934",
+      "title": "Citadel Layer: White Scar"
+    },
+    {
+      "paintId": "250aab63-06b8-41f3-ba56-eeb7c5b0dc59",
+      "paintName": "Pallid Wych Flesh",
+      "productLine": "Layer",
+      "ean": "5011921027941",
+      "title": "Citadel Layer: Pallid Wych Flesh"
+    },
+    {
+      "paintId": "99f52a86-2e55-47a5-8b3b-c9805d6763fb",
+      "paintName": "Ironbreaker",
+      "productLine": "Air",
+      "ean": "5011921027958",
+      "title": "Citadel Layer: Ironbreaker - Iron"
+    },
+    {
+      "paintId": "149bab58-c1da-46a9-aea6-3091cf98fd0f",
+      "paintName": "Auric Armour Gold",
+      "productLine": "Layer",
+      "ean": "5011921027989",
+      "title": "Citadel Layer: Auric Armour Gold"
+    },
+    {
+      "paintId": "af02a496-2bc2-4bc7-9be3-0d07e28f89ee",
+      "paintName": "Blood For The Blood God",
+      "productLine": "Technical",
+      "ean": "5011921028276",
+      "title": "Citadel Technical: Blood for the Blood God"
+    }
+  ]
+}

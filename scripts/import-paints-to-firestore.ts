@@ -15,8 +15,16 @@ const COLLECTION_NAME = 'paints';
 // Hex color validation regex
 const HEX_COLOR_REGEX = /^#[A-Fa-f0-9]{6}$/;
 
+// EAN-13 validation regex
+const EAN_REGEX = /^\d{13}$/;
+
 function validateHexColor(hex: string): boolean {
   return HEX_COLOR_REGEX.test(hex);
+}
+
+function validateEan(ean: string | null | undefined): boolean {
+  if (!ean) return true; // null/undefined is valid (means no EAN)
+  return EAN_REGEX.test(ean);
 }
 
 function loadPaintsDatabase(): PaintDatabase {
@@ -89,29 +97,49 @@ async function main(): Promise<void> {
     console.log(`  ${brand}: ${count}`);
   }
 
-  // Validate hex codes
-  console.log('\nValidating hex codes...');
+  // Validate hex codes and EANs
+  console.log('\nValidating paint data...');
   const validPaints: Paint[] = [];
-  const invalidPaints: Paint[] = [];
+  const invalidHexPaints: Paint[] = [];
+  const invalidEanPaints: Paint[] = [];
+  let paintsWithEan = 0;
 
   for (const paint of database.paints) {
-    if (validateHexColor(paint.hexColor)) {
-      validPaints.push(paint);
+    const hexValid = validateHexColor(paint.hexColor);
+    const eanValid = validateEan(paint.ean);
+
+    if (!hexValid) {
+      invalidHexPaints.push(paint);
+    } else if (!eanValid) {
+      invalidEanPaints.push(paint);
     } else {
-      invalidPaints.push(paint);
+      validPaints.push(paint);
+      if (paint.ean) paintsWithEan++;
     }
   }
 
   console.log(`  Valid: ${validPaints.length}`);
-  console.log(`  Invalid: ${invalidPaints.length}`);
+  console.log(`  With EAN: ${paintsWithEan}`);
+  console.log(`  Invalid hex: ${invalidHexPaints.length}`);
+  console.log(`  Invalid EAN: ${invalidEanPaints.length}`);
 
-  if (invalidPaints.length > 0) {
+  if (invalidHexPaints.length > 0) {
     console.log('\nInvalid hex codes found:');
-    for (const paint of invalidPaints.slice(0, 10)) {
+    for (const paint of invalidHexPaints.slice(0, 10)) {
       console.log(`  - ${paint.name} (${paint.brand}): "${paint.hexColor}"`);
     }
-    if (invalidPaints.length > 10) {
-      console.log(`  ... and ${invalidPaints.length - 10} more`);
+    if (invalidHexPaints.length > 10) {
+      console.log(`  ... and ${invalidHexPaints.length - 10} more`);
+    }
+  }
+
+  if (invalidEanPaints.length > 0) {
+    console.log('\nInvalid EAN codes found:');
+    for (const paint of invalidEanPaints.slice(0, 10)) {
+      console.log(`  - ${paint.name} (${paint.brand}): "${paint.ean}"`);
+    }
+    if (invalidEanPaints.length > 10) {
+      console.log(`  ... and ${invalidEanPaints.length - 10} more`);
     }
   }
 
@@ -125,10 +153,11 @@ async function main(): Promise<void> {
 
   try {
     await importPaintsToFirestore(validPaints);
-    console.log(`\nImport complete: ${validPaints.length} paints imported`);
+    console.log(`\nImport complete: ${validPaints.length} paints imported (${paintsWithEan} with EAN)`);
 
-    if (invalidPaints.length > 0) {
-      console.log(`Warning: ${invalidPaints.length} paints skipped due to invalid hex codes`);
+    const totalInvalid = invalidHexPaints.length + invalidEanPaints.length;
+    if (totalInvalid > 0) {
+      console.log(`Warning: ${totalInvalid} paints skipped due to invalid data`);
     }
   } catch (error) {
     console.error('\nImport failed:', error);

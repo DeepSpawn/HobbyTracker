@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useMemo } from 'react';
 import { Modal } from '../ui';
 import { Button } from '../ui';
 import type { Paint } from '../../types/paint';
@@ -20,7 +20,12 @@ export function PaintDetailModal({
   isPending,
   onToggleOwnership,
 }: PaintDetailModalProps) {
-  const [copied, setCopied] = useState(false);
+  const [copiedHex, setCopiedHex] = useState(false);
+  const [copiedEan, setCopiedEan] = useState(false);
+
+  // Determine what was copied for backwards compatibility
+  const copied = useMemo(() => copiedHex, [copiedHex]);
+  const setCopied = setCopiedHex;
 
   const formatBrand = (brand: string) => {
     return brand
@@ -52,6 +57,25 @@ export function PaintDetailModal({
       document.body.removeChild(textArea);
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
+    }
+  }, [paint]);
+
+  const handleCopyEan = useCallback(async () => {
+    if (!paint?.ean) return;
+    try {
+      await navigator.clipboard.writeText(paint.ean);
+      setCopiedEan(true);
+      setTimeout(() => setCopiedEan(false), 2000);
+    } catch {
+      // Fallback for browsers without clipboard API
+      const textArea = document.createElement('textarea');
+      textArea.value = paint.ean;
+      document.body.appendChild(textArea);
+      textArea.select();
+      document.execCommand('copy');
+      document.body.removeChild(textArea);
+      setCopiedEan(true);
+      setTimeout(() => setCopiedEan(false), 2000);
     }
   }, [paint]);
 
@@ -94,6 +118,32 @@ export function PaintDetailModal({
             <div className="flex justify-between py-2">
               <dt className="text-sm font-medium text-gray-500">SKU</dt>
               <dd className="text-sm text-gray-900">{paint.sku}</dd>
+            </div>
+          )}
+          {paint.ean && (
+            <div className="flex items-center justify-between py-2">
+              <dt className="text-sm font-medium text-gray-500">Barcode (EAN)</dt>
+              <dd className="flex items-center gap-2">
+                <code className="rounded bg-gray-100 px-2 py-0.5 text-sm font-mono text-gray-900">
+                  {paint.ean}
+                </code>
+                <button
+                  type="button"
+                  onClick={handleCopyEan}
+                  className="rounded p-1 text-gray-400 hover:bg-gray-100 hover:text-gray-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"
+                  aria-label="Copy EAN barcode"
+                >
+                  {copiedEan ? (
+                    <svg className="h-4 w-4 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                  ) : (
+                    <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                    </svg>
+                  )}
+                </button>
+              </dd>
             </div>
           )}
           <div className="flex items-center justify-between py-2">
