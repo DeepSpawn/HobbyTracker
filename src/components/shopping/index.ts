@@ -1,0 +1,1 @@
+export { PaintShoppingListCard } from './PaintShoppingListCard';

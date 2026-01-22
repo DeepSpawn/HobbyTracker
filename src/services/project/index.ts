@@ -19,3 +19,5 @@ export {
   type ShoppingListData,
   type ShoppingListProjectGroup,
 } from './shoppingListService';
+
+export { subscribeToPaintShoppingList } from './paintShoppingListService';
