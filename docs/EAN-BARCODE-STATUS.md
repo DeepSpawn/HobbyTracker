@@ -7,9 +7,9 @@ Last updated: 2026-01-22
 | Brand | Paints | With EAN | Coverage |
 |-------|--------|----------|----------|
 | **Vallejo** | 1,268 | 1,268 | **100%** |
+| **Army Painter** | 704 | 151 | **21.4%** |
 | **Citadel** | 452 | 97 | **21.5%** |
-| **Army Painter** | 704 | 0 | 0% |
-| **Total** | 2,424 | 1,365 | **56.3%** |
+| **Total** | 2,424 | 1,516 | **62.5%** |
 
 ## How EANs Were Obtained
 
@@ -31,10 +31,21 @@ Scripts:
 - `npm run ean:lookup:eandb` - Direct EAN lookup
 - `npm run ean:enumerate:citadel` - Range enumeration
 
-### Army Painter (0% coverage)
-Not yet attempted. Could try:
-1. EAN-DB enumeration (find the EAN prefix/range)
-2. Similar SKU-to-EAN formula if one exists
+### Army Painter (21.4% coverage)
+Army Painter EANs follow a **predictable formula** based on their SKU:
+```
+EAN = 5713799 + SKU_number + type_digit + check_digit
+```
+- **5713799** = Company prefix (Danish GS1 code 57)
+- **Type digit**: `0` for WP (Warpaints), `1` for CP (Colour Primer)
+
+Examples:
+- SKU WP1129 → EAN 5713799112902 (Shining Silver)
+- SKU CP3001 → EAN 5713799300118 (Matt Black Primer)
+
+Script: `npm run ean:generate:army-painter`
+
+**Limitation**: Only 151/704 paints have WP/CP SKUs. Newer lines (Warpaints Fanatic, Speedpaint 2.0, Air) lack SKUs in the database and require manual lookup or enumeration.
 
 ## EAN-DB API Status
 
@@ -48,6 +59,7 @@ Not yet attempted. Could try:
 | Script | Purpose |
 |--------|---------|
 | `ean:generate:vallejo` | Generate Vallejo EANs from SKUs (no API needed) |
+| `ean:generate:army-painter` | Generate Army Painter EANs from WP/CP SKUs (no API needed) |
 | `ean:lookup:eandb` | Look up specific EANs via EAN-DB API |
 | `ean:enumerate:citadel` | Enumerate Citadel EAN ranges |
 | `ean:scrape` | UPCitemdb individual search (slow, 40/day limit) |
@@ -76,16 +88,16 @@ npm run ean:enumerate:citadel -- --start=02900 --end=03100
 npm run ean:enumerate:citadel -- --start=02500 --end=02600
 ```
 
-### Option 2: Army Painter via EAN-DB
-1. Find known Army Painter EANs (search online)
-2. Identify their EAN prefix pattern
-3. Enumerate the range
+### Option 2: Army Painter - Add SKUs for Newer Lines
+The formula is known (`5713799 + SKU + type + check`) but 553 Army Painter paints lack SKUs:
+- Warpaints Fanatic (180 paints, 0 SKUs)
+- Speedpaint 2.0 (90 paints, 0 SKUs)
+- Warpaints Air (126 paints, 0 SKUs)
+
+To increase coverage: research official SKUs for these product lines and add them to paints.json.
 
 ### Option 3: Top Up EAN-DB Balance
 Purchase more API calls (~€0.005/barcode) at https://ean-db.com/
-
-### Option 4: Research Army Painter SKU→EAN Formula
-If Army Painter uses predictable EANs like Vallejo, we could generate them algorithmically.
 
 ## Code Architecture
 
@@ -99,11 +111,12 @@ src/
     └── PaintDetailModal.tsx # EAN display with copy button
 
 scripts/ean/
-├── generate-vallejo-eans.ts  # Algorithmic EAN generation
-├── lookup-ean-db.ts          # EAN-DB API client
-├── enumerate-citadel-eans.ts # Range enumeration
-├── match-ean-to-paints.ts    # Fuzzy matching algorithm
-└── merge-ean-data.ts         # Merge into paints.json
+├── generate-vallejo-eans.ts      # Algorithmic EAN generation (Vallejo)
+├── generate-army-painter-eans.ts # Algorithmic EAN generation (Army Painter)
+├── lookup-ean-db.ts              # EAN-DB API client
+├── enumerate-citadel-eans.ts     # Range enumeration
+├── match-ean-to-paints.ts        # Fuzzy matching algorithm
+└── merge-ean-data.ts             # Merge into paints.json
 ```
 
 ## Firestore Deployment
@@ -117,7 +130,8 @@ npm run import-paints
 ## Key Learnings
 
 1. **Vallejo**: SKU directly maps to EAN - no external data needed
-2. **Citadel**: No predictable formula, but EANs cluster in specific ranges
-3. **EAN-DB**: Excellent for enumeration since 404s are free
-4. **UPCitemdb**: Too rate-limited (40/day) for practical use
-5. **Amazon**: Blocks scraping with CAPTCHAs
+2. **Army Painter**: SKU directly maps to EAN (similar to Vallejo) - limited by SKU availability in database
+3. **Citadel**: No predictable formula, but EANs cluster in specific ranges
+4. **EAN-DB**: Excellent for enumeration since 404s are free
+5. **UPCitemdb**: Too rate-limited (40/day) for practical use
+6. **Amazon**: Blocks scraping with CAPTCHAs
