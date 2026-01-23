@@ -4,6 +4,27 @@ import * as crypto from 'crypto';
 import { fileURLToPath } from 'url';
 import type { Paint, PaintDatabase } from '../src/types/paint';
 
+/**
+ * Generate a deterministic UUID v5 from brand + name
+ * This ensures paint IDs stay consistent across parses
+ */
+function generateDeterministicId(brand: string, name: string): string {
+  // Use a fixed namespace UUID for paint IDs
+  const namespace = '6ba7b810-9dad-11d1-80b4-00c04fd430c8'; // URL namespace
+  const data = `paint:${brand}:${name}`;
+
+  // Create a hash and format as UUID v5
+  const hash = crypto.createHash('sha1').update(namespace + data).digest();
+
+  // Set version (5) and variant bits
+  hash[6] = (hash[6] & 0x0f) | 0x50;
+  hash[8] = (hash[8] & 0x3f) | 0x80;
+
+  // Format as UUID string
+  const hex = hash.toString('hex');
+  return `${hex.slice(0, 8)}-${hex.slice(8, 12)}-${hex.slice(12, 16)}-${hex.slice(16, 20)}-${hex.slice(20, 32)}`;
+}
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -15,6 +36,7 @@ const BRAND_MAP: Record<string, string> = {
   Citadel_Colour: 'citadel',
   Vallejo: 'vallejo',
   Army_Painter: 'army_painter',
+  Monument: 'monument_hobbies',
 };
 
 // Map product lines to paint types
@@ -63,6 +85,12 @@ const PAINT_TYPE_MAP: Record<string, Record<string, string>> = {
     "D&D Nolzur's Marvelous Pigments": 'base',
     "D&D Underdark Set": 'base',
     'Skin Tones Paint Set': 'base',
+  },
+  monument_hobbies: {
+    'Monument Pro Acrylic Paints': 'base',
+    'Monument Pro Acrylic Primer': 'primer',
+    'Monument Pro Acrylic Wash': 'wash',
+    'Monument Pro Signature Series': 'base',
   },
 };
 
@@ -154,9 +182,10 @@ function parseMarkdownTable(content: string, brand: string): Paint[] {
     // Validate RGB values
     if (isNaN(r) || isNaN(g) || isNaN(b)) continue;
 
+    const trimmedName = name.trim();
     const paint: Paint = {
-      id: crypto.randomUUID(),
-      name: name.trim(),
+      id: generateDeterministicId(brand, trimmedName),
+      name: trimmedName,
       brand,
       productLine: set.trim(),
       paintType: inferPaintType(brand, set.trim()),

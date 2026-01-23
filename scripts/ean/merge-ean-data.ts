@@ -54,12 +54,12 @@ interface MappingFile {
   mappings: EanMapping[];
 }
 
-// EAN validation
-const EAN_REGEX = /^\d{13}$/;
+// EAN/UPC validation - accepts both EAN-13 (13 digits) and UPC-A (12 digits)
+const BARCODE_REGEX = /^\d{12,13}$/;
 
 function isValidEan(ean: string | null | undefined): boolean {
   if (!ean) return false;
-  return EAN_REGEX.test(ean);
+  return BARCODE_REGEX.test(ean);
 }
 
 function loadPaintsDatabase(): PaintDatabase {
