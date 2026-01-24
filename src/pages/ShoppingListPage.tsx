@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Card } from '../components/ui';
 import { AppHeader } from '../components/layout';
@@ -6,12 +6,78 @@ import { PaintShoppingListCard } from '../components/shopping';
 import { useAuth } from '../hooks/useAuth';
 import { useShoppingList } from '../hooks/useShoppingList';
 import { usePaintShoppingList } from '../hooks/usePaintShoppingList';
+import type { ShoppingListData } from '../services/project';
+import type { PaintShoppingListData } from '../types/paintShoppingList';
 
 type TabType = 'models' | 'paints';
+
+/**
+ * Format brand name from snake_case to Title Case
+ */
+function formatBrand(brand: string): string {
+  return brand
+    .split('_')
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+}
+
+/**
+ * Format the shopping list data as plain text for sharing
+ */
+function formatShoppingListText(
+  modelsData: ShoppingListData | null,
+  paintsData: PaintShoppingListData | null
+): string {
+  const lines: string[] = [];
+
+  lines.push('SHOPPING LIST');
+  lines.push('');
+
+  // Models section
+  const totalModels = modelsData?.totals.totalUnits ?? 0;
+  lines.push(`MODELS NEEDED (${totalModels})`);
+  lines.push('────────────────────');
+
+  if (modelsData && modelsData.projectGroups.length > 0) {
+    for (const group of modelsData.projectGroups) {
+      lines.push('');
+      lines.push(`${group.project.name}:`);
+      for (const unit of group.units) {
+        const pointsStr = unit.pointsCost > 0 ? ` - ${unit.pointsCost} pts` : '';
+        lines.push(`  • ${unit.name} (x${unit.quantity})${pointsStr}`);
+      }
+    }
+  } else {
+    lines.push('');
+    lines.push('  No models to buy');
+  }
+
+  lines.push('');
+  lines.push('');
+
+  // Paints section
+  const totalPaints = paintsData?.totals.totalPaints ?? 0;
+  lines.push(`PAINTS NEEDED (${totalPaints})`);
+  lines.push('────────────────────');
+
+  if (paintsData && paintsData.items.length > 0) {
+    lines.push('');
+    for (const item of paintsData.items) {
+      const brand = formatBrand(item.paint.brand);
+      lines.push(`  • ${item.paint.name} (${brand} - ${item.paint.productLine})`);
+    }
+  } else {
+    lines.push('');
+    lines.push('  No paints to buy');
+  }
+
+  return lines.join('\n');
+}
 
 export function ShoppingListPage() {
   const { user } = useAuth();
   const [activeTab, setActiveTab] = useState<TabType>('models');
+  const [isCopied, setIsCopied] = useState(false);
 
   // Models shopping list
   const {
@@ -40,8 +106,22 @@ export function ShoppingListPage() {
     }
   };
 
+  const handleCopyToClipboard = useCallback(async () => {
+    const text = formatShoppingListText(modelsData, paintsData);
+    try {
+      await navigator.clipboard.writeText(text);
+      setIsCopied(true);
+      setTimeout(() => setIsCopied(false), 2000);
+    } catch (err) {
+      console.error('Failed to copy to clipboard:', err);
+    }
+  }, [modelsData, paintsData]);
+
   const isLoading = activeTab === 'models' ? modelsLoading : paintsLoading;
   const error = activeTab === 'models' ? modelsError : paintsError;
+  const hasItems =
+    (modelsData?.totals.totalUnits ?? 0) > 0 ||
+    (paintsData?.totals.totalPaints ?? 0) > 0;
 
   // Loading state
   if (isLoading) {
@@ -49,7 +129,13 @@ export function ShoppingListPage() {
       <div className="min-h-screen bg-gray-50">
         <AppHeader user={user} />
         <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-          <PageHeader activeTab={activeTab} setActiveTab={setActiveTab} />
+          <PageHeader
+            activeTab={activeTab}
+            setActiveTab={setActiveTab}
+            onCopy={handleCopyToClipboard}
+            isCopied={isCopied}
+            showCopyButton={false}
+          />
           <div className="py-12 text-center">
             <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-gray-200 border-t-blue-500" />
             <p className="mt-2 text-gray-500">Loading shopping list...</p>
@@ -65,7 +151,13 @@ export function ShoppingListPage() {
       <div className="min-h-screen bg-gray-50">
         <AppHeader user={user} />
         <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-          <PageHeader activeTab={activeTab} setActiveTab={setActiveTab} />
+          <PageHeader
+            activeTab={activeTab}
+            setActiveTab={setActiveTab}
+            onCopy={handleCopyToClipboard}
+            isCopied={isCopied}
+            showCopyButton={false}
+          />
           <Card variant="outlined" className="border-error/20 bg-error/10">
             <Card.Body>
               <p className="text-error">
@@ -83,7 +175,13 @@ export function ShoppingListPage() {
       <AppHeader user={user} />
 
       <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        <PageHeader activeTab={activeTab} setActiveTab={setActiveTab} />
+        <PageHeader
+          activeTab={activeTab}
+          setActiveTab={setActiveTab}
+          onCopy={handleCopyToClipboard}
+          isCopied={isCopied}
+          showCopyButton={hasItems}
+        />
 
         {activeTab === 'models' ? (
           <ModelsTabContent
@@ -103,20 +201,76 @@ export function ShoppingListPage() {
   );
 }
 
-// Page header with tabs
+// Page header with tabs and copy button
 function PageHeader({
   activeTab,
   setActiveTab,
+  onCopy,
+  isCopied,
+  showCopyButton,
 }: {
   activeTab: TabType;
   setActiveTab: (tab: TabType) => void;
+  onCopy: () => void;
+  isCopied: boolean;
+  showCopyButton: boolean;
 }) {
   return (
     <div className="mb-6">
-      <h2 className="text-2xl font-bold text-gray-900">Shopping List</h2>
-      <p className="mt-1 text-sm text-gray-500">
-        Track what you need to buy for your projects
-      </p>
+      <div className="flex items-center justify-between">
+        <div>
+          <h2 className="text-2xl font-bold text-gray-900">Shopping List</h2>
+          <p className="mt-1 text-sm text-gray-500">
+            Track what you need to buy for your projects
+          </p>
+        </div>
+        {showCopyButton && (
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={onCopy}
+            className="flex items-center gap-2"
+          >
+            {isCopied ? (
+              <>
+                <svg
+                  className="h-4 w-4 text-green-600"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <span className="text-green-600">Copied!</span>
+              </>
+            ) : (
+              <>
+                <svg
+                  className="h-4 w-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
+                  />
+                </svg>
+                Copy to Clipboard
+              </>
+            )}
+          </Button>
+        )}
+      </div>
 
       {/* Tab navigation */}
       <div className="mt-4 flex gap-2 border-b border-gray-200">
@@ -287,4 +441,3 @@ function PaintsTabContent({
     </>
   );
 }
-
