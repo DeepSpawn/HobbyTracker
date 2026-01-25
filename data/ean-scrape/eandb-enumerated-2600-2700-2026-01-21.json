@@ -1,0 +1,536 @@
+{
+  "source": "ean-db-enumeration",
+  "range": {
+    "start": 2600,
+    "end": 2700
+  },
+  "queriedAt": "2026-01-21T20:36:21.782Z",
+  "stats": {
+    "checked": 100,
+    "found": 49,
+    "paints": 41,
+    "matched": 39
+  },
+  "foundProducts": [
+    {
+      "ean": "5011921026180",
+      "title": "Warhammer Games Workshop Citadel Base paint - Averland Sunset -15 ml - 21-01",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026197",
+      "title": "Games Workshop Citadel Base: Jokaero Orange",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026203",
+      "title": "Base - Mephiston red - 12ml",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026210",
+      "title": "Citadel Base: Khorne Red",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026227",
+      "title": "Citadel Base: Naggaroth Night",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026333",
+      "title": "Citadel Base: Daemonette Hide",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026340",
+      "title": "Citadel Base: Kantor Blue",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026357",
+      "title": "Warhammer Games Workshop Citadel Base paint - Macragge Blue",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026364",
+      "title": "Citadel Base: Caledor Sky",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026371",
+      "title": "Citadel Base: Stegadon Scale Green",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026388",
+      "title": "Citadel Base: Incubi Darkness",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026395",
+      "title": "Citadel Base: Caliban Green",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026401",
+      "title": "Warhammer Games Workshop Citadel Base paint - Waaagh! Flesh",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026418",
+      "title": "Castellan Green",
+      "isPaint": false
+    },
+    {
+      "ean": "5011921026425",
+      "title": "Citadel Base: Death World Forest",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026432",
+      "title": "Citadel - Paint - Base Zandri Dust - 21-16",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026449",
+      "title": "Citadel Base: Steel Legion Drab",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026456",
+      "title": "Citadel Base: Bugman's Glow",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026463",
+      "title": "Citadel Base: Ratskin Flesh",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026470",
+      "title": "Warhammer Games Workshop Citadel Base paint - Mournfang Brown",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026487",
+      "title": "Citadel Base: XV-88",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026494",
+      "title": "Games Workshop Rhinox Hide",
+      "isPaint": false
+    },
+    {
+      "ean": "5011921026500",
+      "title": "Citadel Base: Dryad Bark",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026517",
+      "title": "itadel Base: Mechanicus Standard Grey",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026524",
+      "title": "Base - Abaddon black - 12ml",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026531",
+      "title": "Celestra Grey",
+      "isPaint": false
+    },
+    {
+      "ean": "5011921026548",
+      "title": "Rakarth Flesh",
+      "isPaint": false
+    },
+    {
+      "ean": "5011921026555",
+      "title": "Games Workshop Citadel - Paint - Base Leadbelcher 21-28",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026579",
+      "title": "Citadel Base: Screaming Bell",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026586",
+      "title": "Warplock Bronze",
+      "isPaint": false
+    },
+    {
+      "ean": "5011921026593",
+      "title": "Games Workshop Citadel Base: The Fang",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026609",
+      "title": "Screamer Pink",
+      "isPaint": false
+    },
+    {
+      "ean": "5011921026630",
+      "title": "Citadel Layer: Yriel Yellow",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026647",
+      "title": "Citadel Layer 1: Flash Gitz Yellow",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026661",
+      "title": "Fire Dragon Bright",
+      "isPaint": false
+    },
+    {
+      "ean": "5011921026678",
+      "title": "Citadel Layer: Evil Sunz Scarlet",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026685",
+      "title": "Citadel Layer: Wild Rider Red",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026708",
+      "title": "Squig Orange",
+      "isPaint": false
+    },
+    {
+      "ean": "5011921026722",
+      "title": "Xereus Purple (Citadel)",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026739",
+      "title": "Citadel Layer: Genestealer Purple",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026746",
+      "title": "Warpfiend Grey (Citadel)",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026753",
+      "title": "Slaanesh Grey (Citadel)",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026821",
+      "title": "Games Workshop Glaze Lamenters Yellow acrylic paint",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026838",
+      "title": "Games Workshop Glaze Bloodletter acrylic paint",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026845",
+      "title": "Games Workshop Glaze Guilliman Blue acrylic paint",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026852",
+      "title": "Games Workshop Glaze Waywatcher Green acrylic paint",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026869",
+      "title": "Citadel Layer: Alaitoc Blue",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026913",
+      "title": "Games Workshop Citadel Shade Drakenhof Nightshade",
+      "isPaint": true
+    },
+    {
+      "ean": "5011921026944",
+      "title": "Citadel Paint, Shade: Athonian Camoshade",
+      "isPaint": true
+    }
+  ],
+  "matches": [
+    {
+      "paintId": "9efd8900-0acc-4554-b302-61ccfec599ef",
+      "paintName": "Averland Sunset",
+      "productLine": "Air",
+      "ean": "5011921026180",
+      "title": "Warhammer Games Workshop Citadel Base paint - Averland Sunset -15 ml - 21-01"
+    },
+    {
+      "paintId": "ba60e828-6b3b-46c3-8d2c-85455b4f0e25",
+      "paintName": "Jokaero Orange",
+      "productLine": "Base",
+      "ean": "5011921026197",
+      "title": "Games Workshop Citadel Base: Jokaero Orange"
+    },
+    {
+      "paintId": "e5a7f473-553e-4b26-8a59-780fe91f26f5",
+      "paintName": "Mephiston Red",
+      "productLine": "Air",
+      "ean": "5011921026203",
+      "title": "Base - Mephiston red - 12ml"
+    },
+    {
+      "paintId": "8717869f-349d-45e0-8fac-82dbc6b2530c",
+      "paintName": "Khorne Red",
+      "productLine": "Base",
+      "ean": "5011921026210",
+      "title": "Citadel Base: Khorne Red"
+    },
+    {
+      "paintId": "b9fbeae5-b5d5-4762-b434-a294c70fe22d",
+      "paintName": "Naggaroth Night",
+      "productLine": "Base",
+      "ean": "5011921026227",
+      "title": "Citadel Base: Naggaroth Night"
+    },
+    {
+      "paintId": "fb369330-5ca5-4945-8f2f-a76aef47aa0c",
+      "paintName": "Daemonette Hide",
+      "productLine": "Base",
+      "ean": "5011921026333",
+      "title": "Citadel Base: Daemonette Hide"
+    },
+    {
+      "paintId": "e6ddb222-7d5c-4a06-aae0-d969ae7b6094",
+      "paintName": "Kantor Blue",
+      "productLine": "Air",
+      "ean": "5011921026340",
+      "title": "Citadel Base: Kantor Blue"
+    },
+    {
+      "paintId": "f519edef-379b-4cb4-8b2c-6a1871981354",
+      "paintName": "Macragge Blue",
+      "productLine": "Spray",
+      "ean": "5011921026357",
+      "title": "Warhammer Games Workshop Citadel Base paint - Macragge Blue"
+    },
+    {
+      "paintId": "abaa0457-4a81-4d3e-b948-b363a6ae57bd",
+      "paintName": "Caledor Sky",
+      "productLine": "Air",
+      "ean": "5011921026364",
+      "title": "Citadel Base: Caledor Sky"
+    },
+    {
+      "paintId": "fee0f04e-2d0e-4766-badc-e6436a48302c",
+      "paintName": "Stegadon Scale Green",
+      "productLine": "Base",
+      "ean": "5011921026371",
+      "title": "Citadel Base: Stegadon Scale Green"
+    },
+    {
+      "paintId": "68639520-7352-49ac-b9e0-6883c8068195",
+      "paintName": "Incubi Darkness",
+      "productLine": "Base",
+      "ean": "5011921026388",
+      "title": "Citadel Base: Incubi Darkness"
+    },
+    {
+      "paintId": "89229052-0ef2-4563-8ca0-44ff99af0d9b",
+      "paintName": "Caliban Green",
+      "productLine": "Base",
+      "ean": "5011921026395",
+      "title": "Citadel Base: Caliban Green"
+    },
+    {
+      "paintId": "a65acbe4-f15f-4659-b1db-b5aa62780ae8",
+      "paintName": "Waaagh! Flesh",
+      "productLine": "Base",
+      "ean": "5011921026401",
+      "title": "Warhammer Games Workshop Citadel Base paint - Waaagh! Flesh"
+    },
+    {
+      "paintId": "8991e6a4-d8c8-4ce1-92b2-81114f5e5223",
+      "paintName": "Zandri Dust",
+      "productLine": "Spray",
+      "ean": "5011921026432",
+      "title": "Citadel - Paint - Base Zandri Dust - 21-16"
+    },
+    {
+      "paintId": "feb11dcb-5c7c-474b-84a1-eca6ef95eabf",
+      "paintName": "Steel Legion Drab",
+      "productLine": "Base",
+      "ean": "5011921026449",
+      "title": "Citadel Base: Steel Legion Drab"
+    },
+    {
+      "paintId": "1fecc4ec-ead2-45b4-a668-d3ba3e8b44e2",
+      "paintName": "Ratskin Flesh",
+      "productLine": "Base",
+      "ean": "5011921026463",
+      "title": "Citadel Base: Ratskin Flesh"
+    },
+    {
+      "paintId": "711d159a-5eed-4c39-bd1d-260b47f47541",
+      "paintName": "Mournfang Brown",
+      "productLine": "Base",
+      "ean": "5011921026470",
+      "title": "Warhammer Games Workshop Citadel Base paint - Mournfang Brown"
+    },
+    {
+      "paintId": "02661834-0c6d-4b7f-aed1-d75e6d5fefc5",
+      "paintName": "XV-88",
+      "productLine": "Air",
+      "ean": "5011921026487",
+      "title": "Citadel Base: XV-88"
+    },
+    {
+      "paintId": "069cfe9a-5580-43a2-8b87-b846dc9a8121",
+      "paintName": "Dryad Bark",
+      "productLine": "Base",
+      "ean": "5011921026500",
+      "title": "Citadel Base: Dryad Bark"
+    },
+    {
+      "paintId": "70a9829f-c95d-4060-ae21-83793a137cef",
+      "paintName": "Mechanicus Standard Grey",
+      "productLine": "Spray",
+      "ean": "5011921026517",
+      "title": "itadel Base: Mechanicus Standard Grey"
+    },
+    {
+      "paintId": "b8679628-2860-49da-96ec-83a13c56229f",
+      "paintName": "Abaddon Black",
+      "productLine": "Air",
+      "ean": "5011921026524",
+      "title": "Base - Abaddon black - 12ml"
+    },
+    {
+      "paintId": "67de00b1-2dff-4ceb-86e4-6a06a523c368",
+      "paintName": "Leadbelcher",
+      "productLine": "Spray",
+      "ean": "5011921026555",
+      "title": "Games Workshop Citadel - Paint - Base Leadbelcher 21-28"
+    },
+    {
+      "paintId": "24db3150-938e-4d7f-8c11-ab27e6aab6ac",
+      "paintName": "Screaming Bell",
+      "productLine": "Base",
+      "ean": "5011921026579",
+      "title": "Citadel Base: Screaming Bell"
+    },
+    {
+      "paintId": "5b9a855f-35f6-41e7-b554-6140786fa9ea",
+      "paintName": "The Fang",
+      "productLine": "Air",
+      "ean": "5011921026593",
+      "title": "Games Workshop Citadel Base: The Fang"
+    },
+    {
+      "paintId": "ae01cb4d-177b-448d-9c42-161f8facc660",
+      "paintName": "Yriel Yellow",
+      "productLine": "Layer",
+      "ean": "5011921026630",
+      "title": "Citadel Layer: Yriel Yellow"
+    },
+    {
+      "paintId": "cd55523e-f913-4793-ac94-7e52021a058a",
+      "paintName": "Flash Gitz Yellow",
+      "productLine": "Air",
+      "ean": "5011921026647",
+      "title": "Citadel Layer 1: Flash Gitz Yellow"
+    },
+    {
+      "paintId": "b8a7e43a-83b1-40e7-80be-f5ff302e7257",
+      "paintName": "Evil Sunz Scarlet",
+      "productLine": "Layer",
+      "ean": "5011921026678",
+      "title": "Citadel Layer: Evil Sunz Scarlet"
+    },
+    {
+      "paintId": "d30827fb-db25-4a23-bccf-ab132686703e",
+      "paintName": "Wild Rider Red",
+      "productLine": "Layer",
+      "ean": "5011921026685",
+      "title": "Citadel Layer: Wild Rider Red"
+    },
+    {
+      "paintId": "3b3ba61a-b18f-4c37-8855-60474e1636ab",
+      "paintName": "Xereus Purple",
+      "productLine": "Layer",
+      "ean": "5011921026722",
+      "title": "Xereus Purple (Citadel)"
+    },
+    {
+      "paintId": "ce8e69dc-d411-4f59-8361-4ea2943767b8",
+      "paintName": "Genestealer Purple",
+      "productLine": "Air",
+      "ean": "5011921026739",
+      "title": "Citadel Layer: Genestealer Purple"
+    },
+    {
+      "paintId": "7379bd56-988b-46f2-961b-cfa609635ffe",
+      "paintName": "Warpfiend Grey",
+      "productLine": "Layer",
+      "ean": "5011921026746",
+      "title": "Warpfiend Grey (Citadel)"
+    },
+    {
+      "paintId": "aa05fe99-b8b4-473e-b9a6-be65ed1c3e50",
+      "paintName": "Slaanesh Grey",
+      "productLine": "Layer",
+      "ean": "5011921026753",
+      "title": "Slaanesh Grey (Citadel)"
+    },
+    {
+      "paintId": "c06d95a3-cef1-4795-a041-43acac3247b3",
+      "paintName": "Lamenters Yellow",
+      "productLine": "Glaze",
+      "ean": "5011921026821",
+      "title": "Games Workshop Glaze Lamenters Yellow acrylic paint"
+    },
+    {
+      "paintId": "7709d712-eca3-40ca-9795-f2cb6be9cd31",
+      "paintName": "Bloodletter",
+      "productLine": "Glaze",
+      "ean": "5011921026838",
+      "title": "Games Workshop Glaze Bloodletter acrylic paint"
+    },
+    {
+      "paintId": "9fc99862-622f-47a8-a266-77c7fb21387e",
+      "paintName": "Guilliman Blue",
+      "productLine": "Glaze",
+      "ean": "5011921026845",
+      "title": "Games Workshop Glaze Guilliman Blue acrylic paint"
+    },
+    {
+      "paintId": "ec8b9888-4288-49e6-a408-5de21ddf5e72",
+      "paintName": "Waywatcher Green",
+      "productLine": "Glaze",
+      "ean": "5011921026852",
+      "title": "Games Workshop Glaze Waywatcher Green acrylic paint"
+    },
+    {
+      "paintId": "3b0cf3d2-3d1a-4515-aa6a-e1ac16d106b7",
+      "paintName": "Alaitoc Blue",
+      "productLine": "Layer",
+      "ean": "5011921026869",
+      "title": "Citadel Layer: Alaitoc Blue"
+    },
+    {
+      "paintId": "b64784eb-da7d-40d0-b26b-fdf23f99de24",
+      "paintName": "Drakenhof Nightshade",
+      "productLine": "Shade",
+      "ean": "5011921026913",
+      "title": "Games Workshop Citadel Shade Drakenhof Nightshade"
+    },
+    {
+      "paintId": "04e3e71b-4bc7-4d47-a968-5711a3affa2c",
+      "paintName": "Athonian Camoshade",
+      "productLine": "Shade",
+      "ean": "5011921026944",
+      "title": "Citadel Paint, Shade: Athonian Camoshade"
+    }
+  ]
+}

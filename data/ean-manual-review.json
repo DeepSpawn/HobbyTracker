@@ -1,0 +1,20 @@
+[
+  {
+    "paintId": "b8679628-2860-49da-96ec-83a13c56229f",
+    "paintName": "Abaddon Black",
+    "brand": "citadel",
+    "productLine": "Air",
+    "candidates": [
+      {
+        "ean": "5011921115440",
+        "title": "5011921115440",
+        "score": 0.4
+      },
+      {
+        "ean": "5011921058983",
+        "title": "5011921058983",
+        "score": 0.4
+      }
+    ]
+  }
+]

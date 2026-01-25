@@ -13,7 +13,22 @@
     "test": "vitest",
     "test:run": "vitest run",
     "parse-paints": "tsx scripts/parse-paints.ts",
-    "import-paints": "tsx scripts/import-paints-to-firestore.ts"
+    "import-paints": "tsx scripts/import-paints-to-firestore.ts",
+    "ean:scrape": "tsx scripts/ean/scrape-upcitemdb.ts",
+    "ean:scrape:amazon": "tsx scripts/ean/scrape-amazon.ts",
+    "ean:scrape:bulk": "tsx scripts/ean/scrape-upcitemdb-bulk.ts",
+    "ean:enrich": "tsx scripts/ean/enrich-bulk-ean.ts",
+    "ean:generate:vallejo": "tsx scripts/ean/generate-vallejo-eans.ts",
+    "ean:generate:army-painter": "tsx scripts/ean/generate-army-painter-eans.ts",
+    "ean:scrape:army-painter": "tsx scripts/ean/scrape-army-painter-skus.ts",
+    "ean:fetch:army-painter": "tsx scripts/ean/fetch-army-painter-products.ts",
+    "ean:match:army-painter": "tsx scripts/ean/match-army-painter-skus.ts",
+    "ean:generate:monument-hobbies": "tsx scripts/ean/generate-monument-hobbies-upcs.ts",
+    "ean:lookup:eandb": "tsx scripts/ean/lookup-ean-db.ts",
+    "ean:enumerate:citadel": "tsx scripts/ean/enumerate-citadel-eans.ts",
+    "ean:rematch:citadel": "tsx scripts/ean/rematch-citadel-eans.ts",
+    "ean:match": "tsx scripts/ean/match-ean-to-paints.ts",
+    "ean:merge": "tsx scripts/ean/merge-ean-data.ts"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",

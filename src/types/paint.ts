@@ -11,6 +11,7 @@ export interface Paint {
     g: number;
     b: number;
   };
+  ean?: string | null; // EAN-13 barcode (13 digits), null = not found, undefined = not yet looked up
 }
 
 export interface PaintDatabase {

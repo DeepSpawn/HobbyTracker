@@ -1,0 +1,686 @@
+{
+  "brand": "monument_hobbies",
+  "source": "sku-generated",
+  "formula": "UPC = 62850441 + 1 + [2-digit code] + check",
+  "startedAt": "2026-01-23T21:54:41.915Z",
+  "lastUpdatedAt": "2026-01-23T21:54:41.915Z",
+  "completedCount": 75,
+  "totalCount": 131,
+  "results": [
+    {
+      "paintId": "e9e0a14b-1c7b-5305-9de9-416015f09dcc",
+      "paintName": "Black Brown",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "040",
+      "upc": "628504411407",
+      "status": "generated"
+    },
+    {
+      "paintId": "e7e73f12-0701-50f2-9244-51e33b49d552",
+      "paintName": "Black Green",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "057",
+      "upc": "628504411575",
+      "status": "generated"
+    },
+    {
+      "paintId": "15c1db43-d97f-525c-a6c5-7067485173bb",
+      "paintName": "Blue",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "005",
+      "upc": "628504411056",
+      "status": "generated"
+    },
+    {
+      "paintId": "8d6db3d6-507f-5cd2-b3be-ff4900c85b6b",
+      "paintName": "Blue Black",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "056",
+      "upc": "628504411568",
+      "status": "generated"
+    },
+    {
+      "paintId": "455bb00f-bdd6-5a4f-948e-f4dd43e17a12",
+      "paintName": "Bold Pyrrole Red",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "003",
+      "upc": "628504411032",
+      "status": "generated"
+    },
+    {
+      "paintId": "d54d5d09-5961-58d7-94d4-1a280e48f416",
+      "paintName": "Bold Titanium White",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "001",
+      "upc": "628504411018",
+      "status": "generated"
+    },
+    {
+      "paintId": "97776e99-48b5-5d67-86ee-2fb37d37faaa",
+      "paintName": "Bright Gold",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "031",
+      "upc": "628504411315",
+      "status": "generated"
+    },
+    {
+      "paintId": "7f8df578-6ee2-505a-b882-0f41089d3a50",
+      "paintName": "Bright Ivory",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "022",
+      "upc": "628504411223",
+      "status": "generated"
+    },
+    {
+      "paintId": "7216d1f8-451b-5109-9aee-3e75f2603472",
+      "paintName": "Bright Jade",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "067",
+      "upc": "628504411674",
+      "status": "generated"
+    },
+    {
+      "paintId": "42aa0630-1f20-5715-8199-2edc2624bf69",
+      "paintName": "Bright Neutral Grey",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "045",
+      "upc": "628504411452",
+      "status": "generated"
+    },
+    {
+      "paintId": "97525eac-8c87-5166-8d0e-5d859013bdce",
+      "paintName": "Bright Pale Green",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "058",
+      "upc": "628504411582",
+      "status": "generated"
+    },
+    {
+      "paintId": "da4afc5e-6de5-523e-9d2a-7be82f070a6e",
+      "paintName": "Bright Warm Grey",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "015",
+      "upc": "628504411155",
+      "status": "generated"
+    },
+    {
+      "paintId": "b378aace-5af4-5734-ab25-c457bb4b7897",
+      "paintName": "Bright Yellow Green",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "039",
+      "upc": "628504411391",
+      "status": "generated"
+    },
+    {
+      "paintId": "5634466c-b216-5380-a5a7-0fc5f4a74fe6",
+      "paintName": "Bronze",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "032",
+      "upc": "628504411322",
+      "status": "generated"
+    },
+    {
+      "paintId": "df7add19-21d6-5bb1-8040-4bbf41d4fc82",
+      "paintName": "Burgundy",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "069",
+      "upc": "628504411698",
+      "status": "generated"
+    },
+    {
+      "paintId": "d6a41dfd-e8a8-5c14-a645-58cffb8e7046",
+      "paintName": "Burnt Orange",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "037",
+      "upc": "628504411377",
+      "status": "generated"
+    },
+    {
+      "paintId": "4b7c323f-69ba-5cb2-b0e8-08dd0d2db0b3",
+      "paintName": "Burnt Red",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "008",
+      "upc": "628504411087",
+      "status": "generated"
+    },
+    {
+      "paintId": "5006c061-a955-5aec-b6e0-9482c0d4b193",
+      "paintName": "Burnt Sienna",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "059",
+      "upc": "628504411599",
+      "status": "generated"
+    },
+    {
+      "paintId": "c7ceec97-44e8-5d2f-a1a4-61fadb7a7c8c",
+      "paintName": "Camo Green",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "020",
+      "upc": "628504411209",
+      "status": "generated"
+    },
+    {
+      "paintId": "873413cb-0323-5923-97f8-7e3815df3669",
+      "paintName": "Coal Black",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "002",
+      "upc": "628504411025",
+      "status": "generated"
+    },
+    {
+      "paintId": "09186cc8-559d-5896-b878-5268ead22f63",
+      "paintName": "Copper",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "027",
+      "upc": "628504411278",
+      "status": "generated"
+    },
+    {
+      "paintId": "5d1f9cc3-5e5c-5ebc-a89f-dfd6888d6a5f",
+      "paintName": "Dark Blue",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "034",
+      "upc": "628504411346",
+      "status": "generated"
+    },
+    {
+      "paintId": "d4edae9a-88b0-54f4-8ad3-d4496886c7f1",
+      "paintName": "Dark Camo Green",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "036",
+      "upc": "628504411360",
+      "status": "generated"
+    },
+    {
+      "paintId": "57787d05-24ec-5774-a181-ab5a70923666",
+      "paintName": "Dark Flesh",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "068",
+      "upc": "628504411681",
+      "status": "generated"
+    },
+    {
+      "paintId": "764d6af2-579e-52ec-885f-ec03efb3f64f",
+      "paintName": "Dark Golden Brown",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "062",
+      "upc": "628504411629",
+      "status": "generated"
+    },
+    {
+      "paintId": "a5208d77-7d64-5b74-8983-ee6f7854e3be",
+      "paintName": "Dark Grey Blue",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "014",
+      "upc": "628504411148",
+      "status": "generated"
+    },
+    {
+      "paintId": "c790d23c-6d77-56d6-9613-a4b1c7c03f02",
+      "paintName": "Dark Neutral Grey",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "044",
+      "upc": "628504411445",
+      "status": "generated"
+    },
+    {
+      "paintId": "d2592d84-3d7a-5f9d-9a5c-d0152a709638",
+      "paintName": "Dark Purple",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "035",
+      "upc": "628504411353",
+      "status": "generated"
+    },
+    {
+      "paintId": "e4846254-38dc-5e6a-886b-9d9195f11e80",
+      "paintName": "Dark Silver",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "030",
+      "upc": "628504411308",
+      "status": "generated"
+    },
+    {
+      "paintId": "4ed5d0e4-c9a4-5ea7-aac4-f7069a9205bd",
+      "paintName": "Dark Umber",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "019",
+      "upc": "628504411193",
+      "status": "generated"
+    },
+    {
+      "paintId": "7b6a8066-88fe-5df0-a61e-48f2371960ca",
+      "paintName": "Dark Warm Grey",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "016",
+      "upc": "628504411162",
+      "status": "generated"
+    },
+    {
+      "paintId": "7b08ac43-861b-5f71-b9bb-48f6f7cc682b",
+      "paintName": "Faded Green",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "066",
+      "upc": "628504411667",
+      "status": "generated"
+    },
+    {
+      "paintId": "7a42bb00-1fe8-5d75-9834-e845678a6f5f",
+      "paintName": "Faded Plum",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "063",
+      "upc": "628504411636",
+      "status": "generated"
+    },
+    {
+      "paintId": "f58051d1-b86b-5a84-9590-ff6487d8898a",
+      "paintName": "Faded Ultramarine",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "013",
+      "upc": "628504411131",
+      "status": "generated"
+    },
+    {
+      "paintId": "033727f1-bd65-58b1-aed9-f9ba45a274e5",
+      "paintName": "Golden Brown",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "017",
+      "upc": "628504411179",
+      "status": "generated"
+    },
+    {
+      "paintId": "87f8dcec-b182-557a-911a-3364787f4411",
+      "paintName": "Golden Yellow",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "006",
+      "upc": "628504411063",
+      "status": "generated"
+    },
+    {
+      "paintId": "0ac69dff-fbaf-5d70-bdcb-58446c9449ee",
+      "paintName": "Green",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "004",
+      "upc": "628504411049",
+      "status": "generated"
+    },
+    {
+      "paintId": "0cb37d0b-3f40-5403-96c5-2c62e53c1772",
+      "paintName": "Grey Blue",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "055",
+      "upc": "628504411551",
+      "status": "generated"
+    },
+    {
+      "paintId": "feaa979d-eb2a-59c0-b64b-1d3725ddba36",
+      "paintName": "Ivory",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "023",
+      "upc": "628504411230",
+      "status": "generated"
+    },
+    {
+      "paintId": "9c664bac-c7dd-5d46-bc7a-4e74958b1bcf",
+      "paintName": "Jade",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "021",
+      "upc": "628504411216",
+      "status": "generated"
+    },
+    {
+      "paintId": "0d67e768-8ffc-5ed1-bf44-97f84b8a7204",
+      "paintName": "Khaki",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "061",
+      "upc": "628504411612",
+      "status": "generated"
+    },
+    {
+      "paintId": "3918b6d4-ae98-53e9-801f-029410f22fd6",
+      "paintName": "Light Bronze",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "026",
+      "upc": "628504411261",
+      "status": "generated"
+    },
+    {
+      "paintId": "97efd33c-9a61-5a7c-95d1-ee39f22f09e9",
+      "paintName": "Light Umber",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "018",
+      "upc": "628504411186",
+      "status": "generated"
+    },
+    {
+      "paintId": "0e0cb8e6-2358-5120-b5d9-cb9a9ea005d1",
+      "paintName": "Magenta",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "011",
+      "upc": "628504411117",
+      "status": "generated"
+    },
+    {
+      "paintId": "0ccfb0b1-04f5-50c8-958c-7179cf9f68e8",
+      "paintName": "Mahogany",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "009",
+      "upc": "628504411094",
+      "status": "generated"
+    },
+    {
+      "paintId": "fd6103d1-b3a1-578b-8026-903748b6b2c0",
+      "paintName": "Metallic Medium",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "033",
+      "upc": "628504411339",
+      "status": "generated"
+    },
+    {
+      "paintId": "21930a93-9e95-5b94-86eb-b62960351db5",
+      "paintName": "Neutral Grey",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "075",
+      "upc": "628504411759",
+      "status": "generated"
+    },
+    {
+      "paintId": "79d726a1-3668-5a7f-9b9d-4f5ec031fa02",
+      "paintName": "Olive Flesh",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "041",
+      "upc": "628504411414",
+      "status": "generated"
+    },
+    {
+      "paintId": "27abe466-50d1-5fdd-9d75-54906b3d5a90",
+      "paintName": "Orange",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "007",
+      "upc": "628504411070",
+      "status": "generated"
+    },
+    {
+      "paintId": "d920250b-b999-5d16-af1e-d8d2a8c19f8c",
+      "paintName": "Pale Pink",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "043",
+      "upc": "628504411438",
+      "status": "generated"
+    },
+    {
+      "paintId": "420d8beb-b9de-51fc-b09e-aa545d281cd8",
+      "paintName": "Pale Yellow",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "060",
+      "upc": "628504411605",
+      "status": "generated"
+    },
+    {
+      "paintId": "cba06ba0-050d-519b-8676-0dee2d73cf0d",
+      "paintName": "Pink",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "071",
+      "upc": "628504411711",
+      "status": "generated"
+    },
+    {
+      "paintId": "2c231395-6100-5827-9438-0d33f93e61a1",
+      "paintName": "Plum",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "070",
+      "upc": "628504411704",
+      "status": "generated"
+    },
+    {
+      "paintId": "c5adb343-43c7-5bab-9977-01b8280b451a",
+      "paintName": "Purple",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "010",
+      "upc": "628504411100",
+      "status": "generated"
+    },
+    {
+      "paintId": "0290c528-5691-57d3-8ed4-24f07d436092",
+      "paintName": "Rich Gold",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "028",
+      "upc": "628504411285",
+      "status": "generated"
+    },
+    {
+      "paintId": "45810dd1-8953-5905-8205-76a486f53055",
+      "paintName": "Shadow Flesh",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "042",
+      "upc": "628504411421",
+      "status": "generated"
+    },
+    {
+      "paintId": "6bcee1cb-9be6-5431-8744-4d497d1e0c9f",
+      "paintName": "Silver",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "025",
+      "upc": "628504411254",
+      "status": "generated"
+    },
+    {
+      "paintId": "e9d43238-0fae-5b8f-889b-febc00773f15",
+      "paintName": "Sky Blue",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "012",
+      "upc": "628504411124",
+      "status": "generated"
+    },
+    {
+      "paintId": "1787a141-0ad4-5373-b14b-8e7d4b7c9e8f",
+      "paintName": "Tan Flesh",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "024",
+      "upc": "628504411247",
+      "status": "generated"
+    },
+    {
+      "paintId": "d82e1503-4510-5086-a77b-044d1c1cf775",
+      "paintName": "Transparent Black",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "053",
+      "upc": "628504411537",
+      "status": "generated"
+    },
+    {
+      "paintId": "113dcf5f-299f-5e68-acc9-878e54e00105",
+      "paintName": "Transparent Blue",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "046",
+      "upc": "628504411469",
+      "status": "generated"
+    },
+    {
+      "paintId": "9ce4257e-e781-5750-a08f-d663bd6ab75c",
+      "paintName": "Transparent Brown",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "052",
+      "upc": "628504411520",
+      "status": "generated"
+    },
+    {
+      "paintId": "e217614f-2274-57e9-946a-824b78d600bc",
+      "paintName": "Transparent Green",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "048",
+      "upc": "628504411483",
+      "status": "generated"
+    },
+    {
+      "paintId": "1c3a6bab-ff52-5c1f-bbc3-a6f38853ebce",
+      "paintName": "Transparent Orange",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "050",
+      "upc": "628504411506",
+      "status": "generated"
+    },
+    {
+      "paintId": "7f07d1ee-3643-5dd0-9e9a-e82871d49c27",
+      "paintName": "Transparent Purple",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "051",
+      "upc": "628504411513",
+      "status": "generated"
+    },
+    {
+      "paintId": "aeb38a4d-74f1-582e-96e1-8819c3529a3e",
+      "paintName": "Transparent Red",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "047",
+      "upc": "628504411476",
+      "status": "generated"
+    },
+    {
+      "paintId": "c3ec0b9c-285b-5834-9f8a-4a336798b78d",
+      "paintName": "Transparent White",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "064",
+      "upc": "628504411643",
+      "status": "generated"
+    },
+    {
+      "paintId": "78967b89-5e55-5376-8fa1-54fc0ba7eff3",
+      "paintName": "Transparent Yellow",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "049",
+      "upc": "628504411490",
+      "status": "generated"
+    },
+    {
+      "paintId": "fd09ad7d-d722-56c4-bb54-8ee795b8d6b4",
+      "paintName": "Turquoise",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "054",
+      "upc": "628504411544",
+      "status": "generated"
+    },
+    {
+      "paintId": "6e45d15b-f703-570f-b5e3-f8c958b49082",
+      "paintName": "Warm Flesh",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "073",
+      "upc": "628504411735",
+      "status": "generated"
+    },
+    {
+      "paintId": "32a6350b-32dc-5281-9b02-a53011958d54",
+      "paintName": "Warm Grey",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "074",
+      "upc": "628504411742",
+      "status": "generated"
+    },
+    {
+      "paintId": "4d6eae5b-1d53-5cd8-ab2e-55316e3d9b2b",
+      "paintName": "Warm Yellow",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "072",
+      "upc": "628504411728",
+      "status": "generated"
+    },
+    {
+      "paintId": "1a016041-bb2f-574b-829d-467d458778e6",
+      "paintName": "White Gold",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "029",
+      "upc": "628504411292",
+      "status": "generated"
+    },
+    {
+      "paintId": "104e8707-db39-53d1-8eba-85ffc231f509",
+      "paintName": "Yellow Green",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "065",
+      "upc": "628504411650",
+      "status": "generated"
+    },
+    {
+      "paintId": "5a10cf3a-ac41-5d8f-9cd3-d5ebc2fcf3fd",
+      "paintName": "Yellow Ochre",
+      "brand": "monument_hobbies",
+      "productLine": "Monument Pro Acrylic Paints",
+      "sku": "038",
+      "upc": "628504411384",
+      "status": "generated"
+    }
+  ]
+}
