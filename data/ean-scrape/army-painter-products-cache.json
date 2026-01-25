@@ -1,0 +1,3050 @@
+[
+  {
+    "name": "Matt White",
+    "sku": "WP3012",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991587860755
+  },
+  {
+    "name": "Matt Black",
+    "sku": "WP3001",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991586189587
+  },
+  {
+    "name": "Plasma Coil Glow",
+    "sku": "WP3176",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991607128339
+  },
+  {
+    "name": "Data System Glow",
+    "sku": "WP3177",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991607095571
+  },
+  {
+    "name": "Gun Metal",
+    "sku": "WP3193",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991608897811
+  },
+  {
+    "name": "Fresh Rust",
+    "sku": "WP3167",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991606210835
+  },
+  {
+    "name": "True Blood",
+    "sku": "WP3165",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991606112531
+  },
+  {
+    "name": "Lens Flare Glow",
+    "sku": "WP3178",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991607161107
+  },
+  {
+    "name": "Radiation Glow",
+    "sku": "WP3179",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991607193875
+  },
+  {
+    "name": "Pure Red",
+    "sku": "WP3118",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991600967955
+  },
+  {
+    "name": "Skeleton Bone",
+    "sku": "WP3087",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991596839187
+  },
+  {
+    "name": "Power Node Glow",
+    "sku": "WP3180",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991607226643
+  },
+  {
+    "name": "Leather Brown",
+    "sku": "WP3075",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991595626771
+  },
+  {
+    "name": "Mithril",
+    "sku": "WP3190",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991608340755
+  },
+  {
+    "name": "Dragon Red",
+    "sku": "WP3117",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991600869651
+  },
+  {
+    "name": "Dark Rust",
+    "sku": "WP3166",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991606145299
+  },
+  {
+    "name": "Oak Brown",
+    "sku": "WP3109",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991599460627
+  },
+  {
+    "name": "Greedy Gold",
+    "sku": "WP3188",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991608275219
+  },
+  {
+    "name": "Brigade Grey",
+    "sku": "WP3006",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991586320659
+  },
+  {
+    "name": "Uniform Grey",
+    "sku": "WP3003",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991586255123
+  },
+  {
+    "name": "True Brass",
+    "sku": "WP3186",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991608209683
+  },
+  {
+    "name": "Starter Set",
+    "sku": "WP8066",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991614632211
+  },
+  {
+    "name": "Verdigris",
+    "sku": "WP3168",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991606309139
+  },
+  {
+    "name": "Dry Blood",
+    "sku": "WP3164",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991606079763
+  },
+  {
+    "name": "Deep Grey",
+    "sku": "WP3002",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991586222355
+  },
+  {
+    "name": "Ash Grey",
+    "sku": "WP3004",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991586287891
+  },
+  {
+    "name": "Fiendish Yellow",
+    "sku": "WP3092",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991597887763
+  },
+  {
+    "name": "Daemonic Yellow",
+    "sku": "WP3093",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991597920531
+  },
+  {
+    "name": "Oil Stains",
+    "sku": "WP3169",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991606243603
+  },
+  {
+    "name": "Shining Silver",
+    "sku": "WP3191",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991608832275
+  },
+  {
+    "name": "Opal Skin",
+    "sku": "WP3149",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991604441363
+  },
+  {
+    "name": "Ancient Stone",
+    "sku": "WP3088",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991596871955
+  },
+  {
+    "name": "Gloss Varnish",
+    "sku": "WP3173",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991606997267
+  },
+  {
+    "name": "Ruby Skin",
+    "sku": "WP3148",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991604408595
+  },
+  {
+    "name": "Greenskin",
+    "sku": "WP3051",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991593333011
+  },
+  {
+    "name": "Matt Varnish",
+    "sku": "WP3174",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991607030035
+  },
+  {
+    "name": "Cobalt Metal",
+    "sku": "WP3194",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991608963347
+  },
+  {
+    "name": "Wolf Grey",
+    "sku": "WP3016",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991588155667
+  },
+  {
+    "name": "Evil Chrome",
+    "sku": "WP3185",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991608144147
+  },
+  {
+    "name": "Lava Orange",
+    "sku": "WP3099",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991598149907
+  },
+  {
+    "name": "Pearl Skin",
+    "sku": "WP3150",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991604474131
+  },
+  {
+    "name": "Death Metal",
+    "sku": "WP3195",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991608996115
+  },
+  {
+    "name": "Angel Green",
+    "sku": "WP3049",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991592087827
+  },
+  {
+    "name": "Warpaints Stabilizer",
+    "sku": "WP3171",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991606931731
+  },
+  {
+    "name": "Bright Gold",
+    "sku": "WP3189",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991608307987
+  },
+  {
+    "name": "Company Grey",
+    "sku": "WP3005",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991586451731
+  },
+  {
+    "name": "John Blanche Masterclass: Vol. 1",
+    "sku": "WP8079",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 14642790629750
+  },
+  {
+    "name": "Wild Green",
+    "sku": "WP3053",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991593398547
+  },
+  {
+    "name": "Disgusting Slime",
+    "sku": "WP3163",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991606046995
+  },
+  {
+    "name": "Pale Sand",
+    "sku": "WP3090",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991596937491
+  },
+  {
+    "name": "Runic Cobalt",
+    "sku": "WP3017",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991588024595
+  },
+  {
+    "name": "Royal Blue",
+    "sku": "WP3027",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991589335315
+  },
+  {
+    "name": "John Blanche Masterclass: Vol. 2",
+    "sku": "WP8080",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 14642790728054
+  },
+  {
+    "name": "Warped Yellow",
+    "sku": "WP3094",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991597986067
+  },
+  {
+    "name": "Basilisk Red",
+    "sku": "WP3115",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991600771347
+  },
+  {
+    "name": "Diabolic Plum",
+    "sku": "WP3133",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991603261715
+  },
+  {
+    "name": "Mega Set",
+    "sku": "WP8067",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991614402835
+  },
+  {
+    "name": "Brainmatter Beige",
+    "sku": "WP3011",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991587827987
+  },
+  {
+    "name": "Barbarian Flesh",
+    "sku": "WP3147",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991604375827
+  },
+  {
+    "name": "Angelic Red",
+    "sku": "WP3104",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991599296787
+  },
+  {
+    "name": "Wicked Pink",
+    "sku": "WP3121",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991602180371
+  },
+  {
+    "name": "Plate Mail Metal",
+    "sku": "WP3192",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991608865043
+  },
+  {
+    "name": "Frost Blue",
+    "sku": "WP3018",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991587991827
+  },
+  {
+    "name": "Bony Spikes",
+    "sku": "WP3089",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991596904723
+  },
+  {
+    "name": "Resplendent Red",
+    "sku": "WP3103",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991599264019
+  },
+  {
+    "name": "Gemstone Red",
+    "sku": "WP3198",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991609159955
+  },
+  {
+    "name": "Bootstrap Brown",
+    "sku": "WP3074",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991595594003
+  },
+  {
+    "name": "Legendary Red",
+    "sku": "WP3105",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991599329555
+  },
+  {
+    "name": "Turquoise Siren",
+    "sku": "WP3039",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991590744339
+  },
+  {
+    "name": "Dryad Brown",
+    "sku": "WP3111",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991600640275
+  },
+  {
+    "name": "Ice Yellow",
+    "sku": "WP3096",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991598051603
+  },
+  {
+    "name": "Dusty Skull",
+    "sku": "WP3085",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991596773651
+  },
+  {
+    "name": "Blood Chalice",
+    "sku": "WP3119",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991600902419
+  },
+  {
+    "name": "Tomb King Tan",
+    "sku": "WP3086",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991596806419
+  },
+  {
+    "name": "Brigandine Brown",
+    "sku": "WP3073",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991595561235
+  },
+  {
+    "name": "Glowing Inferno",
+    "sku": "WP3101",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991599198483
+  },
+  {
+    "name": "Brush-On Primer",
+    "sku": "WP3175",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991607062803
+  },
+  {
+    "name": "Terrestrial Titan",
+    "sku": "WP3127",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991602475283
+  },
+  {
+    "name": "Alien Purple",
+    "sku": "WP3128",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991602376979
+  },
+  {
+    "name": "Wyvern Fury",
+    "sku": "WP3116",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991600836883
+  },
+  {
+    "name": "Army Green",
+    "sku": "WP3068",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991594545427
+  },
+  {
+    "name": "Arctic Gem",
+    "sku": "WP3029",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991589400851
+  },
+  {
+    "name": "Molten Lava",
+    "sku": "WP3097",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991598084371
+  },
+  {
+    "name": "Deep Azure",
+    "sku": "WP3037",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991590711571
+  },
+  {
+    "name": "Guardian Green",
+    "sku": "WP3050",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991592120595
+  },
+  {
+    "name": "Imperial Navy",
+    "sku": "WP3025",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991589302547
+  },
+  {
+    "name": "Olive Drab",
+    "sku": "WP3070",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991594676499
+  },
+  {
+    "name": "Bright Sapphire",
+    "sku": "WP3030",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991589433619
+  },
+  {
+    "name": "Tainted Gold",
+    "sku": "WP3187",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991608242451
+  },
+  {
+    "name": "Oozing Vomit",
+    "sku": "WP3170",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991606276371
+  },
+  {
+    "name": "Rough Iron",
+    "sku": "WP3181",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991607980307
+  },
+  {
+    "name": "Worn Stone",
+    "sku": "WP3010",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991586418963
+  },
+  {
+    "name": "Fur Brown",
+    "sku": "WP3112",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991600673043
+  },
+  {
+    "name": "Agate Skin",
+    "sku": "WP3146",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991604310291
+  },
+  {
+    "name": "Grey Castle",
+    "sku": "WP3007",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991586484499
+  },
+  {
+    "name": "Moonstone Skin",
+    "sku": "WP3145",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991604277523
+  },
+  {
+    "name": "Raging Rose",
+    "sku": "WP3120",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991600935187
+  },
+  {
+    "name": "Washes Paint Set",
+    "sku": "WP8068",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991614566675
+  },
+  {
+    "name": "Pixie Pink",
+    "sku": "WP3123",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991602278675
+  },
+  {
+    "name": "Demigod Flames",
+    "sku": "WP3091",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991597854995
+  },
+  {
+    "name": "Eternal Hunt",
+    "sku": "WP3052",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991593365779
+  },
+  {
+    "name": "True Copper",
+    "sku": "WP3184",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991608045843
+  },
+  {
+    "name": "Pink Potion",
+    "sku": "WP3125",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991602311443
+  },
+  {
+    "name": "Burning Ore",
+    "sku": "WP3098",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991598117139
+  },
+  {
+    "name": "Warlock Magenta",
+    "sku": "WP3135",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991603327251
+  },
+  {
+    "name": "Crystal Blue",
+    "sku": "WP3028",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991589368083
+  },
+  {
+    "name": "Command Khaki",
+    "sku": "WP3077",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991595692307
+  },
+  {
+    "name": "Amber Skin",
+    "sku": "WP3160",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991605358867
+  },
+  {
+    "name": "Paratrooper Tan",
+    "sku": "WP3076",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991595659539
+  },
+  {
+    "name": "Space Dust",
+    "sku": "WP3095",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991598018835
+  },
+  {
+    "name": "Regal Blue",
+    "sku": "WP3026",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991589466387
+  },
+  {
+    "name": "Necrotic Flesh",
+    "sku": "WP3071",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991595495699
+  },
+  {
+    "name": "Spellbound Fuchsia",
+    "sku": "WP3136",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991603360019
+  },
+  {
+    "name": "Talisman Teal",
+    "sku": "WP3046",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991591989523
+  },
+  {
+    "name": "Flickering Flame",
+    "sku": "WP3100",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991598215443
+  },
+  {
+    "name": "Warpaints Retarder",
+    "sku": "WP3172",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991606964499
+  },
+  {
+    "name": "Emerald Forest",
+    "sku": "WP3055",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991593464083
+  },
+  {
+    "name": "Night Sky",
+    "sku": "WP3013",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991587893523
+  },
+  {
+    "name": "Glittering Green",
+    "sku": "WP3197",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991609061651
+  },
+  {
+    "name": "Weapon Bronze",
+    "sku": "WP3183",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991608111379
+  },
+  {
+    "name": "Inner Light",
+    "sku": "WP3102",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991599231251
+  },
+  {
+    "name": "Mocca Skin",
+    "sku": "WP3159",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991605391635
+  },
+  {
+    "name": "Quartz Skin",
+    "sku": "WP3162",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991606014227
+  },
+  {
+    "name": "Gargoyle Grey",
+    "sku": "WP3008",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991586353427
+  },
+  {
+    "name": "Barren Dune",
+    "sku": "WP3084",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991596740883
+  },
+  {
+    "name": "Desert Yellow",
+    "sku": "WP3081",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991596609811
+  },
+  {
+    "name": "Kraken Lavender",
+    "sku": "WP3132",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991603228947
+  },
+  {
+    "name": "Magecast Magenta",
+    "sku": "WP3134",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991603294483
+  },
+  {
+    "name": "Dark Emerald",
+    "sku": "WP3196",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991609028883
+  },
+  {
+    "name": "John Blanche Masterclass: Grimdark Shadow",
+    "sku": "WP4008",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9663300796691
+  },
+  {
+    "name": "Woodland Camo",
+    "sku": "WP3067",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991594610963
+  },
+  {
+    "name": "Cultist Purple",
+    "sku": "WP3129",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991602442515
+  },
+  {
+    "name": "Ferocious Green",
+    "sku": "WP3054",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991593431315
+  },
+  {
+    "name": "Tree Ancient",
+    "sku": "WP3110",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991599493395
+  },
+  {
+    "name": "Camouflage Green",
+    "sku": "WP3069",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991594643731
+  },
+  {
+    "name": "Hexed Violet",
+    "sku": "WP3130",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991602508051
+  },
+  {
+    "name": "Electric Lime",
+    "sku": "WP3058",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991593562387
+  },
+  {
+    "name": "Ultramarine Blue",
+    "sku": "WP3021",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991589171475
+  },
+  {
+    "name": "Dorado Skin",
+    "sku": "WP3161",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991605981459
+  },
+  {
+    "name": "Rainforest",
+    "sku": "WP3057",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991593529619
+  },
+  {
+    "name": "Urban Buff",
+    "sku": "WP3078",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991595725075
+  },
+  {
+    "name": "Flexible Triad: Black & Greys",
+    "sku": "WP3217",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9332603912467
+  },
+  {
+    "name": "Burnt Turf",
+    "sku": "WP3083",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991596675347
+  },
+  {
+    "name": "Leafy Green",
+    "sku": "WP3056",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991593496851
+  },
+  {
+    "name": "Great Hall Grey",
+    "sku": "WP3009",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991586386195
+  },
+  {
+    "name": "Obsidian Skin",
+    "sku": "WP3157",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991605260563
+  },
+  {
+    "name": "Buffed Hide",
+    "sku": "WP3114",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991600738579
+  },
+  {
+    "name": "Triumphant Navy",
+    "sku": "WP3019",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991588090131
+  },
+  {
+    "name": "Sacred Scarlet",
+    "sku": "WP3106",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991599362323
+  },
+  {
+    "name": "Onyx Skin",
+    "sku": "WP3158",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991605293331
+  },
+  {
+    "name": "Violet Coven",
+    "sku": "WP3131",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991603196179
+  },
+  {
+    "name": "Deep Ocean Blue",
+    "sku": "WP3031",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991590449427
+  },
+  {
+    "name": "Hydra Turquoise",
+    "sku": "WP3038",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991590678803
+  },
+  {
+    "name": "John Blanche Masterclass: Emperor Gold",
+    "sku": "WP4009",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9663301189907
+  },
+  {
+    "name": "Elder Flower",
+    "sku": "WP3141",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991604146451
+  },
+  {
+    "name": "Flexible Triad: Rose Skin Tones",
+    "sku": "WP3241",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330124816659
+  },
+  {
+    "name": "Flexible Triad: Cool Reds",
+    "sku": "WP3236",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330122981651
+  },
+  {
+    "name": "Augur Blue",
+    "sku": "WP3024",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991589269779
+  },
+  {
+    "name": "Wasteland Clay",
+    "sku": "WP3082",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991596642579
+  },
+  {
+    "name": "Red Copper",
+    "sku": "WP3182",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991608013075
+  },
+  {
+    "name": "Mulled Berry",
+    "sku": "WP3139",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991603458323
+  },
+  {
+    "name": "Ruddy Umber",
+    "sku": "WP3113",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991600705811
+  },
+  {
+    "name": "Shieldwall Blue",
+    "sku": "WP3035",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991590580499
+  },
+  {
+    "name": "Aegis Aqua",
+    "sku": "WP3036",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991590613267
+  },
+  {
+    "name": "Vivid Volt",
+    "sku": "WP3059",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991593595155
+  },
+  {
+    "name": "Metallics Set",
+    "sku": "WP8069",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991614337299
+  },
+  {
+    "name": "Diviner Light",
+    "sku": "WP3138",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991603425555
+  },
+  {
+    "name": "Phalanx Blue",
+    "sku": "WP3034",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991590547731
+  },
+  {
+    "name": "Aquamarine",
+    "sku": "WP3040",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991590777107
+  },
+  {
+    "name": "Thunderous Blue",
+    "sku": "WP3014",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991587926291
+  },
+  {
+    "name": "Tundra Taupe",
+    "sku": "WP3079",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991595757843
+  },
+  {
+    "name": "Scarab Green",
+    "sku": "WP3043",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991591858451
+  },
+  {
+    "name": "Abyssal Blue",
+    "sku": "WP3032",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991590482195
+  },
+  {
+    "name": "Stratos Blue",
+    "sku": "WP3015",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991587959059
+  },
+  {
+    "name": "Gothic Blue",
+    "sku": "WP3020",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991588057363
+  },
+  {
+    "name": "Grotesque Green",
+    "sku": "WP3072",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991595528467
+  },
+  {
+    "name": "Prairie Ochre",
+    "sku": "WP3080",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991595790611
+  },
+  {
+    "name": "Forest Faun",
+    "sku": "WP3065",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991594479891
+  },
+  {
+    "name": "Moldy Wine",
+    "sku": "WP3140",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991603491091
+  },
+  {
+    "name": "Leopard Stone Skin",
+    "sku": "WP3156",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991605326099
+  },
+  {
+    "name": "Tourmaline Skin",
+    "sku": "WP3155",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991605227795
+  },
+  {
+    "name": "Afterglow",
+    "sku": "WP3060",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991593627923
+  },
+  {
+    "name": "Raging Rouge",
+    "sku": "WP3108",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991599427859
+  },
+  {
+    "name": "Enchanted Pink",
+    "sku": "WP3137",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991603392787
+  },
+  {
+    "name": "John Blanche Masterclass: The Darkness",
+    "sku": "WP4000",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9663298076947
+  },
+  {
+    "name": "Flexible Triad: Browns",
+    "sku": "WP3229",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330116526355
+  },
+  {
+    "name": "Warpaints Fanatic Most Wanted Set",
+    "sku": "WP8071",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991614501139
+  },
+  {
+    "name": "Neptune Glow",
+    "sku": "WP3041",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991591956755
+  },
+  {
+    "name": "Carnelian Skin",
+    "sku": "WP3151",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991605096723
+  },
+  {
+    "name": "Violent Vermilion",
+    "sku": "WP3107",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991599395091
+  },
+  {
+    "name": "Impish Rouge",
+    "sku": "WP3122",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991602213139
+  },
+  {
+    "name": "Tidal Blue",
+    "sku": "WP3033",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991590514963
+  },
+  {
+    "name": "John Blanche Masterclass: Warm Skin Shade",
+    "sku": "WP4007",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9663300600083
+  },
+  {
+    "name": "Flexible Triad: Deep Greens",
+    "sku": "WP3225",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330114953491
+  },
+  {
+    "name": "Amulet Aqua",
+    "sku": "WP3048",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991592055059
+  },
+  {
+    "name": "John Blanche Masterclass: Ivory White",
+    "sku": "WP4001",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9663298371859
+  },
+  {
+    "name": "Pharaoh Guard",
+    "sku": "WP3045",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991591923987
+  },
+  {
+    "name": "Marine Mist",
+    "sku": "WP3042",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991591825683
+  },
+  {
+    "name": "Alpha Blue",
+    "sku": "WP3022",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991589204243
+  },
+  {
+    "name": "Flexible Triad: Oranges",
+    "sku": "WP3233",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330121834771
+  },
+  {
+    "name": "Flexible Triad: Warm Greys & White",
+    "sku": "WP3218",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330108563731
+  },
+  {
+    "name": "Temple Gate Teal",
+    "sku": "WP3044",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991591891219
+  },
+  {
+    "name": "Baron Blue",
+    "sku": "WP3023",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991589237011
+  },
+  {
+    "name": "Mossy Green",
+    "sku": "WP3066",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991594512659
+  },
+  {
+    "name": "Topaz Skin",
+    "sku": "WP3153",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991605162259
+  },
+  {
+    "name": "Flexible Triad: Vivid Blues",
+    "sku": "WP3221",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330109612307
+  },
+  {
+    "name": "Flexible Triad: Yellows",
+    "sku": "WP3232",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330120392979
+  },
+  {
+    "name": "Doomfire Drab",
+    "sku": "WP3126",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991602344211
+  },
+  {
+    "name": "Flexible Triad: Light Neutrals",
+    "sku": "WP3231",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330119901459
+  },
+  {
+    "name": "Tiger's Eye Skin",
+    "sku": "WP3152",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991605129491
+  },
+  {
+    "name": "Medieval Forest",
+    "sku": "WP3062",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991594381587
+  },
+  {
+    "name": "Forbidden Fruit",
+    "sku": "WP3142",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991604179219
+  },
+  {
+    "name": "John Blanche Masterclass: Ironclad Grey",
+    "sku": "WP4002",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9663299027219
+  },
+  {
+    "name": "Evergreen Fog",
+    "sku": "WP3061",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991594348819
+  },
+  {
+    "name": "Wilted Rose",
+    "sku": "WP3144",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991604244755
+  },
+  {
+    "name": "Jasper Skin",
+    "sku": "WP3154",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991605195027
+  },
+  {
+    "name": "Aqua Alchemy",
+    "sku": "WP3047",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991592022291
+  },
+  {
+    "name": "Flexible Triad: Deep Skin Tones",
+    "sku": "WP3243",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330125734163
+  },
+  {
+    "name": "John Blanche Masterclass: Fiery Vermilion",
+    "sku": "WP4010",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9663301353747
+  },
+  {
+    "name": "Weird Elixir",
+    "sku": "WP3124",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991602245907
+  },
+  {
+    "name": "John Blanche Masterclass: Banshee Brown",
+    "sku": "WP4005",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9663300141331
+  },
+  {
+    "name": "Flexible Triad: Olive Greens",
+    "sku": "WP3228",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330116362515
+  },
+  {
+    "name": "Flexible Triad: Purples",
+    "sku": "WP3238",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330123768083
+  },
+  {
+    "name": "Flexible Triad: Warm Reds",
+    "sku": "WP3234",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330122031379
+  },
+  {
+    "name": "Figgy Pink",
+    "sku": "WP3143",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991604211987
+  },
+  {
+    "name": "Flexible Triad: Desaturated Blue-Greys",
+    "sku": "WP3219",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330108956947
+  },
+  {
+    "name": "Flexible Triad: Ruddy Browns",
+    "sku": "WP3235",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330122424595
+  },
+  {
+    "name": "John Blanche Masterclass: Blanched Berry",
+    "sku": "WP4014",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9663308202259
+  },
+  {
+    "name": "Patagon Pine",
+    "sku": "WP3063",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991594414355
+  },
+  {
+    "name": "Flexible Triad: Magentas",
+    "sku": "WP3239",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330124062995
+  },
+  {
+    "name": "Autumn Sage",
+    "sku": "WP3064",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 8991594447123
+  },
+  {
+    "name": "Flexible Triad: Ochres & Tans",
+    "sku": "WP3230",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330118557971
+  },
+  {
+    "name": "Flexible Triad: Vibrant Greens",
+    "sku": "WP3226",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330115379475
+  },
+  {
+    "name": "Flexible Triad: Warm Skin Tones",
+    "sku": "WP3242",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330125177107
+  },
+  {
+    "name": "John Blanche Masterclass: Midnight Olive",
+    "sku": "WP4012",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9663301714195
+  },
+  {
+    "name": "John Blanche Masterclass: Moonbeam Yellow",
+    "sku": "WP4003",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9663299322131
+  },
+  {
+    "name": "Flexible Triad: Pinks",
+    "sku": "WP3237",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330123276563
+  },
+  {
+    "name": "Flexible Triad: Strong Pale Blues",
+    "sku": "WP3220",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330109382931
+  },
+  {
+    "name": "Flexible Triad: Deep Green-Blues",
+    "sku": "WP3222",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330111512851
+  },
+  {
+    "name": "John Blanche Masterclass: Sunburst Ochre",
+    "sku": "WP4011",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9663301484819
+  },
+  {
+    "name": "Flexible Triad: Turquoises",
+    "sku": "WP3223",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330111676691
+  },
+  {
+    "name": "John Blanche Masterclass: Blighted Green",
+    "sku": "WP4004",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9663299584275
+  },
+  {
+    "name": "Flexible Triad: Teals",
+    "sku": "WP3224",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330112266515
+  },
+  {
+    "name": "Wargamers Paint Set",
+    "sku": "WP8073",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9104068215059
+  },
+  {
+    "name": "Flexible Triad: Desaturated Violets",
+    "sku": "WP3240",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330124357907
+  },
+  {
+    "name": "Flexible Triad: Desaturated Cool Greens",
+    "sku": "WP3227",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 9330115838227
+  },
+  {
+    "name": "Flexible Triad PLUS+: Blacks & Greys",
+    "sku": "WP8086",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 15040888832374
+  },
+  {
+    "name": "Flexible Triad PLUS+: Deep Greens",
+    "sku": "WP8088",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 15040888897910
+  },
+  {
+    "name": "Flexible Triad PLUS+: Deep Green-Blues",
+    "sku": "WP8087",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 15040888865142
+  },
+  {
+    "name": "Flexible Triad PLUS+: Ruddy Browns",
+    "sku": "WP8089",
+    "collection": "Warpaints Fanatic",
+    "shopifyId": 15040888930678
+  },
+  {
+    "name": "Speedpaint Marker: Starter Set",
+    "sku": "SM8001",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 15093203960182
+  },
+  {
+    "name": "Grim Black",
+    "sku": "WP2001",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991575114003
+  },
+  {
+    "name": "Hardened Leather",
+    "sku": "WP2023",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991578226963
+  },
+  {
+    "name": "Speedpaint Medium",
+    "sku": "WP2000",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991573868819
+  },
+  {
+    "name": "Speedpaint Most Wanted Set 2.0",
+    "sku": "WP8060",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991615516947
+  },
+  {
+    "name": "Speedpaint Starter Set 2.0",
+    "sku": "WP8059",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991615418643
+  },
+  {
+    "name": "Holy White",
+    "sku": "WP2003",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991575179539
+  },
+  {
+    "name": "Pallid Bone",
+    "sku": "WP2006",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991575277843
+  },
+  {
+    "name": "Blood Red",
+    "sku": "WP2010",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991575408915
+  },
+  {
+    "name": "Dark Wood",
+    "sku": "WP2005",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991575245075
+  },
+  {
+    "name": "Blinding Light",
+    "sku": "WP2076",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991584354579
+  },
+  {
+    "name": "Gravelord Grey",
+    "sku": "WP2002",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991575146771
+  },
+  {
+    "name": "Speedpaint, Polished Silver",
+    "sku": "WP2071",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991584157971
+  },
+  {
+    "name": "Satchel Brown",
+    "sku": "WP2068",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991583469843
+  },
+  {
+    "name": "Crusader Skin",
+    "sku": "WP2004",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991575212307
+  },
+  {
+    "name": "Speedpaint, Enchanted Steel",
+    "sku": "WP2072",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991584321811
+  },
+  {
+    "name": "Bony Matter",
+    "sku": "WP2039",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991579570451
+  },
+  {
+    "name": "Slaughter Red",
+    "sku": "WP2012",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991576686867
+  },
+  {
+    "name": "Peachy Flesh",
+    "sku": "WP2037",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991579504915
+  },
+  {
+    "name": "Runic Grey",
+    "sku": "WP2016",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991576785171
+  },
+  {
+    "name": "Howling Sand",
+    "sku": "WP2077",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991584387347
+  },
+  {
+    "name": "Hoplite Gold",
+    "sku": "WP2028",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991578358035
+  },
+  {
+    "name": "Camo Cloak",
+    "sku": "WP2008",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991575343379
+  },
+  {
+    "name": "Broadsword Silver",
+    "sku": "WP2030",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991578456339
+  },
+  {
+    "name": "Fire Giant Orange",
+    "sku": "WP2017",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991576850707
+  },
+  {
+    "name": "Ashen Stone",
+    "sku": "WP2025",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991578489107
+  },
+  {
+    "name": "Pastel Seafoam",
+    "sku": "WP2089",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991585501459
+  },
+  {
+    "name": "Occultist Cloak",
+    "sku": "WP2027",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991578325267
+  },
+  {
+    "name": "Golden Armour",
+    "sku": "WP2069",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991583502611
+  },
+  {
+    "name": "Magic Blue",
+    "sku": "WP2014",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991576752403
+  },
+  {
+    "name": "Ruddy Fur",
+    "sku": "WP2065",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991583371539
+  },
+  {
+    "name": "Absolution Green",
+    "sku": "WP2007",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991575310611
+  },
+  {
+    "name": "Speedpaint Marker: Introductory Set",
+    "sku": "SM8003",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 15093204320630
+  },
+  {
+    "name": "Sand Golem",
+    "sku": "WP2020",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991576949011
+  },
+  {
+    "name": "Princess Pink",
+    "sku": "WP2086",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991585370387
+  },
+  {
+    "name": "Plasmatic Bolt",
+    "sku": "WP2019",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991576883475
+  },
+  {
+    "name": "Hoard Bronze",
+    "sku": "WP2074",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991584256275
+  },
+  {
+    "name": "Warrior Skin",
+    "sku": "WP2064",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991583306003
+  },
+  {
+    "name": "Ancient Honey",
+    "sku": "WP2060",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991582290195
+  },
+  {
+    "name": "Rigor Mortis",
+    "sku": "WP2080",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991584485651
+  },
+  {
+    "name": "Purple Swarm",
+    "sku": "WP2031",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991579308307
+  },
+  {
+    "name": "Orc Skin",
+    "sku": "WP2009",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991575376147
+  },
+  {
+    "name": "Caribbean Ocean",
+    "sku": "WP2046",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991580848403
+  },
+  {
+    "name": "Ghillie Dew",
+    "sku": "WP2042",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991580684563
+  },
+  {
+    "name": "Highlord Blue",
+    "sku": "WP2015",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991576817939
+  },
+  {
+    "name": "Zealot Yellow",
+    "sku": "WP2013",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991576719635
+  },
+  {
+    "name": "Mummified Grime",
+    "sku": "WP2078",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991584420115
+  },
+  {
+    "name": "Pastel Lavender",
+    "sku": "WP2087",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991585435923
+  },
+  {
+    "name": "Hive Dweller Purple",
+    "sku": "WP2018",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991576916243
+  },
+  {
+    "name": "Burnished Red",
+    "sku": "WP2083",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991585304851
+  },
+  {
+    "name": "Glittering Loot",
+    "sku": "WP2070",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991583535379
+  },
+  {
+    "name": "Familiar Pink",
+    "sku": "WP2033",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991579341075
+  },
+  {
+    "name": "Cloudburst Blue",
+    "sku": "WP2022",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991578194195
+  },
+  {
+    "name": "Battleship Grey",
+    "sku": "WP2024",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991578259731
+  },
+  {
+    "name": "Algae Green",
+    "sku": "WP2045",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991580815635
+  },
+  {
+    "name": "Murder Scene",
+    "sku": "WP2057",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991582191891
+  },
+  {
+    "name": "Nuclear Sunrise",
+    "sku": "WP2061",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991583240467
+  },
+  {
+    "name": "Speedpaint Medium 100 ml",
+    "sku": "WP2090",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991585534227
+  },
+  {
+    "name": "Maize Yellow",
+    "sku": "WP2059",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991582257427
+  },
+  {
+    "name": "Maggot Skin",
+    "sku": "WP2079",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991584452883
+  },
+  {
+    "name": "Noble Skin",
+    "sku": "WP2063",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991583338771
+  },
+  {
+    "name": "Brownish Decay",
+    "sku": "WP2067",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991583437075
+  },
+  {
+    "name": "Gunner Camo",
+    "sku": "WP2043",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991580782867
+  },
+  {
+    "name": "Talos Bronze",
+    "sku": "WP2029",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991578423571
+  },
+  {
+    "name": "Beowulf Blue",
+    "sku": "WP2049",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991580913939
+  },
+  {
+    "name": "Lizardfolk Cyan",
+    "sku": "WP2082",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991585272083
+  },
+  {
+    "name": "Speedpaint, Brazen Copper",
+    "sku": "WP2073",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991584190739
+  },
+  {
+    "name": "Tyrian Navy",
+    "sku": "WP2051",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991581995283
+  },
+  {
+    "name": "Raging Sea",
+    "sku": "WP2053",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991582060819
+  },
+  {
+    "name": "Pastel Indigo",
+    "sku": "WP2088",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991585468691
+  },
+  {
+    "name": "Purple Alchemy",
+    "sku": "WP2021",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991578161427
+  },
+  {
+    "name": "Shamrock Green",
+    "sku": "WP2041",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991580619027
+  },
+  {
+    "name": "Forest Sprite",
+    "sku": "WP2044",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991580750099
+  },
+  {
+    "name": "Pastel Yellow",
+    "sku": "WP2084",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991585337619
+  },
+  {
+    "name": "Pastel Salmon",
+    "sku": "WP2085",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991585403155
+  },
+  {
+    "name": "Speedpaint Metallics Set 2.0",
+    "sku": "WP8062",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991615648019
+  },
+  {
+    "name": "Aztec Gold",
+    "sku": "WP2075",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991584289043
+  },
+  {
+    "name": "Poppy Red",
+    "sku": "WP2056",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991582159123
+  },
+  {
+    "name": "John Blanche Masterclass: Bloodmoon Red",
+    "sku": "WP4006",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 9663300337939
+  },
+  {
+    "name": "Desolate Brown",
+    "sku": "WP2040",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991579603219
+  },
+  {
+    "name": "Burnt Moss",
+    "sku": "WP2026",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991578292499
+  },
+  {
+    "name": "Thunderbird Blue",
+    "sku": "WP2081",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991585239315
+  },
+  {
+    "name": "Ochre Clay",
+    "sku": "WP2066",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991583404307
+  },
+  {
+    "name": "Malignant Green",
+    "sku": "WP2011",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991576654099
+  },
+  {
+    "name": "John Blanche Masterclass: Turnbull Turquoise",
+    "sku": "WP4016",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 9663308726547
+  },
+  {
+    "name": "Aged Hide",
+    "sku": "WP2036",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991579472147
+  },
+  {
+    "name": "Carmine Dragon",
+    "sku": "WP2055",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991582126355
+  },
+  {
+    "name": "Fire Drake",
+    "sku": "WP2062",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991583273235
+  },
+  {
+    "name": "Tidal Wave",
+    "sku": "WP2052",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991582028051
+  },
+  {
+    "name": "Dusk Red",
+    "sku": "WP2054",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991582093587
+  },
+  {
+    "name": "Speedpaint Mega Set 2.0",
+    "sku": "WP8057",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991615353107
+  },
+  {
+    "name": "Goddess Glow",
+    "sku": "WP2038",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991579537683
+  },
+  {
+    "name": "Moonlake Coral",
+    "sku": "WP2034",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991579406611
+  },
+  {
+    "name": "Royal Robes",
+    "sku": "WP2050",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991580946707
+  },
+  {
+    "name": "Ghoul Green",
+    "sku": "WP2047",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991581012243
+  },
+  {
+    "name": "Moody Mauve",
+    "sku": "WP2032",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991579373843
+  },
+  {
+    "name": "Bright Red",
+    "sku": "WP2058",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991582224659
+  },
+  {
+    "name": "Periwinkle Purple",
+    "sku": "WP2035",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991579439379
+  },
+  {
+    "name": "Speedpaint Complete Set 2.0",
+    "sku": "WP8061",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991615582483
+  },
+  {
+    "name": "Charming Chartreuse",
+    "sku": "WP2048",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991580881171
+  },
+  {
+    "name": "Speedpaint Wargamers Mega Paint Set 2.0",
+    "sku": "WP8064",
+    "collection": "Speedpaint 2.0",
+    "shopifyId": 8991616827667
+  },
+  {
+    "name": "Matt Black Primer, 100 ml",
+    "sku": "AW2011",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991510069523
+  },
+  {
+    "name": "Matt White Primer, 100 ml",
+    "sku": "AW2012",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991510135059
+  },
+  {
+    "name": "Airbrush Medium, 100 ml",
+    "sku": "AW2001",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991508398355
+  },
+  {
+    "name": "Airbrush Cleaner, 100 ml",
+    "sku": "AW2002",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991508431123
+  },
+  {
+    "name": "Anti-shine Varnish, 100 ml",
+    "sku": "AW2003",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991508463891
+  },
+  {
+    "name": "Matt Grey Primer, 100 ml",
+    "sku": "AW2010",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991510036755
+  },
+  {
+    "name": "Warpaints Air Fluorescent: Blue Flux",
+    "sku": "AW1502",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991508234515
+  },
+  {
+    "name": "Warpaints Air Starter Set",
+    "sku": "AW8001",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991529664787
+  },
+  {
+    "name": "Warpaints Air Fluorescent: Gauss Green",
+    "sku": "AW1503",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991508201747
+  },
+  {
+    "name": "Matt White",
+    "sku": "AW1102",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991500468499
+  },
+  {
+    "name": "Matt Black",
+    "sku": "AW1101",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991500435731
+  },
+  {
+    "name": "Gloss Varnish, 100 ml",
+    "sku": "AW2005",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991510003987
+  },
+  {
+    "name": "Warpaints Air Fluorescent: Neon Yellow",
+    "sku": "AW1504",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991508267283
+  },
+  {
+    "name": "Warpaints Air Metallics: Gun Metal",
+    "sku": "AW1131",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991504564499
+  },
+  {
+    "name": "Pure Red",
+    "sku": "AW1104",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991501680915
+  },
+  {
+    "name": "Warpaints Air Fluorescent: Hot Pink",
+    "sku": "AW1506",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991508365587
+  },
+  {
+    "name": "Bleached Bone",
+    "sku": "AW4125",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991515312403
+  },
+  {
+    "name": "Aegis Suit Satin Varnish, 100 ml",
+    "sku": "AW2004",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991508496659
+  },
+  {
+    "name": "Skeleton Bone",
+    "sku": "AW1125",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991503221011
+  },
+  {
+    "name": "Warpaints Air Fluorescent: Violet Volt",
+    "sku": "AW1501",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991508168979
+  },
+  {
+    "name": "Warpaints Air Fluorescent: Safety Orange",
+    "sku": "AW1505",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991508332819
+  },
+  {
+    "name": "Warpaints Air Mega Set",
+    "sku": "AW8002",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991529697555
+  },
+  {
+    "name": "Encarmine Red",
+    "sku": "AW3104",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991510233363
+  },
+  {
+    "name": "Daemonic Yellow",
+    "sku": "AW1107",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991501779219
+  },
+  {
+    "name": "Warpaints Air Metallics: Night Scales",
+    "sku": "AW1490",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991507284243
+  },
+  {
+    "name": "Charred Bone",
+    "sku": "AW3125",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991512690963
+  },
+  {
+    "name": "Metallics: Bright Gold",
+    "sku": "AW1144",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991504728339
+  },
+  {
+    "name": "Warpaints Air Metallics: Shining Silver",
+    "sku": "AW1129",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991504531731
+  },
+  {
+    "name": "Raven Black",
+    "sku": "AW3101",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991510167827
+  },
+  {
+    "name": "Dragon Red",
+    "sku": "AW1105",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991501713683
+  },
+  {
+    "name": "Alien Purple",
+    "sku": "AW1128",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991503286547
+  },
+  {
+    "name": "Uniform Grey",
+    "sku": "AW1118",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991503024403
+  },
+  {
+    "name": "Lava Orange",
+    "sku": "AW1106",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991501746451
+  },
+  {
+    "name": "Warpaints Air Complete Set",
+    "sku": "AW8003",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991529730323
+  },
+  {
+    "name": "Angel Green",
+    "sku": "AW1112",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991502041363
+  },
+  {
+    "name": "Archangel Red",
+    "sku": "AW4104",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991514329363
+  },
+  {
+    "name": "Ionic Blue",
+    "sku": "AW4114",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991514624275
+  },
+  {
+    "name": "Oak Brown",
+    "sku": "AW1124",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991503188243
+  },
+  {
+    "name": "Warpaints Air Metallics: Greedy Gold",
+    "sku": "AW1132",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991504597267
+  },
+  {
+    "name": "Army Green",
+    "sku": "AW1110",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991501943059
+  },
+  {
+    "name": "Yeti White",
+    "sku": "AW4102",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991513772307
+  },
+  {
+    "name": "Cadre Grey",
+    "sku": "AW4118",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991515115795
+  },
+  {
+    "name": "Regiment Grey",
+    "sku": "AW3118",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991511642387
+  },
+  {
+    "name": "Warpaints Air Metallics: Plate Mail Metal",
+    "sku": "AW1130",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991504498963
+  },
+  {
+    "name": "Wolf Grey",
+    "sku": "AW1119",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991502991635
+  },
+  {
+    "name": "Militia Green",
+    "sku": "AW3110",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991511413011
+  },
+  {
+    "name": "Leather Brown",
+    "sku": "AW1123",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991503155475
+  },
+  {
+    "name": "Crow Hue",
+    "sku": "AW4101",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991513805075
+  },
+  {
+    "name": "Warpaints Air Metallics: Royal Purple",
+    "sku": "AW1488",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991507218707
+  },
+  {
+    "name": "Ultramarine Blue",
+    "sku": "AW1115",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991502958867
+  },
+  {
+    "name": "Warpaints Air Metallics: Rough Iron",
+    "sku": "AW1468",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991506104595
+  },
+  {
+    "name": "Warpaints Air Metallics: Weapon Bronze",
+    "sku": "AW1133",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991504826643
+  },
+  {
+    "name": "Broodmother Purple",
+    "sku": "AW3128",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991512756499
+  },
+  {
+    "name": "Shark White",
+    "sku": "AW3102",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991510200595
+  },
+  {
+    "name": "Crystal Blue",
+    "sku": "AW1114",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991502074131
+  },
+  {
+    "name": "Omega Blue",
+    "sku": "AW3115",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991511576851
+  },
+  {
+    "name": "Drab Green",
+    "sku": "AW4110",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991514525971
+  },
+  {
+    "name": "Phantasmal Blue",
+    "sku": "AW4141",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991520456979
+  },
+  {
+    "name": "Greenskin",
+    "sku": "AW1111",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991502008595
+  },
+  {
+    "name": "Pixie Pink",
+    "sku": "AW1447",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991505973523
+  },
+  {
+    "name": "Chimera Red",
+    "sku": "AW3105",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991510266131
+  },
+  {
+    "name": "Savage Green",
+    "sku": "AW3111",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991511445779
+  },
+  {
+    "name": "Storm Wolf",
+    "sku": "AW4119",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991515148563
+  },
+  {
+    "name": "Warpaints Air Metallics: Fairy Dust",
+    "sku": "AW1489",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991507251475
+  },
+  {
+    "name": "Hydra Turquoise",
+    "sku": "AW1141",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991504630035
+  },
+  {
+    "name": "Rawhide Brown",
+    "sku": "AW3123",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991512625427
+  },
+  {
+    "name": "Elven Flesh",
+    "sku": "AW1421",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991505776915
+  },
+  {
+    "name": "Iron Wolf",
+    "sku": "AW3119",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991511675155
+  },
+  {
+    "name": "Incursion Orange",
+    "sku": "AW3107",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991510331667
+  },
+  {
+    "name": "Warpaints Air Metallics: Azure Magic",
+    "sku": "AW1486",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991507153171
+  },
+  {
+    "name": "Coven Purple",
+    "sku": "AW4128",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991515345171
+  },
+  {
+    "name": "Desert Yellow",
+    "sku": "AW1121",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991503089939
+  },
+  {
+    "name": "Thunder Storm",
+    "sku": "AW3415",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991512854803
+  },
+  {
+    "name": "Fey Pink",
+    "sku": "AW4447",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991520948499
+  },
+  {
+    "name": "Warpaints Air Metallics: True Copper",
+    "sku": "AW1467",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991506071827
+  },
+  {
+    "name": "Warpaints Air Metallics: Gemstone",
+    "sku": "AW1487",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991507185939
+  },
+  {
+    "name": "Kobold Skin",
+    "sku": "AW1434",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991505842451
+  },
+  {
+    "name": "Unforgiven Green",
+    "sku": "AW3112",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991511478547
+  },
+  {
+    "name": "Zombie Flesh",
+    "sku": "AW4108",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991514460435
+  },
+  {
+    "name": "Imp Yellow",
+    "sku": "AW4107",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991514427667
+  },
+  {
+    "name": "Jungle Green",
+    "sku": "AW1433",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991505809683
+  },
+  {
+    "name": "Nomad Flesh",
+    "sku": "AW3126",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991512723731
+  },
+  {
+    "name": "Sapphire Gem",
+    "sku": "AW3114",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991511511315
+  },
+  {
+    "name": "Necrotic Flesh",
+    "sku": "AW1108",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991501811987
+  },
+  {
+    "name": "Goblin Green",
+    "sku": "AW1109",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991501844755
+  },
+  {
+    "name": "Bullwhack Brown",
+    "sku": "AW4123",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991515246867
+  },
+  {
+    "name": "Hobgoblin Hue",
+    "sku": "AW4434",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991520784659
+  },
+  {
+    "name": "Chaotic Red",
+    "sku": "AW1142",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991504662803
+  },
+  {
+    "name": "Ocean Depths",
+    "sku": "AW3141",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991512789267
+  },
+  {
+    "name": "Pestilent Flesh",
+    "sku": "AW3108",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991511314707
+  },
+  {
+    "name": "Wyrmling Red",
+    "sku": "AW4105",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991514362131
+  },
+  {
+    "name": "Molten Orange",
+    "sku": "AW3106",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991510298899
+  },
+  {
+    "name": "Wildling Flesh",
+    "sku": "AW4126",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991515377939
+  },
+  {
+    "name": "Consul Blue",
+    "sku": "AW4115",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991515083027
+  },
+  {
+    "name": "Orange Magma",
+    "sku": "AW4106",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991514394899
+  },
+  {
+    "name": "Magnolia Brown",
+    "sku": "AW3124",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991512658195
+  },
+  {
+    "name": "Warpaints Air Metallics: Evil Chrome",
+    "sku": "AW1491",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991507317011
+  },
+  {
+    "name": "Barbarian Flesh",
+    "sku": "AW1126",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991503253779
+  },
+  {
+    "name": "Airbrush Primary Bundle - Greyscale",
+    "sku": "AW1508",
+    "collection": "Warpaints Air",
+    "shopifyId": 9645192315155
+  },
+  {
+    "name": "Feywild Glow",
+    "sku": "AW4421",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991520653587
+  },
+  {
+    "name": "Toxic Mist",
+    "sku": "AW1437",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991505875219
+  },
+  {
+    "name": "Cypress Brown",
+    "sku": "AW4124",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991515279635
+  },
+  {
+    "name": "Canopy Green",
+    "sku": "AW4433",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991520719123
+  },
+  {
+    "name": "Undergrowth Green",
+    "sku": "AW3433",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991513542931
+  },
+  {
+    "name": "Warlock Purple",
+    "sku": "AW1451",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991506006291
+  },
+  {
+    "name": "Feral Green",
+    "sku": "AW4111",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991514558739
+  },
+  {
+    "name": "Warpaints Air Metallics: Elven Armor",
+    "sku": "AW1483",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991507054867
+  },
+  {
+    "name": "Yellow Dune",
+    "sku": "AW4121",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991515181331
+  },
+  {
+    "name": "Talisman Purple",
+    "sku": "AW4451",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991529435411
+  },
+  {
+    "name": "Barren Yellow",
+    "sku": "AW3121",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991511707923
+  },
+  {
+    "name": "Fur Brown",
+    "sku": "AW1122",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991503122707
+  },
+  {
+    "name": "Exile Green",
+    "sku": "AW4112",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991514591507
+  },
+  {
+    "name": "Husk Brown",
+    "sku": "AW3122",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991512592659
+  },
+  {
+    "name": "Warpaints Air Metallics: Zephyr Pink",
+    "sku": "AW1485",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991507120403
+  },
+  {
+    "name": "Warpaints Air Metallics: Tainted Gold",
+    "sku": "AW1482",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991507022099
+  },
+  {
+    "name": "Fairy Pink",
+    "sku": "AW3447",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991513674003
+  },
+  {
+    "name": "Dark Sky",
+    "sku": "AW1415",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991504761107
+  },
+  {
+    "name": "Witchbane Plum",
+    "sku": "AW3451",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991513706771
+  },
+  {
+    "name": "Twilight Sky",
+    "sku": "AW4415",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991520522515
+  },
+  {
+    "name": "Traitor Red",
+    "sku": "AW3142",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991512822035
+  },
+  {
+    "name": "Gremlin Green",
+    "sku": "AW3109",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991511347475
+  },
+  {
+    "name": "Bogey Green",
+    "sku": "AW4109",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991514493203
+  },
+  {
+    "name": "Warpaints Air Metallics: Glitter Green",
+    "sku": "AW1484",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991507087635
+  },
+  {
+    "name": "Brethil Blush",
+    "sku": "AW3421",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991513510163
+  },
+  {
+    "name": "Leviathan Light",
+    "sku": "AW4437",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991520817427
+  },
+  {
+    "name": "Rebel Red",
+    "sku": "AW4142",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991520489747
+  },
+  {
+    "name": "Meteor Rock",
+    "sku": "AW3438",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991513641235
+  },
+  {
+    "name": "Warpaints Air Most Wanted Set",
+    "sku": "AW8004",
+    "collection": "Warpaints Air",
+    "shopifyId": 15389301932406
+  },
+  {
+    "name": "Viper Brown",
+    "sku": "AW4122",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991515214099
+  },
+  {
+    "name": "Hazardous Smog",
+    "sku": "AW3437",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991513608467
+  },
+  {
+    "name": "Elemental Bolt",
+    "sku": "AW1419",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991504793875
+  },
+  {
+    "name": "Ruinous Spell",
+    "sku": "AW3466",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991513739539
+  },
+  {
+    "name": "Moon Dust",
+    "sku": "AW1438",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991505940755
+  },
+  {
+    "name": "Gnome Cheeks",
+    "sku": "AW3434",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991513575699
+  },
+  {
+    "name": "Wizards Orb",
+    "sku": "AW1466",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991506039059
+  },
+  {
+    "name": "Cosmic Dust",
+    "sku": "AW4438",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991520850195
+  },
+  {
+    "name": "Psychic Shock",
+    "sku": "AW4419",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991520588051
+  },
+  {
+    "name": "Airbrush Primary Bundle - Blue",
+    "sku": "AW1507",
+    "collection": "Warpaints Air",
+    "shopifyId": 9645191856403
+  },
+  {
+    "name": "Potion Green",
+    "sku": "AW4466",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991529468179
+  },
+  {
+    "name": "Majestic Fortress",
+    "sku": "AW3419",
+    "collection": "Warpaints Air",
+    "shopifyId": 8991512887571
+  },
+  {
+    "name": "Air Triads - Flueorescent",
+    "sku": "AW1513",
+    "collection": "Warpaints Air",
+    "shopifyId": 15094693790070
+  },
+  {
+    "name": "Airbrush Primary Bundle - Yellow",
+    "sku": "AW1510",
+    "collection": "Warpaints Air",
+    "shopifyId": 9645192446227
+  },
+  {
+    "name": "Air Triads - Light Skin Tone",
+    "sku": "AW1517",
+    "collection": "Warpaints Air",
+    "shopifyId": 15094694642038
+  },
+  {
+    "name": "Air Triads - Deathly & Drab Green",
+    "sku": "AW1514",
+    "collection": "Warpaints Air",
+    "shopifyId": 15094694117750
+  },
+  {
+    "name": "Air Triads - Desaturated Blue-Grey",
+    "sku": "AW1515",
+    "collection": "Warpaints Air",
+    "shopifyId": 15094694314358
+  },
+  {
+    "name": "Air Triads - Orcs & Goblins",
+    "sku": "AW1522",
+    "collection": "Warpaints Air",
+    "shopifyId": 15094696313206
+  },
+  {
+    "name": "Air Triads - Most-Wanted Metallics",
+    "sku": "AW1519",
+    "collection": "Warpaints Air",
+    "shopifyId": 15094695100790
+  },
+  {
+    "name": "Air Triads - Fantasy Metallics",
+    "sku": "AW1516",
+    "collection": "Warpaints Air",
+    "shopifyId": 15094694576502
+  },
+  {
+    "name": "Air Triads - Neutral Brown",
+    "sku": "AW1520",
+    "collection": "Warpaints Air",
+    "shopifyId": 15094695952758
+  },
+  {
+    "name": "Air Triads - Orange & Yellow",
+    "sku": "AW1521",
+    "collection": "Warpaints Air",
+    "shopifyId": 15094696280438
+  },
+  {
+    "name": "Air Triads - Magenta & Pink",
+    "sku": "AW1518",
+    "collection": "Warpaints Air",
+    "shopifyId": 15094695068022
+  },
+  {
+    "name": "Air Triads - Turquoise",
+    "sku": "AW1526",
+    "collection": "Warpaints Air",
+    "shopifyId": 15094696968566
+  },
+  {
+    "name": "Air Triads – Black",
+    "sku": "AW1511",
+    "collection": "Warpaints Air",
+    "shopifyId": 15094693593462
+  },
+  {
+    "name": "Air Triads – White",
+    "sku": "AW1512",
+    "collection": "Warpaints Air",
+    "shopifyId": 15094693626230
+  },
+  {
+    "name": "Air Triads - Rose Skin Tone",
+    "sku": "AW1523",
+    "collection": "Warpaints Air",
+    "shopifyId": 15094696477046
+  },
+  {
+    "name": "Air Triads - Teals",
+    "sku": "AW1525",
+    "collection": "Warpaints Air",
+    "shopifyId": 15094696804726
+  },
+  {
+    "name": "Air Triads - Sci-Fi Metallics",
+    "sku": "AW1524",
+    "collection": "Warpaints Air",
+    "shopifyId": 15094696575350
+  }
+]

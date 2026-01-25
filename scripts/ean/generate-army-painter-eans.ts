@@ -4,12 +4,22 @@
  * Army Painter paints have predictable EANs based on their SKU:
  * - Company prefix: 5713799 (The Army Painter, Denmark)
  * - Item code: 4-digit SKU number + type digit
- * - Type digit: 0 for WP (Warpaints), 1 for CP (Colour Primer)
+ * - Type digit varies by product line:
+ *   - WP1### (Warpaints original): type digit 0
+ *   - CP3### (Colour Primer): type digit 1
+ *   - WP2### (Speedpaint 2.0): type digit 8
+ *   - WP207# (Speedpaint Metallics): type digit 0 (override)
+ *   - WP3### (Warpaints Fanatic): type digit 2
+ *   - AW#### (Warpaints Air): type digit 8
  * - Check digit: Calculated using EAN-13 algorithm
  *
  * Examples:
- *   WP1129 (Shining Silver) → 5713799 + 1129 + 0 + 2 = 5713799112902
- *   CP3001 (Matt Black)     → 5713799 + 3001 + 1 + 8 = 5713799300118
+ *   WP1129 (Shining Silver)    → 5713799 + 1129 + 0 + 2 = 5713799112902
+ *   CP3001 (Matt Black)        → 5713799 + 3001 + 1 + 8 = 5713799300118
+ *   WP2005 (Dark Wood)         → 5713799 + 2005 + 8 + 6 = 5713799200586
+ *   WP2071 (Polished Silver)   → 5713799 + 2071 + 0 + 3 = 5713799207103
+ *   WP3012 (Matt White)        → 5713799 + 3012 + 2 + 1 = 5713799301221
+ *   AW1101 (Matt Black Air)    → 5713799 + 1101 + 8 + 2 = 5713799110182
  *
  * Usage:
  *   npm run ean:generate:army-painter
@@ -52,20 +62,62 @@ function calculateEan13CheckDigit(first12: string): number {
 
 /**
  * Generate EAN-13 from Army Painter SKU
+ *
+ * Type digit mapping:
+ * - WP1### (Warpaints original): 0
+ * - WP2### (Speedpaint 2.0): 8 (except WP207# which is 0)
+ * - WP3### (Warpaints Fanatic): 2
+ * - CP3### (Colour Primer): 1
+ * - AW#### (Warpaints Air): 8
  */
 function generateArmyPainterEan(sku: string): string | null {
-  // WP format: WP1101-WP1731 (Warpaints)
-  const wpMatch = sku.match(/^WP(\d{4})$/);
-  if (wpMatch) {
-    const first12 = CONFIG.armyPainterPrefix + wpMatch[1] + '0';
+  // Remove trailing 'P' from SKU if present (Fanatic uses WP3012P format sometimes)
+  const normalizedSku = sku.replace(/P$/, '');
+
+  // WP1### format: Warpaints original (type digit 0)
+  const wp1Match = normalizedSku.match(/^WP1(\d{3})$/);
+  if (wp1Match) {
+    const first12 = CONFIG.armyPainterPrefix + '1' + wp1Match[1] + '0';
     const checkDigit = calculateEan13CheckDigit(first12);
     return first12 + checkDigit;
   }
 
-  // CP format: CP3001-CP3027 (Colour Primer)
-  const cpMatch = sku.match(/^CP(\d{4})$/);
+  // WP207# format: Speedpaint 2.0 Metallics (type digit 0 - special case)
+  const wp207Match = normalizedSku.match(/^WP(207\d)$/);
+  if (wp207Match) {
+    const first12 = CONFIG.armyPainterPrefix + wp207Match[1] + '0';
+    const checkDigit = calculateEan13CheckDigit(first12);
+    return first12 + checkDigit;
+  }
+
+  // WP2### format: Speedpaint 2.0 (type digit 8)
+  const wp2Match = normalizedSku.match(/^WP2(\d{3})$/);
+  if (wp2Match) {
+    const first12 = CONFIG.armyPainterPrefix + '2' + wp2Match[1] + '8';
+    const checkDigit = calculateEan13CheckDigit(first12);
+    return first12 + checkDigit;
+  }
+
+  // WP3### format: Warpaints Fanatic (type digit 2)
+  const wp3Match = normalizedSku.match(/^WP3(\d{3})$/);
+  if (wp3Match) {
+    const first12 = CONFIG.armyPainterPrefix + '3' + wp3Match[1] + '2';
+    const checkDigit = calculateEan13CheckDigit(first12);
+    return first12 + checkDigit;
+  }
+
+  // CP format: CP3001-CP3027 (Colour Primer, type digit 1)
+  const cpMatch = normalizedSku.match(/^CP(\d{4})$/);
   if (cpMatch) {
     const first12 = CONFIG.armyPainterPrefix + cpMatch[1] + '1';
+    const checkDigit = calculateEan13CheckDigit(first12);
+    return first12 + checkDigit;
+  }
+
+  // AW#### format: Warpaints Air (type digit 8)
+  const awMatch = normalizedSku.match(/^AW(\d{4})$/);
+  if (awMatch) {
+    const first12 = CONFIG.armyPainterPrefix + awMatch[1] + '8';
     const checkDigit = calculateEan13CheckDigit(first12);
     return first12 + checkDigit;
   }
@@ -108,8 +160,11 @@ async function main(): Promise<void> {
   let noSku = 0;
 
   const skuStats = {
-    wp: 0,
-    cp: 0,
+    wp1: 0, // Warpaints original
+    wp2: 0, // Speedpaint 2.0
+    wp3: 0, // Warpaints Fanatic
+    cp: 0,  // Colour Primer
+    aw: 0,  // Warpaints Air
     other: 0,
   };
 
@@ -143,10 +198,17 @@ async function main(): Promise<void> {
       generated++;
 
       // Track SKU type
-      if (paint.sku.startsWith('WP')) {
-        skuStats.wp++;
-      } else if (paint.sku.startsWith('CP')) {
+      const normalizedSku = paint.sku.replace(/P$/, '');
+      if (normalizedSku.match(/^WP1\d{3}$/)) {
+        skuStats.wp1++;
+      } else if (normalizedSku.match(/^WP2\d{3}$/)) {
+        skuStats.wp2++;
+      } else if (normalizedSku.match(/^WP3\d{3}$/)) {
+        skuStats.wp3++;
+      } else if (normalizedSku.match(/^CP\d{4}$/)) {
         skuStats.cp++;
+      } else if (normalizedSku.match(/^AW\d{4}$/)) {
+        skuStats.aw++;
       } else {
         skuStats.other++;
       }
@@ -167,8 +229,14 @@ async function main(): Promise<void> {
   // Output stats
   console.log('Generation Results:');
   console.log(`  Generated: ${generated}`);
-  console.log(`    - WP (Warpaints): ${skuStats.wp}`);
+  console.log(`    - WP1### (Warpaints original): ${skuStats.wp1}`);
+  console.log(`    - WP2### (Speedpaint 2.0): ${skuStats.wp2}`);
+  console.log(`    - WP3### (Warpaints Fanatic): ${skuStats.wp3}`);
   console.log(`    - CP (Colour Primer): ${skuStats.cp}`);
+  console.log(`    - AW (Warpaints Air): ${skuStats.aw}`);
+  if (skuStats.other > 0) {
+    console.log(`    - Other: ${skuStats.other}`);
+  }
   console.log(`  Invalid SKU format: ${invalidSku}`);
   console.log(`  No SKU: ${noSku}`);
   console.log();

@@ -1,16 +1,16 @@
 # EAN-13 Barcode Data Status
 
-Last updated: 2026-01-22
+Last updated: 2026-01-25
 
 ## Current Coverage
 
 | Brand | Paints | With EAN | Coverage |
 |-------|--------|----------|----------|
 | **Vallejo** | 1,268 | 1,268 | **100%** |
+| **Army Painter** | 704 | 599 | **85.1%** |
 | **Monument Hobbies** | 131 | 75 | **57.3%** |
-| **Army Painter** | 704 | 250 | **35.5%** |
 | **Citadel** | 452 | 146 | **32.3%** |
-| **Total** | 2,555 | 1,739 | **68.1%** |
+| **Total** | 2,555 | 2,088 | **81.7%** |
 
 ## How EANs Were Obtained
 
