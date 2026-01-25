@@ -1,11 +1,12 @@
 import { useState, useEffect, useMemo, useRef, useCallback } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Button, Card, ProgressBar, ConfirmationModal } from '../components/ui';
+import { Button, Card, ProgressBar, ConfirmationModal, Skeleton } from '../components/ui';
 import { AppHeader } from '../components/layout';
 import {
   AddUnitForm,
   BulkActionToolbar,
   UnitList,
+  UnitListSkeleton,
   EditUnitModal,
   RecipePickerModal,
 } from '../components/projects';
@@ -227,16 +228,46 @@ export function ProjectDetailPage() {
     }
   };
 
-  // Loading state
+  // Loading state - show skeleton
   if (isLoading) {
     return (
       <div className="min-h-screen bg-gray-50">
         <AppHeader user={user} />
         <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-          <div className="py-12 text-center">
-            <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-gray-200 border-t-blue-500" />
-            <p className="mt-2 text-gray-500">Loading project...</p>
+          {/* Back navigation skeleton */}
+          <div className="mb-4">
+            <Skeleton height={16} width={120} rounded="sm" />
           </div>
+
+          {/* Project Header Card skeleton */}
+          <Card variant="elevated" className="mb-6">
+            <Card.Body>
+              <Skeleton height={28} width="40%" rounded="sm" />
+              <div className="mt-2 flex gap-3">
+                <Skeleton height={16} width={80} rounded="sm" />
+                <Skeleton height={16} width={100} rounded="sm" />
+                <Skeleton height={16} width={80} rounded="sm" />
+              </div>
+              <div className="mt-6">
+                <div className="mb-2 flex justify-between">
+                  <Skeleton height={14} width={120} rounded="sm" />
+                  <Skeleton height={14} width={40} rounded="sm" />
+                </div>
+                <Skeleton height={8} width="100%" rounded="full" />
+              </div>
+            </Card.Body>
+          </Card>
+
+          {/* Units Section skeleton */}
+          <div className="mb-4 flex items-center justify-between">
+            <Skeleton height={22} width={60} rounded="sm" />
+            <div className="flex gap-2">
+              <Skeleton height={36} width={70} rounded="lg" />
+              <Skeleton height={36} width={90} rounded="lg" />
+            </div>
+          </div>
+
+          <UnitListSkeleton count={3} />
         </main>
       </div>
     );

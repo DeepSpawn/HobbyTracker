@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button, Card } from '../components/ui';
 import { AppHeader } from '../components/layout';
-import { CreateRecipeForm, RecipeList } from '../components/recipes';
+import { CreateRecipeForm, RecipeList, RecipeListSkeleton } from '../components/recipes';
 import { useAuth } from '../hooks/useAuth';
 import { useRecipes } from '../hooks/useRecipes';
 import { getRecipeSteps } from '../services/recipe';
@@ -105,10 +105,7 @@ export function RecipesPage() {
 
         {/* Loading state */}
         {isLoading ? (
-          <div className="py-12 text-center">
-            <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-gray-200 border-t-blue-500" />
-            <p className="mt-2 text-gray-500">Loading recipes...</p>
-          </div>
+          <RecipeListSkeleton />
         ) : (
           <RecipeList
             recipes={recipes}
