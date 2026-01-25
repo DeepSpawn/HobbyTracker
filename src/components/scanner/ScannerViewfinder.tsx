@@ -63,69 +63,73 @@ export function ScannerViewfinder({
   error,
   onRetry,
 }: ScannerViewfinderProps) {
-  if (error) {
-    return (
-      <div className="flex flex-col items-center justify-center h-full min-h-[300px] bg-gray-900 text-white p-6">
-        <CameraOffIcon />
-        <h3 className="mt-4 text-lg font-medium">
-          {error.type === 'permission_denied' && 'Camera Access Denied'}
-          {error.type === 'no_camera' && 'No Camera Found'}
-          {error.type === 'not_supported' && 'Camera Not Supported'}
-          {error.type === 'unknown' && 'Camera Error'}
-        </h3>
-        <p className="mt-2 text-center text-gray-300 max-w-sm">
-          {error.message}
-        </p>
-        {error.type === 'permission_denied' && (
-          <p className="mt-2 text-sm text-gray-400 text-center">
-            Check your browser settings to allow camera access for this site.
-          </p>
-        )}
-        <Button
-          variant="primary"
-          onClick={onRetry}
-          className="mt-6"
-        >
-          Try Again
-        </Button>
-      </div>
-    );
-  }
-
-  if (status === 'requesting') {
-    return (
-      <div className="flex flex-col items-center justify-center h-full min-h-[300px] bg-gray-900 text-white p-6">
-        <div className="w-12 h-12 border-4 border-gray-600 border-t-amber-500 rounded-full animate-spin" />
-        <p className="mt-4 text-gray-300">Requesting camera access...</p>
-      </div>
-    );
-  }
-
-  if (status === 'idle') {
-    return (
-      <div className="flex flex-col items-center justify-center h-full min-h-[300px] bg-gray-900 text-white p-6">
-        <CameraOffIcon />
-        <p className="mt-4 text-gray-300">Camera is not active</p>
-      </div>
-    );
-  }
+  const isActive = status === 'scanning' || status === 'processing';
 
   return (
-    <div className="relative w-full h-full min-h-[300px] bg-black overflow-hidden">
+    <div className="relative w-full h-full min-h-[300px] bg-gray-900 overflow-hidden">
+      {/* Video element always rendered to ensure ref is available for stream attachment */}
       <video
         ref={videoRef}
-        className="absolute inset-0 w-full h-full object-cover"
+        className={`absolute inset-0 w-full h-full object-cover ${isActive ? '' : 'invisible'}`}
         autoPlay
         playsInline
         muted
       />
 
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/30" />
+      {/* Error state overlay */}
+      {error && (
+        <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-900 text-white p-6">
+          <CameraOffIcon />
+          <h3 className="mt-4 text-lg font-medium">
+            {error.type === 'permission_denied' && 'Camera Access Denied'}
+            {error.type === 'no_camera' && 'No Camera Found'}
+            {error.type === 'not_supported' && 'Camera Not Supported'}
+            {error.type === 'unknown' && 'Camera Error'}
+          </h3>
+          <p className="mt-2 text-center text-gray-300 max-w-sm">
+            {error.message}
+          </p>
+          {error.type === 'permission_denied' && (
+            <p className="mt-2 text-sm text-gray-400 text-center">
+              Check your browser settings to allow camera access for this site.
+            </p>
+          )}
+          <Button
+            variant="primary"
+            onClick={onRetry}
+            className="mt-6"
+          >
+            Try Again
+          </Button>
+        </div>
+      )}
 
-      {(status === 'scanning' || status === 'processing') && <ScanningIndicator />}
+      {/* Requesting state overlay */}
+      {!error && status === 'requesting' && (
+        <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-900 text-white p-6">
+          <div className="w-12 h-12 border-4 border-gray-600 border-t-amber-500 rounded-full animate-spin" />
+          <p className="mt-4 text-gray-300">Requesting camera access...</p>
+        </div>
+      )}
 
-      {status === 'processing' && (
+      {/* Idle state overlay */}
+      {!error && status === 'idle' && (
+        <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-900 text-white p-6">
+          <CameraOffIcon />
+          <p className="mt-4 text-gray-300">Camera is not active</p>
+        </div>
+      )}
+
+      {/* Scanning overlay */}
+      {!error && isActive && (
+        <>
+          <div className="absolute inset-0 bg-black/30" />
+          <ScanningIndicator />
+        </>
+      )}
+
+      {/* Processing indicator */}
+      {!error && status === 'processing' && (
         <div className="absolute bottom-4 left-0 right-0 flex justify-center">
           <div className="bg-black/70 text-white px-4 py-2 rounded-full text-sm">
             Processing barcode...
