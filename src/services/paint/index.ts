@@ -2,6 +2,7 @@ export {
   searchPaints,
   getAutocompleteSuggestions,
   getPaintById,
+  getPaintBySku,
   getPaintFilterOptions,
   preloadPaints,
 } from './paintService';

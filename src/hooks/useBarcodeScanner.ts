@@ -1,0 +1,251 @@
+import { useState, useRef, useCallback, useEffect } from 'react';
+import { BrowserMultiFormatReader, BarcodeFormat, DecodeHintType } from '@zxing/library';
+import type { Paint } from '../types/paint';
+import { getPaintBySku } from '../services/paint';
+
+export type ScannerStatus =
+  | 'idle'
+  | 'requesting'
+  | 'scanning'
+  | 'processing'
+  | 'error';
+
+export type ScannerErrorType =
+  | 'permission_denied'
+  | 'no_camera'
+  | 'not_supported'
+  | 'unknown';
+
+export interface ScannerError {
+  type: ScannerErrorType;
+  message: string;
+}
+
+export interface UseBarcodesScannerOptions {
+  onBarcodeDetected?: (barcode: string) => void;
+  onPaintFound?: (paint: Paint) => void;
+  onPaintNotFound?: (barcode: string) => void;
+  continuous?: boolean;
+}
+
+export interface UseBarcodesScannerReturn {
+  status: ScannerStatus;
+  error: ScannerError | null;
+  lastScannedBarcode: string | null;
+  lastMatchedPaint: Paint | null;
+  videoRef: React.RefObject<HTMLVideoElement | null>;
+  startScanning: () => Promise<void>;
+  stopScanning: () => void;
+  resetError: () => void;
+  resetLastScan: () => void;
+}
+
+const SCAN_DEBOUNCE_MS = 1500;
+
+function createScannerError(err: unknown): ScannerError {
+  if (err instanceof DOMException) {
+    if (err.name === 'NotAllowedError') {
+      return {
+        type: 'permission_denied',
+        message: 'Camera access was denied. Please enable camera permissions in your browser settings.',
+      };
+    }
+    if (err.name === 'NotFoundError') {
+      return {
+        type: 'no_camera',
+        message: 'No camera found. Please try on a device with a camera.',
+      };
+    }
+  }
+
+  if (!navigator.mediaDevices?.getUserMedia) {
+    return {
+      type: 'not_supported',
+      message: 'Your browser does not support camera access.',
+    };
+  }
+
+  return {
+    type: 'unknown',
+    message: err instanceof Error ? err.message : 'An unknown error occurred.',
+  };
+}
+
+export function useBarcodeScanner(
+  options: UseBarcodesScannerOptions = {}
+): UseBarcodesScannerReturn {
+  const {
+    onBarcodeDetected,
+    onPaintFound,
+    onPaintNotFound,
+    continuous = true,
+  } = options;
+
+  const [status, setStatus] = useState<ScannerStatus>('idle');
+  const [error, setError] = useState<ScannerError | null>(null);
+  const [lastScannedBarcode, setLastScannedBarcode] = useState<string | null>(null);
+  const [lastMatchedPaint, setLastMatchedPaint] = useState<Paint | null>(null);
+
+  const videoRef = useRef<HTMLVideoElement | null>(null);
+  const readerRef = useRef<BrowserMultiFormatReader | null>(null);
+  const streamRef = useRef<MediaStream | null>(null);
+  const lastScanTimeRef = useRef<number>(0);
+  const isStoppedRef = useRef<boolean>(true);
+
+  const stopScanning = useCallback(() => {
+    isStoppedRef.current = true;
+
+    if (readerRef.current) {
+      readerRef.current.reset();
+      readerRef.current = null;
+    }
+
+    if (streamRef.current) {
+      streamRef.current.getTracks().forEach((track) => track.stop());
+      streamRef.current = null;
+    }
+
+    if (videoRef.current) {
+      videoRef.current.srcObject = null;
+    }
+
+    setStatus('idle');
+  }, []);
+
+  const handleBarcodeScan = useCallback(
+    async (barcode: string) => {
+      const now = Date.now();
+      if (now - lastScanTimeRef.current < SCAN_DEBOUNCE_MS) {
+        return;
+      }
+      lastScanTimeRef.current = now;
+
+      setLastScannedBarcode(barcode);
+      onBarcodeDetected?.(barcode);
+
+      setStatus('processing');
+
+      try {
+        const paint = await getPaintBySku(barcode);
+
+        if (paint) {
+          setLastMatchedPaint(paint);
+          onPaintFound?.(paint);
+        } else {
+          setLastMatchedPaint(null);
+          onPaintNotFound?.(barcode);
+        }
+      } finally {
+        if (!isStoppedRef.current) {
+          setStatus(continuous ? 'scanning' : 'idle');
+        }
+      }
+    },
+    [onBarcodeDetected, onPaintFound, onPaintNotFound, continuous]
+  );
+
+  const startScanning = useCallback(async () => {
+    if (!navigator.mediaDevices?.getUserMedia) {
+      setError({
+        type: 'not_supported',
+        message: 'Your browser does not support camera access.',
+      });
+      setStatus('error');
+      return;
+    }
+
+    setStatus('requesting');
+    setError(null);
+    isStoppedRef.current = false;
+
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({
+        video: {
+          facingMode: 'environment',
+          width: { ideal: 1280 },
+          height: { ideal: 720 },
+        },
+      });
+
+      if (isStoppedRef.current) {
+        stream.getTracks().forEach((track) => track.stop());
+        return;
+      }
+
+      streamRef.current = stream;
+
+      if (videoRef.current) {
+        videoRef.current.srcObject = stream;
+        await videoRef.current.play();
+      }
+
+      const hints = new Map();
+      hints.set(DecodeHintType.POSSIBLE_FORMATS, [
+        BarcodeFormat.EAN_13,
+        BarcodeFormat.EAN_8,
+        BarcodeFormat.UPC_A,
+        BarcodeFormat.UPC_E,
+        BarcodeFormat.CODE_128,
+        BarcodeFormat.CODE_39,
+      ]);
+
+      const reader = new BrowserMultiFormatReader(hints);
+      readerRef.current = reader;
+
+      setStatus('scanning');
+
+      reader.decodeFromVideoDevice(
+        null,
+        videoRef.current!,
+        (result, err) => {
+          if (isStoppedRef.current) return;
+
+          if (result) {
+            const barcode = result.getText();
+            handleBarcodeScan(barcode);
+          }
+
+          // ZXing throws NotFoundException continuously when no barcode is detected
+          // This is normal behavior, so we only log actual errors
+          if (err && err.name !== 'NotFoundException') {
+            console.error('Barcode scan error:', err);
+          }
+        }
+      );
+    } catch (err) {
+      const scannerError = createScannerError(err);
+      setError(scannerError);
+      setStatus('error');
+      stopScanning();
+    }
+  }, [handleBarcodeScan, stopScanning]);
+
+  const resetError = useCallback(() => {
+    setError(null);
+    setStatus('idle');
+  }, []);
+
+  const resetLastScan = useCallback(() => {
+    setLastScannedBarcode(null);
+    setLastMatchedPaint(null);
+  }, []);
+
+  // Cleanup on unmount
+  useEffect(() => {
+    return () => {
+      stopScanning();
+    };
+  }, [stopScanning]);
+
+  return {
+    status,
+    error,
+    lastScannedBarcode,
+    lastMatchedPaint,
+    videoRef,
+    startScanning,
+    stopScanning,
+    resetError,
+    resetLastScan,
+  };
+}

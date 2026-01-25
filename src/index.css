@@ -56,6 +56,19 @@
   --duration-fast: 150ms;
   --duration-normal: 200ms;
   --duration-slow: 300ms;
+
+  /* === Custom Animations === */
+  --animate-scan-line: scan-line 2s ease-in-out infinite;
+}
+
+@keyframes scan-line {
+  0%,
+  100% {
+    top: 10%;
+  }
+  50% {
+    top: 90%;
+  }
 }
 
 @layer base {
