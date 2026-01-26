@@ -1,9 +1,7 @@
 import { useState, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Card, CollapsibleSection } from '../components/ui';
-import { AppHeader } from '../components/layout';
 import { PaintShoppingListCard } from '../components/shopping';
-import { useAuth } from '../hooks/useAuth';
 import { useShoppingList } from '../hooks/useShoppingList';
 import { usePaintShoppingList } from '../hooks/usePaintShoppingList';
 import type { ShoppingListData } from '../services/project';
@@ -73,7 +71,6 @@ function formatShoppingListText(
 }
 
 export function ShoppingListPage() {
-  const { user } = useAuth();
   const [isCopied, setIsCopied] = useState(false);
 
   // Models shopping list
@@ -124,90 +121,80 @@ export function ShoppingListPage() {
   // Loading state
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-gray-50">
-        <AppHeader user={user} />
-        <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-          <PageHeader
-            totalModels={0}
-            totalPaints={0}
-            isLoading
-            onCopy={handleCopyToClipboard}
-            isCopied={isCopied}
-          />
-          <div className="py-12 text-center">
-            <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-gray-200 border-t-blue-500" />
-            <p className="mt-2 text-gray-500">Loading shopping list...</p>
-          </div>
-        </main>
-      </div>
+      <>
+        <PageHeader
+          totalModels={0}
+          totalPaints={0}
+          isLoading
+          onCopy={handleCopyToClipboard}
+          isCopied={isCopied}
+        />
+        <div className="py-12 text-center">
+          <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-gray-200 border-t-blue-500" />
+          <p className="mt-2 text-gray-500">Loading shopping list...</p>
+        </div>
+      </>
     );
   }
 
   // Error state
   if (error) {
     return (
-      <div className="min-h-screen bg-gray-50">
-        <AppHeader user={user} />
-        <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-          <PageHeader
-            totalModels={0}
-            totalPaints={0}
-            onCopy={handleCopyToClipboard}
-            isCopied={isCopied}
-          />
-          <Card variant="outlined" className="border-error/20 bg-error/10">
-            <Card.Body>
-              <p className="text-error">
-                Error loading shopping list: {error.message}
-              </p>
-            </Card.Body>
-          </Card>
-        </main>
-      </div>
+      <>
+        <PageHeader
+          totalModels={0}
+          totalPaints={0}
+          onCopy={handleCopyToClipboard}
+          isCopied={isCopied}
+        />
+        <Card variant="outlined" className="border-error/20 bg-error/10">
+          <Card.Body>
+            <p className="text-error">
+              Error loading shopping list: {error.message}
+            </p>
+          </Card.Body>
+        </Card>
+      </>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <AppHeader user={user} />
+    <>
+      <PageHeader
+        totalModels={totalModels}
+        totalPaints={totalPaints}
+        onCopy={handleCopyToClipboard}
+        isCopied={isCopied}
+      />
 
-      <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        <PageHeader
-          totalModels={totalModels}
-          totalPaints={totalPaints}
-          onCopy={handleCopyToClipboard}
-          isCopied={isCopied}
-        />
+      <div className="space-y-6">
+        {/* Models Needed Section */}
+        <CollapsibleSection
+          title="Models Needed"
+          count={totalModels}
+          defaultExpanded={true}
+        >
+          <ModelsContent
+            data={modelsData}
+            loadingUnitId={loadingUnitId}
+            onMarkAsOwned={handleMarkUnitAsOwned}
+          />
+        </CollapsibleSection>
 
-        <div className="space-y-6">
-          {/* Models Needed Section */}
-          <CollapsibleSection
-            title="Models Needed"
-            count={totalModels}
-            defaultExpanded={true}
-          >
-            <ModelsContent
-              data={modelsData}
-              loadingUnitId={loadingUnitId}
-              onMarkAsOwned={handleMarkUnitAsOwned}
-            />
-          </CollapsibleSection>
-
-          {/* Paints Needed Section */}
-          <CollapsibleSection
-            title="Paints Needed"
-            count={totalPaints}
-            defaultExpanded={true}
-          >
-            <PaintsContent
-              data={paintsData}
-              isPending={isPaintPending}
-              onMarkAsOwned={markPaintAsOwned}
-            />
-          </CollapsibleSection>
-        </div>
-      </main>
-    </div>
+        {/* Paints Needed Section */}
+        <CollapsibleSection
+          title="Paints Needed"
+          count={totalPaints}
+          defaultExpanded={true}
+        >
+          <PaintsContent
+            data={paintsData}
+            isPending={isPaintPending}
+            onMarkAsOwned={markPaintAsOwned}
+          />
+        </CollapsibleSection>
+      </div>
+    </>
   );
 }
 

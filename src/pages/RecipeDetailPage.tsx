@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { Button, Card } from '../components/ui';
-import { AppHeader } from '../components/layout';
 import {
   RecipeStepDisplay,
   EditRecipeForm,
@@ -38,14 +37,9 @@ export function RecipeDetailPage() {
   // Loading state
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-gray-50">
-        <AppHeader user={user} />
-        <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-          <div className="py-12 text-center">
-            <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-gray-200 border-t-blue-500" />
-            <p className="mt-2 text-gray-500">Loading recipe...</p>
-          </div>
-        </main>
+      <div className="py-12 text-center">
+        <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-gray-200 border-t-blue-500" />
+        <p className="mt-2 text-gray-500">Loading recipe...</p>
       </div>
     );
   }
@@ -53,30 +47,22 @@ export function RecipeDetailPage() {
   // Error state
   if (error || !recipe) {
     return (
-      <div className="min-h-screen bg-gray-50">
-        <AppHeader user={user} />
-        <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-          <Card variant="outlined" className="border-error/20 bg-error/10">
-            <Card.Body>
-              <p className="text-error">{error?.message || 'Recipe not found'}</p>
-            </Card.Body>
-            <Card.Footer>
-              <Link to="/recipes">
-                <Button variant="outline">Back to Recipes</Button>
-              </Link>
-            </Card.Footer>
-          </Card>
-        </main>
-      </div>
+      <Card variant="outlined" className="border-error/20 bg-error/10">
+        <Card.Body>
+          <p className="text-error">{error?.message || 'Recipe not found'}</p>
+        </Card.Body>
+        <Card.Footer>
+          <Link to="/recipes">
+            <Button variant="outline">Back to Recipes</Button>
+          </Link>
+        </Card.Footer>
+      </Card>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <AppHeader user={user} />
-
-      <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        {/* Back navigation */}
+    <>
+      {/* Back navigation */}
         <div className="mb-4">
           <Link
             to="/recipes"
@@ -175,15 +161,14 @@ export function RecipeDetailPage() {
           </>
         )}
 
-        {/* Delete Confirmation Modal */}
-        <DeleteRecipeModal
-          isOpen={showDeleteModal}
-          onClose={() => setShowDeleteModal(false)}
-          onConfirm={handleDelete}
-          recipeName={recipe.name}
-          isDeleting={isDeleting}
-        />
-      </main>
-    </div>
+      {/* Delete Confirmation Modal */}
+      <DeleteRecipeModal
+        isOpen={showDeleteModal}
+        onClose={() => setShowDeleteModal(false)}
+        onConfirm={handleDelete}
+        recipeName={recipe.name}
+        isDeleting={isDeleting}
+      />
+    </>
   );
 }

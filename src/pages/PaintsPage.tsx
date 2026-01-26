@@ -1,9 +1,7 @@
 import { useState } from 'react';
 import { Button, Card } from '../components/ui';
-import { AppHeader } from '../components/layout';
 import { PaintList, PaintListSkeleton, PaintFilters, PaintDetailModal } from '../components/paints';
 import { BarcodeScannerModal } from '../components/scanner';
-import { useAuth } from '../hooks/useAuth';
 import { useInventory } from '../hooks/useInventory';
 import { usePaints } from '../hooks/usePaints';
 import type { Paint } from '../types/paint';
@@ -28,7 +26,6 @@ const BarcodeIcon = () => (
 type TabValue = 'all' | 'owned';
 
 export function PaintsPage() {
-  const { user } = useAuth();
   const {
     ownedPaintIds,
     isLoading: inventoryLoading,
@@ -80,12 +77,8 @@ export function PaintsPage() {
   const ownedCount = ownedPaintIds.size;
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <AppHeader user={user} />
-
-      {/* Main content */}
-      <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        {/* Page title and stats */}
+    <>
+      {/* Page title and stats */}
         <div className="mb-6 flex items-start justify-between">
           <div>
             <h2 className="text-2xl font-bold text-gray-900">Paint Inventory</h2>
@@ -199,12 +192,11 @@ export function PaintsPage() {
           }}
         />
 
-        {/* Barcode Scanner Modal */}
-        <BarcodeScannerModal
-          isOpen={isScannerOpen}
-          onClose={() => setIsScannerOpen(false)}
-        />
-      </main>
-    </div>
+      {/* Barcode Scanner Modal */}
+      <BarcodeScannerModal
+        isOpen={isScannerOpen}
+        onClose={() => setIsScannerOpen(false)}
+      />
+    </>
   );
 }
