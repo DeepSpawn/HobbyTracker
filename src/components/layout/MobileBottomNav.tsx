@@ -4,7 +4,7 @@ import { mainNavItems, profileNavItem } from './navigationConfig';
 export function MobileBottomNav() {
   return (
     <nav
-      className="fixed bottom-0 left-0 right-0 flex h-16 items-center justify-around border-t border-gray-200 bg-white pb-safe md:hidden"
+      className="fixed bottom-0 left-0 right-0 z-20 flex h-16 items-center justify-around border-t border-gray-200 bg-white pb-safe md:hidden"
       aria-label="Mobile navigation"
     >
       {mainNavItems.map((item) => (
