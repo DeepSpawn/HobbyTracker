@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button, Card } from '../components/ui';
 import { AppHeader } from '../components/layout';
-import { CreateProjectForm, ProjectList } from '../components/projects';
+import { CreateProjectForm, ProjectList, ProjectListSkeleton } from '../components/projects';
 import { ImportWizardModal } from '../components/import';
 import { useAuth } from '../hooks/useAuth';
 import { useProjectsWithCompletion } from '../hooks/useProjectsWithCompletion';
@@ -65,10 +65,7 @@ export function ProjectsPage() {
 
         {/* Loading state */}
         {isLoading ? (
-          <div className="py-12 text-center">
-            <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-gray-200 border-t-blue-500" />
-            <p className="mt-2 text-gray-500">Loading projects...</p>
-          </div>
+          <ProjectListSkeleton />
         ) : (
           <ProjectList
             projects={projects}

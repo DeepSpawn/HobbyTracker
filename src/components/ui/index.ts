@@ -38,3 +38,6 @@ export type { FileDropZoneProps } from './FileDropZone';
 
 export { CollapsibleSection } from './CollapsibleSection';
 export type { CollapsibleSectionProps } from './CollapsibleSection';
+
+export { Skeleton, SkeletonText, SkeletonCard } from './Skeleton';
+export type { SkeletonProps, SkeletonTextProps, SkeletonCardProps } from './Skeleton';

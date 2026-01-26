@@ -17,19 +17,28 @@ export function useProjectDetail(projectId: string | undefined): UseProjectDetai
   const { user, isAuthenticated } = useAuth();
   const [project, setProject] = useState<Project | null>(null);
   const [units, setUnits] = useState<ProjectUnit[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<Error | null>(null);
+
+  // Track loading state for both data sources to prevent flash of error
+  const [projectLoaded, setProjectLoaded] = useState(false);
+  const [unitsLoaded, setUnitsLoaded] = useState(false);
+
+  // Reset loading flags when projectId changes
+  useEffect(() => {
+    setProjectLoaded(false);
+    setUnitsLoaded(false);
+    setProject(null);
+    setUnits([]);
+    setError(null);
+  }, [projectId]);
 
   // Fetch project data
   useEffect(() => {
     if (!isAuthenticated || !user || !projectId) {
       setProject(null);
-      setIsLoading(false);
+      setProjectLoaded(true);
       return;
     }
-
-    setIsLoading(true);
-    setError(null);
 
     getProject(user.uid, projectId)
       .then((proj) => {
@@ -37,9 +46,11 @@ export function useProjectDetail(projectId: string | undefined): UseProjectDetai
         if (!proj) {
           setError(new Error('Project not found'));
         }
+        setProjectLoaded(true);
       })
       .catch((err) => {
         setError(err instanceof Error ? err : new Error('Failed to load project'));
+        setProjectLoaded(true);
       });
   }, [user, isAuthenticated, projectId]);
 
@@ -47,17 +58,20 @@ export function useProjectDetail(projectId: string | undefined): UseProjectDetai
   useEffect(() => {
     if (!isAuthenticated || !user || !projectId) {
       setUnits([]);
-      setIsLoading(false);
+      setUnitsLoaded(true);
       return;
     }
 
     const unsubscribe = subscribeToProjectUnits(user.uid, projectId, (unitList) => {
       setUnits(unitList);
-      setIsLoading(false);
+      setUnitsLoaded(true);
     });
 
     return () => unsubscribe();
   }, [user, isAuthenticated, projectId]);
+
+  // Only mark as loaded when BOTH project and units have loaded
+  const isLoading = !projectLoaded || !unitsLoaded;
 
   // Calculate unit counts and completion percentage from units
   const unitCounts: ProjectUnitCounts = {

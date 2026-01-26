@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Button, Card } from '../components/ui';
 import { AppHeader } from '../components/layout';
-import { PaintList, PaintFilters, PaintDetailModal } from '../components/paints';
+import { PaintList, PaintListSkeleton, PaintFilters, PaintDetailModal } from '../components/paints';
 import { BarcodeScannerModal } from '../components/scanner';
 import { useAuth } from '../hooks/useAuth';
 import { useInventory } from '../hooks/useInventory';
@@ -169,10 +169,7 @@ export function PaintsPage() {
 
         {/* Paint list */}
         {isLoading ? (
-          <div className="py-12 text-center">
-            <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-gray-200 border-t-blue-500" />
-            <p className="mt-2 text-gray-500">Loading paints...</p>
-          </div>
+          <PaintListSkeleton />
         ) : (
           <PaintList
             paints={paints}
