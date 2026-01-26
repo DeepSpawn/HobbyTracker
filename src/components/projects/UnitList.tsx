@@ -1,4 +1,4 @@
-import { Card, StatusBadge, getNextStatus } from '../ui';
+import { Card, StatusBadge, getNextStatus, EmptyState } from '../ui';
 import type { ProjectUnit, UnitStatus } from '../../types/project';
 import { UnitRecipeDisplay, type PaintSwatch } from './UnitRecipeDisplay';
 
@@ -9,7 +9,7 @@ export interface RecipeDisplayData {
 
 interface UnitListProps {
   units: ProjectUnit[];
-  emptyMessage?: string;
+  onAddUnit?: () => void;
   onUnitClick?: (unit: ProjectUnit) => void;
   onStatusChange?: (unitId: string, newStatus: UnitStatus) => void;
   onEditUnit?: (unit: ProjectUnit) => void;
@@ -23,7 +23,7 @@ interface UnitListProps {
 
 export function UnitList({
   units,
-  emptyMessage,
+  onAddUnit,
   onUnitClick,
   onStatusChange,
   onEditUnit,
@@ -36,11 +36,14 @@ export function UnitList({
 }: UnitListProps) {
   if (units.length === 0) {
     return (
-      <Card variant="outlined" padding="lg">
-        <p className="text-center text-gray-500">
-          {emptyMessage || 'No units yet. Add your first unit!'}
-        </p>
-      </Card>
+      <EmptyState
+        icon="units"
+        title="No units yet"
+        description="Add units to track your army's progress"
+        action={
+          onAddUnit ? { label: 'Add Unit', onClick: onAddUnit } : undefined
+        }
+      />
     );
   }
 

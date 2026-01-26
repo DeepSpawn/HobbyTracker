@@ -41,3 +41,6 @@ export type { CollapsibleSectionProps } from './CollapsibleSection';
 
 export { Skeleton, SkeletonText, SkeletonCard } from './Skeleton';
 export type { SkeletonProps, SkeletonTextProps, SkeletonCardProps } from './Skeleton';
+
+export { EmptyState } from './EmptyState';
+export type { EmptyStateProps, EmptyStateIcon } from './EmptyState';

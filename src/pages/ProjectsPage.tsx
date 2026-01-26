@@ -69,7 +69,7 @@ export function ProjectsPage() {
         ) : (
           <ProjectList
             projects={projects}
-            emptyMessage="No projects yet. Create your first project to get started!"
+            onCreateProject={() => setShowCreateForm(true)}
           />
         )}
 

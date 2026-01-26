@@ -110,7 +110,7 @@ export function RecipesPage() {
           <RecipeList
             recipes={recipes}
             recipeSwatches={recipeSwatches}
-            emptyMessage="No recipes yet. Create your first recipe to get started!"
+            onCreateRecipe={() => setShowCreateForm(true)}
           />
         )}
       </main>

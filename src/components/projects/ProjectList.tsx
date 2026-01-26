@@ -1,20 +1,25 @@
 import { Link } from 'react-router-dom';
-import { Card, ProgressBar } from '../ui';
+import { Card, ProgressBar, EmptyState } from '../ui';
 import type { ProjectWithCompletion } from '../../hooks/useProjectsWithCompletion';
 
 interface ProjectListProps {
   projects: ProjectWithCompletion[];
-  emptyMessage?: string;
+  onCreateProject?: () => void;
 }
 
-export function ProjectList({ projects, emptyMessage }: ProjectListProps) {
+export function ProjectList({ projects, onCreateProject }: ProjectListProps) {
   if (projects.length === 0) {
     return (
-      <Card variant="outlined" padding="lg">
-        <p className="text-center text-gray-500">
-          {emptyMessage || 'No projects yet. Create your first project!'}
-        </p>
-      </Card>
+      <EmptyState
+        icon="projects"
+        title="No projects yet"
+        description="Create a project to start tracking your army"
+        action={
+          onCreateProject
+            ? { label: 'Create Project', onClick: onCreateProject }
+            : undefined
+        }
+      />
     );
   }
 

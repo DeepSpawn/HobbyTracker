@@ -177,10 +177,10 @@ export function PaintsPage() {
             isPending={isPending}
             onToggleOwnership={toggleOwnership}
             onPaintClick={handlePaintClick}
-            emptyMessage={
+            emptyState={
               activeTab === 'owned'
-                ? 'No paints in your collection yet. Browse All Paints to add some!'
-                : 'No paints match your search criteria'
+                ? { variant: 'collection', onScanPaint: () => setIsScannerOpen(true) }
+                : { variant: 'search' }
             }
           />
         )}
