@@ -1,0 +1,2596 @@
+{
+  "generatedAt": "2026-01-27T00:02:18.740Z",
+  "source": "/Users/gtaylor/Downloads/Individual Barcodes April 2025__1.xlsx",
+  "stats": {
+    "total": 322,
+    "matched": 287,
+    "unmatched": 35,
+    "exactMatches": 285,
+    "fuzzyMatches": 2
+  },
+  "matches": [
+    {
+      "paintId": "63b7b5e2-2c99-53b0-bede-c8ac92a57e17",
+      "paintName": "Averland Sunset",
+      "productLine": "Base",
+      "gwName": "AVERLAND SUNSET",
+      "ean": "5011921185917",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "15a89877-2bdf-5328-9da9-7f8cccbd6570",
+      "paintName": "Jokaero Orange",
+      "productLine": "Base",
+      "gwName": "JOKAERO ORANGE",
+      "ean": "5011921189281",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "ee0e5842-6f4e-540c-a49d-1bbf04440bdd",
+      "paintName": "Mephiston Red",
+      "productLine": "Base",
+      "gwName": "MEPHISTON RED",
+      "ean": "5011921185931",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "e4e97793-e854-5993-89bf-743850664e1d",
+      "paintName": "Khorne Red",
+      "productLine": "Base",
+      "gwName": "KHORNE RED",
+      "ean": "5011921185948",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "ea20ac45-ee5e-538c-af75-ea695d585e1b",
+      "paintName": "Naggaroth Night",
+      "productLine": "Base",
+      "gwName": "NAGGAROTH NIGHT",
+      "ean": "5011921185955",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "33e36b43-3e41-5ff2-8fcf-ffc7a6671f1d",
+      "paintName": "Daemonette Hide",
+      "productLine": "Base",
+      "gwName": "DAEMONETTE HIDE",
+      "ean": "5011921185962",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "0e501d29-f447-538f-88a0-f2af0c896746",
+      "paintName": "Kantor Blue",
+      "productLine": "Base",
+      "gwName": "KANTOR BLUE",
+      "ean": "5011921185979",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "67d50ea7-9c1b-55de-87ab-81a299e5f31d",
+      "paintName": "Macragge Blue",
+      "productLine": "Base",
+      "gwName": "MACRAGGE BLUE",
+      "ean": "5011921185986",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "aa6c5bdc-3526-5794-a8af-f7d565cbe6b6",
+      "paintName": "Caledor Sky",
+      "productLine": "Base",
+      "gwName": "CALEDOR SKY",
+      "ean": "5011921185993",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "d72b958d-f85c-58fd-9503-6365b0c39d96",
+      "paintName": "Stegadon Scale Green",
+      "productLine": "Base",
+      "gwName": "STEGADON SCALE GREEN",
+      "ean": "5011921186013",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "30c5174e-32aa-5c75-9ac8-7a02e947b199",
+      "paintName": "Incubi Darkness",
+      "productLine": "Base",
+      "gwName": "INCUBI DARKNESS",
+      "ean": "5011921186020",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "0c23c95e-a3e8-5b3f-91c2-f24aef43903c",
+      "paintName": "Caliban Green",
+      "productLine": "Base",
+      "gwName": "CALIBAN GREEN",
+      "ean": "5011921186051",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "0b659c17-5f36-54f4-bc52-ae717f01c120",
+      "paintName": "Waaagh! Flesh",
+      "productLine": "Base",
+      "gwName": "WAAAGH! FLESH",
+      "ean": "5011921186853",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "69a2cd42-1e02-53c9-a8b7-ab0f936e4ccf",
+      "paintName": "Castellan Green",
+      "productLine": "Base",
+      "gwName": "CASTELLAN GREEN",
+      "ean": "5011921186860",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "cd7bd484-ff1f-5e1e-a5e7-044095fe1350",
+      "paintName": "Deathworld Forest",
+      "productLine": "Base",
+      "gwName": "DEATHWORLD FOREST",
+      "ean": "5011921187096",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "bc14aad9-0415-59e5-8744-2c17b1b347fc",
+      "paintName": "Zandri Dust",
+      "productLine": "Base",
+      "gwName": "ZANDRI DUST",
+      "ean": "5011921187102",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "6fdba698-3f62-57de-bc75-c2d692d3412d",
+      "paintName": "Steel Legion Drab",
+      "productLine": "Base",
+      "gwName": "STEEL LEGION DRAB",
+      "ean": "5011921187119",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "85fbf338-30ac-5b6d-be9f-eb87850a5c90",
+      "paintName": "Bugman Glow",
+      "productLine": "Base",
+      "gwName": "BUGMAN'S GLOW",
+      "ean": "5011921187126",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "fa5066fb-7339-5aa5-a690-df53a31dce91",
+      "paintName": "Ratskin Flesh",
+      "productLine": "Base",
+      "gwName": "RATSKIN FLESH",
+      "ean": "5011921187133",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "76b1e830-9bc4-5c5e-b3b5-ca6848559634",
+      "paintName": "Mournfang Brown",
+      "productLine": "Base",
+      "gwName": "MOURNFANG BROWN",
+      "ean": "5011921187140",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "4d9123f9-ff28-5dbc-b185-b6261e6cc620",
+      "paintName": "XV-88",
+      "productLine": "Base",
+      "gwName": "XV-88",
+      "ean": "5011921187157",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "eaafdbf2-0cc2-58e7-81e8-dbfeb076d56b",
+      "paintName": "Rhinox Hide",
+      "productLine": "Base",
+      "gwName": "RHINOX HIDE",
+      "ean": "5011921187683",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "2c060ffe-1cb3-5e2a-bdee-a7e869c00f1c",
+      "paintName": "Dryad Bark",
+      "productLine": "Base",
+      "gwName": "DRYAD BARK",
+      "ean": "5011921187690",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "90a6ea3b-457f-5319-aacb-48cb4991a5e4",
+      "paintName": "Mechanicus Standard Grey",
+      "productLine": "Base",
+      "gwName": "MECHANICUS STANDARD GREY",
+      "ean": "5011921187713",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "5c9e340d-ef94-5a55-b6e7-874548357a86",
+      "paintName": "Abaddon Black",
+      "productLine": "Base",
+      "gwName": "ABADDON BLACK",
+      "ean": "5011921187720",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "90821852-d74c-5f67-9023-4eabad4cd095",
+      "paintName": "Celestra Grey",
+      "productLine": "Base",
+      "gwName": "CELESTRA GREY",
+      "ean": "5011921187737",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "ffaa6cca-1803-5e35-8cf7-049671a28586",
+      "paintName": "Rakarth Flesh",
+      "productLine": "Base",
+      "gwName": "RAKARTH FLESH",
+      "ean": "5011921187744",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "a53f3cd1-8c51-59bc-b5c2-1cac9f3e203a",
+      "paintName": "Leadbelcher",
+      "productLine": "Base",
+      "gwName": "LEADBELCHER",
+      "ean": "5011921187751",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "9aca4c58-1a20-5668-8cd8-105442022855",
+      "paintName": "Balthasar Gold",
+      "productLine": "Base",
+      "gwName": "BALTHASAR GOLD",
+      "ean": "5011921188192",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "bc13bfa4-a009-5742-a60b-f48b6a7ed06b",
+      "paintName": "Screaming Bell",
+      "productLine": "Base",
+      "gwName": "SCREAMING BELL",
+      "ean": "5011921187768",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "6a06de80-94b0-5ca6-95f5-8632c683e380",
+      "paintName": "Warplock Bronze",
+      "productLine": "Base",
+      "gwName": "WARPLOCK BRONZE",
+      "ean": "5011921187775",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "c09d04ac-9765-5eee-abd3-ea983f3f626c",
+      "paintName": "The Fang",
+      "productLine": "Base",
+      "gwName": "THE FANG",
+      "ean": "5011921187782",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "c6f92985-e0b2-57d3-a446-cc319d4b1671",
+      "paintName": "Screamer Pink",
+      "productLine": "Base",
+      "gwName": "SCREAMER PINK",
+      "ean": "5011921187799",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "723b1914-025e-5a6e-8861-e7f06bd0f0a2",
+      "paintName": "Retributor Armour",
+      "productLine": "Base",
+      "gwName": "RETRIBUTOR ARMOUR",
+      "ean": "5011921187805",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "69e7ac9b-ac59-5179-a4ea-d83d8c2e0763",
+      "paintName": "Thousand Sons Blue",
+      "productLine": "Base",
+      "gwName": "THOUSAND SONS BLUE",
+      "ean": "5011921187812",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "f049609b-0396-5ca1-a063-0035da4c1098",
+      "paintName": "Death Guard Green",
+      "productLine": "Base",
+      "gwName": "DEATH GUARD GREEN",
+      "ean": "5011921187829",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "782a1e9d-ae3b-56c3-b87d-bb4f08a446d9",
+      "paintName": "Ionrach Skin",
+      "productLine": "Base",
+      "gwName": "IONRACH SKIN",
+      "ean": "5011921188079",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "f8edbcd3-8fb2-55fe-952a-19c3f3170a00",
+      "paintName": "Phoenician Purple",
+      "productLine": "Base",
+      "gwName": "PHOENICIAN PURPLE",
+      "ean": "5011921188086",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "3cba1884-5dfa-5893-849a-4a3a1056081b",
+      "paintName": "Death Korps Drab",
+      "productLine": "Base",
+      "gwName": "DEATH KORPS DRAB",
+      "ean": "5011921188093",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "169e5cbf-c57e-54c2-9cf1-fda5b2e3c29e",
+      "paintName": "Gal Vorbak Red",
+      "productLine": "Base",
+      "gwName": "GAL VORBAK RED",
+      "ean": "5011921188109",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "00004a00-8f8e-5b45-bfdc-47f79d5e65ab",
+      "paintName": "Night Lords Blue",
+      "productLine": "Base",
+      "gwName": "NIGHT LORDS BLUE",
+      "ean": "5011921188116",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "e7297bf1-3566-5ac7-8bd4-efa3300eb022",
+      "paintName": "Nocturne Green",
+      "productLine": "Base",
+      "gwName": "NOCTURNE GREEN",
+      "ean": "5011921188123",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "d062306e-6ad0-5e52-b96e-6032f162994b",
+      "paintName": "Corvus Black",
+      "productLine": "Base",
+      "gwName": "CORVUS BLACK",
+      "ean": "5011921188130",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "ec8f029d-9031-5184-8a91-f03386bbab3b",
+      "paintName": "Lupercal Green",
+      "productLine": "Base",
+      "gwName": "LUPERCAL GREEN",
+      "ean": "5011921188161",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "494e22e3-4cbb-510a-8615-5593f99c739f",
+      "paintName": "Iron Hands Steel",
+      "productLine": "Base",
+      "gwName": "IRON HANDS STEEL",
+      "ean": "5011921188178",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "8666f002-aefa-5bef-b8ce-875c7019c3a0",
+      "paintName": "Grey Knights Steel",
+      "productLine": "Base",
+      "gwName": "GREY KNIGHTS STEEL",
+      "ean": "5011921188185",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "8e835dce-99e0-55e2-9ec5-a53cd040c766",
+      "paintName": "Iron Warriors",
+      "productLine": "Base",
+      "gwName": "IRON WARRIORS",
+      "ean": "5011921188208",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "5560fe3d-5177-5765-9874-54e5798f79cb",
+      "paintName": "Barak-Nar Burgundy",
+      "productLine": "Base",
+      "gwName": "BARAK-NAR BURGUNDY",
+      "ean": "5011921188215",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "d6407ef8-1a54-5961-95f3-71450694ca73",
+      "paintName": "Morghast Bone",
+      "productLine": "Base",
+      "gwName": "MORGHAST BONE",
+      "ean": "5011921188239",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "30760986-87aa-54b0-b30f-3b18a07345f6",
+      "paintName": "Corax White",
+      "productLine": "Base",
+      "gwName": "CORAX WHITE",
+      "ean": "5011921188253",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "020590d7-0a95-53c2-aa2f-06f373cd79ef",
+      "paintName": "Wraithbone",
+      "productLine": "Base",
+      "gwName": "WRAITHBONE",
+      "ean": "5011921188260",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "ca85bb12-91fa-58fe-9a62-d94e5f463cc0",
+      "paintName": "Grey Seer",
+      "productLine": "Base",
+      "gwName": "GREY SEER",
+      "ean": "5011921188277",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "ee5d9003-ff60-5cf1-9065-d56f527e98b1",
+      "paintName": "Runelord Brass",
+      "productLine": "Base",
+      "gwName": "RUNELORD BRASS",
+      "ean": "5011921188284",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "256d009a-3a84-51f0-8daa-2ba3061b1552",
+      "paintName": "Orruk Flesh",
+      "productLine": "Base",
+      "gwName": "ORRUK FLESH",
+      "ean": "5011921188291",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "1663184f-160c-546e-9d62-848d20fcf199",
+      "paintName": "Hobgrot Hide",
+      "productLine": "Base",
+      "gwName": "HOBGROT HIDE",
+      "ean": "5011921188307",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "14b311b9-c5e6-5469-9a8c-0ba0e91bdf55",
+      "paintName": "Thondia Brown",
+      "productLine": "Base",
+      "gwName": "THONDIA BROWN",
+      "ean": "5011921188314",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "8e7bd374-41b7-54aa-8bb7-e61733ae90ca",
+      "paintName": "Yriel Yellow",
+      "productLine": "Layer",
+      "gwName": "YRIEL YELLOW",
+      "ean": "5011921185122",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "226c326d-ffa5-5183-a0cf-8c4779240d1f",
+      "paintName": "Flash Gitz Yellow",
+      "productLine": "Layer",
+      "gwName": "FLASH GITZ YELLOW",
+      "ean": "5011921185139",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "0965ea8c-934b-5961-bd29-342700bce400",
+      "paintName": "Troll Slayer Orange",
+      "productLine": "Layer",
+      "gwName": "TROLL SLAYER ORANGE",
+      "ean": "5011921189083",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "2fdfcb2f-b742-5f22-a12a-77c33d1ec68f",
+      "paintName": "Fire Dragon Bright",
+      "productLine": "Layer",
+      "gwName": "FIRE DRAGON BRIGHT",
+      "ean": "5011921185146",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "ec2bbfee-681e-5498-aba9-25be78658e7e",
+      "paintName": "Evil Sunz Scarlet",
+      "productLine": "Layer",
+      "gwName": "EVIL SUNZ SCARLET",
+      "ean": "5011921185153",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "4ab8f87e-e51f-5410-8da4-1166cd656be4",
+      "paintName": "Wild Rider Red",
+      "productLine": "Layer",
+      "gwName": "WILD RIDER RED",
+      "ean": "5011921185160",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "38bd1bd2-fedd-5295-b523-cafd084ce763",
+      "paintName": "Wazdakka Red",
+      "productLine": "Layer",
+      "gwName": "WAZDAKKA RED",
+      "ean": "5011921185177",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "f39a8e34-a22f-5eee-b5c5-36bec54fd7a3",
+      "paintName": "Squig Orange",
+      "productLine": "Layer",
+      "gwName": "SQUIG ORANGE",
+      "ean": "5011921185184",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "b3591dbc-6b1d-513e-84bb-08711e707d52",
+      "paintName": "Xereus Purple",
+      "productLine": "Layer",
+      "gwName": "XEREUS PURPLE",
+      "ean": "5011921185191",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "9981d260-b5f0-5d0b-a950-42c0b1d53b71",
+      "paintName": "Genestealer Purple",
+      "productLine": "Layer",
+      "gwName": "GENESTEALER PURPLE",
+      "ean": "5011921185207",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "3db3eb54-cef5-5ea2-aa84-36c6d2bfcb5f",
+      "paintName": "Warpfiend Grey",
+      "productLine": "Layer",
+      "gwName": "WARPFIEND GREY",
+      "ean": "5011921185214",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "cde94cd0-0d17-5162-b4a4-e9a04b50e7cb",
+      "paintName": "Slaanesh Grey",
+      "productLine": "Layer",
+      "gwName": "SLAANESH GREY",
+      "ean": "5011921185221",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "9c4f7cd6-c9ef-593c-8625-2121622bad69",
+      "paintName": "Alaitoc Blue",
+      "productLine": "Layer",
+      "gwName": "ALAITOC BLUE",
+      "ean": "5011921185252",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "7d5a3a6b-c444-5016-bc18-ed05f60e8aaa",
+      "paintName": "Hoeth Blue",
+      "productLine": "Layer",
+      "gwName": "HOETH BLUE",
+      "ean": "5011921185269",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "93ec5b16-fd55-52a0-95db-732a866a7579",
+      "paintName": "Altdorf Guard Blue",
+      "productLine": "Layer",
+      "gwName": "ALTDORF GUARD BLUE",
+      "ean": "5011921185276",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "597cd83e-b280-5c44-b4ea-fb5ef35cf198",
+      "paintName": "Calgar Blue",
+      "productLine": "Layer",
+      "gwName": "CALGAR BLUE",
+      "ean": "5011921185283",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "58f8bdde-9f91-566d-8d22-7f6ad98428b4",
+      "paintName": "Teclis Blue",
+      "productLine": "Layer",
+      "gwName": "TECLIS BLUE",
+      "ean": "5011921186105",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "bdc08466-097e-5bd5-b7a2-c6647c0189d7",
+      "paintName": "Lothern Blue",
+      "productLine": "Layer",
+      "gwName": "LOTHERN BLUE",
+      "ean": "5011921186112",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "d9e22d37-4944-51e8-80d7-51cc94f4bfac",
+      "paintName": "Sotek Green",
+      "productLine": "Layer",
+      "gwName": "SOTEK GREEN",
+      "ean": "5011921186136",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "a350c31f-a499-5289-849a-53c1c4e167dc",
+      "paintName": "Temple Guard Blue",
+      "productLine": "Layer",
+      "gwName": "TEMPLE GUARD BLUE",
+      "ean": "5011921186143",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "56d50fc5-edcd-52b1-8033-0cd83278f6fe",
+      "paintName": "Kabalite Green",
+      "productLine": "Layer",
+      "gwName": "KABALITE GREEN",
+      "ean": "5011921186174",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "02daf3ff-1f2b-5f18-8518-0afc92393e22",
+      "paintName": "Sybarite Green",
+      "productLine": "Layer",
+      "gwName": "SYBARITE GREEN",
+      "ean": "5011921186198",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "1aaf83fa-68e3-5085-aa51-a756e4260e3c",
+      "paintName": "Warpstone Glow",
+      "productLine": "Layer",
+      "gwName": "WARPSTONE GLOW",
+      "ean": "5011921186211",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "a964b6a7-8d92-5846-b874-7bd558bea040",
+      "paintName": "Moot Green",
+      "productLine": "Layer",
+      "gwName": "MOOT GREEN",
+      "ean": "5011921186228",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "a114b3a9-8c4b-58d8-827b-b5556eb02fae",
+      "paintName": "Warboss Green",
+      "productLine": "Layer",
+      "gwName": "WARBOSS GREEN",
+      "ean": "5011921186242",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "9de3790f-7be2-58ce-921a-7fad820834d2",
+      "paintName": "Skarsnik Green",
+      "productLine": "Layer",
+      "gwName": "SKARSNIK GREEN",
+      "ean": "5011921186259",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "eaa7460b-04b8-54b5-8239-59afa2e36f80",
+      "paintName": "Loren Forest",
+      "productLine": "Layer",
+      "gwName": "LOREN FOREST",
+      "ean": "5011921186280",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "303477ee-a60c-557a-b968-d18569324cfc",
+      "paintName": "Straken Green",
+      "productLine": "Layer",
+      "gwName": "STRAKEN GREEN",
+      "ean": "5011921186303",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "54d601bf-38d6-5998-af0b-58b80d6e9e9c",
+      "paintName": "Nurgling Green",
+      "productLine": "Layer",
+      "gwName": "NURGLING GREEN",
+      "ean": "5011921186327",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "3674822e-8e48-5e9a-beec-f3d6652f74b7",
+      "paintName": "Elysian Green",
+      "productLine": "Layer",
+      "gwName": "ELYSIAN GREEN",
+      "ean": "5011921186334",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "c17aad58-4a3e-56d3-b2bf-c7e91903330b",
+      "paintName": "Ogryn Camo",
+      "productLine": "Layer",
+      "gwName": "OGRYN CAMO",
+      "ean": "5011921186341",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "129ad5a5-68af-5bbc-aaa5-94492b49ecb0",
+      "paintName": "Ushabti Bone",
+      "productLine": "Layer",
+      "gwName": "USHABTI BONE",
+      "ean": "5011921186372",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "6c1b3dab-e644-544a-9ad3-ea0eb1893675",
+      "paintName": "Screaming Skull",
+      "productLine": "Layer",
+      "gwName": "SCREAMING SKULL",
+      "ean": "5011921186396",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "4decf252-1ffa-505e-a396-5f2045e29323",
+      "paintName": "Tallarn Sand",
+      "productLine": "Layer",
+      "gwName": "TALLARN SAND",
+      "ean": "5011921186402",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "2caa3938-ab23-5ba0-922f-8845fcc34fe0",
+      "paintName": "Karak Stone",
+      "productLine": "Layer",
+      "gwName": "KARAK STONE",
+      "ean": "5011921186419",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "55d81341-5817-5410-9f63-f87d38061484",
+      "paintName": "Cadian Fleshtone",
+      "productLine": "Layer",
+      "gwName": "CADIAN FLESHTONE",
+      "ean": "5011921186488",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "1e7ee8c4-4ccc-5833-9ba7-82ace4e0ffcc",
+      "paintName": "Kislev Flesh",
+      "productLine": "Layer",
+      "gwName": "KISLEV FLESH",
+      "ean": "5011921186495",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "86eb16e4-435f-57ad-bef1-5b04e85d8512",
+      "paintName": "Bestigor Flesh",
+      "productLine": "Layer",
+      "gwName": "BESTIGOR FLESH",
+      "ean": "5011921186501",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "5e399908-5d85-5d45-af8a-c2b9f096948d",
+      "paintName": "Ungor Flesh",
+      "productLine": "Layer",
+      "gwName": "UNGOR FLESH",
+      "ean": "5011921186518",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "d3ced23b-72c9-565c-8223-5eb0455aa2f7",
+      "paintName": "Skrag Brown",
+      "productLine": "Layer",
+      "gwName": "SKRAG BROWN",
+      "ean": "5011921186525",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "ad905c61-14c5-5a0e-8540-cab2c168dd7c",
+      "paintName": "Deathclaw Brown",
+      "productLine": "Layer",
+      "gwName": "DEATHCLAW BROWN",
+      "ean": "5011921186532",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "12315804-74ba-59e1-8043-bbfc0d45170c",
+      "paintName": "Tau Light Ochre",
+      "productLine": "Layer",
+      "gwName": "TAU LIGHT OCHRE",
+      "ean": "5011921186549",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "c0cf3825-cfcb-5842-bc13-ae596ce49af0",
+      "paintName": "Balor Brown",
+      "productLine": "Layer",
+      "gwName": "BALOR BROWN",
+      "ean": "5011921186556",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "bb8006e3-8e42-5009-882d-31b9899153ce",
+      "paintName": "Zamesi Desert",
+      "productLine": "Layer",
+      "gwName": "ZAMESI DESERT",
+      "ean": "5011921186563",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "3fd7ab9c-f26c-56e6-bac7-6f6c438de563",
+      "paintName": "Doombull Brown",
+      "productLine": "Layer",
+      "gwName": "DOOMBULL BROWN",
+      "ean": "5011921186570",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "ffa69a1f-7167-5b70-a8b9-6fbc1bb7c2b5",
+      "paintName": "Tuskgor Fur",
+      "productLine": "Layer",
+      "gwName": "TUSKGOR FUR",
+      "ean": "5011921186587",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "4e60b6f8-b568-5ff2-adc0-08db1dfa5856",
+      "paintName": "Gorthor Brown",
+      "productLine": "Layer",
+      "gwName": "GORTHOR BROWN",
+      "ean": "5011921186594",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "fd07e1a2-2a61-567f-9e58-5636db620e82",
+      "paintName": "Baneblade Brown",
+      "productLine": "Layer",
+      "gwName": "BANEBLADE BROWN",
+      "ean": "5011921186600",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "f35812c2-a9ce-55ae-af18-c6de31fb5932",
+      "paintName": "Dawnstone",
+      "productLine": "Layer",
+      "gwName": "DAWNSTONE",
+      "ean": "5011921186617",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "b0c10a53-886f-5e80-af93-7b61ca272303",
+      "paintName": "Administratum Grey",
+      "productLine": "Layer",
+      "gwName": "ADMINISTRATUM GREY",
+      "ean": "5011921186624",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "f4882980-c665-50a1-85a4-253494973390",
+      "paintName": "Eshin Grey",
+      "productLine": "Layer",
+      "gwName": "ESHIN GREY",
+      "ean": "5011921186648",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "1441daba-014b-5991-86b1-28494c9f9b86",
+      "paintName": "Dark Reaper",
+      "productLine": "Layer",
+      "gwName": "DARK REAPER",
+      "ean": "5011921186679",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "e768e541-f1d2-5e19-a540-836c4978f72b",
+      "paintName": "Thunderhawk Blue",
+      "productLine": "Layer",
+      "gwName": "THUNDERHAWK BLUE",
+      "ean": "5011921186693",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "1e5fe1ab-3be0-5fc1-8e32-0e6d4a1f55c2",
+      "paintName": "Skavenblight Dinge",
+      "productLine": "Layer",
+      "gwName": "SKAVENBLIGHT DINGE",
+      "ean": "5011921186709",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "b745e590-48be-5806-ab56-804826a9b069",
+      "paintName": "Stormvermin Fur",
+      "productLine": "Layer",
+      "gwName": "STORMVERMIN FUR",
+      "ean": "5011921186730",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "abfe11e6-8bf1-5e61-b748-2d45f6514837",
+      "paintName": "Ulthuan Grey",
+      "productLine": "Layer",
+      "gwName": "ULTHUAN GREY",
+      "ean": "5011921186747",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "7f8c0692-5e86-5091-aa26-2fb6b3a7be96",
+      "paintName": "White Scar",
+      "productLine": "Layer",
+      "gwName": "WHITE SCAR",
+      "ean": "5011921186754",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "ec1d7344-3913-5bbc-9931-e845cd4af786",
+      "paintName": "Pallid Wych Flesh",
+      "productLine": "Layer",
+      "gwName": "PALLID WYCH FLESH",
+      "ean": "5011921186761",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "9541ccdb-8696-5731-893d-855d0cc6fdde",
+      "paintName": "Ironbreaker",
+      "productLine": "Layer",
+      "gwName": "IRONBREAKER",
+      "ean": "5011921186778",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "f6a190d0-1f5c-538f-bf41-1b0560a15c58",
+      "paintName": "Runefang Steel",
+      "productLine": "Layer",
+      "gwName": "RUNEFANG STEEL",
+      "ean": "5011921186785",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "fc0fb992-27be-50a6-82eb-4a289ea27a92",
+      "paintName": "Gehenna Gold",
+      "productLine": "Layer",
+      "gwName": "GEHENNA'S GOLD",
+      "ean": "5011921186792",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "ca2500ea-43e9-51a6-9d43-8683858df562",
+      "paintName": "Auric Armour Gold",
+      "productLine": "Layer",
+      "gwName": "AURIC ARMOUR GOLD",
+      "ean": "5011921186808",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "84582d97-b2d0-5b9c-b86c-210e2304ccfa",
+      "paintName": "Hashut Copper",
+      "productLine": "Layer",
+      "gwName": "HASHUT COPPER",
+      "ean": "5011921187645",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "c0eb3a71-9cd9-5a2f-94af-92735b52dd53",
+      "paintName": "Sycorax Bronze",
+      "productLine": "Layer",
+      "gwName": "SYCORAX BRONZE",
+      "ean": "5011921186815",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "c665c82d-efa1-5a5c-a25d-84564b40eaac",
+      "paintName": "Brass Scorpion",
+      "productLine": "Layer",
+      "gwName": "BRASS SCORPION",
+      "ean": "5011921186822",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "8f314f6c-0db4-5c04-add9-5cb6254375ab",
+      "paintName": "Russ Grey",
+      "productLine": "Layer",
+      "gwName": "RUSS GREY",
+      "ean": "5011921186839",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "fc4e95ac-f2ad-5aa0-9682-ee92c94659dd",
+      "paintName": "Fenrisian Grey",
+      "productLine": "Layer",
+      "gwName": "FENRISIAN GREY",
+      "ean": "5011921186846",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "fcdf6598-c6db-532d-b0b2-94129ee851e2",
+      "paintName": "Pink Horror",
+      "productLine": "Layer",
+      "gwName": "PINK HORROR",
+      "ean": "5011921187409",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "60c6380a-9880-5f15-9ab0-dc8b65f92bf0",
+      "paintName": "Emperor Children",
+      "productLine": "Layer",
+      "gwName": "EMPEROR'S CHILDREN",
+      "ean": "5011921187416",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "3bb04272-3dcf-5c08-bcfa-3d65a5dd2b7e",
+      "paintName": "Liberator Gold",
+      "productLine": "Layer",
+      "gwName": "LIBERATOR GOLD",
+      "ean": "5011921187430",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "1a2bde4f-70ad-5244-87b6-f894e3a1a681",
+      "paintName": "Flayed One Flesh",
+      "productLine": "Layer",
+      "gwName": "FLAYED ONE FLESH",
+      "ean": "5011921187447",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "bbc1289a-30e6-5b05-b558-f833f4a5cc9a",
+      "paintName": "Skullcrusher Brass",
+      "productLine": "Layer",
+      "gwName": "SKULLCRUSHER BRASS",
+      "ean": "5011921187454",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "da13e7a9-fb83-59a2-a877-3625f8939ee1",
+      "paintName": "Fulgurite Copper",
+      "productLine": "Layer",
+      "gwName": "FULGURITE COPPER",
+      "ean": "5011921187461",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "5ba445c9-40f0-5bce-9f6b-5e95d6ed4838",
+      "paintName": "Stormhost Silver",
+      "productLine": "Layer",
+      "gwName": "STORMHOST SILVER",
+      "ean": "5011921187478",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "aa06a7db-e1ef-51ab-a765-0df85b365186",
+      "paintName": "Ahriman Blue",
+      "productLine": "Layer",
+      "gwName": "AHRIMAN BLUE",
+      "ean": "5011921187485",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "755f6634-637c-5515-9244-80c56657b6d6",
+      "paintName": "Deepkin Flesh",
+      "productLine": "Layer",
+      "gwName": "DEEPKIN FLESH",
+      "ean": "5011921187492",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "496d631e-5636-56a3-9b61-9548d5a3d759",
+      "paintName": "Gauss Blaster Green",
+      "productLine": "Layer",
+      "gwName": "GAUSS BLASTER GREEN",
+      "ean": "5011921187508",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "c7cdb2eb-f395-5a81-8b44-23592112bef3",
+      "paintName": "Baharroth Blue",
+      "productLine": "Layer",
+      "gwName": "BAHARROTH BLUE",
+      "ean": "5011921187515",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "63d14f69-0b7b-52c1-bf3c-b44b4fcba8d9",
+      "paintName": "Dorn Yellow",
+      "productLine": "Layer",
+      "gwName": "DORN YELLOW",
+      "ean": "5011921187522",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "2661d6e8-7325-506b-900f-ffcbf575878e",
+      "paintName": "Fulgrim Pink",
+      "productLine": "Layer",
+      "gwName": "FULGRIM PINK",
+      "ean": "5011921187539",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "8eb4bb17-6c2d-52a6-b690-931ada887278",
+      "paintName": "Dechala Lilac",
+      "productLine": "Layer",
+      "gwName": "DECHALA LILAC",
+      "ean": "5011921187546",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "8440bf22-7227-5e99-88d2-46850de60314",
+      "paintName": "Krieg Khaki",
+      "productLine": "Layer",
+      "gwName": "KRIEG KHAKI",
+      "ean": "5011921187553",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "2a53ef4a-d93d-51c1-9ab1-52f6e7755b5c",
+      "paintName": "Blue Horror",
+      "productLine": "Layer",
+      "gwName": "BLUE HORROR",
+      "ean": "5011921187560",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "8855ebfa-30b8-55e0-bc64-1ea189771a12",
+      "paintName": "Lugganath Orange",
+      "productLine": "Layer",
+      "gwName": "LUGGANATH ORANGE",
+      "ean": "5011921187577",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "31785279-d22e-54dd-837c-23b167735f73",
+      "paintName": "Kakophoni Purple",
+      "productLine": "Layer",
+      "gwName": "KAKOPHONI PURPLE",
+      "ean": "5011921187584",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "0567de20-6e5a-517c-8468-1ea84562a67a",
+      "paintName": "Sons of Horus Green",
+      "productLine": "Layer",
+      "gwName": "SONS OF HORUS GREEN",
+      "ean": "5011921187591",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "3e02c1f2-a7df-5d24-8ac1-e1bf81215237",
+      "paintName": "Phalanx Yellow",
+      "productLine": "Layer",
+      "gwName": "PHALANX YELLOW",
+      "ean": "5011921187607",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "2dbade85-aee6-5b38-82b9-abbd1c2d54d4",
+      "paintName": "Castellax Bronze",
+      "productLine": "Layer",
+      "gwName": "CASTELLAX BRONZE",
+      "ean": "5011921187614",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "574193b9-7ad4-5858-a7d3-3a22ad779e98",
+      "paintName": "Vulkan Green",
+      "productLine": "Layer",
+      "gwName": "VULKAN GREEN",
+      "ean": "5011921187621",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "5d3b9a3e-2b7d-509c-ad50-c473604cfff0",
+      "paintName": "Word Bearers Red",
+      "productLine": "Layer",
+      "gwName": "WORD BEARERS RED",
+      "ean": "5011921187638",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "f45e25e1-2806-5ce2-ae9d-f737cdcbf403",
+      "paintName": "Bloodreaver Flesh",
+      "productLine": "Layer",
+      "gwName": "BLOODREAVER FLESH",
+      "ean": "5011921187652",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "1ecc14a7-bba0-500f-9948-23d7fc226f68",
+      "paintName": "Knight-Questor Flesh",
+      "productLine": "Layer",
+      "gwName": "KNIGHT-QUESTOR FLESH",
+      "ean": "5011921187669",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "98221fbc-d49a-5a84-a6ee-8e505ff01e1a",
+      "paintName": "Canoptek Alloy",
+      "productLine": "Layer",
+      "gwName": "CANOPTEK ALLOY",
+      "ean": "5011921187676",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "bdecbf3c-f11c-5f9d-ae7a-ab9ad3eb9acd",
+      "paintName": "Hexos Palesun",
+      "productLine": "Dry",
+      "gwName": "HEXOS PALESUN",
+      "ean": "5011921192205",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "dc1a8c1a-36c0-57f4-9caf-22598cf991b3",
+      "paintName": "Lucius Lilac",
+      "productLine": "Dry",
+      "gwName": "LUCIUS LILAC",
+      "ean": "5011921192229",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "61d71bcd-e67e-5438-a675-26b9f52068e7",
+      "paintName": "Praxeti White",
+      "productLine": "Dry",
+      "gwName": "PRAXETI WHITE",
+      "ean": "5011921192236",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "2d21bb75-d19b-5dc9-b91e-ddebb85f5768",
+      "paintName": "Etherium Blue",
+      "productLine": "Dry",
+      "gwName": "ETHERIUM BLUE",
+      "ean": "5011921192243",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "3661c03d-745f-5ca9-883c-eb1de8bbc62b",
+      "paintName": "Skink Blue",
+      "productLine": "Dry",
+      "gwName": "SKINK BLUE",
+      "ean": "5011921192250",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "a3277626-47cd-5057-a813-97cd0c02efcc",
+      "paintName": "Underhive Ash",
+      "productLine": "Dry",
+      "gwName": "UNDERHIVE ASH",
+      "ean": "5011921192274",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "b3841839-d07d-5504-902d-b488dffbbd54",
+      "paintName": "Eldar Flesh",
+      "productLine": "Dry",
+      "gwName": "ELDAR FLESH",
+      "ean": "5011921192281",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "a1418eaa-9239-52d7-a24a-255f015690cb",
+      "paintName": "Tyrant Skull",
+      "productLine": "Dry",
+      "gwName": "TYRANT SKULL",
+      "ean": "5011921192298",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "e7d4534f-19f2-5311-890a-bb041160ad36",
+      "paintName": "Terminatus Stone",
+      "productLine": "Dry",
+      "gwName": "TERMINATUS STONE",
+      "ean": "5011921192304",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "41fdd388-ac1d-570b-b21d-96600f9bc35c",
+      "paintName": "Longbeard Grey",
+      "productLine": "Dry",
+      "gwName": "LONGBEARD GREY",
+      "ean": "5011921192311",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "b670d0aa-5ed7-5584-b47d-96c713a62bef",
+      "paintName": "Necron Compound",
+      "productLine": "Dry",
+      "gwName": "NECRON COMPOUND",
+      "ean": "5011921192328",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "51b51abe-7744-5b6d-ab01-f7df10391f24",
+      "paintName": "Golden Griffon",
+      "productLine": "Dry",
+      "gwName": "GOLDEN GRIFFON",
+      "ean": "5011921192335",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "57c8bae0-f437-518c-bca9-05aed0877575",
+      "paintName": "Ryza Rust",
+      "productLine": "Dry",
+      "gwName": "RYZA RUST",
+      "ean": "5011921192359",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "225f004f-6dd6-5124-8333-5093ce013c2a",
+      "paintName": "Astorath Red",
+      "productLine": "Dry",
+      "gwName": "ASTORATH RED",
+      "ean": "5011921192373",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "7d5a3a6b-c444-5016-bc18-ed05f60e8aaa",
+      "paintName": "Hoeth Blue",
+      "productLine": "Dry",
+      "gwName": "HOETH BLUE",
+      "ean": "5011921192380",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "6dcbf21c-b361-50b2-b4b8-c97c21e01517",
+      "paintName": "Imrik Blue",
+      "productLine": "Dry",
+      "gwName": "IMRIK BLUE",
+      "ean": "5011921192403",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "bd3b1a44-70c7-584a-b9ff-3e8604b0328a",
+      "paintName": "Stormfang",
+      "productLine": "Dry",
+      "gwName": "STORMFANG",
+      "ean": "5011921192410",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "5ab2dffc-f8d3-5380-a4cc-56a02b165e51",
+      "paintName": "Wrack White",
+      "productLine": "Dry",
+      "gwName": "WRACK WHITE",
+      "ean": "5011921192366",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "8ea5a435-6806-5b8c-810c-5e6f9a7f392b",
+      "paintName": "Niblet Green",
+      "productLine": "Dry",
+      "gwName": "NIBLET GREEN",
+      "ean": "5011921192427",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "54d601bf-38d6-5998-af0b-58b80d6e9e9c",
+      "paintName": "Nurgling Green",
+      "productLine": "Dry",
+      "gwName": "NURGLING GREEN",
+      "ean": "5011921192434",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "84f63505-0bde-5a7c-91d4-ae172e611137",
+      "paintName": "Golgfag Brown",
+      "productLine": "Dry",
+      "gwName": "GOLGFAG BROWN",
+      "ean": "5011921192441",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "8b65ae54-f399-5cc1-b29d-fc5b0c4f06d7",
+      "paintName": "Sylvaneth Bark",
+      "productLine": "Dry",
+      "gwName": "SYLVANETH BARK",
+      "ean": "5011921192465",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "f35812c2-a9ce-55ae-af18-c6de31fb5932",
+      "paintName": "Dawnstone",
+      "productLine": "Dry",
+      "gwName": "DAWNSTONE",
+      "ean": "5011921192472",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "92db642c-ddf9-5f1e-81ac-bd352e0b628c",
+      "paintName": "Sigmarite",
+      "productLine": "Dry",
+      "gwName": "SIGMARITE",
+      "ean": "5011921192489",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "038f8f4a-d434-59ad-b517-3e234e4482bb",
+      "paintName": "Carroburg Crimson",
+      "productLine": "Shade",
+      "gwName": "CARROBURG CRIMSON",
+      "ean": "5011921176502",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "68d6217e-4d2b-5dc3-925f-3b0a45e35066",
+      "paintName": "Nuln Oil",
+      "productLine": "Shade",
+      "gwName": "NULN OIL",
+      "ean": "5011921176557",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "10527ef9-9c4a-50f4-bcda-36b7f3e8fa1f",
+      "paintName": "Agrax Earthshade",
+      "productLine": "Shade",
+      "gwName": "AGRAX EARTHSHADE",
+      "ean": "5011921176441",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "d4bfba5d-5d28-57ac-9a15-2c2a64b7561f",
+      "paintName": "Druchii Violet",
+      "productLine": "Shade",
+      "gwName": "DRUCHII VIOLET",
+      "ean": "5011921176526",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "0d7051ad-1da1-503e-b42c-fda83fded498",
+      "paintName": "Drakenhof Nightshade",
+      "productLine": "Shade",
+      "gwName": "DRAKENHOF NIGHTSHADE",
+      "ean": "5011921176489",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "00278d03-5bea-57cf-92cd-6d16fe3b2b5a",
+      "paintName": "Biel-Tan Green",
+      "productLine": "Shade",
+      "gwName": "BIEL-TAN GREEN",
+      "ean": "5011921176458",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "e7fd97e9-f603-5b49-b6a6-855665be9184",
+      "paintName": "Fuegan Orange",
+      "productLine": "Shade",
+      "gwName": "FUEGAN ORANGE",
+      "ean": "5011921176540",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "74cfc45b-4cb1-5d39-8b74-e327da8a9fb0",
+      "paintName": "Athonian Camoshade",
+      "productLine": "Shade",
+      "gwName": "ATHONIAN CAMOSHADE",
+      "ean": "5011921176465",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "00dffba2-dc88-52ac-a6fa-9b2d69b7abaa",
+      "paintName": "Coelia Greenshade",
+      "productLine": "Shade",
+      "gwName": "COELIA GREENSHADE",
+      "ean": "5011921176533",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "8102923c-386c-503e-b918-9c97524df066",
+      "paintName": "Seraphim Sepia",
+      "productLine": "Shade",
+      "gwName": "SERAPHIM SEPIA",
+      "ean": "5011921176496",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "43999511-24f3-5adc-b78a-e9b7e3a12fe7",
+      "paintName": "Reikland Fleshshade",
+      "productLine": "Shade",
+      "gwName": "REIKLAND FLESHSHADE",
+      "ean": "5011921176434",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "de9e2efe-2a48-5f07-9aef-238c1ed67c67",
+      "paintName": "Lahmian Medium",
+      "productLine": "Technical",
+      "gwName": "LAHMIAN MEDIUM",
+      "ean": "5011921193059",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "b89e575c-d209-5336-94ca-3eda7e534d10",
+      "paintName": "'Ardcoat",
+      "productLine": "Technical",
+      "gwName": "'ARDCOAT",
+      "ean": "5011921193066",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "e952ab5f-b663-5a4b-a2fd-9a284d3b1e59",
+      "paintName": "Blood For The Blood God",
+      "productLine": "Technical",
+      "gwName": "BLOOD FOR THE BLOOD GOD",
+      "ean": "5011921192861",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "91017f54-d611-5481-9d67-d1651a8edb75",
+      "paintName": "Nihilakh Oxide",
+      "productLine": "Technical",
+      "gwName": "NIHILAKH OXIDE",
+      "ean": "5011921192878",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "cb05967d-d213-510f-804c-a59118d7a337",
+      "paintName": "Nurgles Rot",
+      "productLine": "Technical",
+      "gwName": "NURGLES ROT",
+      "ean": "5011921192885",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "20733a54-306d-548a-ba4c-46803b548157",
+      "paintName": "Typhus Corrosion",
+      "productLine": "Technical",
+      "gwName": "TYPHUS CORROSION",
+      "ean": "5011921192892",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "fd6b22c7-56d1-5bf5-b870-376d9f349835",
+      "paintName": "Spiritstone Red",
+      "productLine": "Technical",
+      "gwName": "SPIRITSTONE RED",
+      "ean": "5011921192908",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "f36955b7-2fc4-5971-b4a7-577e9c71608c",
+      "paintName": "Soulstone Blue",
+      "productLine": "Technical",
+      "gwName": "SOULSTONE BLUE",
+      "ean": "5011921192915",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "49754289-334c-582d-ab91-017c1b64545a",
+      "paintName": "Waystone Green",
+      "productLine": "Technical",
+      "gwName": "WAYSTONE GREEN",
+      "ean": "5011921192922",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "d8210e83-e2bd-5896-927c-f916f69bda86",
+      "paintName": "Mordant Earth",
+      "productLine": "Technical",
+      "gwName": "MORDANT EARTH",
+      "ean": "5011921192939",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "57b5d2a7-c37c-5c36-b330-0e9f2e1c4b0d",
+      "paintName": "Agrellan Earth",
+      "productLine": "Technical",
+      "gwName": "AGRELLAN EARTH",
+      "ean": "5011921192946",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "ebd0d6b1-16ce-5d2d-b832-e8c00ed27ed5",
+      "paintName": "Agrellan Badland",
+      "productLine": "Technical",
+      "gwName": "AGRELLAN BADLAND",
+      "ean": "5011921192953",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "e8de7314-6734-5404-a8f0-a45629710ab5",
+      "paintName": "Martian Ironearth",
+      "productLine": "Technical",
+      "gwName": "MARTIAN IRONEARTH",
+      "ean": "5011921192960",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "bb001e65-4e16-5f74-b9d4-c4177d8af85e",
+      "paintName": "Martian Ironcrust",
+      "productLine": "Technical",
+      "gwName": "MARTIAN IRONCRUST",
+      "ean": "5011921192977",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "76b1aae2-e444-51d0-b66f-7eb51028b728",
+      "paintName": "Stirland Mud",
+      "productLine": "Technical",
+      "gwName": "STIRLAND MUD",
+      "ean": "5011921192984",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "69d1cdfd-e240-5e8d-8ee5-ba6f66b718b2",
+      "paintName": "Armageddon Dust",
+      "productLine": "Technical",
+      "gwName": "ARMAGEDDON DUST",
+      "ean": "5011921193004",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "f45bb45b-6f0e-53b4-b32e-6be62ba7b350",
+      "paintName": "Astrogranite",
+      "productLine": "Technical",
+      "gwName": "ASTROGRANITE",
+      "ean": "5011921193028",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "ae09ff1b-f44e-53eb-8a57-401ed65894f9",
+      "paintName": "Valhallan Blizzard",
+      "productLine": "Technical",
+      "gwName": "VALHALLAN BLIZZARD",
+      "ean": "5011921193042",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "885842c2-f976-59f7-8af2-2d2012c00513",
+      "paintName": "Contrast Medium",
+      "productLine": "Technical",
+      "gwName": "CONTRAST MEDIUM",
+      "ean": "5011921193073",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "dff54984-103b-5701-9973-6913f975a473",
+      "paintName": "Stormshield",
+      "productLine": "Technical",
+      "gwName": "STORMSHIELD",
+      "ean": "5011921193080",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "7a58a412-433a-59de-a87b-f8eeb0cfa200",
+      "paintName": "Tesseract Glow",
+      "productLine": "Technical",
+      "gwName": "TESSERACT GLOW",
+      "ean": "5011921193097",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "63b7b5e2-2c99-53b0-bede-c8ac92a57e17",
+      "paintName": "Averland Sunset",
+      "productLine": "Air",
+      "gwName": "AVERLAND SUNSET",
+      "ean": "5011921182596",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "ee0e5842-6f4e-540c-a49d-1bbf04440bdd",
+      "paintName": "Mephiston Red",
+      "productLine": "Air",
+      "gwName": "MEPHISTON RED",
+      "ean": "5011921182626",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "e4e97793-e854-5993-89bf-743850664e1d",
+      "paintName": "Khorne Red",
+      "productLine": "Air",
+      "gwName": "KHORNE RED",
+      "ean": "5011921182640",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "0e501d29-f447-538f-88a0-f2af0c896746",
+      "paintName": "Kantor Blue",
+      "productLine": "Air",
+      "gwName": "KANTOR BLUE",
+      "ean": "5011921182671",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "67d50ea7-9c1b-55de-87ab-81a299e5f31d",
+      "paintName": "Macragge Blue",
+      "productLine": "Air",
+      "gwName": "MACRAGGE BLUE",
+      "ean": "5011921182725",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "0c23c95e-a3e8-5b3f-91c2-f24aef43903c",
+      "paintName": "Caliban Green",
+      "productLine": "Air",
+      "gwName": "CALIBAN GREEN",
+      "ean": "5011921182763",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "69a2cd42-1e02-53c9-a8b7-ab0f936e4ccf",
+      "paintName": "Castellan Green",
+      "productLine": "Air",
+      "gwName": "CASTELLAN GREEN",
+      "ean": "5011921182770",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "cd7bd484-ff1f-5e1e-a5e7-044095fe1350",
+      "paintName": "Deathworld Forest",
+      "productLine": "Air",
+      "gwName": "DEATHWORLD FOREST",
+      "ean": "5011921182787",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "bc14aad9-0415-59e5-8744-2c17b1b347fc",
+      "paintName": "Zandri Dust",
+      "productLine": "Air",
+      "gwName": "ZANDRI DUST",
+      "ean": "5011921182794",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "76b1e830-9bc4-5c5e-b3b5-ca6848559634",
+      "paintName": "Mournfang Brown",
+      "productLine": "Air",
+      "gwName": "MOURNFANG BROWN",
+      "ean": "5011921182800",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "90a6ea3b-457f-5319-aacb-48cb4991a5e4",
+      "paintName": "Mechanicus Standard Grey",
+      "productLine": "Air",
+      "gwName": "MECH STANDARD GREY",
+      "ean": "5011921182831",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "5c9e340d-ef94-5a55-b6e7-874548357a86",
+      "paintName": "Abaddon Black",
+      "productLine": "Air",
+      "gwName": "ABADDON BLACK",
+      "ean": "5011921182848",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "a53f3cd1-8c51-59bc-b5c2-1cac9f3e203a",
+      "paintName": "Leadbelcher",
+      "productLine": "Air",
+      "gwName": "LEADBELCHER",
+      "ean": "5011921182855",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "9aca4c58-1a20-5668-8cd8-105442022855",
+      "paintName": "Balthasar Gold",
+      "productLine": "Air",
+      "gwName": "BALTHASAR GOLD",
+      "ean": "5011921182862",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "c09d04ac-9765-5eee-abd3-ea983f3f626c",
+      "paintName": "The Fang",
+      "productLine": "Air",
+      "gwName": "THE FANG",
+      "ean": "5011921182886",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "226c326d-ffa5-5183-a0cf-8c4779240d1f",
+      "paintName": "Flash Gitz Yellow",
+      "productLine": "Air",
+      "gwName": "FLASH GITZ YELLOW",
+      "ean": "5011921182893",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "0965ea8c-934b-5961-bd29-342700bce400",
+      "paintName": "Troll Slayer Orange",
+      "productLine": "Air",
+      "gwName": "TROLL SLAYER ORANGE",
+      "ean": "5011921183876",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "ec2bbfee-681e-5498-aba9-25be78658e7e",
+      "paintName": "Evil Sunz Scarlet",
+      "productLine": "Air",
+      "gwName": "EVIL SUNZ SCARLET",
+      "ean": "5011921182916",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "bdc08466-097e-5bd5-b7a2-c6647c0189d7",
+      "paintName": "Lothern Blue",
+      "productLine": "Air",
+      "gwName": "LOTHERN BLUE",
+      "ean": "5011921182947",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "a350c31f-a499-5289-849a-53c1c4e167dc",
+      "paintName": "Temple Guard Blue",
+      "productLine": "Air",
+      "gwName": "TEMPLE GUARD BLUE",
+      "ean": "5011921182961",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "a964b6a7-8d92-5846-b874-7bd558bea040",
+      "paintName": "Moot Green",
+      "productLine": "Air",
+      "gwName": "MOOT GREEN",
+      "ean": "5011921183029",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "3674822e-8e48-5e9a-beec-f3d6652f74b7",
+      "paintName": "Elysian Green",
+      "productLine": "Air",
+      "gwName": "ELYSIAN GREEN",
+      "ean": "5011921183081",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "c17aad58-4a3e-56d3-b2bf-c7e91903330b",
+      "paintName": "Ogryn Camo",
+      "productLine": "Air",
+      "gwName": "OGRYN CAMO",
+      "ean": "5011921183098",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "129ad5a5-68af-5bbc-aaa5-94492b49ecb0",
+      "paintName": "Ushabti Bone",
+      "productLine": "Air",
+      "gwName": "USHABTI BONE",
+      "ean": "5011921183104",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "978a8d0f-0555-5089-b649-4d7bc17d60ef",
+      "paintName": "Air Caste Thinner",
+      "productLine": "Air",
+      "gwName": "CASTE THINNER",
+      "ean": "5011921183159",
+      "matchType": "fuzzy",
+      "similarity": 0.6666666666666666
+    },
+    {
+      "paintId": "4decf252-1ffa-505e-a396-5f2045e29323",
+      "paintName": "Tallarn Sand",
+      "productLine": "Air",
+      "gwName": "TALLARN SAND",
+      "ean": "5011921183166",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "1e7ee8c4-4ccc-5833-9ba7-82ace4e0ffcc",
+      "paintName": "Kislev Flesh",
+      "productLine": "Air",
+      "gwName": "KISLEV FLESH",
+      "ean": "5011921183197",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "fd07e1a2-2a61-567f-9e58-5636db620e82",
+      "paintName": "Baneblade Brown",
+      "productLine": "Air",
+      "gwName": "BANEBLADE BROWN",
+      "ean": "5011921183326",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "f35812c2-a9ce-55ae-af18-c6de31fb5932",
+      "paintName": "Dawnstone",
+      "productLine": "Air",
+      "gwName": "DAWNSTONE",
+      "ean": "5011921183333",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "b0c10a53-886f-5e80-af93-7b61ca272303",
+      "paintName": "Administratum Grey",
+      "productLine": "Air",
+      "gwName": "ADMINISTRATUM GREY",
+      "ean": "5011921183340",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "abfe11e6-8bf1-5e61-b748-2d45f6514837",
+      "paintName": "Ulthuan Grey",
+      "productLine": "Air",
+      "gwName": "ULTHUAN GREY",
+      "ean": "5011921183364",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "7f8c0692-5e86-5091-aa26-2fb6b3a7be96",
+      "paintName": "White Scar",
+      "productLine": "Air",
+      "gwName": "WHITE SCAR",
+      "ean": "5011921183371",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "f6a190d0-1f5c-538f-bf41-1b0560a15c58",
+      "paintName": "Runefang Steel",
+      "productLine": "Air",
+      "gwName": "RUNEFANG STEEL",
+      "ean": "5011921183401",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "8f314f6c-0db4-5c04-add9-5cb6254375ab",
+      "paintName": "Russ Grey",
+      "productLine": "Air",
+      "gwName": "RUSS GREY",
+      "ean": "5011921183425",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "fc4e95ac-f2ad-5aa0-9682-ee92c94659dd",
+      "paintName": "Fenrisian Grey",
+      "productLine": "Air",
+      "gwName": "FENRISIAN GREY",
+      "ean": "5011921183449",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "3256ece3-fdb2-5082-aaaa-ad3818864769",
+      "paintName": "Angron Red Clear",
+      "productLine": "Air",
+      "gwName": "ANGRON RED CLEAR",
+      "ean": "5011921183463",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "f46dd432-63fa-5b2f-9aa6-7daf1fb7b633",
+      "paintName": "Calth Blue Clear",
+      "productLine": "Air",
+      "gwName": "CALTH BLUE CLEAR",
+      "ean": "5011921183470",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "65ad55a1-5c26-5d40-8a36-88259038784b",
+      "paintName": "Eidolon Purple Clear",
+      "productLine": "Air",
+      "gwName": "EIDOLON PURPLE CLEAR",
+      "ean": "5011921183494",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "421223c2-44a5-5c48-ab55-6c12aeb43a9b",
+      "paintName": "Mortarion Green Clear",
+      "productLine": "Air",
+      "gwName": "MORTARION GREEN",
+      "ean": "5011921183500",
+      "matchType": "fuzzy",
+      "similarity": 0.6666666666666666
+    },
+    {
+      "paintId": "f8edbcd3-8fb2-55fe-952a-19c3f3170a00",
+      "paintName": "Phoenician Purple",
+      "productLine": "Air",
+      "gwName": "PHOENICIAN PURPLE",
+      "ean": "5011921183517",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "00004a00-8f8e-5b45-bfdc-47f79d5e65ab",
+      "paintName": "Night Lords Blue",
+      "productLine": "Air",
+      "gwName": "NIGHT LORDS BLUE",
+      "ean": "5011921183548",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "d062306e-6ad0-5e52-b96e-6032f162994b",
+      "paintName": "Corvus Black",
+      "productLine": "Air",
+      "gwName": "CORVUS BLACK",
+      "ean": "5011921183579",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "d4d9ed0d-e12d-526c-9967-0dcba7a69d95",
+      "paintName": "Typhon Ash",
+      "productLine": "Air",
+      "gwName": "TYPHON ASH",
+      "ean": "5011921183661",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "3e02c1f2-a7df-5d24-8ac1-e1bf81215237",
+      "paintName": "Phalanx Yellow",
+      "productLine": "Air",
+      "gwName": "PHALANX YELLOW",
+      "ean": "5011921183685",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "d69e948b-dd15-5ef4-9f9e-e1f4310c3063",
+      "paintName": "Valdor Gold",
+      "productLine": "Air",
+      "gwName": "VALDOR GOLD",
+      "ean": "5011921183784",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "8666f002-aefa-5bef-b8ce-875c7019c3a0",
+      "paintName": "Grey Knights Steel",
+      "productLine": "Air",
+      "gwName": "GREY KNIGHTS STEEL",
+      "ean": "5011921183807",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "1fb9cfbf-5c2b-58db-b60f-8debc4176f43",
+      "paintName": "Thallax Gold",
+      "productLine": "Air",
+      "gwName": "THALLAX GOLD",
+      "ean": "5011921183814",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "c4da56ca-de3e-5952-a737-a0eef9291f2a",
+      "paintName": "Iyanden Yellow",
+      "productLine": "Contrast",
+      "gwName": "IYANDEN YELLOW",
+      "ean": "5011921184798",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "3ef4f061-bfab-5479-9e64-54440c4c4f8a",
+      "paintName": "Gryph-Hound Orange",
+      "productLine": "Contrast",
+      "gwName": "GRYPH-HOUND ORANGE",
+      "ean": "5011921184811",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "7fc8b83c-f220-5392-84ef-7d3d84cb7b94",
+      "paintName": "Blood Angels Red",
+      "productLine": "Contrast",
+      "gwName": "BLOOD ANGELS RED",
+      "ean": "5011921184828",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "bb1b4030-a69c-529b-a786-78200d490478",
+      "paintName": "Flesh Tearers Red",
+      "productLine": "Contrast",
+      "gwName": "FLESH TEARERS RED",
+      "ean": "5011921184835",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "15888b61-f89f-5ca9-b3d7-39ea002321d4",
+      "paintName": "Volupus Pink",
+      "productLine": "Contrast",
+      "gwName": "VOLUPUS PINK",
+      "ean": "5011921184842",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "2ed37a14-92f7-5696-976e-bd1888533f61",
+      "paintName": "Shyish Purple",
+      "productLine": "Contrast",
+      "gwName": "SHYISH PURPLE",
+      "ean": "5011921184859",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "4dcc48a5-e90e-5651-bbeb-f8566761379e",
+      "paintName": "Magos Purple",
+      "productLine": "Contrast",
+      "gwName": "MAGOS PURPLE",
+      "ean": "5011921184866",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "97273c15-4672-5015-81be-c6de3a14953e",
+      "paintName": "Leviadon Blue",
+      "productLine": "Contrast",
+      "gwName": "LEVIADON BLUE",
+      "ean": "5011921185399",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "f5d4fb86-8e9d-5fd5-a9c7-92a3b84ecd05",
+      "paintName": "Ultramarines Blue",
+      "productLine": "Contrast",
+      "gwName": "ULTRAMARINES BLUE",
+      "ean": "5011921185405",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "a6b61246-9067-50f0-bd68-d05582bc26af",
+      "paintName": "Akhelian Green",
+      "productLine": "Contrast",
+      "gwName": "AKHELIAN GREEN",
+      "ean": "5011921185412",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "27565d88-d1ee-5157-a2a1-05400359e89d",
+      "paintName": "Dark Angels Green",
+      "productLine": "Contrast",
+      "gwName": "DARK ANGELS GREEN",
+      "ean": "5011921185436",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "a7648739-7671-5229-9434-f0fed04c5c10",
+      "paintName": "Nazdreg Yellow",
+      "productLine": "Contrast",
+      "gwName": "NAZDREG YELLOW",
+      "ean": "5011921185443",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "03d43c34-a5c0-5d69-84fc-d500eba27ab7",
+      "paintName": "Ork Flesh",
+      "productLine": "Contrast",
+      "gwName": "ORK FLESH",
+      "ean": "5011921185474",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "08a1bd65-2890-514e-b432-1173da4989af",
+      "paintName": "Creed Camo",
+      "productLine": "Contrast",
+      "gwName": "CREED CAMO",
+      "ean": "5011921185481",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "8a1baff2-ee92-5e7b-b21a-22a4a226fbb0",
+      "paintName": "Militarum Green",
+      "productLine": "Contrast",
+      "gwName": "MILITARUM GREEN",
+      "ean": "5011921185504",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "88063f7a-c828-51bb-8608-33b402cad459",
+      "paintName": "Aggaros Dunes",
+      "productLine": "Contrast",
+      "gwName": "AGGAROS DUNES",
+      "ean": "5011921185511",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "5f6d20c2-df68-5ece-bc7a-47b6655b7f9c",
+      "paintName": "Skeleton Horde",
+      "productLine": "Contrast",
+      "gwName": "SKELETON HORDE",
+      "ean": "5011921185528",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "025f0395-c844-5e53-aff6-d75a4a2fdbee",
+      "paintName": "Snakebite Leather",
+      "productLine": "Contrast",
+      "gwName": "SNAKEBITE LEATHER",
+      "ean": "5011921185535",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "710a854e-f82c-589a-96d4-063fcdd8b972",
+      "paintName": "Gore-Grunta Fur",
+      "productLine": "Contrast",
+      "gwName": "GORE-GRUNTA FUR",
+      "ean": "5011921185542",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "c11d1d85-1c0c-54f1-82e8-cb5f0139c38f",
+      "paintName": "Cygor Brown",
+      "productLine": "Contrast",
+      "gwName": "CYGOR BROWN",
+      "ean": "5011921185559",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "ea843e4d-53cf-5443-9711-e1a89f40aa20",
+      "paintName": "Wyldwood",
+      "productLine": "Contrast",
+      "gwName": "WYLDWOOD",
+      "ean": "5011921185573",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "d5b2aba3-7323-5429-8ce2-3504840edfc6",
+      "paintName": "Fyreslayer Flesh",
+      "productLine": "Contrast",
+      "gwName": "FYRESLAYER FLESH",
+      "ean": "5011921185580",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "722aaceb-4101-5faf-93d2-e220a897dc6c",
+      "paintName": "Guilliman Flesh",
+      "productLine": "Contrast",
+      "gwName": "GUILLIMAN FLESH",
+      "ean": "5011921185597",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "fc1661d9-fc2c-5da1-a996-786acfa7f037",
+      "paintName": "Darkoath Flesh",
+      "productLine": "Contrast",
+      "gwName": "DARKOATH FLESH",
+      "ean": "5011921185603",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "14c176ce-99ba-5cee-ba81-f5097f09017c",
+      "paintName": "Apothecary White",
+      "productLine": "Contrast",
+      "gwName": "APOTHECARY WHITE",
+      "ean": "5011921185610",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "3fb7290c-3ea6-54d5-ae42-45b277401edb",
+      "paintName": "Gryph-Charger Grey",
+      "productLine": "Contrast",
+      "gwName": "GRYPH-CHARGER GREY",
+      "ean": "5011921185627",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "5f84c1a9-cfec-54aa-ac52-2401711b4d44",
+      "paintName": "Space Wolves Grey",
+      "productLine": "Contrast",
+      "gwName": "SPACE WOLVES GREY",
+      "ean": "5011921185634",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "8a1406db-9e7e-542b-93c4-e4a322f27a7c",
+      "paintName": "Basilicanum Grey",
+      "productLine": "Contrast",
+      "gwName": "BASILICANUM GREY",
+      "ean": "5011921185641",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "ada1effa-efe3-500d-9218-d4468b896535",
+      "paintName": "Black Templar",
+      "productLine": "Contrast",
+      "gwName": "BLACK TEMPLAR",
+      "ean": "5011921185658",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "4fa45c9f-c936-550c-9ac4-9b34812543da",
+      "paintName": "Talassar Blue",
+      "productLine": "Contrast",
+      "gwName": "TALASSAR BLUE",
+      "ean": "5011921185665",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "42b75575-096e-5a49-aa5a-4e3d391699ed",
+      "paintName": "Warp Lightning",
+      "productLine": "Contrast",
+      "gwName": "WARP LIGHTNING",
+      "ean": "5011921185672",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "b7d6c57e-752f-5431-852d-e99f3edd2ed4",
+      "paintName": "Aethermatic Blue",
+      "productLine": "Contrast",
+      "gwName": "AETHERMATIC BLUE",
+      "ean": "5011921185689",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "7219b349-52a8-5fb3-ac67-d156e06c74de",
+      "paintName": "Plaguebearer Flesh",
+      "productLine": "Contrast",
+      "gwName": "PLAGUEBEARER FLESH",
+      "ean": "5011921185696",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "f3825ad5-4dca-587f-9945-87490b6f5dd9",
+      "paintName": "Terradon Turquoise",
+      "productLine": "Contrast",
+      "gwName": "TERRADON TURQUOISE",
+      "ean": "5011921185702",
+      "matchType": "exact",
+      "similarity": 1
+    },
+    {
+      "paintId": "11b93a7d-7f8f-5d85-b7a9-03fe5e8ad794",
+      "paintName": "Black Legion",
+      "productLine": "Contrast",
+      "gwName": "BLACK LEGION",
+      "ean": "5011921145034",
+      "matchType": "exact",
+      "similarity": 1
+    }
+  ]
+}
