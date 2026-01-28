@@ -114,7 +114,10 @@ export function AddUnitForm({ projectId, onSuccess, onCancel }: AddUnitFormProps
               >
                 <option value="to_buy">To Buy</option>
                 <option value="owned">Owned</option>
-                <option value="complete">Complete</option>
+                <option value="assembled">Assembled</option>
+                <option value="primed">Primed</option>
+                <option value="painted">Painted</option>
+                <option value="based">Based</option>
               </select>
               {errors.status && (
                 <p className="mt-1.5 text-sm text-error">{errors.status.message}</p>

@@ -12,7 +12,7 @@ export const createUnitSchema = z.object({
     .number()
     .int('Quantity must be a whole number')
     .min(1, 'Quantity must be at least 1'),
-  status: z.enum(['to_buy', 'owned', 'complete']),
+  status: z.enum(['to_buy', 'owned', 'assembled', 'primed', 'painted', 'based']),
   pointsCost: z
     .number()
     .int('Points must be a whole number')

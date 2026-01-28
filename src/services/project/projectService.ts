@@ -158,7 +158,7 @@ export async function getProjectUnitCounts(
   snapshot.forEach((doc) => {
     const data = doc.data() as ProjectUnitDocument;
     total += data.quantity;
-    if (data.status === 'complete') {
+    if (data.status === 'based') {
       complete += data.quantity;
     }
   });

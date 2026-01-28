@@ -10,13 +10,19 @@ export interface StatusBadgeProps {
 const statusLabels: Record<UnitStatus, string> = {
   to_buy: 'To Buy',
   owned: 'Owned',
-  complete: 'Complete',
+  assembled: 'Assembled',
+  primed: 'Primed',
+  painted: 'Painted',
+  based: 'Based',
 };
 
 const nextStatus: Record<UnitStatus, UnitStatus> = {
   to_buy: 'owned',
-  owned: 'complete',
-  complete: 'to_buy',
+  owned: 'assembled',
+  assembled: 'primed',
+  primed: 'painted',
+  painted: 'based',
+  based: 'to_buy',
 };
 
 export function getNextStatus(current: UnitStatus): UnitStatus {

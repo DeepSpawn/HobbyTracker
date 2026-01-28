@@ -23,7 +23,7 @@ const sizeStyles: Record<ProgressBarSize, string> = {
 
 const variantStyles: Record<ProgressBarVariant, string> = {
   default: 'bg-primary-500',
-  success: 'bg-status-complete',
+  success: 'bg-status-based',
 };
 
 export const ProgressBar = forwardRef<HTMLDivElement, ProgressBarProps>(

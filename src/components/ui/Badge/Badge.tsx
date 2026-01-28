@@ -1,6 +1,6 @@
 import { type HTMLAttributes, type ReactNode, forwardRef } from 'react';
 
-export type BadgeVariant = 'default' | 'to_buy' | 'owned' | 'complete';
+export type BadgeVariant = 'default' | 'to_buy' | 'owned' | 'assembled' | 'primed' | 'painted' | 'based';
 export type BadgeSize = 'sm' | 'md';
 
 export interface BadgeProps extends HTMLAttributes<HTMLSpanElement> {
@@ -13,7 +13,10 @@ const variantStyles: Record<BadgeVariant, string> = {
   default: 'bg-gray-100 text-gray-700',
   to_buy: 'bg-status-to-buy/20 text-status-to-buy',
   owned: 'bg-status-owned/20 text-status-owned',
-  complete: 'bg-status-complete/20 text-status-complete',
+  assembled: 'bg-status-assembled/20 text-status-assembled',
+  primed: 'bg-status-primed/20 text-status-primed',
+  painted: 'bg-status-painted/20 text-status-painted',
+  based: 'bg-status-based/20 text-status-based',
 };
 
 const sizeStyles: Record<BadgeSize, string> = {

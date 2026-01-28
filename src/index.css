@@ -26,10 +26,14 @@
   --color-accent-800: oklch(0.38 0.08 60);
   --color-accent-900: oklch(0.28 0.04 55);
 
-  /* === Status Colors (Unit Workflow) === */
-  --color-status-to-buy: oklch(0.65 0.15 25);
-  --color-status-owned: oklch(0.70 0.12 60);
-  --color-status-complete: oklch(0.65 0.16 145);
+  /* === Status Colors (6-Step Unit Workflow) === */
+  /* Flow: To Buy → Owned → Assembled → Primed → Painted → Based */
+  --color-status-to-buy: oklch(0.65 0.15 25);      /* Orange-red */
+  --color-status-owned: oklch(0.70 0.12 60);       /* Yellow-orange */
+  --color-status-assembled: oklch(0.68 0.14 200);  /* Cyan */
+  --color-status-primed: oklch(0.65 0.10 280);     /* Purple */
+  --color-status-painted: oklch(0.62 0.18 320);    /* Magenta */
+  --color-status-based: oklch(0.65 0.16 145);      /* Green - final status */
 
   /* === Semantic Colors === */
   --color-success: oklch(0.65 0.16 145);
