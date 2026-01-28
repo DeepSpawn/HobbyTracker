@@ -2,6 +2,7 @@ import { useState, useRef, useCallback, useEffect } from 'react';
 import { BrowserMultiFormatReader, BarcodeFormat, DecodeHintType } from '@zxing/library';
 import type { Paint } from '../types/paint';
 import { getPaintBySku } from '../services/paint';
+import { validateEanChecksum } from '../services/paint/paintLookupByEan';
 
 export type ScannerStatus =
   | 'idle'
@@ -41,6 +42,27 @@ export interface UseBarcodesScannerReturn {
 }
 
 const SCAN_DEBOUNCE_MS = 1500;
+
+/**
+ * Validate barcode checksum for EAN-13 or UPC-A formats.
+ * UPC-A (12 digits) is validated by prepending 0 to make EAN-13.
+ * Returns false for invalid checksums (likely misreads).
+ */
+function isValidBarcodeChecksum(barcode: string): boolean {
+  // EAN-13: 13 digits
+  if (/^\d{13}$/.test(barcode)) {
+    return validateEanChecksum(barcode);
+  }
+
+  // UPC-A: 12 digits - prepend 0 to convert to EAN-13 for validation
+  if (/^\d{12}$/.test(barcode)) {
+    return validateEanChecksum('0' + barcode);
+  }
+
+  // Other formats (CODE_128, CODE_39, etc.) - allow through without checksum validation
+  // as they may be valid SKU-based lookups
+  return true;
+}
 
 function createScannerError(err: unknown): ScannerError {
   if (err instanceof DOMException) {
@@ -91,6 +113,10 @@ export function useBarcodeScanner(
   const streamRef = useRef<MediaStream | null>(null);
   const lastScanTimeRef = useRef<number>(0);
   const isStoppedRef = useRef<boolean>(true);
+  // Consecutive read confirmation to reduce misreads
+  const lastDetectedBarcodeRef = useRef<string | null>(null);
+  const consecutiveReadCountRef = useRef<number>(0);
+  const REQUIRED_CONSECUTIVE_READS = 2;
 
   const stopScanning = useCallback(() => {
     isStoppedRef.current = true;
@@ -118,6 +144,13 @@ export function useBarcodeScanner(
       if (now - lastScanTimeRef.current < SCAN_DEBOUNCE_MS) {
         return;
       }
+
+      // Validate barcode checksum - silently ignore misreads
+      if (!isValidBarcodeChecksum(barcode)) {
+        console.debug(`Ignoring invalid barcode checksum: ${barcode}`);
+        return;
+      }
+
       lastScanTimeRef.current = now;
 
       setLastScannedBarcode(barcode);
@@ -188,6 +221,8 @@ export function useBarcodeScanner(
         BarcodeFormat.CODE_128,
         BarcodeFormat.CODE_39,
       ]);
+      // TRY_HARDER improves accuracy at cost of speed
+      hints.set(DecodeHintType.TRY_HARDER, true);
 
       const reader = new BrowserMultiFormatReader(hints);
       readerRef.current = reader;
@@ -202,7 +237,22 @@ export function useBarcodeScanner(
 
           if (result) {
             const barcode = result.getText();
-            handleBarcodeScan(barcode);
+
+            // Consecutive read confirmation to reduce misreads
+            if (barcode === lastDetectedBarcodeRef.current) {
+              consecutiveReadCountRef.current++;
+            } else {
+              lastDetectedBarcodeRef.current = barcode;
+              consecutiveReadCountRef.current = 1;
+            }
+
+            // Only process after required consecutive reads
+            if (consecutiveReadCountRef.current >= REQUIRED_CONSECUTIVE_READS) {
+              handleBarcodeScan(barcode);
+              // Reset after successful scan to allow re-scanning same barcode later
+              lastDetectedBarcodeRef.current = null;
+              consecutiveReadCountRef.current = 0;
+            }
           }
 
           // ZXing throws NotFoundException continuously when no barcode is detected

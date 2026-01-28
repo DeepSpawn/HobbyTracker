@@ -54,9 +54,13 @@ vi.mock('@zxing/library', () => {
   };
 });
 
-// Helper to simulate barcode scan
+// Helper to simulate barcode scan (requires 2 consecutive reads for confirmation)
 async function simulateScan(barcode: string) {
   if (decodeCallback) {
+    // First read
+    decodeCallback({ getText: () => barcode }, null);
+    await new Promise((r) => setTimeout(r, 0));
+    // Second read (required for consecutive read confirmation)
     decodeCallback({ getText: () => barcode }, null);
     await new Promise((r) => setTimeout(r, 0));
   }
@@ -547,9 +551,10 @@ describe('useBarcodeScanner', () => {
         await result.current.startScanning();
       });
 
-      // First scan
+      // First scan (2 consecutive reads required)
       await act(async () => {
         if (decodeCallback) {
+          decodeCallback({ getText: () => EXPECTED_BARCODES.citadel }, null);
           decodeCallback({ getText: () => EXPECTED_BARCODES.citadel }, null);
         }
         await vi.runAllTimersAsync();
@@ -560,9 +565,10 @@ describe('useBarcodeScanner', () => {
         vi.advanceTimersByTime(1600);
       });
 
-      // Second scan should work
+      // Second scan should work (2 consecutive reads required)
       await act(async () => {
         if (decodeCallback) {
+          decodeCallback({ getText: () => EXPECTED_BARCODES.vallejo }, null);
           decodeCallback({ getText: () => EXPECTED_BARCODES.vallejo }, null);
         }
         await vi.runAllTimersAsync();
