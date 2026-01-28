@@ -1,5 +1,5 @@
 import { useState, useRef, useCallback, useEffect } from 'react';
-import { BrowserMultiFormatReader, BarcodeFormat, DecodeHintType } from '@zxing/library';
+import { BrowserMultiFormatReader } from '@zxing/library';
 import type { Paint } from '../types/paint';
 import { getPaintBySku } from '../services/paint';
 import { validateEanChecksum } from '../services/paint/paintLookupByEan';
