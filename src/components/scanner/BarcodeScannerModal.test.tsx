@@ -32,7 +32,7 @@ describe('BarcodeScannerModal', () => {
     isOwned: vi.fn(() => false),
     toggleOwnership: vi.fn().mockResolvedValue(undefined),
     isPending: vi.fn(() => false),
-    ownedPaintIds: [],
+    ownedPaintIds: new Set<string>(),
     pendingIds: new Set<string>(),
     isLoading: false,
     error: null,

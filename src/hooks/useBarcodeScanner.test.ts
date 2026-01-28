@@ -17,7 +17,6 @@ const mockGetPaintBySku = vi.mocked(paintService.getPaintBySku);
 
 // Store the decode callback - use module-level variable that the mock can access
 let decodeCallback: ((result: unknown, error: unknown) => void) | null = null;
-let mockReaderReset: ReturnType<typeof vi.fn>;
 
 // Mock ZXing library
 vi.mock('@zxing/library', () => {
