@@ -146,8 +146,10 @@ export function useBarcodeScanner(
       }
 
       // Validate barcode checksum - silently ignore misreads
-      if (!isValidBarcodeChecksum(barcode)) {
-        console.debug(`Ignoring invalid barcode checksum: ${barcode}`);
+      const checksumValid = isValidBarcodeChecksum(barcode);
+      console.debug(`[Scanner] Checksum validation for ${barcode}: ${checksumValid ? 'VALID' : 'INVALID'}`);
+      if (!checksumValid) {
+        console.debug(`[Scanner] Rejecting barcode with invalid checksum: ${barcode}`);
         return;
       }
 
@@ -157,14 +159,17 @@ export function useBarcodeScanner(
       onBarcodeDetected?.(barcode);
 
       setStatus('processing');
+      console.debug(`[Scanner] Looking up paint for barcode: ${barcode}`);
 
       try {
         const paint = await getPaintBySku(barcode);
 
         if (paint) {
+          console.debug(`[Scanner] Found paint: ${paint.name} (${paint.brand})`);
           setLastMatchedPaint(paint);
           onPaintFound?.(paint);
         } else {
+          console.debug(`[Scanner] No paint found for barcode: ${barcode}`);
           setLastMatchedPaint(null);
           onPaintNotFound?.(barcode);
         }
@@ -237,17 +242,24 @@ export function useBarcodeScanner(
 
           if (result) {
             const barcode = result.getText();
+            const format = result.getBarcodeFormat();
+
+            // Debug logging
+            console.debug(`[Scanner] Detected: ${barcode} (format: ${format})`);
 
             // Consecutive read confirmation to reduce misreads
             if (barcode === lastDetectedBarcodeRef.current) {
               consecutiveReadCountRef.current++;
+              console.debug(`[Scanner] Consecutive read ${consecutiveReadCountRef.current}/${REQUIRED_CONSECUTIVE_READS}`);
             } else {
+              console.debug(`[Scanner] New barcode, resetting count (was: ${lastDetectedBarcodeRef.current})`);
               lastDetectedBarcodeRef.current = barcode;
               consecutiveReadCountRef.current = 1;
             }
 
             // Only process after required consecutive reads
             if (consecutiveReadCountRef.current >= REQUIRED_CONSECUTIVE_READS) {
+              console.debug(`[Scanner] Confirmed! Processing barcode: ${barcode}`);
               handleBarcodeScan(barcode);
               // Reset after successful scan to allow re-scanning same barcode later
               lastDetectedBarcodeRef.current = null;

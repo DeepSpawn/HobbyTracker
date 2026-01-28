@@ -54,14 +54,22 @@ vi.mock('@zxing/library', () => {
   };
 });
 
+// Helper to create mock ZXing result
+function createMockResult(barcode: string) {
+  return {
+    getText: () => barcode,
+    getBarcodeFormat: () => 13, // EAN_13
+  };
+}
+
 // Helper to simulate barcode scan (requires 2 consecutive reads for confirmation)
 async function simulateScan(barcode: string) {
   if (decodeCallback) {
     // First read
-    decodeCallback({ getText: () => barcode }, null);
+    decodeCallback(createMockResult(barcode), null);
     await new Promise((r) => setTimeout(r, 0));
     // Second read (required for consecutive read confirmation)
-    decodeCallback({ getText: () => barcode }, null);
+    decodeCallback(createMockResult(barcode), null);
     await new Promise((r) => setTimeout(r, 0));
   }
 }
@@ -506,10 +514,11 @@ describe('useBarcodeScanner', () => {
         await result.current.startScanning();
       });
 
-      // First scan
+      // First scan (2 consecutive reads required)
       await act(async () => {
         if (decodeCallback) {
-          decodeCallback({ getText: () => EXPECTED_BARCODES.citadel }, null);
+          decodeCallback(createMockResult(EXPECTED_BARCODES.citadel), null);
+          decodeCallback(createMockResult(EXPECTED_BARCODES.citadel), null);
         }
         await vi.runAllTimersAsync();
       });
@@ -518,14 +527,16 @@ describe('useBarcodeScanner', () => {
       await act(async () => {
         vi.advanceTimersByTime(500);
         if (decodeCallback) {
-          decodeCallback({ getText: () => EXPECTED_BARCODES.citadel }, null);
+          decodeCallback(createMockResult(EXPECTED_BARCODES.citadel), null);
+          decodeCallback(createMockResult(EXPECTED_BARCODES.citadel), null);
         }
       });
 
       await act(async () => {
         vi.advanceTimersByTime(500);
         if (decodeCallback) {
-          decodeCallback({ getText: () => EXPECTED_BARCODES.citadel }, null);
+          decodeCallback(createMockResult(EXPECTED_BARCODES.citadel), null);
+          decodeCallback(createMockResult(EXPECTED_BARCODES.citadel), null);
         }
       });
 
@@ -554,8 +565,8 @@ describe('useBarcodeScanner', () => {
       // First scan (2 consecutive reads required)
       await act(async () => {
         if (decodeCallback) {
-          decodeCallback({ getText: () => EXPECTED_BARCODES.citadel }, null);
-          decodeCallback({ getText: () => EXPECTED_BARCODES.citadel }, null);
+          decodeCallback(createMockResult(EXPECTED_BARCODES.citadel), null);
+          decodeCallback(createMockResult(EXPECTED_BARCODES.citadel), null);
         }
         await vi.runAllTimersAsync();
       });
@@ -568,8 +579,8 @@ describe('useBarcodeScanner', () => {
       // Second scan should work (2 consecutive reads required)
       await act(async () => {
         if (decodeCallback) {
-          decodeCallback({ getText: () => EXPECTED_BARCODES.vallejo }, null);
-          decodeCallback({ getText: () => EXPECTED_BARCODES.vallejo }, null);
+          decodeCallback(createMockResult(EXPECTED_BARCODES.vallejo), null);
+          decodeCallback(createMockResult(EXPECTED_BARCODES.vallejo), null);
         }
         await vi.runAllTimersAsync();
       });
