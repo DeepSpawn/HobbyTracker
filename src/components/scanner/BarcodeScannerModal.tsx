@@ -5,6 +5,7 @@ import { useInventory } from '../../hooks/useInventory';
 import type { Paint } from '../../types/paint';
 import { ScannerViewfinder } from './ScannerViewfinder';
 import { ScanResultCard } from './ScanResultCard';
+import { ScannerDebugOverlay } from './ScannerDebugOverlay';
 
 export interface BarcodeScannerModalProps {
   isOpen: boolean;
@@ -32,6 +33,7 @@ export function BarcodeScannerModal({
 }: BarcodeScannerModalProps) {
   const [scanCount, setScanCount] = useState(0);
   const [addedCount, setAddedCount] = useState(0);
+  const [debugVisible, setDebugVisible] = useState(false);
   const previousActiveElement = useRef<HTMLElement | null>(null);
   const modalRef = useRef<HTMLDivElement>(null);
   const titleId = useId();
@@ -56,10 +58,13 @@ export function BarcodeScannerModal({
     stopScanning,
     resetError,
     resetLastScan,
+    debugEvents,
+    streamInfo,
   } = useBarcodeScanner({
     onPaintFound: handlePaintFound,
     onPaintNotFound: handlePaintNotFound,
     continuous: true,
+    debug: true,
   });
 
   // Start scanning when modal opens
@@ -204,6 +209,14 @@ export function BarcodeScannerModal({
             status={status}
             error={error}
             onRetry={handleRetry}
+          />
+          <ScannerDebugOverlay
+            events={debugEvents}
+            streamInfo={streamInfo}
+            status={status}
+            lastBarcode={lastScannedBarcode}
+            visible={debugVisible}
+            onToggle={() => setDebugVisible((v) => !v)}
           />
         </div>
 
