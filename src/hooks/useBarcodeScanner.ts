@@ -217,17 +217,8 @@ export function useBarcodeScanner(
         await videoRef.current.play();
       }
 
-      const hints = new Map();
-      hints.set(DecodeHintType.POSSIBLE_FORMATS, [
-        BarcodeFormat.EAN_13,
-        BarcodeFormat.EAN_8,
-        BarcodeFormat.UPC_A,
-        BarcodeFormat.UPC_E,
-        BarcodeFormat.CODE_128,
-        BarcodeFormat.CODE_39,
-      ]);
-
-      const reader = new BrowserMultiFormatReader(hints);
+      // Use default reader without hints - ZXing will try all supported formats
+      const reader = new BrowserMultiFormatReader();
       readerRef.current = reader;
 
       setStatus('scanning');
