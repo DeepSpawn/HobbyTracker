@@ -86,7 +86,7 @@ export function PaintsPage() {
       {/* Main content */}
       <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
         {/* Page title and stats */}
-        <div className="mb-6 flex items-start justify-between">
+        <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
           <div>
             <h2 className="text-2xl font-bold text-gray-900">Paint Inventory</h2>
             <p className="mt-1 text-sm text-gray-500">
@@ -97,6 +97,7 @@ export function PaintsPage() {
             variant="primary"
             leftIcon={<BarcodeIcon />}
             onClick={() => setIsScannerOpen(true)}
+            className="shrink-0"
           >
             Scan Paint
           </Button>
