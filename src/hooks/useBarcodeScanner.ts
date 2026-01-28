@@ -1,7 +1,8 @@
 import { useState, useRef, useCallback, useEffect } from 'react';
-import { BrowserMultiFormatReader, BarcodeFormat, DecodeHintType } from '@zxing/library';
+import { BrowserMultiFormatReader } from '@zxing/library';
 import type { Paint } from '../types/paint';
 import { getPaintBySku } from '../services/paint';
+import { validateEanChecksum } from '../services/paint/paintLookupByEan';
 
 export type ScannerStatus =
   | 'idle'
@@ -41,6 +42,27 @@ export interface UseBarcodesScannerReturn {
 }
 
 const SCAN_DEBOUNCE_MS = 1500;
+
+/**
+ * Validate barcode checksum for EAN-13 or UPC-A formats.
+ * UPC-A (12 digits) is validated by prepending 0 to make EAN-13.
+ * Returns false for invalid checksums (likely misreads).
+ */
+function isValidBarcodeChecksum(barcode: string): boolean {
+  // EAN-13: 13 digits
+  if (/^\d{13}$/.test(barcode)) {
+    return validateEanChecksum(barcode);
+  }
+
+  // UPC-A: 12 digits - prepend 0 to convert to EAN-13 for validation
+  if (/^\d{12}$/.test(barcode)) {
+    return validateEanChecksum('0' + barcode);
+  }
+
+  // Other formats (CODE_128, CODE_39, etc.) - allow through without checksum validation
+  // as they may be valid SKU-based lookups
+  return true;
+}
 
 function createScannerError(err: unknown): ScannerError {
   if (err instanceof DOMException) {
@@ -91,6 +113,10 @@ export function useBarcodeScanner(
   const streamRef = useRef<MediaStream | null>(null);
   const lastScanTimeRef = useRef<number>(0);
   const isStoppedRef = useRef<boolean>(true);
+  // Consecutive read confirmation to reduce misreads
+  const lastDetectedBarcodeRef = useRef<string | null>(null);
+  const consecutiveReadCountRef = useRef<number>(0);
+  const REQUIRED_CONSECUTIVE_READS = 2;
 
   const stopScanning = useCallback(() => {
     isStoppedRef.current = true;
@@ -118,20 +144,32 @@ export function useBarcodeScanner(
       if (now - lastScanTimeRef.current < SCAN_DEBOUNCE_MS) {
         return;
       }
+
+      // Validate barcode checksum - silently ignore misreads
+      const checksumValid = isValidBarcodeChecksum(barcode);
+      console.debug(`[Scanner] Checksum validation for ${barcode}: ${checksumValid ? 'VALID' : 'INVALID'}`);
+      if (!checksumValid) {
+        console.debug(`[Scanner] Rejecting barcode with invalid checksum: ${barcode}`);
+        return;
+      }
+
       lastScanTimeRef.current = now;
 
       setLastScannedBarcode(barcode);
       onBarcodeDetected?.(barcode);
 
       setStatus('processing');
+      console.debug(`[Scanner] Looking up paint for barcode: ${barcode}`);
 
       try {
         const paint = await getPaintBySku(barcode);
 
         if (paint) {
+          console.debug(`[Scanner] Found paint: ${paint.name} (${paint.brand})`);
           setLastMatchedPaint(paint);
           onPaintFound?.(paint);
         } else {
+          console.debug(`[Scanner] No paint found for barcode: ${barcode}`);
           setLastMatchedPaint(null);
           onPaintNotFound?.(barcode);
         }
@@ -179,17 +217,8 @@ export function useBarcodeScanner(
         await videoRef.current.play();
       }
 
-      const hints = new Map();
-      hints.set(DecodeHintType.POSSIBLE_FORMATS, [
-        BarcodeFormat.EAN_13,
-        BarcodeFormat.EAN_8,
-        BarcodeFormat.UPC_A,
-        BarcodeFormat.UPC_E,
-        BarcodeFormat.CODE_128,
-        BarcodeFormat.CODE_39,
-      ]);
-
-      const reader = new BrowserMultiFormatReader(hints);
+      // Use default reader without hints - ZXing will try all supported formats
+      const reader = new BrowserMultiFormatReader();
       readerRef.current = reader;
 
       setStatus('scanning');
@@ -202,13 +231,41 @@ export function useBarcodeScanner(
 
           if (result) {
             const barcode = result.getText();
-            handleBarcodeScan(barcode);
+            const format = result.getBarcodeFormat();
+
+            // Debug logging
+            console.debug(`[Scanner] Detected: ${barcode} (format: ${format})`);
+
+            // Consecutive read confirmation to reduce misreads
+            if (barcode === lastDetectedBarcodeRef.current) {
+              consecutiveReadCountRef.current++;
+              console.debug(`[Scanner] Consecutive read ${consecutiveReadCountRef.current}/${REQUIRED_CONSECUTIVE_READS}`);
+            } else {
+              console.debug(`[Scanner] New barcode, resetting count (was: ${lastDetectedBarcodeRef.current})`);
+              lastDetectedBarcodeRef.current = barcode;
+              consecutiveReadCountRef.current = 1;
+            }
+
+            // Only process after required consecutive reads
+            if (consecutiveReadCountRef.current >= REQUIRED_CONSECUTIVE_READS) {
+              console.debug(`[Scanner] Confirmed! Processing barcode: ${barcode}`);
+              handleBarcodeScan(barcode);
+              // Reset after successful scan to allow re-scanning same barcode later
+              lastDetectedBarcodeRef.current = null;
+              consecutiveReadCountRef.current = 0;
+            }
           }
 
-          // ZXing throws NotFoundException continuously when no barcode is detected
-          // This is normal behavior, so we only log actual errors
-          if (err && err.name !== 'NotFoundException') {
-            console.error('Barcode scan error:', err);
+          // ZXing throws errors continuously when no barcode is detected
+          // This is normal behavior, so we only log unexpected errors
+          if (err) {
+            const errMessage = err instanceof Error ? err.message : String(err);
+            const isExpectedError =
+              err.name === 'NotFoundException' ||
+              errMessage.includes('No MultiFormat Readers were able to detect');
+            if (!isExpectedError) {
+              console.error('Barcode scan error:', err);
+            }
           }
         }
       );
