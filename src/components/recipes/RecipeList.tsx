@@ -1,4 +1,5 @@
 import { RecipeCard } from './RecipeCard';
+import { EmptyState } from '../ui';
 import type { Recipe } from '../../types/recipe';
 
 interface PaintSwatch {
@@ -10,7 +11,7 @@ interface PaintSwatch {
 interface RecipeListProps {
   recipes: Recipe[];
   recipeSwatches?: Record<string, PaintSwatch[]>;
-  emptyMessage?: string;
+  onCreateRecipe?: () => void;
 }
 
 /**
@@ -19,13 +20,20 @@ interface RecipeListProps {
 export function RecipeList({
   recipes,
   recipeSwatches = {},
-  emptyMessage = 'No recipes yet.',
+  onCreateRecipe,
 }: RecipeListProps) {
   if (recipes.length === 0) {
     return (
-      <div className="rounded-lg border border-dashed border-gray-300 p-8 text-center">
-        <p className="text-gray-500">{emptyMessage}</p>
-      </div>
+      <EmptyState
+        icon="recipes"
+        title="No recipes yet"
+        description="Create recipes to define paint schemes for your miniatures"
+        action={
+          onCreateRecipe
+            ? { label: 'Create Recipe', onClick: onCreateRecipe }
+            : undefined
+        }
+      />
     );
   }
 
