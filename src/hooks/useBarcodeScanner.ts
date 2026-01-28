@@ -226,8 +226,6 @@ export function useBarcodeScanner(
         BarcodeFormat.CODE_128,
         BarcodeFormat.CODE_39,
       ]);
-      // TRY_HARDER improves accuracy at cost of speed
-      hints.set(DecodeHintType.TRY_HARDER, true);
 
       const reader = new BrowserMultiFormatReader(hints);
       readerRef.current = reader;
@@ -267,10 +265,16 @@ export function useBarcodeScanner(
             }
           }
 
-          // ZXing throws NotFoundException continuously when no barcode is detected
-          // This is normal behavior, so we only log actual errors
-          if (err && err.name !== 'NotFoundException') {
-            console.error('Barcode scan error:', err);
+          // ZXing throws errors continuously when no barcode is detected
+          // This is normal behavior, so we only log unexpected errors
+          if (err) {
+            const errMessage = err instanceof Error ? err.message : String(err);
+            const isExpectedError =
+              err.name === 'NotFoundException' ||
+              errMessage.includes('No MultiFormat Readers were able to detect');
+            if (!isExpectedError) {
+              console.error('Barcode scan error:', err);
+            }
           }
         }
       );
