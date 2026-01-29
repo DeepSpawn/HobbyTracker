@@ -12,6 +12,7 @@ import {
   RegisterPage,
   ShoppingListPage,
 } from './pages';
+import { DebugScannerPage } from './pages/DebugScannerPage';
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
         <Route path="/recipes/:id" element={<RecipeDetailPage />} />
         <Route path="/shopping-list" element={<ShoppingListPage />} />
       </Route>
+
+      {/* Debug routes - no auth required */}
+      <Route path="/debug/scanner" element={<DebugScannerPage />} />
 
       {/* Fallback - redirect to home */}
       <Route path="*" element={<Navigate to="/" replace />} />
