@@ -73,11 +73,11 @@
 
 @layer base {
   html {
-    @apply antialiased;
+    @apply antialiased overflow-x-hidden;
   }
 
   body {
-    @apply bg-gray-50 text-gray-900;
+    @apply bg-gray-50 text-gray-900 overflow-x-hidden max-w-[100vw];
   }
 
   :focus-visible {
