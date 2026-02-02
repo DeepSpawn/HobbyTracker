@@ -134,11 +134,18 @@ export async function getPaintBySku(sku: string): Promise<Paint | null> {
   const paints = await getCachedPaints();
   const normalizedSku = sku.trim().replace(/^0+/, '');
 
+  const trimmed = sku.trim();
+
   return (
     paints.find((p) => {
-      if (!p.sku) return false;
-      const paintSku = p.sku.replace(/^0+/, '');
-      return paintSku === normalizedSku || p.sku === sku.trim();
+      // Check SKU match
+      if (p.sku) {
+        const paintSku = p.sku.replace(/^0+/, '');
+        if (paintSku === normalizedSku || p.sku === trimmed) return true;
+      }
+      // Check EAN match
+      if (p.ean && p.ean === trimmed) return true;
+      return false;
     }) ?? null
   );
 }

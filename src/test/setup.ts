@@ -49,24 +49,3 @@ vi.mock('firebase/firestore', () => ({
   updateDoc: vi.fn(),
   serverTimestamp: vi.fn(),
 }));
-
-// Mock ZXing library for barcode scanner tests
-vi.mock('@zxing/library', () => ({
-  BrowserMultiFormatReader: vi.fn().mockImplementation(() => ({
-    decodeFromVideoDevice: vi.fn(),
-    decodeFromImageUrl: vi.fn(),
-    reset: vi.fn(),
-  })),
-  BarcodeFormat: {
-    EAN_13: 13,
-    EAN_8: 8,
-    UPC_A: 14,
-    UPC_E: 15,
-    CODE_128: 128,
-    CODE_39: 39,
-  },
-  DecodeHintType: {
-    POSSIBLE_FORMATS: 1,
-    TRY_HARDER: 2,
-  },
-}));

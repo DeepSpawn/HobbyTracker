@@ -26,6 +26,9 @@ describe('BarcodeScannerModal', () => {
     stopScanning: vi.fn(),
     resetError: vi.fn(),
     resetLastScan: vi.fn(),
+    debugEvents: [],
+    streamInfo: null,
+    activeBackend: null,
   };
 
   const defaultInventoryState = {

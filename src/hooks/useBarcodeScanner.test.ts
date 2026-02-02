@@ -2,6 +2,7 @@ import { renderHook, act, waitFor } from '@testing-library/react';
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import { useBarcodeScanner } from './useBarcodeScanner';
 import * as paintService from '../services/paint';
+import * as nativeDetector from '../services/scanner/nativeBarcodeDetector';
 import {
   mockCitadelPaint,
   mockNotFoundBarcode,
@@ -13,70 +14,46 @@ vi.mock('../services/paint', () => ({
   getPaintBySku: vi.fn(),
 }));
 
+// Mock ZXing library (only BarcodeFormat is needed now)
+vi.mock('@zxing/library', () => ({
+  BarcodeFormat: {
+    EAN_13: 13,
+    EAN_8: 8,
+    UPC_A: 14,
+    UPC_E: 15,
+    CODE_128: 128,
+    CODE_39: 39,
+  },
+}));
+
+// Mock native barcode detector
+vi.mock('../services/scanner/nativeBarcodeDetector', () => ({
+  isNativeBarcodeDetectorSupported: vi.fn(() => true),
+  detectBarcodeNative: vi.fn(() => Promise.resolve(null)),
+  getNativeSupportedFormats: vi.fn(() => Promise.resolve(['ean_13'])),
+}));
+
+// Mock barcodeDetection (ZXing fallback)
+vi.mock('../services/scanner/barcodeDetection', () => ({
+  detectBarcodeFromRgba: vi.fn(() => null),
+}));
+
 const mockGetPaintBySku = vi.mocked(paintService.getPaintBySku);
+const mockDetectBarcodeNative = vi.mocked(nativeDetector.detectBarcodeNative);
 
-// Store the decode callback - use module-level variable that the mock can access
-let decodeCallback: ((result: unknown, error: unknown) => void) | null = null;
-
-// Mock ZXing library
-vi.mock('@zxing/library', () => {
-  // Create mock reset function that tests can check
-  const resetFn = vi.fn();
-
-  // Create a class-like constructor
-  function MockBrowserMultiFormatReader() {
-    return {
-      decodeFromVideoDevice: (
-        _deviceId: string | null,
-        _videoElement: HTMLVideoElement | null,
-        callback: (result: unknown, error: unknown) => void
-      ) => {
-        // Store the callback so tests can trigger scans
-        decodeCallback = callback;
-      },
-      reset: resetFn,
-    };
-  }
-
-  return {
-    BrowserMultiFormatReader: MockBrowserMultiFormatReader,
-    BarcodeFormat: {
-      EAN_13: 13,
-      EAN_8: 8,
-      UPC_A: 14,
-      UPC_E: 15,
-      CODE_128: 128,
-      CODE_39: 39,
-    },
-    DecodeHintType: {
-      POSSIBLE_FORMATS: 1,
-    },
-  };
-});
-
-// Helper to create mock ZXing result
-function createMockResult(barcode: string) {
-  return {
-    getText: () => barcode,
-    getBarcodeFormat: () => 13, // EAN_13
-  };
-}
-
-// Helper to simulate barcode scan (requires 2 consecutive reads for confirmation)
-async function simulateScan(barcode: string) {
-  if (decodeCallback) {
-    // First read
-    decodeCallback(createMockResult(barcode), null);
-    await new Promise((r) => setTimeout(r, 0));
-    // Second read (required for consecutive read confirmation)
-    decodeCallback(createMockResult(barcode), null);
-    await new Promise((r) => setTimeout(r, 0));
-  }
-}
+// Capture requestAnimationFrame callbacks for manual control
+let rafCallbacks: Array<(time: number) => void> = [];
+let rafId = 0;
+let perfNowValue = 200; // Start past the throttle interval
+let dateNowValue = 5000; // Controllable Date.now() for debounce testing (starts well past debounce window from 0)
 
 // Mock MediaStream and tracks
 function createMockStream() {
-  const mockTrack = { stop: vi.fn(), kind: 'video' };
+  const mockTrack = {
+    stop: vi.fn(),
+    kind: 'video',
+    getSettings: () => ({ width: 1280, height: 720, facingMode: 'environment', frameRate: 30 }),
+  };
   return {
     getTracks: () => [mockTrack],
     getVideoTracks: () => [mockTrack],
@@ -84,38 +61,89 @@ function createMockStream() {
   };
 }
 
-// Mock video element
+// Mock video element with properties needed by the scan loop
 function createMockVideoElement() {
   return {
     play: vi.fn().mockResolvedValue(undefined),
     srcObject: null,
+    readyState: 4,
+    HAVE_ENOUGH_DATA: 4,
+    videoWidth: 1280,
+    videoHeight: 720,
   } as unknown as HTMLVideoElement;
+}
+
+/**
+ * Run stored requestAnimationFrame callbacks N times.
+ * Each iteration processes all pending rAF callbacks, then collects
+ * any new ones that were scheduled during execution.
+ */
+async function runScanLoop(iterations = 1) {
+  for (let i = 0; i < iterations; i++) {
+    perfNowValue += 200; // Advance past throttle interval
+    dateNowValue += 200; // Advance Date.now() in step with performance.now()
+    const cbs = [...rafCallbacks];
+    rafCallbacks = [];
+    for (const cb of cbs) {
+      await act(async () => {
+        cb(perfNowValue);
+        await new Promise((r) => setTimeout(r, 0));
+      });
+    }
+  }
 }
 
 describe('useBarcodeScanner', () => {
   let mockStream: ReturnType<typeof createMockStream>;
   let mockGetUserMedia: ReturnType<typeof vi.fn>;
   let mockVideoElement: HTMLVideoElement;
+  let originalRaf: typeof requestAnimationFrame;
+  let originalCaf: typeof cancelAnimationFrame;
+  let originalPerfNow: typeof performance.now;
 
   beforeEach(() => {
     vi.clearAllMocks();
-    decodeCallback = null;
     mockGetPaintBySku.mockResolvedValue(null);
+    mockDetectBarcodeNative.mockResolvedValue(null);
     mockStream = createMockStream();
     mockGetUserMedia = vi.fn().mockResolvedValue(mockStream);
     mockVideoElement = createMockVideoElement();
+    rafCallbacks = [];
+    rafId = 0;
+    perfNowValue = 200;
+    dateNowValue = 5000;
 
-    // Mock navigator.mediaDevices globally
+    // Mock navigator.mediaDevices
     Object.defineProperty(globalThis.navigator, 'mediaDevices', {
-      value: {
-        getUserMedia: mockGetUserMedia,
-      },
+      value: { getUserMedia: mockGetUserMedia },
       writable: true,
       configurable: true,
     });
+
+    // Mock requestAnimationFrame to store callbacks
+    originalRaf = globalThis.requestAnimationFrame;
+    originalCaf = globalThis.cancelAnimationFrame;
+    originalPerfNow = performance.now;
+
+    globalThis.requestAnimationFrame = vi.fn((cb: FrameRequestCallback) => {
+      rafId++;
+      rafCallbacks.push(cb);
+      return rafId;
+    }) as unknown as typeof requestAnimationFrame;
+
+    globalThis.cancelAnimationFrame = vi.fn();
+
+    // Mock performance.now to control throttling
+    vi.spyOn(performance, 'now').mockImplementation(() => perfNowValue);
+
+    // Mock Date.now to control debounce
+    vi.spyOn(Date, 'now').mockImplementation(() => dateNowValue);
   });
 
   afterEach(() => {
+    globalThis.requestAnimationFrame = originalRaf;
+    globalThis.cancelAnimationFrame = originalCaf;
+    performance.now = originalPerfNow;
     vi.useRealTimers();
   });
 
@@ -173,8 +201,6 @@ describe('useBarcodeScanner', () => {
 
     it('transitions to scanning status after camera access', async () => {
       const { result } = renderHook(() => useBarcodeScanner());
-
-      // Set up videoRef before starting
       Object.defineProperty(result.current.videoRef, 'current', {
         value: mockVideoElement,
         writable: true,
@@ -187,7 +213,7 @@ describe('useBarcodeScanner', () => {
       expect(result.current.status).toBe('scanning');
     });
 
-    it('creates ZXing reader and starts decoding', async () => {
+    it('starts the rAF-based scan loop', async () => {
       const { result } = renderHook(() => useBarcodeScanner());
       Object.defineProperty(result.current.videoRef, 'current', {
         value: mockVideoElement,
@@ -198,19 +224,17 @@ describe('useBarcodeScanner', () => {
         await result.current.startScanning();
       });
 
-      expect(decodeCallback).not.toBeNull();
+      // Scan loop should have scheduled at least one rAF callback
+      expect(globalThis.requestAnimationFrame).toHaveBeenCalled();
     });
   });
 
   describe('error handling', () => {
     it('sets permission_denied error when camera access denied', async () => {
       const error = new DOMException('Permission denied', 'NotAllowedError');
-      // Create a fresh mock that rejects for this specific test
       const rejectingGetUserMedia = vi.fn().mockRejectedValue(error);
       Object.defineProperty(globalThis.navigator, 'mediaDevices', {
-        value: {
-          getUserMedia: rejectingGetUserMedia,
-        },
+        value: { getUserMedia: rejectingGetUserMedia },
         writable: true,
         configurable: true,
       });
@@ -220,28 +244,19 @@ describe('useBarcodeScanner', () => {
       await act(async () => {
         try {
           await result.current.startScanning();
-        } catch {
-          // The hook should catch this internally, but just in case
-        }
+        } catch { /* hook catches internally */ }
       });
 
-      // Verify the mock was called
       expect(rejectingGetUserMedia).toHaveBeenCalled();
-      // Note: The hook has a quirk where stopScanning() is called after setting error,
-      // which resets status to 'idle'. The error object is still properly set.
-      // The error state is the authoritative indicator of what went wrong.
       expect(result.current.error?.type).toBe('permission_denied');
       expect(result.current.error?.message).toContain('Camera access was denied');
     });
 
     it('sets no_camera error when no camera found', async () => {
       const error = new DOMException('No camera', 'NotFoundError');
-      // Create a fresh mock that rejects for this specific test
       const rejectingGetUserMedia = vi.fn().mockRejectedValue(error);
       Object.defineProperty(globalThis.navigator, 'mediaDevices', {
-        value: {
-          getUserMedia: rejectingGetUserMedia,
-        },
+        value: { getUserMedia: rejectingGetUserMedia },
         writable: true,
         configurable: true,
       });
@@ -251,16 +266,10 @@ describe('useBarcodeScanner', () => {
       await act(async () => {
         try {
           await result.current.startScanning();
-        } catch {
-          // The hook should catch this internally, but just in case
-        }
+        } catch { /* hook catches internally */ }
       });
 
-      // Verify the mock was called
       expect(rejectingGetUserMedia).toHaveBeenCalled();
-      // Note: The hook has a quirk where stopScanning() is called after setting error,
-      // which resets status to 'idle'. The error object is still properly set.
-      // The error state is the authoritative indicator of what went wrong.
       expect(result.current.error?.type).toBe('no_camera');
       expect(result.current.error?.message).toContain('No camera found');
     });
@@ -347,6 +356,11 @@ describe('useBarcodeScanner', () => {
   describe('barcode detection', () => {
     it('sets lastScannedBarcode when barcode detected', async () => {
       mockGetPaintBySku.mockResolvedValue(mockCitadelPaint);
+      // Need 2 consecutive reads for confirmation
+      mockDetectBarcodeNative
+        .mockResolvedValueOnce({ text: EXPECTED_BARCODES.citadel, format: 'ean_13' })
+        .mockResolvedValueOnce({ text: EXPECTED_BARCODES.citadel, format: 'ean_13' });
+
       const { result } = renderHook(() => useBarcodeScanner());
       Object.defineProperty(result.current.videoRef, 'current', {
         value: mockVideoElement,
@@ -356,17 +370,21 @@ describe('useBarcodeScanner', () => {
       await act(async () => {
         await result.current.startScanning();
       });
-      expect(decodeCallback).not.toBeNull();
 
-      await act(async () => {
-        await simulateScan(EXPECTED_BARCODES.citadel);
+      // Run scan loop twice for consecutive read confirmation
+      await runScanLoop(2);
+
+      await waitFor(() => {
+        expect(result.current.lastScannedBarcode).toBe(EXPECTED_BARCODES.citadel);
       });
-
-      expect(result.current.lastScannedBarcode).toBe(EXPECTED_BARCODES.citadel);
     });
 
     it('looks up paint by barcode', async () => {
       mockGetPaintBySku.mockResolvedValue(mockCitadelPaint);
+      mockDetectBarcodeNative
+        .mockResolvedValueOnce({ text: EXPECTED_BARCODES.citadel, format: 'ean_13' })
+        .mockResolvedValueOnce({ text: EXPECTED_BARCODES.citadel, format: 'ean_13' });
+
       const { result } = renderHook(() => useBarcodeScanner());
       Object.defineProperty(result.current.videoRef, 'current', {
         value: mockVideoElement,
@@ -377,17 +395,21 @@ describe('useBarcodeScanner', () => {
         await result.current.startScanning();
       });
 
-      await act(async () => {
-        await simulateScan(EXPECTED_BARCODES.citadel);
-      });
+      await runScanLoop(2);
 
-      expect(mockGetPaintBySku).toHaveBeenCalledWith(EXPECTED_BARCODES.citadel);
+      await waitFor(() => {
+        expect(mockGetPaintBySku).toHaveBeenCalledWith(EXPECTED_BARCODES.citadel);
+      });
     });
   });
 
   describe('paint lookup', () => {
     it('sets lastMatchedPaint when paint found', async () => {
       mockGetPaintBySku.mockResolvedValue(mockCitadelPaint);
+      mockDetectBarcodeNative
+        .mockResolvedValueOnce({ text: EXPECTED_BARCODES.citadel, format: 'ean_13' })
+        .mockResolvedValueOnce({ text: EXPECTED_BARCODES.citadel, format: 'ean_13' });
+
       const { result } = renderHook(() => useBarcodeScanner());
       Object.defineProperty(result.current.videoRef, 'current', {
         value: mockVideoElement,
@@ -398,9 +420,7 @@ describe('useBarcodeScanner', () => {
         await result.current.startScanning();
       });
 
-      await act(async () => {
-        await simulateScan(EXPECTED_BARCODES.citadel);
-      });
+      await runScanLoop(2);
 
       await waitFor(() => {
         expect(result.current.lastMatchedPaint).toEqual(mockCitadelPaint);
@@ -409,6 +429,10 @@ describe('useBarcodeScanner', () => {
 
     it('sets lastMatchedPaint to null when paint not found', async () => {
       mockGetPaintBySku.mockResolvedValue(null);
+      mockDetectBarcodeNative
+        .mockResolvedValueOnce({ text: mockNotFoundBarcode, format: 'ean_13' })
+        .mockResolvedValueOnce({ text: mockNotFoundBarcode, format: 'ean_13' });
+
       const { result } = renderHook(() => useBarcodeScanner());
       Object.defineProperty(result.current.videoRef, 'current', {
         value: mockVideoElement,
@@ -419,9 +443,7 @@ describe('useBarcodeScanner', () => {
         await result.current.startScanning();
       });
 
-      await act(async () => {
-        await simulateScan(mockNotFoundBarcode);
-      });
+      await runScanLoop(2);
 
       await waitFor(() => {
         expect(result.current.lastMatchedPaint).toBeNull();
@@ -432,6 +454,10 @@ describe('useBarcodeScanner', () => {
   describe('callbacks', () => {
     it('calls onBarcodeDetected when barcode scanned', async () => {
       mockGetPaintBySku.mockResolvedValue(mockCitadelPaint);
+      mockDetectBarcodeNative
+        .mockResolvedValueOnce({ text: EXPECTED_BARCODES.citadel, format: 'ean_13' })
+        .mockResolvedValueOnce({ text: EXPECTED_BARCODES.citadel, format: 'ean_13' });
+
       const onBarcodeDetected = vi.fn();
       const { result } = renderHook(() =>
         useBarcodeScanner({ onBarcodeDetected })
@@ -445,15 +471,19 @@ describe('useBarcodeScanner', () => {
         await result.current.startScanning();
       });
 
-      await act(async () => {
-        await simulateScan(EXPECTED_BARCODES.citadel);
-      });
+      await runScanLoop(2);
 
-      expect(onBarcodeDetected).toHaveBeenCalledWith(EXPECTED_BARCODES.citadel);
+      await waitFor(() => {
+        expect(onBarcodeDetected).toHaveBeenCalledWith(EXPECTED_BARCODES.citadel);
+      });
     });
 
     it('calls onPaintFound when paint matched', async () => {
       mockGetPaintBySku.mockResolvedValue(mockCitadelPaint);
+      mockDetectBarcodeNative
+        .mockResolvedValueOnce({ text: EXPECTED_BARCODES.citadel, format: 'ean_13' })
+        .mockResolvedValueOnce({ text: EXPECTED_BARCODES.citadel, format: 'ean_13' });
+
       const onPaintFound = vi.fn();
       const { result } = renderHook(() => useBarcodeScanner({ onPaintFound }));
       Object.defineProperty(result.current.videoRef, 'current', {
@@ -465,9 +495,7 @@ describe('useBarcodeScanner', () => {
         await result.current.startScanning();
       });
 
-      await act(async () => {
-        await simulateScan(EXPECTED_BARCODES.citadel);
-      });
+      await runScanLoop(2);
 
       await waitFor(() => {
         expect(onPaintFound).toHaveBeenCalledWith(mockCitadelPaint);
@@ -476,6 +504,10 @@ describe('useBarcodeScanner', () => {
 
     it('calls onPaintNotFound when no match', async () => {
       mockGetPaintBySku.mockResolvedValue(null);
+      mockDetectBarcodeNative
+        .mockResolvedValueOnce({ text: mockNotFoundBarcode, format: 'ean_13' })
+        .mockResolvedValueOnce({ text: mockNotFoundBarcode, format: 'ean_13' });
+
       const onPaintNotFound = vi.fn();
       const { result } = renderHook(() => useBarcodeScanner({ onPaintNotFound }));
       Object.defineProperty(result.current.videoRef, 'current', {
@@ -487,9 +519,7 @@ describe('useBarcodeScanner', () => {
         await result.current.startScanning();
       });
 
-      await act(async () => {
-        await simulateScan(mockNotFoundBarcode);
-      });
+      await runScanLoop(2);
 
       await waitFor(() => {
         expect(onPaintNotFound).toHaveBeenCalledWith(mockNotFoundBarcode);
@@ -499,7 +529,6 @@ describe('useBarcodeScanner', () => {
 
   describe('debouncing', () => {
     it('debounces rapid scans within 1500ms window', async () => {
-      vi.useFakeTimers();
       mockGetPaintBySku.mockResolvedValue(mockCitadelPaint);
       const onBarcodeDetected = vi.fn();
       const { result } = renderHook(() =>
@@ -514,40 +543,27 @@ describe('useBarcodeScanner', () => {
         await result.current.startScanning();
       });
 
-      // First scan (2 consecutive reads required)
-      await act(async () => {
-        if (decodeCallback) {
-          decodeCallback(createMockResult(EXPECTED_BARCODES.citadel), null);
-          decodeCallback(createMockResult(EXPECTED_BARCODES.citadel), null);
-        }
-        await vi.runAllTimersAsync();
+      // First scan - 2 consecutive reads
+      mockDetectBarcodeNative
+        .mockResolvedValueOnce({ text: EXPECTED_BARCODES.citadel, format: 'ean_13' })
+        .mockResolvedValueOnce({ text: EXPECTED_BARCODES.citadel, format: 'ean_13' });
+      await runScanLoop(2);
+
+      await waitFor(() => {
+        expect(onBarcodeDetected).toHaveBeenCalledTimes(1);
       });
 
-      // Rapid subsequent scans within debounce window
-      await act(async () => {
-        vi.advanceTimersByTime(500);
-        if (decodeCallback) {
-          decodeCallback(createMockResult(EXPECTED_BARCODES.citadel), null);
-          decodeCallback(createMockResult(EXPECTED_BARCODES.citadel), null);
-        }
-      });
+      // Rapid subsequent scan within debounce window (perfNow only advanced 400ms)
+      mockDetectBarcodeNative
+        .mockResolvedValueOnce({ text: EXPECTED_BARCODES.citadel, format: 'ean_13' })
+        .mockResolvedValueOnce({ text: EXPECTED_BARCODES.citadel, format: 'ean_13' });
+      await runScanLoop(2);
 
-      await act(async () => {
-        vi.advanceTimersByTime(500);
-        if (decodeCallback) {
-          decodeCallback(createMockResult(EXPECTED_BARCODES.citadel), null);
-          decodeCallback(createMockResult(EXPECTED_BARCODES.citadel), null);
-        }
-      });
-
-      // Only first scan should be processed
+      // Still only 1 call (debounced)
       expect(onBarcodeDetected).toHaveBeenCalledTimes(1);
-
-      vi.useRealTimers();
     });
 
     it('allows new scan after debounce period', async () => {
-      vi.useFakeTimers();
       mockGetPaintBySku.mockResolvedValue(mockCitadelPaint);
       const onBarcodeDetected = vi.fn();
       const { result } = renderHook(() =>
@@ -562,40 +578,41 @@ describe('useBarcodeScanner', () => {
         await result.current.startScanning();
       });
 
-      // First scan (2 consecutive reads required)
-      await act(async () => {
-        if (decodeCallback) {
-          decodeCallback(createMockResult(EXPECTED_BARCODES.citadel), null);
-          decodeCallback(createMockResult(EXPECTED_BARCODES.citadel), null);
-        }
-        await vi.runAllTimersAsync();
+      // First scan
+      mockDetectBarcodeNative
+        .mockResolvedValueOnce({ text: EXPECTED_BARCODES.citadel, format: 'ean_13' })
+        .mockResolvedValueOnce({ text: EXPECTED_BARCODES.citadel, format: 'ean_13' });
+      await runScanLoop(2);
+
+      await waitFor(() => {
+        expect(onBarcodeDetected).toHaveBeenCalledTimes(1);
       });
 
-      // Wait past debounce period
-      await act(async () => {
-        vi.advanceTimersByTime(1600);
+      // Advance past debounce period (1500ms)
+      perfNowValue += 2000;
+      dateNowValue += 2000;
+
+      // Second scan with different barcode
+      mockDetectBarcodeNative
+        .mockResolvedValueOnce({ text: EXPECTED_BARCODES.vallejo, format: 'ean_13' })
+        .mockResolvedValueOnce({ text: EXPECTED_BARCODES.vallejo, format: 'ean_13' });
+      await runScanLoop(2);
+
+      await waitFor(() => {
+        expect(onBarcodeDetected).toHaveBeenCalledTimes(2);
+        expect(onBarcodeDetected).toHaveBeenNthCalledWith(1, EXPECTED_BARCODES.citadel);
+        expect(onBarcodeDetected).toHaveBeenNthCalledWith(2, EXPECTED_BARCODES.vallejo);
       });
-
-      // Second scan should work (2 consecutive reads required)
-      await act(async () => {
-        if (decodeCallback) {
-          decodeCallback(createMockResult(EXPECTED_BARCODES.vallejo), null);
-          decodeCallback(createMockResult(EXPECTED_BARCODES.vallejo), null);
-        }
-        await vi.runAllTimersAsync();
-      });
-
-      expect(onBarcodeDetected).toHaveBeenCalledTimes(2);
-      expect(onBarcodeDetected).toHaveBeenNthCalledWith(1, EXPECTED_BARCODES.citadel);
-      expect(onBarcodeDetected).toHaveBeenNthCalledWith(2, EXPECTED_BARCODES.vallejo);
-
-      vi.useRealTimers();
     });
   });
 
   describe('resetLastScan', () => {
     it('clears lastScannedBarcode and lastMatchedPaint', async () => {
       mockGetPaintBySku.mockResolvedValue(mockCitadelPaint);
+      mockDetectBarcodeNative
+        .mockResolvedValueOnce({ text: EXPECTED_BARCODES.citadel, format: 'ean_13' })
+        .mockResolvedValueOnce({ text: EXPECTED_BARCODES.citadel, format: 'ean_13' });
+
       const { result } = renderHook(() => useBarcodeScanner());
       Object.defineProperty(result.current.videoRef, 'current', {
         value: mockVideoElement,
@@ -606,9 +623,7 @@ describe('useBarcodeScanner', () => {
         await result.current.startScanning();
       });
 
-      await act(async () => {
-        await simulateScan(EXPECTED_BARCODES.citadel);
-      });
+      await runScanLoop(2);
 
       await waitFor(() => {
         expect(result.current.lastScannedBarcode).toBe(EXPECTED_BARCODES.citadel);
@@ -644,6 +659,10 @@ describe('useBarcodeScanner', () => {
   describe('continuous vs single-shot mode', () => {
     it('returns to scanning status after scan in continuous mode (default)', async () => {
       mockGetPaintBySku.mockResolvedValue(mockCitadelPaint);
+      mockDetectBarcodeNative
+        .mockResolvedValueOnce({ text: EXPECTED_BARCODES.citadel, format: 'ean_13' })
+        .mockResolvedValueOnce({ text: EXPECTED_BARCODES.citadel, format: 'ean_13' });
+
       const { result } = renderHook(() => useBarcodeScanner());
       Object.defineProperty(result.current.videoRef, 'current', {
         value: mockVideoElement,
@@ -654,9 +673,7 @@ describe('useBarcodeScanner', () => {
         await result.current.startScanning();
       });
 
-      await act(async () => {
-        await simulateScan(EXPECTED_BARCODES.citadel);
-      });
+      await runScanLoop(2);
 
       await waitFor(() => {
         expect(result.current.status).toBe('scanning');
@@ -665,6 +682,10 @@ describe('useBarcodeScanner', () => {
 
     it('returns to idle in single-shot mode', async () => {
       mockGetPaintBySku.mockResolvedValue(mockCitadelPaint);
+      mockDetectBarcodeNative
+        .mockResolvedValueOnce({ text: EXPECTED_BARCODES.citadel, format: 'ean_13' })
+        .mockResolvedValueOnce({ text: EXPECTED_BARCODES.citadel, format: 'ean_13' });
+
       const { result } = renderHook(() => useBarcodeScanner({ continuous: false }));
       Object.defineProperty(result.current.videoRef, 'current', {
         value: mockVideoElement,
@@ -675,9 +696,7 @@ describe('useBarcodeScanner', () => {
         await result.current.startScanning();
       });
 
-      await act(async () => {
-        await simulateScan(EXPECTED_BARCODES.citadel);
-      });
+      await runScanLoop(2);
 
       await waitFor(() => {
         expect(result.current.status).toBe('idle');
