@@ -1,5 +1,11 @@
 import type { Paint } from '../../types/paint';
 import { PaintCard } from './PaintCard';
+import { EmptyState } from '../ui';
+
+interface PaintListEmptyStateProps {
+  variant: 'search' | 'collection';
+  onScanPaint?: () => void;
+}
 
 interface PaintListProps {
   paints: Paint[];
@@ -7,7 +13,7 @@ interface PaintListProps {
   isPending: (paintId: string) => boolean;
   onToggleOwnership: (paintId: string) => void;
   onPaintClick?: (paint: Paint) => void;
-  emptyMessage?: string;
+  emptyState?: PaintListEmptyStateProps;
 }
 
 export function PaintList({
@@ -16,13 +22,29 @@ export function PaintList({
   isPending,
   onToggleOwnership,
   onPaintClick,
-  emptyMessage = 'No paints found',
+  emptyState,
 }: PaintListProps) {
   if (paints.length === 0) {
+    if (emptyState?.variant === 'collection') {
+      return (
+        <EmptyState
+          icon="paints"
+          title="No paints in collection"
+          description="Add paints to your collection by browsing or scanning"
+          action={
+            emptyState.onScanPaint
+              ? { label: 'Scan Paint', onClick: emptyState.onScanPaint }
+              : undefined
+          }
+        />
+      );
+    }
     return (
-      <div className="py-12 text-center">
-        <p className="text-gray-500">{emptyMessage}</p>
-      </div>
+      <EmptyState
+        icon="paints"
+        title="No paints found"
+        description="Try adjusting your search or filters"
+      />
     );
   }
 

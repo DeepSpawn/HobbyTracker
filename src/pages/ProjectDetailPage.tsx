@@ -421,7 +421,7 @@ export function ProjectDetailPage() {
         {/* Unit List */}
         <UnitList
           units={units}
-          emptyMessage="No units yet. Add your first unit to get started!"
+          onAddUnit={() => setShowAddUnitForm(true)}
           onStatusChange={handleStatusChange}
           onEditUnit={handleEditUnit}
           onDeleteUnit={handleDeleteUnit}

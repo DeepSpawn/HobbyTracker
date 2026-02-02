@@ -1,0 +1,1009 @@
+{
+  "generatedAt": "2026-01-26T23:59:33.052Z",
+  "source": "/Users/gtaylor/Downloads/Individual Barcodes April 2025__1.xlsx",
+  "count": 45,
+  "newPaints": [
+    {
+      "gwName": "IONRACH SKIN 6-PACK",
+      "productLine": "Base",
+      "ean": "5011921188079",
+      "ssc": "21-38",
+      "suggestedPaint": {
+        "id": "02680a46-ddc8-42ce-8dcb-b7a9ccde67a6",
+        "name": "Ionrach Skin 6-pack",
+        "brand": "citadel",
+        "productLine": "Base",
+        "paintType": "base",
+        "sku": null,
+        "ean": "5011921188079",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "CATACHAN FLESH",
+      "productLine": "Base",
+      "ean": "5011921188222",
+      "ssc": "21-50",
+      "suggestedPaint": {
+        "id": "685ae408-157e-4141-9557-74c1f92833b6",
+        "name": "Catachan Flesh",
+        "brand": "citadel",
+        "productLine": "Base",
+        "paintType": "base",
+        "sku": null,
+        "ean": "5011921188222",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "DEEPKIN FLESH 6-PACK",
+      "productLine": "Layer",
+      "ean": "5011921187492",
+      "ssc": "22-77",
+      "suggestedPaint": {
+        "id": "fb14673f-79f4-4074-a93e-f50366404995",
+        "name": "Deepkin Flesh 6-pack",
+        "brand": "citadel",
+        "productLine": "Layer",
+        "paintType": "layer",
+        "sku": null,
+        "ean": "5011921187492",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "KNIGHT-QUESTOR FLESH 6-PK",
+      "productLine": "Layer",
+      "ean": "5011921187669",
+      "ssc": "22-93",
+      "suggestedPaint": {
+        "id": "b3edf882-d0b3-4e30-90c6-10fefa141945",
+        "name": "Knight-questor Flesh 6-pk",
+        "brand": "citadel",
+        "productLine": "Layer",
+        "paintType": "layer",
+        "sku": null,
+        "ean": "5011921187669",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": [
+        {
+          "name": "Knight-Questor Flesh",
+          "productLine": "Layer",
+          "similarity": 0.6
+        }
+      ]
+    },
+    {
+      "gwName": "CASANDORA YELLOW",
+      "productLine": "Shade",
+      "ean": "5011921176519",
+      "ssc": "24-18",
+      "suggestedPaint": {
+        "id": "2c0a4cc4-9184-45cb-ba82-5c3a13c28434",
+        "name": "Casandora Yellow",
+        "brand": "citadel",
+        "productLine": "Shade",
+        "paintType": "shade",
+        "sku": null,
+        "ean": "5011921176519",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "ATHONIAN CAMOSHADE (6 PCK)",
+      "productLine": "Shade",
+      "ean": "5011921176465",
+      "ssc": "24-21",
+      "suggestedPaint": {
+        "id": "2762cb10-a2d3-4098-b282-172a232b296f",
+        "name": "Athonian Camoshade (6 Pck)",
+        "brand": "citadel",
+        "productLine": "Shade",
+        "paintType": "shade",
+        "sku": null,
+        "ean": "5011921176465",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "KROAK GREEN",
+      "productLine": "Shade",
+      "ean": "5011921176359",
+      "ssc": "24-29",
+      "suggestedPaint": {
+        "id": "b8f0a765-4bd2-4617-8dc3-deff6c314ead",
+        "name": "Kroak Green",
+        "brand": "citadel",
+        "productLine": "Shade",
+        "paintType": "shade",
+        "sku": null,
+        "ean": "5011921176359",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "POXWALKER",
+      "productLine": "Shade",
+      "ean": "5011921176410",
+      "ssc": "24-30",
+      "suggestedPaint": {
+        "id": "f8214b78-9f18-4aca-886d-275bcc8afe54",
+        "name": "Poxwalker",
+        "brand": "citadel",
+        "productLine": "Shade",
+        "paintType": "shade",
+        "sku": null,
+        "ean": "5011921176410",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "TARGOR RAGESHADE",
+      "productLine": "Shade",
+      "ean": "5011921176366",
+      "ssc": "24-31",
+      "suggestedPaint": {
+        "id": "87409b05-c5c4-407d-940e-e9388d212e97",
+        "name": "Targor Rageshade",
+        "brand": "citadel",
+        "productLine": "Shade",
+        "paintType": "shade",
+        "sku": null,
+        "ean": "5011921176366",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "MORTARION GRIME",
+      "productLine": "Shade",
+      "ean": "5011921176373",
+      "ssc": "24-32",
+      "suggestedPaint": {
+        "id": "2bd0dba9-ac2f-4d51-a7c9-2839c89c762f",
+        "name": "Mortarion Grime",
+        "brand": "citadel",
+        "productLine": "Shade",
+        "paintType": "shade",
+        "sku": null,
+        "ean": "5011921176373",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "TYRAN BLUE",
+      "productLine": "Shade",
+      "ean": "5011921176380",
+      "ssc": "24-33",
+      "suggestedPaint": {
+        "id": "76af6a82-0134-44c8-9f39-6de535999a6c",
+        "name": "Tyran Blue",
+        "brand": "citadel",
+        "productLine": "Shade",
+        "paintType": "shade",
+        "sku": null,
+        "ean": "5011921176380",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "BERSERKER BLOODSHADE",
+      "productLine": "Shade",
+      "ean": "5011921176397",
+      "ssc": "24-34",
+      "suggestedPaint": {
+        "id": "8d639b40-541d-4c63-93f3-8053517b9ca2",
+        "name": "Berserker Bloodshade",
+        "brand": "citadel",
+        "productLine": "Shade",
+        "paintType": "shade",
+        "sku": null,
+        "ean": "5011921176397",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "SOULBLIGHT GREY",
+      "productLine": "Shade",
+      "ean": "5011921176403",
+      "ssc": "24-35",
+      "suggestedPaint": {
+        "id": "70f02f4f-2aab-4126-83ae-07c2a8760df4",
+        "name": "Soulblight Grey",
+        "brand": "citadel",
+        "productLine": "Shade",
+        "paintType": "shade",
+        "sku": null,
+        "ean": "5011921176403",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "T: BLOOD FOR THE BLOOD GOD 6-PACK",
+      "productLine": "Technical",
+      "ean": "5011921192861",
+      "ssc": "27-05",
+      "suggestedPaint": {
+        "id": "1122456b-9e35-4687-a961-7cf84dca7989",
+        "name": "T: Blood For The Blood God 6-pack",
+        "brand": "citadel",
+        "productLine": "Technical",
+        "paintType": "technical",
+        "sku": null,
+        "ean": "5011921192861",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": [
+        {
+          "name": "Blood For The Blood God",
+          "productLine": "Technical",
+          "similarity": 0.5714285714285714
+        }
+      ]
+    },
+    {
+      "gwName": "SPIRITSTONE RED 6-PACK",
+      "productLine": "Technical",
+      "ean": "5011921192908",
+      "ssc": "27-12",
+      "suggestedPaint": {
+        "id": "62ef6211-95e7-4184-997f-5394cc9c63ff",
+        "name": "Spiritstone Red 6-pack",
+        "brand": "citadel",
+        "productLine": "Technical",
+        "paintType": "technical",
+        "sku": null,
+        "ean": "5011921192908",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "SOULSTONE BLUE 6-PACK",
+      "productLine": "Technical",
+      "ean": "5011921192915",
+      "ssc": "27-13",
+      "suggestedPaint": {
+        "id": "66af7f35-9c38-40e0-abf1-d5526c825dea",
+        "name": "Soulstone Blue 6-pack",
+        "brand": "citadel",
+        "productLine": "Technical",
+        "paintType": "technical",
+        "sku": null,
+        "ean": "5011921192915",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "WAYSTONE GREEN 6-PACK",
+      "productLine": "Technical",
+      "ean": "5011921192922",
+      "ssc": "27-14",
+      "suggestedPaint": {
+        "id": "e72b8652-8bcc-42bd-91f6-5b9e10564ad7",
+        "name": "Waystone Green 6-pack",
+        "brand": "citadel",
+        "productLine": "Technical",
+        "paintType": "technical",
+        "sku": null,
+        "ean": "5011921192922",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "TESSERACT GLOW 6-PACK",
+      "productLine": "Technical",
+      "ean": "5011921193097",
+      "ssc": "27-35",
+      "suggestedPaint": {
+        "id": "693d7719-c5fd-424b-b6d2-d620b5bde064",
+        "name": "Tesseract Glow 6-pack",
+        "brand": "citadel",
+        "productLine": "Technical",
+        "paintType": "technical",
+        "sku": null,
+        "ean": "5011921193097",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "MECH STANDARD GREY",
+      "productLine": "Air",
+      "ean": "5011921182831",
+      "ssc": "28-14",
+      "suggestedPaint": {
+        "id": "bc8c32a1-1ed0-4ba1-9a05-1830ce5dd7b8",
+        "name": "Mech Standard Grey",
+        "brand": "citadel",
+        "productLine": "Air",
+        "paintType": "air",
+        "sku": null,
+        "ean": "5011921182831",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "NIGHTHAUNT GLOOM",
+      "productLine": "Contrast",
+      "ean": "5011921176342",
+      "ssc": "27-19",
+      "suggestedPaint": {
+        "id": "1276c980-fcf1-44d5-a5ff-b0d4a6361222",
+        "name": "Nighthaunt Gloom",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921176342",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "HEXWRAITH FLAME",
+      "productLine": "Contrast",
+      "ean": "5011921176335",
+      "ssc": "27-20",
+      "suggestedPaint": {
+        "id": "6fc1f7d1-1c7c-4c42-87be-ee06f8f80a07",
+        "name": "Hexwraith Flame",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921176335",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "GARAGHAK'S SEWER",
+      "productLine": "Contrast",
+      "ean": "5011921145027",
+      "ssc": "29-44",
+      "suggestedPaint": {
+        "id": "de567762-000a-4b3f-acbc-7474528f2601",
+        "name": "Garaghak's Sewer",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921145027",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "RATLING GRIME",
+      "productLine": "Contrast",
+      "ean": "5011921145041",
+      "ssc": "29-46",
+      "suggestedPaint": {
+        "id": "572d7637-8e71-40a6-8731-c3f36661058b",
+        "name": "Ratling Grime",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921145041",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "MANTIS WARRIORS GRN",
+      "productLine": "Contrast",
+      "ean": "5011921145058",
+      "ssc": "29-47",
+      "suggestedPaint": {
+        "id": "0fe8b266-cf61-49ed-b250-ba10fc82073d",
+        "name": "Mantis Warriors Grn",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921145058",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "AELDARI EMERALD (6 PCK)",
+      "productLine": "Contrast",
+      "ean": "5011921145065",
+      "ssc": "29-48",
+      "suggestedPaint": {
+        "id": "c224b2d2-2f55-4054-838d-41a602c8ac73",
+        "name": "Aeldari Emerald (6 Pck)",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921145065",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "GUTRIPPA FLESH",
+      "productLine": "Contrast",
+      "ean": "5011921145072",
+      "ssc": "29-49",
+      "suggestedPaint": {
+        "id": "ec88476f-62f9-44d0-90ce-cf3d12037b16",
+        "name": "Gutrippa Flesh",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921145072",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "KARANDRAS GREEN",
+      "productLine": "Contrast",
+      "ean": "5011921145089",
+      "ssc": "29-50",
+      "suggestedPaint": {
+        "id": "b6cc1dd5-45e4-48b1-8d67-c359580ba9d4",
+        "name": "Karandras Green",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921145089",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "S/SCORPION GREEN",
+      "productLine": "Contrast",
+      "ean": "5011921145096",
+      "ssc": "29-51",
+      "suggestedPaint": {
+        "id": "a49b58dc-cb54-4c16-88e5-bfb3d87ea377",
+        "name": "S/scorpion Green",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921145096",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "IRONJAWZ YELLOW",
+      "productLine": "Contrast",
+      "ean": "5011921145102",
+      "ssc": "29-52",
+      "suggestedPaint": {
+        "id": "8da1ecac-fa99-4b2e-a1a4-f7a252113e31",
+        "name": "Ironjawz Yellow",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921145102",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "BAD MOON YELLOW",
+      "productLine": "Contrast",
+      "ean": "5011921145119",
+      "ssc": "29-53",
+      "suggestedPaint": {
+        "id": "b6d11d0f-9ad4-4106-9e15-43e611b052e4",
+        "name": "Bad Moon Yellow",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921145119",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "IMPERIAL FIST",
+      "productLine": "Contrast",
+      "ean": "5011921145126",
+      "ssc": "29-54",
+      "suggestedPaint": {
+        "id": "4fa5e408-ca63-4b60-a6b4-2a1e07ad2adb",
+        "name": "Imperial Fist",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921145126",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "KROXIGOR SCALES",
+      "productLine": "Contrast",
+      "ean": "5011921145133",
+      "ssc": "29-55",
+      "suggestedPaint": {
+        "id": "0f4a84e1-9616-45dd-9e1d-3528d82a3e04",
+        "name": "Kroxigor Scales",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921145133",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "BRIAR QUEEN CHILL 6 PCK",
+      "productLine": "Contrast",
+      "ean": "5011921145140",
+      "ssc": "29-56",
+      "suggestedPaint": {
+        "id": "2b90256a-bd8e-4ffa-a297-3e4c1c4e9515",
+        "name": "Briar Queen Chill 6 Pck",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921145140",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "FROSTHEART",
+      "productLine": "Contrast",
+      "ean": "5011921145157",
+      "ssc": "29-57",
+      "suggestedPaint": {
+        "id": "7f1b5666-2289-4fe4-889b-0134ec88d6f5",
+        "name": "Frostheart",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921145157",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "PYLAR GLACIER",
+      "productLine": "Contrast",
+      "ean": "5011921145164",
+      "ssc": "29-58",
+      "suggestedPaint": {
+        "id": "43890501-5e04-49b5-a894-28574e9425c3",
+        "name": "Pylar Glacier",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921145164",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "ASURMEN BLUE",
+      "productLine": "Contrast",
+      "ean": "5011921145171",
+      "ssc": "29-59",
+      "suggestedPaint": {
+        "id": "b67d3f7f-291c-4479-a6d0-de9b6a8dbcaa",
+        "name": "Asurmen Blue",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921145171",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "CELESTIUM BLUE",
+      "productLine": "Contrast",
+      "ean": "5011921145188",
+      "ssc": "29-60",
+      "suggestedPaint": {
+        "id": "ebb2e56b-f0b3-42a7-ada1-f56b8b9e6a8c",
+        "name": "Celestium Blue",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921145188",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "STORMFIEND",
+      "productLine": "Contrast",
+      "ean": "5011921145195",
+      "ssc": "29-61",
+      "suggestedPaint": {
+        "id": "ba925097-f670-4947-be11-d79e6ba7a5ac",
+        "name": "Stormfiend",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921145195",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "LEVIATHAN PURPLE",
+      "productLine": "Contrast",
+      "ean": "5011921145201",
+      "ssc": "29-62",
+      "suggestedPaint": {
+        "id": "a8fdac4b-5ae0-4494-a4a6-c3bdde67ffe4",
+        "name": "Leviathan Purple",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921145201",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "LUXION PURPLE",
+      "productLine": "Contrast",
+      "ean": "5011921145218",
+      "ssc": "29-63",
+      "suggestedPaint": {
+        "id": "41a9734d-64d8-470b-be58-db169de5b154",
+        "name": "Luxion Purple",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921145218",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "SIGVALD BURGUNDY",
+      "productLine": "Contrast",
+      "ean": "5011921144594",
+      "ssc": "29-64",
+      "suggestedPaint": {
+        "id": "cf5db104-4450-4eed-bbed-c2bb1f7687d0",
+        "name": "Sigvald Burgundy",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921144594",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "DREADFUL VISAGE",
+      "productLine": "Contrast",
+      "ean": "5011921144600",
+      "ssc": "29-65",
+      "suggestedPaint": {
+        "id": "2395e472-9c34-4567-9b38-6b485e92020e",
+        "name": "Dreadful Visage",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921144600",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "DOOMFIRE MAGENTA",
+      "productLine": "Contrast",
+      "ean": "5011921176304",
+      "ssc": "29-66",
+      "suggestedPaint": {
+        "id": "69270ca6-4df9-4940-b5d2-467212f78395",
+        "name": "Doomfire Magenta",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921176304",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "BAAL RED",
+      "productLine": "Contrast",
+      "ean": "5011921176311",
+      "ssc": "29-67",
+      "suggestedPaint": {
+        "id": "96f53056-fbd6-4212-a40c-5f296f056ee9",
+        "name": "Baal Red",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921176311",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    },
+    {
+      "gwName": "MAGMADROTH FLAME",
+      "productLine": "Contrast",
+      "ean": "5011921176328",
+      "ssc": "29-68",
+      "suggestedPaint": {
+        "id": "7945ac91-b30f-418d-a4a2-8cf808a68509",
+        "name": "Magmadroth Flame",
+        "brand": "citadel",
+        "productLine": "Contrast",
+        "paintType": "contrast",
+        "sku": null,
+        "ean": "5011921176328",
+        "hexColor": "#808080",
+        "rgb": {
+          "r": 128,
+          "g": 128,
+          "b": 128
+        }
+      },
+      "closestMatches": []
+    }
+  ]
+}
