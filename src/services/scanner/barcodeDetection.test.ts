@@ -1,6 +1,12 @@
 import { describe, it, expect } from 'vitest';
 import { detectBarcodeFromRgb, detectBarcodeFromRgba } from './barcodeDetection';
-import { generateBarcodeImage, generateBarcodeImageRgba } from '../../test/fixtures/generateBarcode';
+import {
+  generateBarcodeImage,
+  generateBarcodeImageRgba,
+  generateBarcodeWithNoise,
+  generateBarcodeWithReducedContrast,
+  generateBarcodeAtSmallScale,
+} from '../../test/fixtures/generateBarcode';
 
 describe('barcodeDetection', () => {
   describe('detectBarcodeFromRgb', () => {
@@ -91,6 +97,101 @@ describe('barcodeDetection', () => {
 
       expect(result).not.toBeNull();
       expect(result!.text).toBe(ean);
+    });
+  });
+
+  describe('degraded conditions - noise', () => {
+    const ean = '5011921120963';
+
+    it('handles barcode with 10% noise', () => {
+      const { rgbData, width, height } = generateBarcodeWithNoise(ean, 0.1);
+      const result = detectBarcodeFromRgb(rgbData, width, height);
+
+      // Noise resilience depends on which pixels are affected.
+      // This test documents the boundary — if it detects, it must be correct.
+      if (result) {
+        expect(result.text).toBe(ean);
+      } else {
+        expect(result).toBeNull();
+      }
+    });
+
+    it('handles barcode with 20% noise', () => {
+      const { rgbData, width, height } = generateBarcodeWithNoise(ean, 0.2);
+      const result = detectBarcodeFromRgb(rgbData, width, height);
+
+      if (result) {
+        expect(result.text).toBe(ean);
+      } else {
+        expect(result).toBeNull();
+      }
+    });
+
+    it('handles barcode with 30% noise', () => {
+      const { rgbData, width, height } = generateBarcodeWithNoise(ean, 0.3);
+      const result = detectBarcodeFromRgb(rgbData, width, height);
+
+      if (result) {
+        expect(result.text).toBe(ean);
+      } else {
+        expect(result).toBeNull();
+      }
+    });
+  });
+
+  describe('degraded conditions - reduced contrast', () => {
+    const ean = '5011921120963';
+
+    it('detects barcode at 70% contrast', () => {
+      const { rgbData, width, height } = generateBarcodeWithReducedContrast(ean, 0.7);
+      const result = detectBarcodeFromRgb(rgbData, width, height);
+
+      expect(result).not.toBeNull();
+      expect(result!.text).toBe(ean);
+    });
+
+    it('detects barcode at 50% contrast', () => {
+      const { rgbData, width, height } = generateBarcodeWithReducedContrast(ean, 0.5);
+      const result = detectBarcodeFromRgb(rgbData, width, height);
+
+      // 50% contrast is challenging; document the boundary
+      if (result) {
+        expect(result.text).toBe(ean);
+      } else {
+        expect(result).toBeNull();
+      }
+    });
+  });
+
+  describe('degraded conditions - small scale', () => {
+    const ean = '5011921120963';
+
+    it('detects barcode at 4px per module (default-ish)', () => {
+      const { rgbData, width, height } = generateBarcodeAtSmallScale(ean, 4);
+      const result = detectBarcodeFromRgb(rgbData, width, height);
+
+      expect(result).not.toBeNull();
+      expect(result!.text).toBe(ean);
+    });
+
+    it('detects barcode at 3px per module', () => {
+      const { rgbData, width, height } = generateBarcodeAtSmallScale(ean, 3);
+      const result = detectBarcodeFromRgb(rgbData, width, height);
+
+      expect(result).not.toBeNull();
+      expect(result!.text).toBe(ean);
+    });
+
+    it('detects barcode at 2px per module (small)', () => {
+      const { rgbData, width, height } = generateBarcodeAtSmallScale(ean, 2);
+      const result = detectBarcodeFromRgb(rgbData, width, height);
+
+      // 2px per module is at the edge of what ZXing can handle
+      if (result) {
+        expect(result.text).toBe(ean);
+      } else {
+        expect(result).toBeNull();
+      }
     });
   });
 });

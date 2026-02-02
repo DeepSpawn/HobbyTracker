@@ -1,7 +1,13 @@
 import { useState, useRef, useCallback, useEffect } from 'react';
-import { BrowserMultiFormatReader, BarcodeFormat, DecodeHintType } from '@zxing/library';
+import { BarcodeFormat } from '@zxing/library';
 import type { Paint } from '../types/paint';
 import { getPaintBySku } from '../services/paint';
+import { detectBarcodeFromRgba } from '../services/scanner/barcodeDetection';
+import {
+  isNativeBarcodeDetectorSupported,
+  detectBarcodeNative,
+  getNativeSupportedFormats,
+} from '../services/scanner/nativeBarcodeDetector';
 
 export type ScannerStatus =
   | 'idle'
@@ -20,6 +26,8 @@ export interface ScannerError {
   type: ScannerErrorType;
   message: string;
 }
+
+export type ScannerBackend = 'native' | 'zxing';
 
 export interface DebugEvent {
   timestamp: number;
@@ -49,6 +57,7 @@ export interface UseBarcodesScannerReturn {
   resetLastScan: () => void;
   debugEvents: DebugEvent[];
   streamInfo: StreamInfo | null;
+  activeBackend: ScannerBackend | null;
 }
 
 export interface StreamInfo {
@@ -61,6 +70,10 @@ export interface StreamInfo {
 
 const SCAN_DEBOUNCE_MS = 1500;
 const MAX_DEBUG_EVENTS = 100;
+/** Target ~10 fps for the scan loop */
+const SCAN_INTERVAL_MS = 100;
+/** Crop to center 60% of frame for ZXing fallback */
+const CENTER_CROP_RATIO = 0.6;
 
 function createScannerError(err: unknown): ScannerError {
   if (err instanceof DOMException) {
@@ -103,6 +116,16 @@ function getStreamInfo(stream: MediaStream): StreamInfo {
   };
 }
 
+/** ZXing barcode formats for center-crop fallback detection */
+const ZXING_FORMATS = [
+  BarcodeFormat.EAN_13,
+  BarcodeFormat.EAN_8,
+  BarcodeFormat.UPC_A,
+  BarcodeFormat.UPC_E,
+  BarcodeFormat.CODE_128,
+  BarcodeFormat.CODE_39,
+];
+
 export function useBarcodeScanner(
   options: UseBarcodesScannerOptions = {}
 ): UseBarcodesScannerReturn {
@@ -120,16 +143,19 @@ export function useBarcodeScanner(
   const [lastScannedBarcode, setLastScannedBarcode] = useState<string | null>(null);
   const [lastMatchedPaint, setLastMatchedPaint] = useState<Paint | null>(null);
   const [streamInfo, setStreamInfo] = useState<StreamInfo | null>(null);
+  const [activeBackend, setActiveBackend] = useState<ScannerBackend | null>(null);
 
   const videoRef = useRef<HTMLVideoElement | null>(null);
-  const readerRef = useRef<BrowserMultiFormatReader | null>(null);
   const streamRef = useRef<MediaStream | null>(null);
   const lastScanTimeRef = useRef<number>(0);
   const isStoppedRef = useRef<boolean>(true);
   const debugEventsRef = useRef<DebugEvent[]>([]);
   const [debugEvents, setDebugEvents] = useState<DebugEvent[]>([]);
   const debugThrottleRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const zxingCallbackCountRef = useRef<number>(0);
+  const scanLoopRafRef = useRef<number>(0);
+  const scanAttemptCountRef = useRef<number>(0);
+  const lastScanLoopTimeRef = useRef<number>(0);
+  const offscreenCanvasRef = useRef<OffscreenCanvas | HTMLCanvasElement | null>(null);
 
   const emitDebug = useCallback((type: DebugEvent['type'], message: string, data?: unknown) => {
     if (!debug) return;
@@ -149,10 +175,9 @@ export function useBarcodeScanner(
   const stopScanning = useCallback(() => {
     isStoppedRef.current = true;
 
-    if (readerRef.current) {
-      readerRef.current.stopContinuousDecode();
-      readerRef.current.reset();
-      readerRef.current = null;
+    if (scanLoopRafRef.current) {
+      cancelAnimationFrame(scanLoopRafRef.current);
+      scanLoopRafRef.current = 0;
     }
 
     if (streamRef.current) {
@@ -164,21 +189,23 @@ export function useBarcodeScanner(
       videoRef.current.srcObject = null;
     }
 
+    offscreenCanvasRef.current = null;
     setStreamInfo(null);
+    setActiveBackend(null);
     setStatus('idle');
     emitDebug('status_change', 'Scanner stopped, status → idle');
   }, [emitDebug]);
 
   const handleBarcodeScan = useCallback(
-    async (barcode: string) => {
+    async (barcode: string, backend: ScannerBackend) => {
       const now = Date.now();
       if (now - lastScanTimeRef.current < SCAN_DEBOUNCE_MS) {
-        emitDebug('barcode_detected', `Debounced duplicate: ${barcode}`, { barcode, debounced: true });
+        emitDebug('barcode_detected', `Debounced duplicate: ${barcode}`, { barcode, debounced: true, backend });
         return;
       }
       lastScanTimeRef.current = now;
 
-      emitDebug('barcode_detected', `Barcode detected: ${barcode}`, { barcode });
+      emitDebug('barcode_detected', `Barcode detected (${backend}): ${barcode}`, { barcode, backend });
       setLastScannedBarcode(barcode);
       onBarcodeDetected?.(barcode);
 
@@ -221,7 +248,7 @@ export function useBarcodeScanner(
     setStatus('requesting');
     setError(null);
     isStoppedRef.current = false;
-    zxingCallbackCountRef.current = 0;
+    scanAttemptCountRef.current = 0;
     emitDebug('status_change', 'status → requesting');
 
     try {
@@ -247,49 +274,127 @@ export function useBarcodeScanner(
       setStreamInfo(info);
       emitDebug('camera_info', `Camera stream acquired: ${info.width}x${info.height} @ ${info.frameRate}fps (${info.facingMode})`, info);
 
+      // Log camera capabilities for debugging
+      const track = stream.getVideoTracks()[0];
+      if (track) {
+        const settings = track.getSettings();
+        emitDebug('camera_info', 'Camera settings', settings);
+        if ('getCapabilities' in track) {
+          try {
+            const capabilities = (track as MediaStreamTrack & { getCapabilities: () => unknown }).getCapabilities();
+            emitDebug('camera_info', 'Camera capabilities', capabilities);
+          } catch {
+            emitDebug('camera_info', 'Could not get camera capabilities');
+          }
+        }
+      }
+
       if (videoRef.current) {
         videoRef.current.srcObject = stream;
         await videoRef.current.play();
         emitDebug('camera_info', 'Video element playing');
       }
 
-      const hints = new Map();
-      hints.set(DecodeHintType.POSSIBLE_FORMATS, [
-        BarcodeFormat.EAN_13,
-        BarcodeFormat.EAN_8,
-        BarcodeFormat.UPC_A,
-        BarcodeFormat.UPC_E,
-        BarcodeFormat.CODE_128,
-        BarcodeFormat.CODE_39,
-      ]);
-
-      const reader = new BrowserMultiFormatReader(hints);
-      readerRef.current = reader;
+      // Check native BarcodeDetector availability
+      const nativeAvailable = isNativeBarcodeDetectorSupported();
+      if (nativeAvailable) {
+        const formats = await getNativeSupportedFormats();
+        emitDebug('camera_info', `Native BarcodeDetector: available (formats: ${formats.join(', ')})`, { formats });
+        setActiveBackend('native');
+      } else {
+        emitDebug('camera_info', 'Native BarcodeDetector: not available, using ZXing fallback');
+        setActiveBackend('zxing');
+      }
 
       setStatus('scanning');
-      emitDebug('status_change', 'status → scanning, starting ZXing decode loop');
+      emitDebug('status_change', 'status → scanning, starting custom scan loop');
 
-      reader.decodeFromStream(
-        streamRef.current!,
-        videoRef.current!,
-        (result, err) => {
-          if (isStoppedRef.current) return;
+      // Start custom rAF-based scan loop
+      const scanLoop = async () => {
+        if (isStoppedRef.current) return;
 
-          zxingCallbackCountRef.current++;
+        const now = performance.now();
+        // Throttle to ~10fps
+        if (now - lastScanLoopTimeRef.current < SCAN_INTERVAL_MS) {
+          scanLoopRafRef.current = requestAnimationFrame(scanLoop);
+          return;
+        }
+        lastScanLoopTimeRef.current = now;
 
-          if (result) {
-            const barcode = result.getText();
-            const format = BarcodeFormat[result.getBarcodeFormat()];
-            emitDebug('zxing_callback', `ZXing result: ${barcode} (${format})`, { barcode, format, callbackCount: zxingCallbackCountRef.current });
-            handleBarcodeScan(barcode);
-          }
+        const video = videoRef.current;
+        if (!video || video.readyState < video.HAVE_ENOUGH_DATA) {
+          scanLoopRafRef.current = requestAnimationFrame(scanLoop);
+          return;
+        }
 
-          if (err && err.name !== 'NotFoundException' && err.name !== 'ChecksumException') {
-            emitDebug('error', `ZXing error: ${err.name}: ${err.message}`, { name: err.name, message: err.message });
-            console.error('Barcode scan error:', err);
+        scanAttemptCountRef.current++;
+
+        // Log every 50th attempt
+        if (scanAttemptCountRef.current % 50 === 0) {
+          emitDebug('zxing_callback', `Scan attempts: ${scanAttemptCountRef.current}`, { count: scanAttemptCountRef.current });
+        }
+
+        // 1. Try native BarcodeDetector first
+        if (nativeAvailable) {
+          try {
+            const nativeResult = await detectBarcodeNative(video);
+            if (nativeResult) {
+              handleBarcodeScan(nativeResult.text, 'native');
+              scanLoopRafRef.current = requestAnimationFrame(scanLoop);
+              return;
+            }
+          } catch {
+            // Native detection failed, fall through to ZXing
           }
         }
-      );
+
+        // 2. ZXing fallback with center-crop
+        try {
+          const vw = video.videoWidth;
+          const vh = video.videoHeight;
+          if (vw > 0 && vh > 0) {
+            // Get or create offscreen canvas
+            if (!offscreenCanvasRef.current) {
+              if (typeof OffscreenCanvas !== 'undefined') {
+                offscreenCanvasRef.current = new OffscreenCanvas(vw, vh);
+              } else {
+                const canvas = document.createElement('canvas');
+                canvas.width = vw;
+                canvas.height = vh;
+                offscreenCanvasRef.current = canvas;
+              }
+            }
+
+            const canvas = offscreenCanvasRef.current;
+
+            // Center-crop: take 60% of the frame from the center
+            const cropW = Math.round(vw * CENTER_CROP_RATIO);
+            const cropH = Math.round(vh * CENTER_CROP_RATIO);
+            const cropX = Math.round((vw - cropW) / 2);
+            const cropY = Math.round((vh - cropH) / 2);
+
+            // Resize canvas to crop dimensions
+            canvas.width = cropW;
+            canvas.height = cropH;
+
+            const ctx = canvas.getContext('2d') as CanvasRenderingContext2D | OffscreenCanvasRenderingContext2D | null;
+            if (ctx) {
+              ctx.drawImage(video, cropX, cropY, cropW, cropH, 0, 0, cropW, cropH);
+              const imageData = ctx.getImageData(0, 0, cropW, cropH);
+              const result = detectBarcodeFromRgba(imageData.data, cropW, cropH, ZXING_FORMATS);
+              if (result) {
+                handleBarcodeScan(result.text, 'zxing');
+              }
+            }
+          }
+        } catch {
+          // ZXing detection failed, continue loop
+        }
+
+        scanLoopRafRef.current = requestAnimationFrame(scanLoop);
+      };
+
+      scanLoopRafRef.current = requestAnimationFrame(scanLoop);
     } catch (err) {
       const scannerError = createScannerError(err);
       setError(scannerError);
@@ -331,5 +436,6 @@ export function useBarcodeScanner(
     resetLastScan,
     debugEvents,
     streamInfo,
+    activeBackend,
   };
 }

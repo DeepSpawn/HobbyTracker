@@ -132,3 +132,99 @@ export function generateBarcodeImageRgba(
 
   return { rgbaData, width: w, height: h };
 }
+
+/**
+ * Deterministic pseudo-random number generator (LCG).
+ * Returns values in [0, 1).
+ */
+function seededRandom(seed: number): { next: () => number } {
+  let state = seed;
+  return {
+    next() {
+      state = (state * 1103515245 + 12345) & 0x7fffffff;
+      return state / 0x7fffffff;
+    },
+  };
+}
+
+/**
+ * Generate a barcode image with random pixel noise applied.
+ *
+ * @param barcode - 13-digit EAN string
+ * @param noiseLevel - Fraction of pixels to corrupt (0.0 to 1.0)
+ * @param seed - Random seed for reproducibility
+ */
+export function generateBarcodeWithNoise(
+  barcode: string,
+  noiseLevel: number,
+  seed = 42,
+  width = 380,
+  height = 150,
+): GeneratedBarcode {
+  const result = generateBarcodeImage(barcode, width, height);
+  const rng = seededRandom(seed);
+  const pixelCount = result.width * result.height;
+
+  for (let i = 0; i < pixelCount; i++) {
+    if (rng.next() < noiseLevel) {
+      const val = Math.floor(rng.next() * 256);
+      const idx = i * 3;
+      result.rgbData[idx] = val;
+      result.rgbData[idx + 1] = val;
+      result.rgbData[idx + 2] = val;
+    }
+  }
+
+  return result;
+}
+
+/**
+ * Generate a barcode image with reduced contrast.
+ * Instead of black-on-white, uses gray-on-lighter-gray.
+ *
+ * @param barcode - 13-digit EAN string
+ * @param contrast - Contrast level (1.0 = full, 0.0 = no contrast / all gray)
+ */
+export function generateBarcodeWithReducedContrast(
+  barcode: string,
+  contrast: number,
+  width = 380,
+  height = 150,
+): GeneratedBarcode {
+  const result = generateBarcodeImage(barcode, width, height);
+  const midpoint = 128;
+  const pixelCount = result.width * result.height;
+
+  for (let i = 0; i < pixelCount; i++) {
+    const idx = i * 3;
+    // Map [0, 255] to [midpoint - contrast*midpoint, midpoint + contrast*midpoint]
+    const original = result.rgbData[idx]; // grayscale, R=G=B for barcode
+    const mapped = Math.round(midpoint + (original - midpoint) * contrast);
+    const clamped = Math.max(0, Math.min(255, mapped));
+    result.rgbData[idx] = clamped;
+    result.rgbData[idx + 1] = clamped;
+    result.rgbData[idx + 2] = clamped;
+  }
+
+  return result;
+}
+
+/**
+ * Generate a barcode image at a small scale (fewer pixels per module).
+ * Simulates a barcode as seen by a webcam at distance.
+ *
+ * @param barcode - 13-digit EAN string
+ * @param moduleWidth - Pixels per barcode module (default 4, minimum ~1)
+ */
+export function generateBarcodeAtSmallScale(
+  barcode: string,
+  moduleWidth: number,
+): GeneratedBarcode {
+  // 95 modules + 18 quiet zone modules = 113 total modules
+  const totalModules = 113;
+  const width = Math.ceil(totalModules * moduleWidth);
+  // Maintain roughly 2.5:1 aspect ratio
+  const height = Math.max(20, Math.ceil(width * 0.4));
+
+  return generateBarcodeImage(barcode, width, height);
+}

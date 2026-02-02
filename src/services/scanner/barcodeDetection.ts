@@ -36,6 +36,7 @@ const DEFAULT_FORMATS = [
 function createReader(formats: BarcodeFormat[] = DEFAULT_FORMATS): MultiFormatReader {
   const hints = new Map<DecodeHintType, unknown>();
   hints.set(DecodeHintType.POSSIBLE_FORMATS, formats);
+  hints.set(DecodeHintType.TRY_HARDER, true);
 
   const reader = new MultiFormatReader();
   reader.setHints(hints);

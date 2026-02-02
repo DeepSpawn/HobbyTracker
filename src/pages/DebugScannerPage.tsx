@@ -3,7 +3,20 @@ import { useBarcodeScanner } from '../hooks/useBarcodeScanner';
 import type { DebugEvent } from '../hooks/useBarcodeScanner';
 import { getPaintBySku } from '../services/paint';
 import { detectBarcodeFromRgba } from '../services/scanner/barcodeDetection';
+import {
+  isNativeBarcodeDetectorSupported,
+  detectBarcodeNative,
+} from '../services/scanner/nativeBarcodeDetector';
 import type { Paint } from '../types/paint';
+
+interface BenchmarkResult {
+  totalAttempts: number;
+  nativeSuccesses: number;
+  zxingSuccesses: number;
+  nativeAvgMs: number;
+  zxingAvgMs: number;
+  durationSec: number;
+}
 
 function formatTime(ts: number): string {
   const d = new Date(ts);
@@ -24,8 +37,14 @@ export function DebugScannerPage() {
   const [manualResult, setManualResult] = useState<{ paint: Paint | null; searched: boolean } | null>(null);
   const [manualLoading, setManualLoading] = useState(false);
   const [imageResult, setImageResult] = useState<string | null>(null);
+  const [capturedFrame, setCapturedFrame] = useState<string | null>(null);
+  const [captureResult, setCaptureResult] = useState<string | null>(null);
+  const [benchmarkRunning, setBenchmarkRunning] = useState(false);
+  const [benchmarkResult, setBenchmarkResult] = useState<BenchmarkResult | null>(null);
+  const benchmarkCanvasRef = useRef<HTMLCanvasElement | null>(null);
   const logRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const captureCanvasRef = useRef<HTMLCanvasElement>(null);
 
   const {
     status,
@@ -37,6 +56,7 @@ export function DebugScannerPage() {
     stopScanning,
     debugEvents,
     streamInfo,
+    activeBackend,
   } = useBarcodeScanner({
     debug: true,
     continuous: true,
@@ -56,6 +76,110 @@ export function DebugScannerPage() {
       setManualLoading(false);
     }
   }, [manualBarcode]);
+
+  const handleCaptureFrame = useCallback(() => {
+    const video = videoRef.current;
+    const canvas = captureCanvasRef.current;
+    if (!video || !canvas || video.readyState < video.HAVE_ENOUGH_DATA) {
+      setCaptureResult('Video not ready');
+      return;
+    }
+
+    canvas.width = video.videoWidth;
+    canvas.height = video.videoHeight;
+    const ctx = canvas.getContext('2d')!;
+    ctx.drawImage(video, 0, 0);
+    const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+
+    // Show the captured frame as a data URL
+    setCapturedFrame(canvas.toDataURL('image/png'));
+
+    // Run detection on the full frame
+    const result = detectBarcodeFromRgba(imageData.data, imageData.width, imageData.height);
+    if (result) {
+      setCaptureResult(`Detected: ${result.text} (${result.format})`);
+    } else {
+      setCaptureResult(`No barcode detected (frame: ${canvas.width}x${canvas.height})`);
+    }
+  }, [videoRef]);
+
+  const handleBenchmark = useCallback(async () => {
+    const video = videoRef.current;
+    if (!video || video.readyState < video.HAVE_ENOUGH_DATA) return;
+
+    setBenchmarkRunning(true);
+    setBenchmarkResult(null);
+
+    const DURATION_MS = 10_000;
+    const nativeAvailable = isNativeBarcodeDetectorSupported();
+
+    let totalAttempts = 0;
+    let nativeSuccesses = 0;
+    let zxingSuccesses = 0;
+    let nativeTotalMs = 0;
+    let zxingTotalMs = 0;
+
+    if (!benchmarkCanvasRef.current) {
+      benchmarkCanvasRef.current = document.createElement('canvas');
+    }
+    const canvas = benchmarkCanvasRef.current;
+
+    const startTime = performance.now();
+
+    while (performance.now() - startTime < DURATION_MS) {
+      if (video.readyState < video.HAVE_ENOUGH_DATA) {
+        await new Promise((r) => setTimeout(r, 50));
+        continue;
+      }
+
+      totalAttempts++;
+
+      // Try native
+      if (nativeAvailable) {
+        const t0 = performance.now();
+        try {
+          const result = await detectBarcodeNative(video);
+          if (result) nativeSuccesses++;
+        } catch { /* ignore */ }
+        nativeTotalMs += performance.now() - t0;
+      }
+
+      // Try ZXing with center-crop
+      const vw = video.videoWidth;
+      const vh = video.videoHeight;
+      if (vw > 0 && vh > 0) {
+        const cropW = Math.round(vw * 0.6);
+        const cropH = Math.round(vh * 0.6);
+        const cropX = Math.round((vw - cropW) / 2);
+        const cropY = Math.round((vh - cropH) / 2);
+        canvas.width = cropW;
+        canvas.height = cropH;
+        const ctx = canvas.getContext('2d');
+        if (ctx) {
+          ctx.drawImage(video, cropX, cropY, cropW, cropH, 0, 0, cropW, cropH);
+          const imageData = ctx.getImageData(0, 0, cropW, cropH);
+          const t0 = performance.now();
+          const result = detectBarcodeFromRgba(imageData.data, cropW, cropH);
+          zxingTotalMs += performance.now() - t0;
+          if (result) zxingSuccesses++;
+        }
+      }
+
+      // Yield to browser to keep UI responsive
+      await new Promise((r) => setTimeout(r, 0));
+    }
+
+    const elapsed = (performance.now() - startTime) / 1000;
+    setBenchmarkResult({
+      totalAttempts,
+      nativeSuccesses,
+      zxingSuccesses,
+      nativeAvgMs: totalAttempts > 0 ? nativeTotalMs / totalAttempts : 0,
+      zxingAvgMs: totalAttempts > 0 ? zxingTotalMs / totalAttempts : 0,
+      durationSec: elapsed,
+    });
+    setBenchmarkRunning(false);
+  }, [videoRef]);
 
   const handleImageUpload = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -143,6 +267,33 @@ export function DebugScannerPage() {
               )}
             </div>
 
+            {/* Capture Frame */}
+            <div className="bg-gray-800 rounded-lg p-3">
+              <h2 className="font-semibold mb-2">Capture Frame</h2>
+              <p className="text-gray-400 text-xs mb-2">Grab a video frame and run ZXing detection on it to see what the camera sees</p>
+              <button
+                type="button"
+                onClick={handleCaptureFrame}
+                disabled={status !== 'scanning'}
+                className="bg-amber-600 hover:bg-amber-700 disabled:opacity-50 text-white text-sm px-4 py-2 rounded"
+              >
+                Capture Frame
+              </button>
+              <canvas ref={captureCanvasRef} className="hidden" />
+              {captureResult && (
+                <div className={`mt-2 text-sm font-mono ${captureResult.startsWith('Detected') ? 'text-green-400' : 'text-red-400'}`}>
+                  {captureResult}
+                </div>
+              )}
+              {capturedFrame && (
+                <img
+                  src={capturedFrame}
+                  alt="Captured frame"
+                  className="mt-2 w-full rounded border border-gray-700"
+                />
+              )}
+            </div>
+
             {/* State display */}
             <div className="bg-gray-800 rounded-lg p-3">
               <h2 className="font-semibold mb-2">Scanner State</h2>
@@ -151,6 +302,12 @@ export function DebugScannerPage() {
                   <span className="text-gray-400">Status:</span>{' '}
                   <span className={status === 'error' ? 'text-red-400' : status === 'scanning' ? 'text-green-400' : 'text-yellow-400'}>
                     {status}
+                  </span>
+                </div>
+                <div>
+                  <span className="text-gray-400">Backend:</span>{' '}
+                  <span className={activeBackend === 'native' ? 'text-green-400' : activeBackend === 'zxing' ? 'text-yellow-400' : 'text-gray-500'}>
+                    {activeBackend ?? 'none'}
                   </span>
                 </div>
                 <div>
@@ -226,6 +383,33 @@ export function DebugScannerPage() {
               {imageResult && (
                 <div className={`mt-2 text-sm font-mono ${imageResult.startsWith('Detected') ? 'text-green-400' : 'text-red-400'}`}>
                   {imageResult}
+                </div>
+              )}
+            </div>
+
+            {/* Scan Benchmark */}
+            <div className="bg-gray-800 rounded-lg p-3">
+              <h2 className="font-semibold mb-2">Scan Benchmark</h2>
+              <p className="text-gray-400 text-xs mb-2">Run a 10-second benchmark measuring detection success rate from the live camera feed</p>
+              <button
+                type="button"
+                onClick={handleBenchmark}
+                disabled={status !== 'scanning' || benchmarkRunning}
+                className="bg-purple-600 hover:bg-purple-700 disabled:opacity-50 text-white text-sm px-4 py-2 rounded"
+              >
+                {benchmarkRunning ? 'Running...' : 'Run 10s Benchmark'}
+              </button>
+              {benchmarkResult && (
+                <div className="mt-3 text-sm font-mono space-y-1">
+                  <div className="text-gray-300">
+                    Duration: {benchmarkResult.durationSec.toFixed(1)}s | Attempts: {benchmarkResult.totalAttempts}
+                  </div>
+                  <div className="text-cyan-400">
+                    Native: {benchmarkResult.nativeSuccesses}/{benchmarkResult.totalAttempts} ({benchmarkResult.totalAttempts > 0 ? ((benchmarkResult.nativeSuccesses / benchmarkResult.totalAttempts) * 100).toFixed(1) : 0}%) avg {benchmarkResult.nativeAvgMs.toFixed(1)}ms
+                  </div>
+                  <div className="text-yellow-400">
+                    ZXing: {benchmarkResult.zxingSuccesses}/{benchmarkResult.totalAttempts} ({benchmarkResult.totalAttempts > 0 ? ((benchmarkResult.zxingSuccesses / benchmarkResult.totalAttempts) * 100).toFixed(1) : 0}%) avg {benchmarkResult.zxingAvgMs.toFixed(1)}ms
+                  </div>
                 </div>
               )}
             </div>
