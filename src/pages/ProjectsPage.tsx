@@ -1,14 +1,11 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button, Card } from '../components/ui';
-import { AppHeader } from '../components/layout';
 import { CreateProjectForm, ProjectList, ProjectListSkeleton } from '../components/projects';
 import { ImportWizardModal } from '../components/import';
-import { useAuth } from '../hooks/useAuth';
 import { useProjectsWithCompletion } from '../hooks/useProjectsWithCompletion';
 
 export function ProjectsPage() {
-  const { user } = useAuth();
   const navigate = useNavigate();
   const { projects, isLoading, error } = useProjectsWithCompletion();
   const [showCreateForm, setShowCreateForm] = useState(false);
@@ -19,12 +16,8 @@ export function ProjectsPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <AppHeader user={user} />
-
-      {/* Main content */}
-      <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        {/* Page header with action */}
+    <>
+      {/* Page header with action */}
         <div className="mb-6 flex items-center justify-between">
           <div>
             <h2 className="text-2xl font-bold text-gray-900">Projects</h2>
@@ -73,13 +66,12 @@ export function ProjectsPage() {
           />
         )}
 
-        {/* Import Wizard Modal */}
-        <ImportWizardModal
-          isOpen={showImportWizard}
-          onClose={() => setShowImportWizard(false)}
-          onProjectCreated={handleProjectCreated}
-        />
-      </main>
-    </div>
+      {/* Import Wizard Modal */}
+      <ImportWizardModal
+        isOpen={showImportWizard}
+        onClose={() => setShowImportWizard(false)}
+        onProjectCreated={handleProjectCreated}
+      />
+    </>
   );
 }

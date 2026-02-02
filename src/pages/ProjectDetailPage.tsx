@@ -1,7 +1,6 @@
 import { useState, useEffect, useMemo, useRef, useCallback } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Button, Card, ProgressBar, ConfirmationModal, Skeleton } from '../components/ui';
-import { AppHeader } from '../components/layout';
 import {
   AddUnitForm,
   BulkActionToolbar,
@@ -10,8 +9,8 @@ import {
   EditUnitModal,
   RecipePickerModal,
 } from '../components/projects';
-import { useAuth } from '../hooks/useAuth';
 import { useProjectDetail } from '../hooks/useProjectDetail';
+import { useAuth } from '../hooks/useAuth';
 import { useRecipes } from '../hooks/useRecipes';
 import {
   updateProjectUnit,
@@ -231,77 +230,66 @@ export function ProjectDetailPage() {
   // Loading state - show skeleton
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-gray-50">
-        <AppHeader user={user} />
-        <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-          {/* Back navigation skeleton */}
-          <div className="mb-4">
-            <Skeleton height={16} width={120} rounded="sm" />
-          </div>
+      <>
+        {/* Back navigation skeleton */}
+        <div className="mb-4">
+          <Skeleton height={16} width={120} rounded="sm" />
+        </div>
 
-          {/* Project Header Card skeleton */}
-          <Card variant="elevated" className="mb-6">
-            <Card.Body>
-              <Skeleton height={28} width="40%" rounded="sm" />
-              <div className="mt-2 flex gap-3">
-                <Skeleton height={16} width={80} rounded="sm" />
-                <Skeleton height={16} width={100} rounded="sm" />
-                <Skeleton height={16} width={80} rounded="sm" />
-              </div>
-              <div className="mt-6">
-                <div className="mb-2 flex justify-between">
-                  <Skeleton height={14} width={120} rounded="sm" />
-                  <Skeleton height={14} width={40} rounded="sm" />
-                </div>
-                <Skeleton height={8} width="100%" rounded="full" />
-              </div>
-            </Card.Body>
-          </Card>
-
-          {/* Units Section skeleton */}
-          <div className="mb-4 flex items-center justify-between">
-            <Skeleton height={22} width={60} rounded="sm" />
-            <div className="flex gap-2">
-              <Skeleton height={36} width={70} rounded="lg" />
-              <Skeleton height={36} width={90} rounded="lg" />
+        {/* Project Header Card skeleton */}
+        <Card variant="elevated" className="mb-6">
+          <Card.Body>
+            <Skeleton height={28} width="40%" rounded="sm" />
+            <div className="mt-2 flex gap-3">
+              <Skeleton height={16} width={80} rounded="sm" />
+              <Skeleton height={16} width={100} rounded="sm" />
+              <Skeleton height={16} width={80} rounded="sm" />
             </div>
-          </div>
+            <div className="mt-6">
+              <div className="mb-2 flex justify-between">
+                <Skeleton height={14} width={120} rounded="sm" />
+                <Skeleton height={14} width={40} rounded="sm" />
+              </div>
+              <Skeleton height={8} width="100%" rounded="full" />
+            </div>
+          </Card.Body>
+        </Card>
 
-          <UnitListSkeleton count={3} />
-        </main>
-      </div>
+        {/* Units Section skeleton */}
+        <div className="mb-4 flex items-center justify-between">
+          <Skeleton height={22} width={60} rounded="sm" />
+          <div className="flex gap-2">
+            <Skeleton height={36} width={70} rounded="lg" />
+            <Skeleton height={36} width={90} rounded="lg" />
+          </div>
+        </div>
+
+        <UnitListSkeleton count={3} />
+      </>
     );
   }
 
   // Error state
   if (error || !project) {
     return (
-      <div className="min-h-screen bg-gray-50">
-        <AppHeader user={user} />
-        <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-          <Card variant="outlined" className="border-error/20 bg-error/10">
-            <Card.Body>
-              <p className="text-error">
-                {error?.message || 'Project not found'}
-              </p>
-            </Card.Body>
-            <Card.Footer>
-              <Link to="/projects">
-                <Button variant="outline">Back to Projects</Button>
-              </Link>
-            </Card.Footer>
-          </Card>
-        </main>
-      </div>
+      <Card variant="outlined" className="border-error/20 bg-error/10">
+        <Card.Body>
+          <p className="text-error">
+            {error?.message || 'Project not found'}
+          </p>
+        </Card.Body>
+        <Card.Footer>
+          <Link to="/projects">
+            <Button variant="outline">Back to Projects</Button>
+          </Link>
+        </Card.Footer>
+      </Card>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <AppHeader user={user} />
-
-      <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        {/* Back navigation */}
+    <>
+      {/* Back navigation */}
         <div className="mb-4">
           <Link
             to="/projects"
@@ -470,17 +458,16 @@ export function ProjectDetailPage() {
           isLoading={isDeleting}
         />
 
-        {/* Recipe Picker Modal */}
-        <RecipePickerModal
-          isOpen={!!assigningRecipeUnit}
-          onClose={() => setAssigningRecipeUnit(null)}
-          currentRecipeId={assigningRecipeUnit?.recipeId ?? null}
-          onSelect={handleRecipeSelected}
-          recipes={recipes}
-          recipeSwatches={recipeSwatches}
-          isSaving={isSavingRecipe}
-        />
-      </main>
-    </div>
+      {/* Recipe Picker Modal */}
+      <RecipePickerModal
+        isOpen={!!assigningRecipeUnit}
+        onClose={() => setAssigningRecipeUnit(null)}
+        currentRecipeId={assigningRecipeUnit?.recipeId ?? null}
+        onSelect={handleRecipeSelected}
+        recipes={recipes}
+        recipeSwatches={recipeSwatches}
+        isSaving={isSavingRecipe}
+      />
+    </>
   );
 }

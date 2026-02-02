@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button, Card } from '../components/ui';
-import { AppHeader } from '../components/layout';
 import { CreateRecipeForm, RecipeList, RecipeListSkeleton } from '../components/recipes';
 import { useAuth } from '../hooks/useAuth';
 import { useRecipes } from '../hooks/useRecipes';
@@ -64,56 +63,51 @@ export function RecipesPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <AppHeader user={user} />
-
-      {/* Main content */}
-      <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        {/* Page header with action */}
-        <div className="mb-6 flex items-center justify-between">
-          <div>
-            <h2 className="text-2xl font-bold text-gray-900">Recipes</h2>
-            <p className="mt-1 text-sm text-gray-500">
-              {recipes.length} {recipes.length === 1 ? 'recipe' : 'recipes'}
-            </p>
-          </div>
-          {!showCreateForm && (
-            <Button variant="primary" onClick={() => setShowCreateForm(true)}>
-              New Recipe
-            </Button>
-          )}
+    <>
+      {/* Page header with action */}
+      <div className="mb-6 flex items-center justify-between">
+        <div>
+          <h2 className="text-2xl font-bold text-gray-900">Recipes</h2>
+          <p className="mt-1 text-sm text-gray-500">
+            {recipes.length} {recipes.length === 1 ? 'recipe' : 'recipes'}
+          </p>
         </div>
-
-        {/* Error state */}
-        {error && (
-          <Card variant="outlined" className="mb-6 border-error/20 bg-error/10">
-            <Card.Body>
-              <p className="text-error">Error loading recipes: {error.message}</p>
-            </Card.Body>
-          </Card>
+        {!showCreateForm && (
+          <Button variant="primary" onClick={() => setShowCreateForm(true)}>
+            New Recipe
+          </Button>
         )}
+      </div>
 
-        {/* Create form (conditionally shown) */}
-        {showCreateForm && (
-          <div className="mb-6">
-            <CreateRecipeForm
-              onSuccess={handleRecipeCreated}
-              onCancel={() => setShowCreateForm(false)}
-            />
-          </div>
-        )}
+      {/* Error state */}
+      {error && (
+        <Card variant="outlined" className="mb-6 border-error/20 bg-error/10">
+          <Card.Body>
+            <p className="text-error">Error loading recipes: {error.message}</p>
+          </Card.Body>
+        </Card>
+      )}
 
-        {/* Loading state */}
-        {isLoading ? (
-          <RecipeListSkeleton />
-        ) : (
-          <RecipeList
-            recipes={recipes}
-            recipeSwatches={recipeSwatches}
-            onCreateRecipe={() => setShowCreateForm(true)}
+      {/* Create form (conditionally shown) */}
+      {showCreateForm && (
+        <div className="mb-6">
+          <CreateRecipeForm
+            onSuccess={handleRecipeCreated}
+            onCancel={() => setShowCreateForm(false)}
           />
-        )}
-      </main>
-    </div>
+        </div>
+      )}
+
+      {/* Loading state */}
+      {isLoading ? (
+        <RecipeListSkeleton />
+      ) : (
+        <RecipeList
+          recipes={recipes}
+          recipeSwatches={recipeSwatches}
+          onCreateRecipe={() => setShowCreateForm(true)}
+        />
+      )}
+    </>
   );
 }
