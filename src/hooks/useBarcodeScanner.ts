@@ -2,6 +2,7 @@ import { useState, useRef, useCallback, useEffect } from 'react';
 import { BarcodeFormat } from '@zxing/library';
 import type { Paint } from '../types/paint';
 import { getPaintBySku } from '../services/paint';
+import { validateEanChecksum } from '../services/paint/paintLookupByEan';
 import { detectBarcodeFromRgba } from '../services/scanner/barcodeDetection';
 import {
   isNativeBarcodeDetectorSupported,
@@ -74,6 +75,29 @@ const MAX_DEBUG_EVENTS = 100;
 const SCAN_INTERVAL_MS = 100;
 /** Crop to center 60% of frame for ZXing fallback */
 const CENTER_CROP_RATIO = 0.6;
+/** Require N consecutive reads of the same barcode before accepting */
+const REQUIRED_CONSECUTIVE_READS = 2;
+
+/**
+ * Validate barcode checksum for EAN-13 or UPC-A formats.
+ * UPC-A (12 digits) is validated by prepending 0 to make EAN-13.
+ * Returns false for invalid checksums (likely misreads).
+ */
+function isValidBarcodeChecksum(barcode: string): boolean {
+  // EAN-13: 13 digits
+  if (/^\d{13}$/.test(barcode)) {
+    return validateEanChecksum(barcode);
+  }
+
+  // UPC-A: 12 digits - prepend 0 to convert to EAN-13 for validation
+  if (/^\d{12}$/.test(barcode)) {
+    return validateEanChecksum('0' + barcode);
+  }
+
+  // Other formats (CODE_128, CODE_39, etc.) - allow through without checksum validation
+  // as they may be valid SKU-based lookups
+  return true;
+}
 
 function createScannerError(err: unknown): ScannerError {
   if (err instanceof DOMException) {
@@ -149,6 +173,9 @@ export function useBarcodeScanner(
   const streamRef = useRef<MediaStream | null>(null);
   const lastScanTimeRef = useRef<number>(0);
   const isStoppedRef = useRef<boolean>(true);
+  // Consecutive read confirmation to reduce misreads
+  const lastDetectedBarcodeRef = useRef<string | null>(null);
+  const consecutiveReadCountRef = useRef<number>(0);
   const debugEventsRef = useRef<DebugEvent[]>([]);
   const [debugEvents, setDebugEvents] = useState<DebugEvent[]>([]);
   const debugThrottleRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -203,6 +230,15 @@ export function useBarcodeScanner(
         emitDebug('barcode_detected', `Debounced duplicate: ${barcode}`, { barcode, debounced: true, backend });
         return;
       }
+
+      // Validate barcode checksum - silently ignore misreads
+      const checksumValid = isValidBarcodeChecksum(barcode);
+      emitDebug('barcode_detected', `Checksum validation for ${barcode}: ${checksumValid ? 'VALID' : 'INVALID'}`, { barcode, checksumValid });
+      if (!checksumValid) {
+        emitDebug('barcode_detected', `Rejecting barcode with invalid checksum: ${barcode}`, { barcode, rejected: true });
+        return;
+      }
+
       lastScanTimeRef.current = now;
 
       emitDebug('barcode_detected', `Barcode detected (${backend}): ${barcode}`, { barcode, backend });
@@ -309,6 +345,27 @@ export function useBarcodeScanner(
       setStatus('scanning');
       emitDebug('status_change', 'status → scanning, starting custom scan loop');
 
+      /**
+       * Consecutive read confirmation gate.
+       * Only forwards to handleBarcodeScan after N consecutive reads
+       * of the same barcode, reducing misreads.
+       */
+      const confirmAndHandleBarcode = (barcode: string, backend: ScannerBackend) => {
+        if (barcode === lastDetectedBarcodeRef.current) {
+          consecutiveReadCountRef.current++;
+        } else {
+          lastDetectedBarcodeRef.current = barcode;
+          consecutiveReadCountRef.current = 1;
+        }
+
+        if (consecutiveReadCountRef.current >= REQUIRED_CONSECUTIVE_READS) {
+          handleBarcodeScan(barcode, backend);
+          // Reset after confirmed scan to allow re-scanning same barcode later
+          lastDetectedBarcodeRef.current = null;
+          consecutiveReadCountRef.current = 0;
+        }
+      };
+
       // Start custom rAF-based scan loop
       const scanLoop = async () => {
         if (isStoppedRef.current) return;
@@ -339,7 +396,7 @@ export function useBarcodeScanner(
           try {
             const nativeResult = await detectBarcodeNative(video);
             if (nativeResult) {
-              handleBarcodeScan(nativeResult.text, 'native');
+              confirmAndHandleBarcode(nativeResult.text, 'native');
               scanLoopRafRef.current = requestAnimationFrame(scanLoop);
               return;
             }
@@ -383,7 +440,7 @@ export function useBarcodeScanner(
               const imageData = ctx.getImageData(0, 0, cropW, cropH);
               const result = detectBarcodeFromRgba(imageData.data, cropW, cropH, ZXING_FORMATS);
               if (result) {
-                handleBarcodeScan(result.text, 'zxing');
+                confirmAndHandleBarcode(result.text, 'zxing');
               }
             }
           }
