@@ -74,10 +74,11 @@ export function useProjectDetail(projectId: string | undefined): UseProjectDetai
   const isLoading = !projectLoaded || !unitsLoaded;
 
   // Calculate unit counts and completion percentage from units
+  // 'based' is the final status in the 6-step workflow
   const unitCounts: ProjectUnitCounts = {
     total: units.reduce((sum, unit) => sum + unit.quantity, 0),
     complete: units
-      .filter((unit) => unit.status === 'complete')
+      .filter((unit) => unit.status === 'based')
       .reduce((sum, unit) => sum + unit.quantity, 0),
   };
 

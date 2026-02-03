@@ -1,7 +1,8 @@
 import { Timestamp } from 'firebase/firestore';
 
-// Unit status values (MVP: 3-status workflow)
-export type UnitStatus = 'to_buy' | 'owned' | 'complete';
+// Unit status values (6-status workflow)
+// Flow: To Buy → Owned → Assembled → Primed → Painted → Based
+export type UnitStatus = 'to_buy' | 'owned' | 'assembled' | 'primed' | 'painted' | 'based';
 
 // Firestore document types (internal)
 export interface ProjectDocument {
