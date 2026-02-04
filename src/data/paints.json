@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-01-27T00:02:18.751Z",
+  "generatedAt": "2026-02-04T21:49:26.837Z",
   "counts": {
-    "total": 2590,
+    "total": 2555,
     "byBrand": {
-      "citadel": 487,
+      "citadel": 452,
       "vallejo": 1268,
       "army_painter": 704,
       "monument_hobbies": 131
@@ -54,7 +54,7 @@
         "g": 0,
         "b": 0
       },
-      "ean": "5011921026524"
+      "ean": "5011921182848"
     },
     {
       "id": "f113910c-8899-524b-8b0b-236b44819dbb",
@@ -98,7 +98,7 @@
         "g": 150,
         "b": 144
       },
-      "ean": "5011921027798"
+      "ean": "5011921183340"
     },
     {
       "id": "b7d6c57e-752f-5431-852d-e99f3edd2ed4",
@@ -453,7 +453,7 @@
         "g": 184,
         "b": 28
       },
-      "ean": "5011921026180"
+      "ean": "5011921182596"
     },
     {
       "id": "cd8f1ccd-159c-508f-b33d-4e09fce3e052",
@@ -540,7 +540,7 @@
         "g": 84,
         "b": 8
       },
-      "ean": "5011921027729"
+      "ean": "5011921186556"
     },
     {
       "id": "9aca4c58-1a20-5668-8cd8-105442022855",
@@ -569,7 +569,8 @@
         "r": 167,
         "g": 115,
         "b": 83
-      }
+      },
+      "ean": "5011921182862"
     },
     {
       "id": "fd07e1a2-2a61-567f-9e58-5636db620e82",
@@ -598,7 +599,8 @@
         "r": 143,
         "g": 124,
         "b": 104
-      }
+      },
+      "ean": "5011921183326"
     },
     {
       "id": "5560fe3d-5177-5765-9874-54e5798f79cb",
@@ -1006,7 +1008,7 @@
         "g": 102,
         "b": 153
       },
-      "ean": "5011921026364"
+      "ean": "5011921185993"
     },
     {
       "id": "597cd83e-b280-5c44-b4ea-fb5ef35cf198",
@@ -1036,7 +1038,7 @@
         "g": 73,
         "b": 127
       },
-      "ean": "5011921027026"
+      "ean": "5011921185283"
     },
     {
       "id": "0c23c95e-a3e8-5b3f-91c2-f24aef43903c",
@@ -1066,7 +1068,7 @@
         "g": 61,
         "b": 21
       },
-      "ean": "5011921026395"
+      "ean": "5011921182763"
     },
     {
       "id": "f46dd432-63fa-5b2f-9aa6-7daf1fb7b633",
@@ -1182,7 +1184,8 @@
         "r": 38,
         "g": 71,
         "b": 21
-      }
+      },
+      "ean": "5011921182770"
     },
     {
       "id": "2dbade85-aee6-5b38-82b9-abbd1c2d54d4",
@@ -1211,7 +1214,8 @@
         "r": 198,
         "g": 131,
         "b": 81
-      }
+      },
+      "ean": "5011921187614"
     },
     {
       "id": "bc59cf91-b6a8-541b-b809-6abf8be3dc22",
@@ -1439,7 +1443,8 @@
         "r": 255,
         "g": 255,
         "b": 255
-      }
+      },
+      "ean": "5011921188253"
     },
     {
       "id": "d062306e-6ad0-5e52-b96e-6032f162994b",
@@ -1468,7 +1473,8 @@
         "r": 23,
         "g": 19,
         "b": 20
-      }
+      },
+      "ean": "5011921183579"
     },
     {
       "id": "08a1bd65-2890-514e-b432-1173da4989af",
@@ -1556,7 +1562,8 @@
         "r": 25,
         "g": 85,
         "b": 60
-      }
+      },
+      "ean": "5011921185436"
     },
     {
       "id": "fc75eda1-38c9-597b-ba99-d7089b53ab60",
@@ -1644,7 +1651,7 @@
         "g": 112,
         "b": 104
       },
-      "ean": "5011921027781"
+      "ean": "5011921183333"
     },
     {
       "id": "f35812c2-a9ce-55ae-af18-c6de31fb5932",
@@ -1659,7 +1666,7 @@
         "g": 112,
         "b": 104
       },
-      "ean": "5011921027781"
+      "ean": "5011921183333"
     },
     {
       "id": "f049609b-0396-5ca1-a063-0035da4c1098",
@@ -1688,7 +1695,8 @@
         "r": 109,
         "g": 119,
         "b": 77
-      }
+      },
+      "ean": "5011921187829"
     },
     {
       "id": "3cba1884-5dfa-5893-849a-4a3a1056081b",
@@ -1717,7 +1725,8 @@
         "r": 61,
         "g": 69,
         "b": 57
-      }
+      },
+      "ean": "5011921188093"
     },
     {
       "id": "ad905c61-14c5-5a0e-8540-cab2c168dd7c",
@@ -1746,7 +1755,8 @@
         "r": 175,
         "g": 99,
         "b": 79
-      }
+      },
+      "ean": "5011921186532"
     },
     {
       "id": "48f4741b-1b83-5ee7-b6be-fbb6a71ec7b0",
@@ -1789,7 +1799,8 @@
         "r": 85,
         "g": 98,
         "b": 41
-      }
+      },
+      "ean": "5011921182787"
     },
     {
       "id": "8eb4bb17-6c2d-52a6-b690-931ada887278",
@@ -1951,7 +1962,7 @@
         "g": 42,
         "b": 36
       },
-      "ean": "5011921026500"
+      "ean": "5011921187690"
     },
     {
       "id": "339fb641-9609-505c-acf1-c59da94ec9a5",
@@ -2053,7 +2064,7 @@
         "g": 140,
         "b": 55
       },
-      "ean": "5011921027590"
+      "ean": "5011921183081"
     },
     {
       "id": "60c6380a-9880-5f15-9ab0-dc8b65f92bf0",
@@ -2142,7 +2153,7 @@
         "g": 20,
         "b": 17
       },
-      "ean": "5011921026678"
+      "ean": "5011921182916"
     },
     {
       "id": "fc4e95ac-f2ad-5aa0-9682-ee92c94659dd",
@@ -2172,7 +2183,7 @@
         "g": 148,
         "b": 179
       },
-      "ean": "5011921027873"
+      "ean": "5011921183449"
     },
     {
       "id": "b5b4ab26-b40b-56e0-b331-d33de479efa5",
@@ -2245,7 +2256,7 @@
         "g": 243,
         "b": 0
       },
-      "ean": "5011921026647"
+      "ean": "5011921182893"
     },
     {
       "id": "1a2bde4f-70ad-5244-87b6-f894e3a1a681",
@@ -2392,7 +2403,8 @@
         "r": 75,
         "g": 33,
         "b": 60
-      }
+      },
+      "ean": "5011921188109"
     },
     {
       "id": "496d631e-5636-56a3-9b61-9548d5a3d759",
@@ -2452,7 +2464,7 @@
         "g": 88,
         "b": 165
       },
-      "ean": "5011921026739"
+      "ean": "5011921185207"
     },
     {
       "id": "652e1516-cd13-58ed-a304-eee9510591df",
@@ -2611,7 +2623,8 @@
         "r": 176,
         "g": 189,
         "b": 198
-      }
+      },
+      "ean": "5011921183807"
     },
     {
       "id": "ca85bb12-91fa-58fe-9a62-d94e5f463cc0",
@@ -2640,7 +2653,8 @@
         "r": 162,
         "g": 165,
         "b": 167
-      }
+      },
+      "ean": "5011921188277"
     },
     {
       "id": "3fb7290c-3ea6-54d5-ae42-45b277401edb",
@@ -2832,7 +2846,7 @@
         "g": 120,
         "b": 175
       },
-      "ean": "5011921027002"
+      "ean": "5011921192380"
     },
     {
       "id": "5bd8e1a8-925d-5930-ae12-5468e578e863",
@@ -2948,7 +2962,8 @@
         "r": 178,
         "g": 167,
         "b": 159
-      }
+      },
+      "ean": "5011921188178"
     },
     {
       "id": "8e835dce-99e0-55e2-9ec5-a53cd040c766",
@@ -2993,7 +3008,7 @@
         "g": 144,
         "b": 146
       },
-      "ean": "5011921027958"
+      "ean": "5011921186778"
     },
     {
       "id": "66503047-d78f-5d05-90a3-6c20829ae8a9",
@@ -3095,7 +3110,8 @@
         "r": 136,
         "g": 105,
         "b": 174
-      }
+      },
+      "ean": "5011921187584"
     },
     {
       "id": "0e501d29-f447-538f-88a0-f2af0c896746",
@@ -3125,7 +3141,7 @@
         "g": 19,
         "b": 78
       },
-      "ean": "5011921026340"
+      "ean": "5011921182671"
     },
     {
       "id": "2caa3938-ab23-5ba0-922f-8845fcc34fe0",
@@ -3155,7 +3171,7 @@
         "g": 148,
         "b": 92
       },
-      "ean": "5011921027644"
+      "ean": "5011921186419"
     },
     {
       "id": "1a55df8b-46b7-5d52-99d8-e0fc659bbd40",
@@ -3199,7 +3215,7 @@
         "g": 0,
         "b": 1
       },
-      "ean": "5011921026210"
+      "ean": "5011921182640"
     },
     {
       "id": "98bd395c-0997-50a8-91cc-5b48c8f1ecd5",
@@ -3244,7 +3260,7 @@
         "g": 165,
         "b": 112
       },
-      "ean": "5011921027668"
+      "ean": "5011921183197"
     },
     {
       "id": "605a97de-d200-5b01-a394-0a9dc7d0ccb9",
@@ -3376,7 +3392,7 @@
         "g": 150,
         "b": 150
       },
-      "ean": "5011921026555"
+      "ean": "5011921182855"
     },
     {
       "id": "a53f3cd1-8c51-59bc-b5c2-1cac9f3e203a",
@@ -3391,7 +3407,7 @@
         "g": 150,
         "b": 150
       },
-      "ean": "5011921026555"
+      "ean": "5011921182855"
     },
     {
       "id": "4af9f6e6-dd8a-58af-9eaf-eef7394998c4",
@@ -3536,7 +3552,8 @@
         "r": 44,
         "g": 155,
         "b": 204
-      }
+      },
+      "ean": "5011921182947"
     },
     {
       "id": "dc1a8c1a-36c0-57f4-9caf-22598cf991b3",
@@ -3595,7 +3612,8 @@
         "r": 0,
         "g": 44,
         "b": 43
-      }
+      },
+      "ean": "5011921188161"
     },
     {
       "id": "af355101-e36c-5fa5-82e8-5a9be4668364",
@@ -3639,7 +3657,7 @@
         "g": 61,
         "b": 124
       },
-      "ean": "5011921026357"
+      "ean": "5011921182725"
     },
     {
       "id": "67d50ea7-9c1b-55de-87ab-81a299e5f31d",
@@ -3654,7 +3672,7 @@
         "g": 61,
         "b": 124
       },
-      "ean": "5011921026357"
+      "ean": "5011921182725"
     },
     {
       "id": "bd64132e-5653-5cb3-a53a-1a5461e68152",
@@ -3743,7 +3761,7 @@
         "g": 72,
         "b": 74
       },
-      "ean": "5011921026517"
+      "ean": "5011921182831"
     },
     {
       "id": "90a6ea3b-457f-5319-aacb-48cb4991a5e4",
@@ -3758,7 +3776,7 @@
         "g": 72,
         "b": 74
       },
-      "ean": "5011921026517"
+      "ean": "5011921182831"
     },
     {
       "id": "a48d1329-f347-572f-bfce-ceb642c77b5a",
@@ -3802,7 +3820,7 @@
         "g": 13,
         "b": 10
       },
-      "ean": "5011921026203"
+      "ean": "5011921182626"
     },
     {
       "id": "ee0e5842-6f4e-540c-a49d-1bbf04440bdd",
@@ -3817,7 +3835,7 @@
         "g": 12,
         "b": 9
       },
-      "ean": "5011921026203"
+      "ean": "5011921182626"
     },
     {
       "id": "7db98372-7e32-5838-a40f-beffdf263ba1",
@@ -3890,7 +3908,7 @@
         "g": 175,
         "b": 68
       },
-      "ean": "5011921027279"
+      "ean": "5011921183029"
     },
     {
       "id": "d8210e83-e2bd-5896-927c-f916f69bda86",
@@ -3979,7 +3997,7 @@
         "g": 15,
         "b": 6
       },
-      "ean": "5011921026470"
+      "ean": "5011921182800"
     },
     {
       "id": "5d425a02-4d07-5635-a797-f7b4ba647af6",
@@ -4110,7 +4128,8 @@
         "r": 0,
         "g": 43,
         "b": 92
-      }
+      },
+      "ean": "5011921183548"
     },
     {
       "id": "fd0cc5b6-e5cd-5b29-8dec-ff462f99173e",
@@ -4168,7 +4187,8 @@
         "r": 22,
         "g": 42,
         "b": 41
-      }
+      },
+      "ean": "5011921188123"
     },
     {
       "id": "68d6217e-4d2b-5dc3-925f-3b0a45e35066",
@@ -4242,7 +4262,7 @@
         "g": 151,
         "b": 94
       },
-      "ean": "5011921027453"
+      "ean": "5011921192434"
     },
     {
       "id": "c17aad58-4a3e-56d3-b2bf-c7e91903330b",
@@ -4272,7 +4292,7 @@
         "g": 166,
         "b": 72
       },
-      "ean": "5011921027606"
+      "ean": "5011921183098"
     },
     {
       "id": "095d7a2c-f104-5a89-b268-558203e6203c",
@@ -4388,7 +4408,8 @@
         "r": 255,
         "g": 226,
         "b": 0
-      }
+      },
+      "ean": "5011921183685"
     },
     {
       "id": "f8edbcd3-8fb2-55fe-952a-19c3f3170a00",
@@ -4417,7 +4438,8 @@
         "r": 68,
         "g": 0,
         "b": 82
-      }
+      },
+      "ean": "5011921183517"
     },
     {
       "id": "fcdf6598-c6db-532d-b0b2-94129ee851e2",
@@ -4620,7 +4642,8 @@
         "r": 237,
         "g": 192,
         "b": 106
-      }
+      },
+      "ean": "5011921187805"
     },
     {
       "id": "eaafdbf2-0cc2-58e7-81e8-dbfeb076d56b",
@@ -4678,7 +4701,8 @@
         "r": 194,
         "g": 200,
         "b": 204
-      }
+      },
+      "ean": "5011921183401"
     },
     {
       "id": "ee5d9003-ff60-5cf1-9065-d56f527e98b1",
@@ -4722,7 +4746,8 @@
         "r": 80,
         "g": 112,
         "b": 133
-      }
+      },
+      "ean": "5011921183425"
     },
     {
       "id": "57c8bae0-f437-518c-bca9-05aed0877575",
@@ -5059,7 +5084,7 @@
         "g": 136,
         "b": 147
       },
-      "ean": "5011921026753"
+      "ean": "5011921185221"
     },
     {
       "id": "3c19cec5-3d14-5311-9a4e-4f246c0baa45",
@@ -5102,7 +5127,8 @@
         "r": 105,
         "g": 76,
         "b": 41
-      }
+      },
+      "ean": "5011921185535"
     },
     {
       "id": "752f8aec-ad97-5a2f-a566-a07ce4f43c0f",
@@ -5145,7 +5171,8 @@
         "r": 0,
         "g": 84,
         "b": 94
-      }
+      },
+      "ean": "5011921187591"
     },
     {
       "id": "d9e22d37-4944-51e8-80d7-51cc94f4bfac",
@@ -5204,7 +5231,8 @@
         "r": 145,
         "g": 191,
         "b": 220
-      }
+      },
+      "ean": "5011921185634"
     },
     {
       "id": "fd6b22c7-56d1-5bf5-b870-376d9f349835",
@@ -5264,7 +5292,7 @@
         "g": 78,
         "b": 45
       },
-      "ean": "5011921026449"
+      "ean": "5011921187119"
     },
     {
       "id": "d72b958d-f85c-58fd-9503-6365b0c39d96",
@@ -5412,7 +5440,7 @@
         "g": 127,
         "b": 28
       },
-      "ean": "5011921027446"
+      "ean": "5011921186303"
     },
     {
       "id": "86217898-ae00-56f9-b2d7-190e0279e93f",
@@ -5456,7 +5484,7 @@
         "g": 161,
         "b": 102
       },
-      "ean": "5011921027255"
+      "ean": "5011921186198"
     },
     {
       "id": "c0eb3a71-9cd9-5a2f-94af-92735b52dd53",
@@ -5545,7 +5573,7 @@
         "g": 116,
         "b": 9
       },
-      "ean": "5011921027637"
+      "ean": "5011921183166"
     },
     {
       "id": "662ee98c-d53a-5e50-b57e-263ed3bbd63b",
@@ -5589,7 +5617,7 @@
         "g": 107,
         "b": 16
       },
-      "ean": "5011921027712"
+      "ean": "5011921186549"
     },
     {
       "id": "06c2379e-4557-5702-b20e-45fd9d1ed394",
@@ -5648,7 +5676,7 @@
         "g": 148,
         "b": 137
       },
-      "ean": "5011921027231"
+      "ean": "5011921182961"
     },
     {
       "id": "3916f4ba-cccc-5aca-ba4e-eacb1d73f3c7",
@@ -5692,7 +5720,7 @@
         "g": 183,
         "b": 157
       },
-      "ean": "5011921027132"
+      "ean": "5011921192304"
     },
     {
       "id": "9a3ca710-f00d-54f1-b1a4-99af819b1fa1",
@@ -5781,7 +5809,7 @@
         "g": 91,
         "b": 113
       },
-      "ean": "5011921026593"
+      "ean": "5011921182886"
     },
     {
       "id": "14b311b9-c5e6-5469-9a8c-0ba0e91bdf55",
@@ -5841,7 +5869,7 @@
         "g": 106,
         "b": 112
       },
-      "ean": "5011921027828"
+      "ean": "5011921186693"
     },
     {
       "id": "63f2f0cd-a144-5ffc-906b-fbe72e27bc31",
@@ -5884,7 +5912,8 @@
         "r": 241,
         "g": 108,
         "b": 35
-      }
+      },
+      "ean": "5011921183876"
     },
     {
       "id": "ffa69a1f-7167-5b70-a8b9-6fbc1bb7c2b5",
@@ -5914,7 +5943,7 @@
         "g": 50,
         "b": 49
       },
-      "ean": "5011921027750"
+      "ean": "5011921186587"
     },
     {
       "id": "d4d9ed0d-e12d-526c-9967-0dcba7a69d95",
@@ -5989,7 +6018,7 @@
         "g": 221,
         "b": 213
       },
-      "ean": "5011921027927"
+      "ean": "5011921183364"
     },
     {
       "id": "93cfea8b-b0b1-5a2d-9ac4-1f270a9e9f46",
@@ -6077,7 +6106,8 @@
         "r": 171,
         "g": 161,
         "b": 115
-      }
+      },
+      "ean": "5011921183104"
     },
     {
       "id": "d69e948b-dd15-5ef4-9f9e-e1f4310c3063",
@@ -6221,7 +6251,8 @@
         "r": 34,
         "g": 60,
         "b": 46
-      }
+      },
+      "ean": "5011921187621"
     },
     {
       "id": "0b659c17-5f36-54f4-bc52-ae717f01c120",
@@ -6266,7 +6297,7 @@
         "g": 126,
         "b": 87
       },
-      "ean": "5011921027286"
+      "ean": "5011921186242"
     },
     {
       "id": "f5dc99d1-1c11-5e83-868b-84866ffb5ad6",
@@ -6415,7 +6446,7 @@
         "g": 255,
         "b": 255
       },
-      "ean": "5011921027934"
+      "ean": "5011921183371"
     },
     {
       "id": "4ab8f87e-e51f-5410-8da4-1166cd656be4",
@@ -6459,7 +6490,8 @@
         "r": 98,
         "g": 1,
         "b": 4
-      }
+      },
+      "ean": "5011921187638"
     },
     {
       "id": "5ab2dffc-f8d3-5380-a4cc-56a02b165e51",
@@ -6503,7 +6535,8 @@
         "r": 219,
         "g": 209,
         "b": 178
-      }
+      },
+      "ean": "5011921188260"
     },
     {
       "id": "ea843e4d-53cf-5443-9711-e1a89f40aa20",
@@ -6548,7 +6581,7 @@
         "g": 72,
         "b": 17
       },
-      "ean": "5011921026487"
+      "ean": "5011921187157"
     },
     {
       "id": "b3591dbc-6b1d-513e-84bb-08711e707d52",
@@ -6623,7 +6656,7 @@
         "g": 142,
         "b": 86
       },
-      "ean": "5011921026432"
+      "ean": "5011921182794"
     },
     {
       "id": "bc14aad9-0415-59e5-8744-2c17b1b347fc",
@@ -6638,7 +6671,7 @@
         "g": 142,
         "b": 86
       },
-      "ean": "5011921026432"
+      "ean": "5011921182794"
     },
     {
       "id": "985a2883-b7ae-5911-a694-af0d7ff744d2",
@@ -25681,7 +25714,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set",
       "paintType": "contrast",
-      "sku": "WP2007",
+      "sku": null,
       "hexColor": "#22311F",
       "rgb": {
         "r": 34,
@@ -25696,7 +25729,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2007",
+      "sku": null,
       "hexColor": "#214A28",
       "rgb": {
         "r": 33,
@@ -25725,7 +25758,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3032",
+      "sku": null,
       "hexColor": "#00506C",
       "rgb": {
         "r": 0,
@@ -25740,7 +25773,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3036",
+      "sku": null,
       "hexColor": "#32B3D5",
       "rgb": {
         "r": 50,
@@ -25770,7 +25803,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3060",
+      "sku": null,
       "hexColor": "#E4EA8D",
       "rgb": {
         "r": 228,
@@ -25785,7 +25818,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3146",
+      "sku": null,
       "hexColor": "#D7877B",
       "rgb": {
         "r": 215,
@@ -25800,7 +25833,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2036",
+      "sku": null,
       "hexColor": "#D56C4F",
       "rgb": {
         "r": 213,
@@ -25815,7 +25848,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2045",
+      "sku": null,
       "hexColor": "#9CAA53",
       "rgb": {
         "r": 156,
@@ -25830,7 +25863,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "AW1128",
+      "sku": null,
       "hexColor": "#6154A3",
       "rgb": {
         "r": 97,
@@ -25845,7 +25878,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Primer",
       "paintType": "primer",
-      "sku": "AW1128",
+      "sku": "CP3019",
       "hexColor": "#492B79",
       "rgb": {
         "r": 73,
@@ -25860,7 +25893,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1128",
+      "sku": null,
       "hexColor": "#3D2560",
       "rgb": {
         "r": 61,
@@ -25875,7 +25908,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1128",
+      "sku": "WP1128",
       "hexColor": "#462D59",
       "rgb": {
         "r": 70,
@@ -25890,7 +25923,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3022",
+      "sku": null,
       "hexColor": "#667DC0",
       "rgb": {
         "r": 102,
@@ -25905,7 +25938,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3160",
+      "sku": null,
       "hexColor": "#C4A083",
       "rgb": {
         "r": 196,
@@ -25920,7 +25953,7 @@
       "brand": "army_painter",
       "productLine": "Skin Tones Paint Set",
       "paintType": "base",
-      "sku": "WP3160",
+      "sku": null,
       "hexColor": "#AC835D",
       "rgb": {
         "r": 172,
@@ -25935,7 +25968,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3048",
+      "sku": null,
       "hexColor": "#68C5B6",
       "rgb": {
         "r": 104,
@@ -25950,7 +25983,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2060",
+      "sku": null,
       "hexColor": "#EBBD21",
       "rgb": {
         "r": 235,
@@ -25979,7 +26012,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3088",
+      "sku": null,
       "hexColor": "#D0C3A3",
       "rgb": {
         "r": 208,
@@ -25994,7 +26027,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1112",
+      "sku": null,
       "hexColor": "#20321D",
       "rgb": {
         "r": 32,
@@ -26009,7 +26042,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1112",
+      "sku": "WP1112",
       "hexColor": "#0F3515",
       "rgb": {
         "r": 15,
@@ -26024,7 +26057,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Primer",
       "paintType": "primer",
-      "sku": "AW1112",
+      "sku": "CP3020",
       "hexColor": "#273B2F",
       "rgb": {
         "r": 39,
@@ -26039,7 +26072,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "AW1112",
+      "sku": null,
       "hexColor": "#173E31",
       "rgb": {
         "r": 23,
@@ -26054,7 +26087,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3104",
+      "sku": null,
       "hexColor": "#D42C39",
       "rgb": {
         "r": 212,
@@ -26113,7 +26146,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3047",
+      "sku": null,
       "hexColor": "#24BBA6",
       "rgb": {
         "r": 36,
@@ -26128,7 +26161,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3040",
+      "sku": null,
       "hexColor": "#56C4CD",
       "rgb": {
         "r": 86,
@@ -26143,7 +26176,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4104",
+      "sku": null,
       "hexColor": "#C52822",
       "rgb": {
         "r": 197,
@@ -26158,7 +26191,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3029",
+      "sku": null,
       "hexColor": "#1995D4",
       "rgb": {
         "r": 25,
@@ -26188,7 +26221,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "AW1110",
+      "sku": null,
       "hexColor": "#5D7554",
       "rgb": {
         "r": 93,
@@ -26203,7 +26236,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1110",
+      "sku": null,
       "hexColor": "#536638",
       "rgb": {
         "r": 83,
@@ -26218,7 +26251,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Primer",
       "paintType": "primer",
-      "sku": "AW1110",
+      "sku": "CP3005",
       "hexColor": "#66693A",
       "rgb": {
         "r": 102,
@@ -26233,7 +26266,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1110",
+      "sku": "WP1110",
       "hexColor": "#747260",
       "rgb": {
         "r": 116,
@@ -26248,7 +26281,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "WP3004",
+      "sku": "WP1117",
       "hexColor": "#95959F",
       "rgb": {
         "r": 149,
@@ -26263,7 +26296,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3004",
+      "sku": null,
       "hexColor": "#84878F",
       "rgb": {
         "r": 132,
@@ -26278,7 +26311,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2025",
+      "sku": null,
       "hexColor": "#B3B9B9",
       "rgb": {
         "r": 179,
@@ -26293,7 +26326,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3024",
+      "sku": null,
       "hexColor": "#ACBCE2",
       "rgb": {
         "r": 172,
@@ -26308,7 +26341,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3064",
+      "sku": null,
       "hexColor": "#75AD98",
       "rgb": {
         "r": 117,
@@ -26323,7 +26356,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2075",
+      "sku": null,
       "hexColor": "#62732F",
       "rgb": {
         "r": 98,
@@ -26396,7 +26429,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1126",
+      "sku": null,
       "hexColor": "#D28D57",
       "rgb": {
         "r": 210,
@@ -26411,7 +26444,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "AW1126",
+      "sku": null,
       "hexColor": "#F69B7F",
       "rgb": {
         "r": 246,
@@ -26426,7 +26459,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1126",
+      "sku": "WP1126",
       "hexColor": "#E38C7F",
       "rgb": {
         "r": 227,
@@ -26441,7 +26474,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Primer",
       "paintType": "primer",
-      "sku": "AW1126",
+      "sku": "CP3007",
       "hexColor": "#E59B66",
       "rgb": {
         "r": 229,
@@ -26456,7 +26489,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3023",
+      "sku": null,
       "hexColor": "#7C95CC",
       "rgb": {
         "r": 124,
@@ -26471,7 +26504,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3084",
+      "sku": null,
       "hexColor": "#DEBB72",
       "rgb": {
         "r": 222,
@@ -26486,7 +26519,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3121",
+      "sku": null,
       "hexColor": "#845B25",
       "rgb": {
         "r": 132,
@@ -26516,7 +26549,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3115",
+      "sku": null,
       "hexColor": "#6C2539",
       "rgb": {
         "r": 108,
@@ -26531,7 +26564,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2024",
+      "sku": null,
       "hexColor": "#B7C6C9",
       "rgb": {
         "r": 183,
@@ -26560,7 +26593,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2049",
+      "sku": null,
       "hexColor": "#0C3F80",
       "rgb": {
         "r": 12,
@@ -26575,7 +26608,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4125",
+      "sku": null,
       "hexColor": "#DFD9B7",
       "rgb": {
         "r": 223,
@@ -26604,7 +26637,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2076",
+      "sku": null,
       "hexColor": "#F5F4EF",
       "rgb": {
         "r": 245,
@@ -26619,7 +26652,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3119",
+      "sku": null,
       "hexColor": "#DB4B50",
       "rgb": {
         "r": 219,
@@ -26634,7 +26667,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2010",
+      "sku": null,
       "hexColor": "#DB3016",
       "rgb": {
         "r": 219,
@@ -26649,7 +26682,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set",
       "paintType": "contrast",
-      "sku": "WP2010",
+      "sku": null,
       "hexColor": "#A8141F",
       "rgb": {
         "r": 168,
@@ -26723,7 +26756,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4109",
+      "sku": null,
       "hexColor": "#A1BD67",
       "rgb": {
         "r": 161,
@@ -26752,7 +26785,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2039",
+      "sku": null,
       "hexColor": "#B69471",
       "rgb": {
         "r": 182,
@@ -26767,7 +26800,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3074",
+      "sku": null,
       "hexColor": "#5D4D4D",
       "rgb": {
         "r": 93,
@@ -26782,7 +26815,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3011",
+      "sku": null,
       "hexColor": "#DEDBD3",
       "rgb": {
         "r": 222,
@@ -26797,7 +26830,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "WP3011",
+      "sku": "WP1405",
       "hexColor": "#F1F2E2",
       "rgb": {
         "r": 241,
@@ -26840,7 +26873,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3006",
+      "sku": null,
       "hexColor": "#D0D0D2",
       "rgb": {
         "r": 208,
@@ -26869,7 +26902,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "WP3189",
+      "sku": null,
       "hexColor": "#B48024",
       "rgb": {
         "r": 180,
@@ -26884,7 +26917,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3189",
+      "sku": null,
       "hexColor": "#987B1A",
       "rgb": {
         "r": 152,
@@ -26899,7 +26932,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "WP3189",
+      "sku": "WP1144",
       "hexColor": "#BB8702",
       "rgb": {
         "r": 187,
@@ -26914,7 +26947,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2058",
+      "sku": null,
       "hexColor": "#E15A3D",
       "rgb": {
         "r": 225,
@@ -26929,7 +26962,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3030",
+      "sku": null,
       "hexColor": "#84CEF0",
       "rgb": {
         "r": 132,
@@ -26944,7 +26977,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2030",
+      "sku": null,
       "hexColor": "#595854",
       "rgb": {
         "r": 89,
@@ -26959,7 +26992,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3128",
+      "sku": null,
       "hexColor": "#26233B",
       "rgb": {
         "r": 38,
@@ -26988,7 +27021,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2067",
+      "sku": null,
       "hexColor": "#7B6C33",
       "rgb": {
         "r": 123,
@@ -27003,7 +27036,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic Wash",
       "paintType": "base",
-      "sku": "WP3175",
+      "sku": null,
       "hexColor": "#727475",
       "rgb": {
         "r": 114,
@@ -27018,7 +27051,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Primer",
       "paintType": "primer",
-      "sku": "WP3175",
+      "sku": "WP1472",
       "hexColor": "#A0A3A2",
       "rgb": {
         "r": 160,
@@ -27033,7 +27066,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3114",
+      "sku": null,
       "hexColor": "#B3756A",
       "rgb": {
         "r": 179,
@@ -27062,7 +27095,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4123",
+      "sku": null,
       "hexColor": "#8A6243",
       "rgb": {
         "r": 138,
@@ -27077,7 +27110,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3098",
+      "sku": null,
       "hexColor": "#F2653E",
       "rgb": {
         "r": 242,
@@ -27092,7 +27125,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2083",
+      "sku": null,
       "hexColor": "#633B33",
       "rgb": {
         "r": 99,
@@ -27107,7 +27140,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2026",
+      "sku": null,
       "hexColor": "#4D5A50",
       "rgb": {
         "r": 77,
@@ -27122,7 +27155,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3083",
+      "sku": null,
       "hexColor": "#BE9859",
       "rgb": {
         "r": 190,
@@ -27137,7 +27170,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4118",
+      "sku": null,
       "hexColor": "#8E9999",
       "rgb": {
         "r": 142,
@@ -27166,7 +27199,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2008",
+      "sku": null,
       "hexColor": "#5A713B",
       "rgb": {
         "r": 90,
@@ -27181,7 +27214,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set",
       "paintType": "contrast",
-      "sku": "WP2008",
+      "sku": null,
       "hexColor": "#536639",
       "rgb": {
         "r": 83,
@@ -27196,7 +27229,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3069",
+      "sku": null,
       "hexColor": "#6E8358",
       "rgb": {
         "r": 110,
@@ -27211,7 +27244,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4433",
+      "sku": null,
       "hexColor": "#ABBE55",
       "rgb": {
         "r": 171,
@@ -27226,7 +27259,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2046",
+      "sku": null,
       "hexColor": "#09A6B5",
       "rgb": {
         "r": 9,
@@ -27241,7 +27274,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2055",
+      "sku": null,
       "hexColor": "#DC3058",
       "rgb": {
         "r": 220,
@@ -27256,7 +27289,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3151",
+      "sku": null,
       "hexColor": "#5D3E46",
       "rgb": {
         "r": 93,
@@ -27301,7 +27334,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1142",
+      "sku": null,
       "hexColor": "#582013",
       "rgb": {
         "r": 88,
@@ -27316,7 +27349,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Primer",
       "paintType": "primer",
-      "sku": "AW1142",
+      "sku": "CP3026",
       "hexColor": "#6C2A31",
       "rgb": {
         "r": 108,
@@ -27331,7 +27364,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1142",
+      "sku": "WP1142",
       "hexColor": "#6F1D06",
       "rgb": {
         "r": 111,
@@ -27346,7 +27379,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2048",
+      "sku": null,
       "hexColor": "#C9CF47",
       "rgb": {
         "r": 201,
@@ -27361,7 +27394,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3125",
+      "sku": null,
       "hexColor": "#8C7757",
       "rgb": {
         "r": 140,
@@ -27376,7 +27409,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3105",
+      "sku": null,
       "hexColor": "#621723",
       "rgb": {
         "r": 98,
@@ -27391,7 +27424,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2022",
+      "sku": null,
       "hexColor": "#3C4258",
       "rgb": {
         "r": 60,
@@ -27406,7 +27439,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set",
       "paintType": "contrast",
-      "sku": "WP2022",
+      "sku": null,
       "hexColor": "#364653",
       "rgb": {
         "r": 54,
@@ -27421,7 +27454,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3194",
+      "sku": null,
       "hexColor": "#2E4249",
       "rgb": {
         "r": 46,
@@ -27465,7 +27498,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3077",
+      "sku": null,
       "hexColor": "#B49488",
       "rgb": {
         "r": 180,
@@ -27495,7 +27528,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3005",
+      "sku": null,
       "hexColor": "#BCBEC2",
       "rgb": {
         "r": 188,
@@ -27510,7 +27543,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4115",
+      "sku": null,
       "hexColor": "#526899",
       "rgb": {
         "r": 82,
@@ -27540,7 +27573,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4438",
+      "sku": null,
       "hexColor": "#EEE47D",
       "rgb": {
         "r": 238,
@@ -27555,7 +27588,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4128",
+      "sku": null,
       "hexColor": "#7B5A85",
       "rgb": {
         "r": 123,
@@ -27570,7 +27603,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4101",
+      "sku": null,
       "hexColor": "#424B47",
       "rgb": {
         "r": 66,
@@ -27585,7 +27618,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2004",
+      "sku": null,
       "hexColor": "#EB9A5B",
       "rgb": {
         "r": 235,
@@ -27600,7 +27633,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set",
       "paintType": "contrast",
-      "sku": "WP2004",
+      "sku": null,
       "hexColor": "#D28D57",
       "rgb": {
         "r": 210,
@@ -27645,7 +27678,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Primer",
       "paintType": "primer",
-      "sku": "AW1114",
+      "sku": "CP3017",
       "hexColor": "#2580BA",
       "rgb": {
         "r": 37,
@@ -27660,7 +27693,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "AW1114",
+      "sku": null,
       "hexColor": "#0273BC",
       "rgb": {
         "r": 2,
@@ -27675,7 +27708,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1114",
+      "sku": null,
       "hexColor": "#106DAC",
       "rgb": {
         "r": 16,
@@ -27690,7 +27723,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1114",
+      "sku": "WP1114",
       "hexColor": "#2579BB",
       "rgb": {
         "r": 37,
@@ -27705,7 +27738,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3129",
+      "sku": null,
       "hexColor": "#6962AB",
       "rgb": {
         "r": 105,
@@ -27749,7 +27782,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4124",
+      "sku": null,
       "hexColor": "#544537",
       "rgb": {
         "r": 84,
@@ -27764,7 +27797,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1107",
+      "sku": "WP1107",
       "hexColor": "#F8BF3E",
       "rgb": {
         "r": 248,
@@ -27779,7 +27812,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "AW1107",
+      "sku": null,
       "hexColor": "#FECE2A",
       "rgb": {
         "r": 254,
@@ -27794,7 +27827,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Primer",
       "paintType": "primer",
-      "sku": "AW1107",
+      "sku": "CP3015",
       "hexColor": "#F7D201",
       "rgb": {
         "r": 247,
@@ -27809,7 +27842,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1107",
+      "sku": null,
       "hexColor": "#F1D12F",
       "rgb": {
         "r": 241,
@@ -27838,7 +27871,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3196",
+      "sku": null,
       "hexColor": "#3B4A25",
       "rgb": {
         "r": 59,
@@ -27867,7 +27900,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic Wash",
       "paintType": "base",
-      "sku": "WP3166",
+      "sku": null,
       "hexColor": "#290F12",
       "rgb": {
         "r": 41,
@@ -27910,7 +27943,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1415",
+      "sku": null,
       "hexColor": "#354653",
       "rgb": {
         "r": 53,
@@ -27925,7 +27958,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1415",
+      "sku": "WP1415",
       "hexColor": "#314F5E",
       "rgb": {
         "r": 49,
@@ -28000,7 +28033,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2005",
+      "sku": null,
       "hexColor": "#482D1A",
       "rgb": {
         "r": 72,
@@ -28015,7 +28048,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set",
       "paintType": "contrast",
-      "sku": "WP2005",
+      "sku": null,
       "hexColor": "#3A2415",
       "rgb": {
         "r": 58,
@@ -28030,7 +28063,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic Wash",
       "paintType": "base",
-      "sku": "WP3177",
+      "sku": null,
       "hexColor": "#87C866",
       "rgb": {
         "r": 135,
@@ -28045,7 +28078,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3195",
+      "sku": null,
       "hexColor": "#2B2B2B",
       "rgb": {
         "r": 43,
@@ -28060,7 +28093,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3037",
+      "sku": null,
       "hexColor": "#006B79",
       "rgb": {
         "r": 0,
@@ -28090,7 +28123,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3002",
+      "sku": null,
       "hexColor": "#4B5164",
       "rgb": {
         "r": 75,
@@ -28105,7 +28138,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3031",
+      "sku": null,
       "hexColor": "#1B3044",
       "rgb": {
         "r": 27,
@@ -28120,7 +28153,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3091",
+      "sku": null,
       "hexColor": "#D17B41",
       "rgb": {
         "r": 209,
@@ -28135,7 +28168,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "AW1121",
+      "sku": null,
       "hexColor": "#856D45",
       "rgb": {
         "r": 133,
@@ -28150,7 +28183,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1121",
+      "sku": "WP1121",
       "hexColor": "#D7955A",
       "rgb": {
         "r": 215,
@@ -28165,7 +28198,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Primer",
       "paintType": "primer",
-      "sku": "AW1121",
+      "sku": "CP3011",
       "hexColor": "#C18C17",
       "rgb": {
         "r": 193,
@@ -28180,7 +28213,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1121",
+      "sku": null,
       "hexColor": "#B99029",
       "rgb": {
         "r": 185,
@@ -28195,7 +28228,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2040",
+      "sku": null,
       "hexColor": "#7A703B",
       "rgb": {
         "r": 122,
@@ -28210,7 +28243,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3133",
+      "sku": null,
       "hexColor": "#562D74",
       "rgb": {
         "r": 86,
@@ -28240,7 +28273,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic Wash",
       "paintType": "base",
-      "sku": "WP3163",
+      "sku": null,
       "hexColor": "#A5C345",
       "rgb": {
         "r": 165,
@@ -28255,7 +28288,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "WP3163",
+      "sku": "WP1477",
       "hexColor": "#CBB503",
       "rgb": {
         "r": 203,
@@ -28270,7 +28303,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3138",
+      "sku": null,
       "hexColor": "#D59FC5",
       "rgb": {
         "r": 213,
@@ -28285,7 +28318,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3126",
+      "sku": null,
       "hexColor": "#F9D9E6",
       "rgb": {
         "r": 249,
@@ -28300,7 +28333,7 @@
       "brand": "army_painter",
       "productLine": "Skin Tones Paint Set",
       "paintType": "base",
-      "sku": "WP3161",
+      "sku": null,
       "hexColor": "#A97761",
       "rgb": {
         "r": 169,
@@ -28315,7 +28348,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3161",
+      "sku": null,
       "hexColor": "#EEC79E",
       "rgb": {
         "r": 238,
@@ -28330,7 +28363,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4110",
+      "sku": null,
       "hexColor": "#7F815C",
       "rgb": {
         "r": 127,
@@ -28345,7 +28378,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Primer",
       "paintType": "primer",
-      "sku": "AW1105",
+      "sku": "CP3018",
       "hexColor": "#952526",
       "rgb": {
         "r": 149,
@@ -28360,7 +28393,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1105",
+      "sku": null,
       "hexColor": "#7C191B",
       "rgb": {
         "r": 124,
@@ -28375,7 +28408,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "AW1105",
+      "sku": null,
       "hexColor": "#BF283B",
       "rgb": {
         "r": 191,
@@ -28390,7 +28423,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1105",
+      "sku": "WP1105",
       "hexColor": "#B91130",
       "rgb": {
         "r": 185,
@@ -28448,7 +28481,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic Wash",
       "paintType": "base",
-      "sku": "WP3164",
+      "sku": null,
       "hexColor": "#24000E",
       "rgb": {
         "r": 36,
@@ -28478,7 +28511,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3111",
+      "sku": null,
       "hexColor": "#613630",
       "rgb": {
         "r": 97,
@@ -28536,7 +28569,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2054",
+      "sku": null,
       "hexColor": "#603E3D",
       "rgb": {
         "r": 96,
@@ -28551,7 +28584,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3085",
+      "sku": null,
       "hexColor": "#8B7C68",
       "rgb": {
         "r": 139,
@@ -28580,7 +28613,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3141",
+      "sku": null,
       "hexColor": "#A8577B",
       "rgb": {
         "r": 168,
@@ -28610,7 +28643,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3058",
+      "sku": null,
       "hexColor": "#BDD532",
       "rgb": {
         "r": 189,
@@ -28625,7 +28658,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1419",
+      "sku": "WP1419",
       "hexColor": "#158E76",
       "rgb": {
         "r": 21,
@@ -28640,7 +28673,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1419",
+      "sku": null,
       "hexColor": "#00816C",
       "rgb": {
         "r": 0,
@@ -28698,7 +28731,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1421",
+      "sku": null,
       "hexColor": "#E6AD86",
       "rgb": {
         "r": 230,
@@ -28713,7 +28746,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1421",
+      "sku": "WP1421",
       "hexColor": "#F9BE94",
       "rgb": {
         "r": 249,
@@ -28728,7 +28761,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3055",
+      "sku": null,
       "hexColor": "#5BBB4D",
       "rgb": {
         "r": 91,
@@ -28743,7 +28776,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3104",
+      "sku": null,
       "hexColor": "#721824",
       "rgb": {
         "r": 114,
@@ -28758,7 +28791,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3137",
+      "sku": null,
       "hexColor": "#B66CAE",
       "rgb": {
         "r": 182,
@@ -28801,7 +28834,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3052",
+      "sku": null,
       "hexColor": "#279A4C",
       "rgb": {
         "r": 39,
@@ -28830,7 +28863,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3061",
+      "sku": null,
       "hexColor": "#396360",
       "rgb": {
         "r": 57,
@@ -28845,7 +28878,7 @@
       "brand": "army_painter",
       "productLine": "Metallic Colours Paint Set",
       "paintType": "base",
-      "sku": "WP3185",
+      "sku": null,
       "hexColor": "#A46049",
       "rgb": {
         "r": 164,
@@ -28860,7 +28893,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3185",
+      "sku": null,
       "hexColor": "#5B3B2F",
       "rgb": {
         "r": 91,
@@ -28875,7 +28908,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "WP3185",
+      "sku": null,
       "hexColor": "#644133",
       "rgb": {
         "r": 100,
@@ -28890,7 +28923,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4112",
+      "sku": null,
       "hexColor": "#4C685B",
       "rgb": {
         "r": 76,
@@ -28961,7 +28994,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3447",
+      "sku": null,
       "hexColor": "#81375F",
       "rgb": {
         "r": 129,
@@ -28976,7 +29009,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2033",
+      "sku": null,
       "hexColor": "#D62F7F",
       "rgb": {
         "r": 214,
@@ -28991,7 +29024,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4111",
+      "sku": null,
       "hexColor": "#5D8758",
       "rgb": {
         "r": 93,
@@ -29006,7 +29039,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3054",
+      "sku": null,
       "hexColor": "#75C377",
       "rgb": {
         "r": 117,
@@ -29021,7 +29054,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4447",
+      "sku": null,
       "hexColor": "#C384A6",
       "rgb": {
         "r": 195,
@@ -29050,7 +29083,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4421",
+      "sku": null,
       "hexColor": "#F2CC9E",
       "rgb": {
         "r": 242,
@@ -29080,7 +29113,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3092",
+      "sku": null,
       "hexColor": "#EC9A44",
       "rgb": {
         "r": 236,
@@ -29095,7 +29128,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3143",
+      "sku": null,
       "hexColor": "#E3AFC9",
       "rgb": {
         "r": 227,
@@ -29125,7 +29158,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2062",
+      "sku": null,
       "hexColor": "#D2916B",
       "rgb": {
         "r": 210,
@@ -29140,7 +29173,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set",
       "paintType": "contrast",
-      "sku": "WP2017",
+      "sku": null,
       "hexColor": "#BE3F20",
       "rgb": {
         "r": 190,
@@ -29155,7 +29188,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2017",
+      "sku": null,
       "hexColor": "#E77924",
       "rgb": {
         "r": 231,
@@ -29244,7 +29277,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3100",
+      "sku": null,
       "hexColor": "#F58B3D",
       "rgb": {
         "r": 245,
@@ -29288,7 +29321,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3142",
+      "sku": null,
       "hexColor": "#CD88A9",
       "rgb": {
         "r": 205,
@@ -29303,7 +29336,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3065",
+      "sku": null,
       "hexColor": "#A1C7AF",
       "rgb": {
         "r": 161,
@@ -29318,7 +29351,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2044",
+      "sku": null,
       "hexColor": "#6FA045",
       "rgb": {
         "r": 111,
@@ -29333,7 +29366,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic Wash",
       "paintType": "base",
-      "sku": "WP3167",
+      "sku": null,
       "hexColor": "#C25428",
       "rgb": {
         "r": 194,
@@ -29348,7 +29381,7 @@
       "brand": "army_painter",
       "productLine": "D&D Nolzur's Marvelous Pigments",
       "paintType": "base",
-      "sku": "WP3018",
+      "sku": null,
       "hexColor": "#0080BF",
       "rgb": {
         "r": 0,
@@ -29363,7 +29396,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3018",
+      "sku": null,
       "hexColor": "#9ABEDE",
       "rgb": {
         "r": 154,
@@ -29378,7 +29411,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1122",
+      "sku": null,
       "hexColor": "#84351D",
       "rgb": {
         "r": 132,
@@ -29393,7 +29426,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "AW1122",
+      "sku": null,
       "hexColor": "#774544",
       "rgb": {
         "r": 119,
@@ -29408,7 +29441,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Primer",
       "paintType": "primer",
-      "sku": "AW1122",
+      "sku": "CP3016",
       "hexColor": "#993822",
       "rgb": {
         "r": 153,
@@ -29423,7 +29456,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1122",
+      "sku": "WP1122",
       "hexColor": "#A13A0F",
       "rgb": {
         "r": 161,
@@ -29438,7 +29471,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3008",
+      "sku": null,
       "hexColor": "#A8A292",
       "rgb": {
         "r": 168,
@@ -29523,7 +29556,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3198",
+      "sku": null,
       "hexColor": "#821D23",
       "rgb": {
         "r": 130,
@@ -29538,7 +29571,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2042",
+      "sku": null,
       "hexColor": "#90AC23",
       "rgb": {
         "r": 144,
@@ -29581,7 +29614,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2047",
+      "sku": null,
       "hexColor": "#44A963",
       "rgb": {
         "r": 68,
@@ -29668,7 +29701,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3197",
+      "sku": null,
       "hexColor": "#2E794A",
       "rgb": {
         "r": 46,
@@ -29683,7 +29716,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2070",
+      "sku": null,
       "hexColor": "#836608",
       "rgb": {
         "r": 131,
@@ -29713,7 +29746,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3101",
+      "sku": null,
       "hexColor": "#F79D42",
       "rgb": {
         "r": 247,
@@ -29728,7 +29761,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3434",
+      "sku": null,
       "hexColor": "#978376",
       "rgb": {
         "r": 151,
@@ -29743,7 +29776,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1109",
+      "sku": null,
       "hexColor": "#528536",
       "rgb": {
         "r": 82,
@@ -29758,7 +29791,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Primer",
       "paintType": "primer",
-      "sku": "AW1109",
+      "sku": "CP3024",
       "hexColor": "#1E8430",
       "rgb": {
         "r": 30,
@@ -29773,7 +29806,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1109",
+      "sku": "WP1109",
       "hexColor": "#338E46",
       "rgb": {
         "r": 51,
@@ -29803,7 +29836,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2038",
+      "sku": null,
       "hexColor": "#9A5751",
       "rgb": {
         "r": 154,
@@ -29818,7 +29851,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2069",
+      "sku": null,
       "hexColor": "#714808",
       "rgb": {
         "r": 113,
@@ -29848,7 +29881,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3020",
+      "sku": null,
       "hexColor": "#2E3E79",
       "rgb": {
         "r": 46,
@@ -29863,7 +29896,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2002",
+      "sku": null,
       "hexColor": "#44474C",
       "rgb": {
         "r": 68,
@@ -29878,7 +29911,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set",
       "paintType": "contrast",
-      "sku": "WP2002",
+      "sku": null,
       "hexColor": "#29292B",
       "rgb": {
         "r": 41,
@@ -29893,7 +29926,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3009",
+      "sku": null,
       "hexColor": "#BBB4A6",
       "rgb": {
         "r": 187,
@@ -29908,7 +29941,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "WP3188",
+      "sku": "WP1132",
       "hexColor": "#CC7D00",
       "rgb": {
         "r": 204,
@@ -29923,7 +29956,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3188",
+      "sku": null,
       "hexColor": "#745218",
       "rgb": {
         "r": 116,
@@ -29938,7 +29971,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "WP3188",
+      "sku": null,
       "hexColor": "#A35819",
       "rgb": {
         "r": 163,
@@ -30012,7 +30045,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Primer",
       "paintType": "primer",
-      "sku": "AW1111",
+      "sku": "CP3014",
       "hexColor": "#1B613A",
       "rgb": {
         "r": 27,
@@ -30027,7 +30060,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "AW1111",
+      "sku": null,
       "hexColor": "#1F7843",
       "rgb": {
         "r": 31,
@@ -30042,7 +30075,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1111",
+      "sku": "WP1111",
       "hexColor": "#04662B",
       "rgb": {
         "r": 4,
@@ -30057,7 +30090,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1111",
+      "sku": null,
       "hexColor": "#2C5C2F",
       "rgb": {
         "r": 44,
@@ -30072,7 +30105,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3109",
+      "sku": null,
       "hexColor": "#4A5A2B",
       "rgb": {
         "r": 74,
@@ -30087,7 +30120,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3007",
+      "sku": null,
       "hexColor": "#929286",
       "rgb": {
         "r": 146,
@@ -30131,7 +30164,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2001",
+      "sku": null,
       "hexColor": "#161511",
       "rgb": {
         "r": 22,
@@ -30146,7 +30179,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set",
       "paintType": "contrast",
-      "sku": "WP2001",
+      "sku": null,
       "hexColor": "#191915",
       "rgb": {
         "r": 25,
@@ -30176,7 +30209,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3072",
+      "sku": null,
       "hexColor": "#B3C29D",
       "rgb": {
         "r": 179,
@@ -30206,7 +30239,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3050",
+      "sku": null,
       "hexColor": "#226248",
       "rgb": {
         "r": 34,
@@ -30221,7 +30254,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "WP3193",
+      "sku": null,
       "hexColor": "#5F5D5C",
       "rgb": {
         "r": 95,
@@ -30236,7 +30269,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3193",
+      "sku": null,
       "hexColor": "#4F5053",
       "rgb": {
         "r": 79,
@@ -30251,7 +30284,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Primer",
       "paintType": "primer",
-      "sku": "WP3193",
+      "sku": "CP3025",
       "hexColor": "#858180",
       "rgb": {
         "r": 133,
@@ -30266,7 +30299,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "WP3193",
+      "sku": "WP1131",
       "hexColor": "#7E7C7B",
       "rgb": {
         "r": 126,
@@ -30281,7 +30314,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2043",
+      "sku": null,
       "hexColor": "#325141",
       "rgb": {
         "r": 50,
@@ -30311,7 +30344,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2023",
+      "sku": null,
       "hexColor": "#8C501E",
       "rgb": {
         "r": 140,
@@ -30326,7 +30359,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set",
       "paintType": "contrast",
-      "sku": "WP2023",
+      "sku": null,
       "hexColor": "#68461F",
       "rgb": {
         "r": 104,
@@ -30341,7 +30374,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3437",
+      "sku": null,
       "hexColor": "#60AB97",
       "rgb": {
         "r": 96,
@@ -30371,7 +30404,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3130",
+      "sku": null,
       "hexColor": "#8D81BE",
       "rgb": {
         "r": 141,
@@ -30386,7 +30419,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2015",
+      "sku": null,
       "hexColor": "#1B5682",
       "rgb": {
         "r": 27,
@@ -30401,7 +30434,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set",
       "paintType": "contrast",
-      "sku": "WP2015",
+      "sku": null,
       "hexColor": "#2A4974",
       "rgb": {
         "r": 42,
@@ -30416,7 +30449,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2018",
+      "sku": null,
       "hexColor": "#57366B",
       "rgb": {
         "r": 87,
@@ -30431,7 +30464,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set",
       "paintType": "contrast",
-      "sku": "WP2018",
+      "sku": null,
       "hexColor": "#3E2561",
       "rgb": {
         "r": 62,
@@ -30446,7 +30479,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2074",
+      "sku": null,
       "hexColor": "#867240",
       "rgb": {
         "r": 134,
@@ -30461,7 +30494,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4434",
+      "sku": null,
       "hexColor": "#F3DBC0",
       "rgb": {
         "r": 243,
@@ -30476,7 +30509,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set",
       "paintType": "contrast",
-      "sku": "WP2003",
+      "sku": null,
       "hexColor": "#FFFFFF",
       "rgb": {
         "r": 255,
@@ -30491,7 +30524,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2003",
+      "sku": null,
       "hexColor": "#E2E1DC",
       "rgb": {
         "r": 226,
@@ -30506,7 +30539,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2028",
+      "sku": null,
       "hexColor": "#907317",
       "rgb": {
         "r": 144,
@@ -30535,7 +30568,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2077",
+      "sku": null,
       "hexColor": "#CECFB0",
       "rgb": {
         "r": 206,
@@ -30550,7 +30583,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3122",
+      "sku": null,
       "hexColor": "#562F22",
       "rgb": {
         "r": 86,
@@ -30580,7 +30613,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1141",
+      "sku": null,
       "hexColor": "#277581",
       "rgb": {
         "r": 39,
@@ -30595,7 +30628,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "AW1141",
+      "sku": null,
       "hexColor": "#149398",
       "rgb": {
         "r": 20,
@@ -30625,7 +30658,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3096",
+      "sku": null,
       "hexColor": "#FFEDAD",
       "rgb": {
         "r": 255,
@@ -30640,7 +30673,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4107",
+      "sku": null,
       "hexColor": "#E3BE6A",
       "rgb": {
         "r": 227,
@@ -30655,7 +30688,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3025",
+      "sku": null,
       "hexColor": "#063565",
       "rgb": {
         "r": 6,
@@ -30670,7 +30703,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3122",
+      "sku": null,
       "hexColor": "#D957A0",
       "rgb": {
         "r": 217,
@@ -30685,7 +30718,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3107",
+      "sku": null,
       "hexColor": "#D7752A",
       "rgb": {
         "r": 215,
@@ -30700,7 +30733,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3102",
+      "sku": null,
       "hexColor": "#FDCB5F",
       "rgb": {
         "r": 253,
@@ -30715,7 +30748,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4114",
+      "sku": null,
       "hexColor": "#3992C5",
       "rgb": {
         "r": 57,
@@ -30730,7 +30763,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3119",
+      "sku": null,
       "hexColor": "#354B57",
       "rgb": {
         "r": 53,
@@ -30745,7 +30778,7 @@
       "brand": "army_painter",
       "productLine": "Skin Tones Paint Set",
       "paintType": "base",
-      "sku": "WP3154",
+      "sku": null,
       "hexColor": "#834641",
       "rgb": {
         "r": 131,
@@ -30760,7 +30793,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3154",
+      "sku": null,
       "hexColor": "#BA7372",
       "rgb": {
         "r": 186,
@@ -30775,7 +30808,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1433",
+      "sku": null,
       "hexColor": "#779F37",
       "rgb": {
         "r": 119,
@@ -30790,7 +30823,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1433",
+      "sku": "WP1433",
       "hexColor": "#8EA901",
       "rgb": {
         "r": 142,
@@ -30833,7 +30866,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1434",
+      "sku": null,
       "hexColor": "#C79C79",
       "rgb": {
         "r": 199,
@@ -30848,7 +30881,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1434",
+      "sku": "WP1434",
       "hexColor": "#D89D8F",
       "rgb": {
         "r": 216,
@@ -30877,7 +30910,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3132",
+      "sku": null,
       "hexColor": "#D5CAE5",
       "rgb": {
         "r": 213,
@@ -30907,7 +30940,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "AW1106",
+      "sku": null,
       "hexColor": "#F5792C",
       "rgb": {
         "r": 245,
@@ -30922,7 +30955,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1106",
+      "sku": "WP1106",
       "hexColor": "#E24606",
       "rgb": {
         "r": 226,
@@ -30937,7 +30970,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1106",
+      "sku": null,
       "hexColor": "#BF3D20",
       "rgb": {
         "r": 191,
@@ -30966,7 +30999,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3056",
+      "sku": null,
       "hexColor": "#76C045",
       "rgb": {
         "r": 118,
@@ -30981,7 +31014,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "AW1123",
+      "sku": null,
       "hexColor": "#7C5B54",
       "rgb": {
         "r": 124,
@@ -30996,7 +31029,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1123",
+      "sku": "WP1123",
       "hexColor": "#7C4F10",
       "rgb": {
         "r": 124,
@@ -31011,7 +31044,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Primer",
       "paintType": "primer",
-      "sku": "AW1123",
+      "sku": "CP3004",
       "hexColor": "#713E29",
       "rgb": {
         "r": 113,
@@ -31026,7 +31059,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1123",
+      "sku": null,
       "hexColor": "#67471E",
       "rgb": {
         "r": 103,
@@ -31041,7 +31074,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3105",
+      "sku": null,
       "hexColor": "#EF4B3E",
       "rgb": {
         "r": 239,
@@ -31056,7 +31089,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic Wash",
       "paintType": "base",
-      "sku": "WP3178",
+      "sku": null,
       "hexColor": "#FFF464",
       "rgb": {
         "r": 255,
@@ -31071,7 +31104,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3156",
+      "sku": null,
       "hexColor": "#E7B4B1",
       "rgb": {
         "r": 231,
@@ -31086,7 +31119,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4437",
+      "sku": null,
       "hexColor": "#B5D2BA",
       "rgb": {
         "r": 181,
@@ -31174,7 +31207,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2082",
+      "sku": null,
       "hexColor": "#39989C",
       "rgb": {
         "r": 57,
@@ -31189,7 +31222,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3134",
+      "sku": null,
       "hexColor": "#704099",
       "rgb": {
         "r": 112,
@@ -31218,7 +31251,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2079",
+      "sku": null,
       "hexColor": "#CBC861",
       "rgb": {
         "r": 203,
@@ -31233,7 +31266,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set",
       "paintType": "contrast",
-      "sku": "WP2014",
+      "sku": null,
       "hexColor": "#116DAC",
       "rgb": {
         "r": 17,
@@ -31248,7 +31281,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2014",
+      "sku": null,
       "hexColor": "#0B79AE",
       "rgb": {
         "r": 11,
@@ -31263,7 +31296,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3124",
+      "sku": null,
       "hexColor": "#2C2C24",
       "rgb": {
         "r": 44,
@@ -31278,7 +31311,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2059",
+      "sku": null,
       "hexColor": "#F6D31F",
       "rgb": {
         "r": 246,
@@ -31293,7 +31326,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3419",
+      "sku": null,
       "hexColor": "#006856",
       "rgb": {
         "r": 0,
@@ -31308,7 +31341,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2011",
+      "sku": null,
       "hexColor": "#BECB3D",
       "rgb": {
         "r": 190,
@@ -31337,7 +31370,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3042",
+      "sku": null,
       "hexColor": "#94D6D7",
       "rgb": {
         "r": 148,
@@ -31367,7 +31400,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1101",
+      "sku": "WP1101",
       "hexColor": "#000000",
       "rgb": {
         "r": 0,
@@ -31382,7 +31415,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Primer",
       "paintType": "primer",
-      "sku": "AW1101",
+      "sku": "CP3001",
       "hexColor": "#000000",
       "rgb": {
         "r": 0,
@@ -31397,7 +31430,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "AW1101",
+      "sku": null,
       "hexColor": "#000000",
       "rgb": {
         "r": 0,
@@ -31412,7 +31445,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1101",
+      "sku": null,
       "hexColor": "#181915",
       "rgb": {
         "r": 24,
@@ -31427,7 +31460,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1102",
+      "sku": null,
       "hexColor": "#FFFFFF",
       "rgb": {
         "r": 255,
@@ -31442,7 +31475,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "AW1102",
+      "sku": null,
       "hexColor": "#FFFFFF",
       "rgb": {
         "r": 255,
@@ -31457,7 +31490,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1102",
+      "sku": "WP1102",
       "hexColor": "#FFFFFF",
       "rgb": {
         "r": 255,
@@ -31472,7 +31505,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Primer",
       "paintType": "primer",
-      "sku": "AW1102",
+      "sku": "CP3002",
       "hexColor": "#FFFFFF",
       "rgb": {
         "r": 255,
@@ -31487,7 +31520,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3062",
+      "sku": null,
       "hexColor": "#437C6D",
       "rgb": {
         "r": 67,
@@ -31516,7 +31549,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3438",
+      "sku": null,
       "hexColor": "#D7AF2B",
       "rgb": {
         "r": 215,
@@ -31605,7 +31638,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3110",
+      "sku": null,
       "hexColor": "#273124",
       "rgb": {
         "r": 39,
@@ -31648,7 +31681,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3190",
+      "sku": null,
       "hexColor": "#9E9FA3",
       "rgb": {
         "r": 158,
@@ -31663,7 +31696,7 @@
       "brand": "army_painter",
       "productLine": "Skin Tones Paint Set",
       "paintType": "base",
-      "sku": "WP3159",
+      "sku": null,
       "hexColor": "#402828",
       "rgb": {
         "r": 64,
@@ -31678,7 +31711,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3159",
+      "sku": null,
       "hexColor": "#81655A",
       "rgb": {
         "r": 129,
@@ -31693,7 +31726,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3140",
+      "sku": null,
       "hexColor": "#7D3451",
       "rgb": {
         "r": 125,
@@ -31708,7 +31741,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3097",
+      "sku": null,
       "hexColor": "#F05A3E",
       "rgb": {
         "r": 240,
@@ -31723,7 +31756,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3106",
+      "sku": null,
       "hexColor": "#7D3222",
       "rgb": {
         "r": 125,
@@ -31753,7 +31786,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2032",
+      "sku": null,
       "hexColor": "#A14F7D",
       "rgb": {
         "r": 161,
@@ -31768,7 +31801,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1438",
+      "sku": null,
       "hexColor": "#E4CB63",
       "rgb": {
         "r": 228,
@@ -31783,7 +31816,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1438",
+      "sku": "WP1438",
       "hexColor": "#F0D45F",
       "rgb": {
         "r": 240,
@@ -31798,7 +31831,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2034",
+      "sku": null,
       "hexColor": "#A5396D",
       "rgb": {
         "r": 165,
@@ -31813,7 +31846,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3145",
+      "sku": null,
       "hexColor": "#C57B74",
       "rgb": {
         "r": 197,
@@ -31828,7 +31861,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3066",
+      "sku": null,
       "hexColor": "#B1DCC0",
       "rgb": {
         "r": 177,
@@ -31872,7 +31905,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3139",
+      "sku": null,
       "hexColor": "#623348",
       "rgb": {
         "r": 98,
@@ -31887,7 +31920,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2078",
+      "sku": null,
       "hexColor": "#666748",
       "rgb": {
         "r": 102,
@@ -31917,7 +31950,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2057",
+      "sku": null,
       "hexColor": "#6E2A39",
       "rgb": {
         "r": 110,
@@ -31977,7 +32010,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1108",
+      "sku": null,
       "hexColor": "#B1B886",
       "rgb": {
         "r": 177,
@@ -31992,7 +32025,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1108",
+      "sku": "WP1108",
       "hexColor": "#B6A789",
       "rgb": {
         "r": 182,
@@ -32007,7 +32040,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Primer",
       "paintType": "primer",
-      "sku": "AW1108",
+      "sku": "CP3013",
       "hexColor": "#BCBE8C",
       "rgb": {
         "r": 188,
@@ -32022,7 +32055,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "AW1108",
+      "sku": null,
       "hexColor": "#9AA984",
       "rgb": {
         "r": 154,
@@ -32051,7 +32084,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3041",
+      "sku": null,
       "hexColor": "#75CED4",
       "rgb": {
         "r": 117,
@@ -32094,7 +32127,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3013",
+      "sku": null,
       "hexColor": "#304358",
       "rgb": {
         "r": 48,
@@ -32109,7 +32142,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2063",
+      "sku": null,
       "hexColor": "#4F493D",
       "rgb": {
         "r": 79,
@@ -32124,7 +32157,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3126",
+      "sku": null,
       "hexColor": "#B3614B",
       "rgb": {
         "r": 179,
@@ -32139,7 +32172,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2061",
+      "sku": null,
       "hexColor": "#E56F25",
       "rgb": {
         "r": 229,
@@ -32154,7 +32187,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1124",
+      "sku": null,
       "hexColor": "#3A2415",
       "rgb": {
         "r": 58,
@@ -32169,7 +32202,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "AW1124",
+      "sku": null,
       "hexColor": "#39262A",
       "rgb": {
         "r": 57,
@@ -32184,7 +32217,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1124",
+      "sku": "WP1124",
       "hexColor": "#48240A",
       "rgb": {
         "r": 72,
@@ -32213,7 +32246,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3157",
+      "sku": null,
       "hexColor": "#4A4046",
       "rgb": {
         "r": 74,
@@ -32228,7 +32261,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2027",
+      "sku": null,
       "hexColor": "#30323E",
       "rgb": {
         "r": 48,
@@ -32243,7 +32276,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3141",
+      "sku": null,
       "hexColor": "#054C5B",
       "rgb": {
         "r": 5,
@@ -32258,7 +32291,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2066",
+      "sku": null,
       "hexColor": "#B8A936",
       "rgb": {
         "r": 184,
@@ -32273,7 +32306,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic Wash",
       "paintType": "base",
-      "sku": "WP3169",
+      "sku": null,
       "hexColor": "#1D252B",
       "rgb": {
         "r": 29,
@@ -32288,7 +32321,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3070",
+      "sku": null,
       "hexColor": "#7A905F",
       "rgb": {
         "r": 122,
@@ -32303,7 +32336,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3115",
+      "sku": null,
       "hexColor": "#1F3863",
       "rgb": {
         "r": 31,
@@ -32318,7 +32351,7 @@
       "brand": "army_painter",
       "productLine": "Skin Tones Paint Set",
       "paintType": "base",
-      "sku": "WP3158",
+      "sku": null,
       "hexColor": "#363231",
       "rgb": {
         "r": 54,
@@ -32333,7 +32366,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3158",
+      "sku": null,
       "hexColor": "#664A4D",
       "rgb": {
         "r": 102,
@@ -32363,7 +32396,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic Wash",
       "paintType": "base",
-      "sku": "WP3170",
+      "sku": null,
       "hexColor": "#7B5C1D",
       "rgb": {
         "r": 123,
@@ -32378,7 +32411,7 @@
       "brand": "army_painter",
       "productLine": "Skin Tones Paint Set",
       "paintType": "base",
-      "sku": "WP3149",
+      "sku": null,
       "hexColor": "#D6C3C1",
       "rgb": {
         "r": 214,
@@ -32393,7 +32426,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3149",
+      "sku": null,
       "hexColor": "#FFD2C8",
       "rgb": {
         "r": 255,
@@ -32408,7 +32441,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4106",
+      "sku": null,
       "hexColor": "#C52822",
       "rgb": {
         "r": 197,
@@ -32452,7 +32485,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set",
       "paintType": "contrast",
-      "sku": "WP2009",
+      "sku": null,
       "hexColor": "#2D5B2F",
       "rgb": {
         "r": 45,
@@ -32467,7 +32500,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2009",
+      "sku": null,
       "hexColor": "#258335",
       "rgb": {
         "r": 37,
@@ -32482,7 +32515,7 @@
       "brand": "army_painter",
       "productLine": "D&D Nolzur's Marvelous Pigments",
       "paintType": "base",
-      "sku": "WP2009",
+      "sku": null,
       "hexColor": "#9FA3A3",
       "rgb": {
         "r": 159,
@@ -32525,7 +32558,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3090",
+      "sku": null,
       "hexColor": "#EFEAD3",
       "rgb": {
         "r": 239,
@@ -32540,7 +32573,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2006",
+      "sku": null,
       "hexColor": "#E1CC95",
       "rgb": {
         "r": 225,
@@ -32555,7 +32588,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set",
       "paintType": "contrast",
-      "sku": "WP2006",
+      "sku": null,
       "hexColor": "#CBC295",
       "rgb": {
         "r": 203,
@@ -32570,7 +32603,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3076",
+      "sku": null,
       "hexColor": "#9A776C",
       "rgb": {
         "r": 154,
@@ -32585,7 +32618,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2088",
+      "sku": null,
       "hexColor": "#9FBCDA",
       "rgb": {
         "r": 159,
@@ -32600,7 +32633,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2087",
+      "sku": null,
       "hexColor": "#D5BFD4",
       "rgb": {
         "r": 213,
@@ -32615,7 +32648,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2085",
+      "sku": null,
       "hexColor": "#F3C498",
       "rgb": {
         "r": 243,
@@ -32630,7 +32663,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2089",
+      "sku": null,
       "hexColor": "#B8D7C8",
       "rgb": {
         "r": 184,
@@ -32645,7 +32678,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2084",
+      "sku": null,
       "hexColor": "#F6E178",
       "rgb": {
         "r": 246,
@@ -32660,7 +32693,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3063",
+      "sku": null,
       "hexColor": "#63917F",
       "rgb": {
         "r": 99,
@@ -32675,7 +32708,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2037",
+      "sku": null,
       "hexColor": "#EDA668",
       "rgb": {
         "r": 237,
@@ -32704,7 +32737,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3150",
+      "sku": null,
       "hexColor": "#FFE3D8",
       "rgb": {
         "r": 255,
@@ -32719,7 +32752,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2035",
+      "sku": null,
       "hexColor": "#585396",
       "rgb": {
         "r": 88,
@@ -32734,7 +32767,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3108",
+      "sku": null,
       "hexColor": "#70733B",
       "rgb": {
         "r": 112,
@@ -32749,7 +32782,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3034",
+      "sku": null,
       "hexColor": "#048BAE",
       "rgb": {
         "r": 4,
@@ -32764,7 +32797,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4141",
+      "sku": null,
       "hexColor": "#5CADB3",
       "rgb": {
         "r": 92,
@@ -32779,7 +32812,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3045",
+      "sku": null,
       "hexColor": "#0C7C61",
       "rgb": {
         "r": 12,
@@ -32809,7 +32842,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3125",
+      "sku": null,
       "hexColor": "#F4B9D4",
       "rgb": {
         "r": 244,
@@ -32824,7 +32857,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1447",
+      "sku": "WP1447",
       "hexColor": "#D67B83",
       "rgb": {
         "r": 214,
@@ -32839,7 +32872,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1447",
+      "sku": null,
       "hexColor": "#B94F8C",
       "rgb": {
         "r": 185,
@@ -32854,7 +32887,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "AW1447",
+      "sku": null,
       "hexColor": "#D96FAE",
       "rgb": {
         "r": 217,
@@ -32883,7 +32916,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic Wash",
       "paintType": "base",
-      "sku": "WP3176",
+      "sku": null,
       "hexColor": "#5ECDF4",
       "rgb": {
         "r": 94,
@@ -32898,7 +32931,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set",
       "paintType": "contrast",
-      "sku": "WP2019",
+      "sku": null,
       "hexColor": "#00816C",
       "rgb": {
         "r": 0,
@@ -32913,7 +32946,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2019",
+      "sku": null,
       "hexColor": "#0A9B8C",
       "rgb": {
         "r": 10,
@@ -32928,7 +32961,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "WP3192",
+      "sku": null,
       "hexColor": "#6A6B68",
       "rgb": {
         "r": 106,
@@ -32943,7 +32976,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Primer",
       "paintType": "primer",
-      "sku": "WP3192",
+      "sku": "CP3008",
       "hexColor": "#858584",
       "rgb": {
         "r": 133,
@@ -32958,7 +32991,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "WP3192",
+      "sku": "WP1130",
       "hexColor": "#949494",
       "rgb": {
         "r": 148,
@@ -32973,7 +33006,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3192",
+      "sku": null,
       "hexColor": "#686A6E",
       "rgb": {
         "r": 104,
@@ -33017,7 +33050,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2056",
+      "sku": null,
       "hexColor": "#C8453B",
       "rgb": {
         "r": 200,
@@ -33032,7 +33065,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4466",
+      "sku": null,
       "hexColor": "#618A72",
       "rgb": {
         "r": 97,
@@ -33047,7 +33080,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic Wash",
       "paintType": "base",
-      "sku": "WP3180",
+      "sku": null,
       "hexColor": "#F286B5",
       "rgb": {
         "r": 242,
@@ -33062,7 +33095,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3080",
+      "sku": null,
       "hexColor": "#696242",
       "rgb": {
         "r": 105,
@@ -33077,7 +33110,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2086",
+      "sku": null,
       "hexColor": "#E29FB0",
       "rgb": {
         "r": 226,
@@ -33092,7 +33125,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4419",
+      "sku": null,
       "hexColor": "#5DA490",
       "rgb": {
         "r": 93,
@@ -33107,7 +33140,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1104",
+      "sku": "WP1104",
       "hexColor": "#CA1913",
       "rgb": {
         "r": 202,
@@ -33122,7 +33155,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1104",
+      "sku": null,
       "hexColor": "#A8141F",
       "rgb": {
         "r": 168,
@@ -33137,7 +33170,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Primer",
       "paintType": "primer",
-      "sku": "AW1104",
+      "sku": "CP3006",
       "hexColor": "#C3231E",
       "rgb": {
         "r": 195,
@@ -33152,7 +33185,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "AW1104",
+      "sku": null,
       "hexColor": "#CD151C",
       "rgb": {
         "r": 205,
@@ -33167,7 +33200,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2021",
+      "sku": null,
       "hexColor": "#AE3F6A",
       "rgb": {
         "r": 174,
@@ -33182,7 +33215,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set",
       "paintType": "contrast",
-      "sku": "WP2021",
+      "sku": null,
       "hexColor": "#8D335C",
       "rgb": {
         "r": 141,
@@ -33197,7 +33230,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2031",
+      "sku": null,
       "hexColor": "#653483",
       "rgb": {
         "r": 101,
@@ -33286,7 +33319,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3162",
+      "sku": null,
       "hexColor": "#F0D0B4",
       "rgb": {
         "r": 240,
@@ -33316,7 +33349,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic Wash",
       "paintType": "base",
-      "sku": "WP3179",
+      "sku": null,
       "hexColor": "#FBB375",
       "rgb": {
         "r": 251,
@@ -33331,7 +33364,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3120",
+      "sku": null,
       "hexColor": "#E96663",
       "rgb": {
         "r": 233,
@@ -33346,7 +33379,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3108",
+      "sku": null,
       "hexColor": "#F68F82",
       "rgb": {
         "r": 246,
@@ -33361,7 +33394,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2053",
+      "sku": null,
       "hexColor": "#1B95A4",
       "rgb": {
         "r": 27,
@@ -33376,7 +33409,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3057",
+      "sku": null,
       "hexColor": "#8BC63E",
       "rgb": {
         "r": 139,
@@ -33391,7 +33424,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3101",
+      "sku": null,
       "hexColor": "#2B3030",
       "rgb": {
         "r": 43,
@@ -33406,7 +33439,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3123",
+      "sku": null,
       "hexColor": "#4F3826",
       "rgb": {
         "r": 79,
@@ -33421,7 +33454,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4142",
+      "sku": null,
       "hexColor": "#741434",
       "rgb": {
         "r": 116,
@@ -33436,7 +33469,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3182",
+      "sku": null,
       "hexColor": "#4D2C30",
       "rgb": {
         "r": 77,
@@ -33496,7 +33529,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3026",
+      "sku": null,
       "hexColor": "#004F88",
       "rgb": {
         "r": 0,
@@ -33511,7 +33544,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3118",
+      "sku": null,
       "hexColor": "#424B4A",
       "rgb": {
         "r": 66,
@@ -33526,7 +33559,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3103",
+      "sku": null,
       "hexColor": "#96272F",
       "rgb": {
         "r": 150,
@@ -33555,7 +33588,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2080",
+      "sku": null,
       "hexColor": "#ADAD6F",
       "rgb": {
         "r": 173,
@@ -33584,7 +33617,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "WP3181",
+      "sku": null,
       "hexColor": "#20130E",
       "rgb": {
         "r": 32,
@@ -33599,7 +33632,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3181",
+      "sku": null,
       "hexColor": "#352D25",
       "rgb": {
         "r": 53,
@@ -33614,7 +33647,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "WP3181",
+      "sku": "WP1468",
       "hexColor": "#22130F",
       "rgb": {
         "r": 34,
@@ -33629,7 +33662,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3027",
+      "sku": null,
       "hexColor": "#0162AF",
       "rgb": {
         "r": 1,
@@ -33687,7 +33720,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2050",
+      "sku": null,
       "hexColor": "#5363A1",
       "rgb": {
         "r": 83,
@@ -33702,7 +33735,7 @@
       "brand": "army_painter",
       "productLine": "Skin Tones Paint Set",
       "paintType": "base",
-      "sku": "WP3148",
+      "sku": null,
       "hexColor": "#E5ABAB",
       "rgb": {
         "r": 229,
@@ -33717,7 +33750,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3148",
+      "sku": null,
       "hexColor": "#FBB99D",
       "rgb": {
         "r": 251,
@@ -33732,7 +33765,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2065",
+      "sku": null,
       "hexColor": "#9D4925",
       "rgb": {
         "r": 157,
@@ -33761,7 +33794,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3113",
+      "sku": null,
       "hexColor": "#985951",
       "rgb": {
         "r": 152,
@@ -33776,7 +33809,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3466",
+      "sku": null,
       "hexColor": "#375242",
       "rgb": {
         "r": 55,
@@ -33791,7 +33824,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3017",
+      "sku": null,
       "hexColor": "#7496B4",
       "rgb": {
         "r": 116,
@@ -33806,7 +33839,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2016",
+      "sku": null,
       "hexColor": "#557989",
       "rgb": {
         "r": 85,
@@ -33821,7 +33854,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set",
       "paintType": "contrast",
-      "sku": "WP2016",
+      "sku": null,
       "hexColor": "#566E7E",
       "rgb": {
         "r": 86,
@@ -33864,7 +33897,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3106",
+      "sku": null,
       "hexColor": "#F1634C",
       "rgb": {
         "r": 241,
@@ -33893,7 +33926,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2020",
+      "sku": null,
       "hexColor": "#CB9413",
       "rgb": {
         "r": 203,
@@ -33908,7 +33941,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set",
       "paintType": "contrast",
-      "sku": "WP2020",
+      "sku": null,
       "hexColor": "#BA9029",
       "rgb": {
         "r": 186,
@@ -33923,7 +33956,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3114",
+      "sku": null,
       "hexColor": "#1C477E",
       "rgb": {
         "r": 28,
@@ -33938,7 +33971,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2068",
+      "sku": null,
       "hexColor": "#583D32",
       "rgb": {
         "r": 88,
@@ -33953,7 +33986,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3111",
+      "sku": null,
       "hexColor": "#164F2C",
       "rgb": {
         "r": 22,
@@ -33998,7 +34031,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3043",
+      "sku": null,
       "hexColor": "#193C44",
       "rgb": {
         "r": 25,
@@ -34041,7 +34074,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2041",
+      "sku": null,
       "hexColor": "#60AB2C",
       "rgb": {
         "r": 96,
@@ -34056,7 +34089,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3102",
+      "sku": null,
       "hexColor": "#959F9C",
       "rgb": {
         "r": 149,
@@ -34071,7 +34104,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3035",
+      "sku": null,
       "hexColor": "#08A1CC",
       "rgb": {
         "r": 8,
@@ -34086,7 +34119,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3191",
+      "sku": null,
       "hexColor": "#86888C",
       "rgb": {
         "r": 134,
@@ -34101,7 +34134,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "WP3191",
+      "sku": null,
       "hexColor": "#A9A9A7",
       "rgb": {
         "r": 169,
@@ -34116,7 +34149,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "WP3191",
+      "sku": "WP1129",
       "hexColor": "#B1B1AF",
       "rgb": {
         "r": 177,
@@ -34145,7 +34178,7 @@
       "brand": "army_painter",
       "productLine": "D&D Nolzur's Marvelous Pigments",
       "paintType": "base",
-      "sku": "AW1125",
+      "sku": null,
       "hexColor": "#666D74",
       "rgb": {
         "r": 102,
@@ -34160,7 +34193,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1125",
+      "sku": null,
       "hexColor": "#CBC294",
       "rgb": {
         "r": 203,
@@ -34175,7 +34208,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "AW1125",
+      "sku": null,
       "hexColor": "#C2B293",
       "rgb": {
         "r": 194,
@@ -34190,7 +34223,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1125",
+      "sku": "WP1125",
       "hexColor": "#C2AE9D",
       "rgb": {
         "r": 194,
@@ -34205,7 +34238,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Primer",
       "paintType": "primer",
-      "sku": "AW1125",
+      "sku": "CP3012",
       "hexColor": "#D0C59A",
       "rgb": {
         "r": 208,
@@ -34220,7 +34253,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set",
       "paintType": "contrast",
-      "sku": "WP2012",
+      "sku": null,
       "hexColor": "#7B191B",
       "rgb": {
         "r": 123,
@@ -34235,7 +34268,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2012",
+      "sku": null,
       "hexColor": "#991926",
       "rgb": {
         "r": 153,
@@ -34324,7 +34357,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3095",
+      "sku": null,
       "hexColor": "#FFE388",
       "rgb": {
         "r": 255,
@@ -34354,7 +34387,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set",
       "paintType": "contrast",
-      "sku": "WP2000",
+      "sku": null,
       "hexColor": "#EFEFEF",
       "rgb": {
         "r": 239,
@@ -34369,7 +34402,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2000",
+      "sku": null,
       "hexColor": "#F3F0EB",
       "rgb": {
         "r": 243,
@@ -34384,7 +34417,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3136",
+      "sku": null,
       "hexColor": "#AD4DA0",
       "rgb": {
         "r": 173,
@@ -34428,7 +34461,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4119",
+      "sku": null,
       "hexColor": "#9DAED2",
       "rgb": {
         "r": 157,
@@ -34443,7 +34476,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3015",
+      "sku": null,
       "hexColor": "#33658F",
       "rgb": {
         "r": 51,
@@ -34560,7 +34593,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "WP3187",
+      "sku": null,
       "hexColor": "#46422C",
       "rgb": {
         "r": 70,
@@ -34575,7 +34608,7 @@
       "brand": "army_painter",
       "productLine": "Metallic Colours Paint Set",
       "paintType": "base",
-      "sku": "WP3187",
+      "sku": null,
       "hexColor": "#686139",
       "rgb": {
         "r": 104,
@@ -34590,7 +34623,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3187",
+      "sku": null,
       "hexColor": "#575235",
       "rgb": {
         "r": 87,
@@ -34605,7 +34638,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4451",
+      "sku": null,
       "hexColor": "#CE859C",
       "rgb": {
         "r": 206,
@@ -34620,7 +34653,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3046",
+      "sku": null,
       "hexColor": "#1FAE91",
       "rgb": {
         "r": 31,
@@ -34635,7 +34668,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2029",
+      "sku": null,
       "hexColor": "#6B3B27",
       "rgb": {
         "r": 107,
@@ -34665,7 +34698,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3044",
+      "sku": null,
       "hexColor": "#046154",
       "rgb": {
         "r": 4,
@@ -34694,7 +34727,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3415",
+      "sku": null,
       "hexColor": "#1E2931",
       "rgb": {
         "r": 30,
@@ -34709,7 +34742,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2081",
+      "sku": null,
       "hexColor": "#66B797",
       "rgb": {
         "r": 102,
@@ -34724,7 +34757,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3014",
+      "sku": null,
       "hexColor": "#34577B",
       "rgb": {
         "r": 52,
@@ -34739,7 +34772,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3033",
+      "sku": null,
       "hexColor": "#026B93",
       "rgb": {
         "r": 2,
@@ -34754,7 +34787,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2052",
+      "sku": null,
       "hexColor": "#1278B6",
       "rgb": {
         "r": 18,
@@ -34769,7 +34802,7 @@
       "brand": "army_painter",
       "productLine": "Skin Tones Paint Set",
       "paintType": "base",
-      "sku": "WP3152",
+      "sku": null,
       "hexColor": "#7F4841",
       "rgb": {
         "r": 127,
@@ -34798,7 +34831,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3086",
+      "sku": null,
       "hexColor": "#A29278",
       "rgb": {
         "r": 162,
@@ -34813,7 +34846,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3153",
+      "sku": null,
       "hexColor": "#B25A53",
       "rgb": {
         "r": 178,
@@ -34828,7 +34861,7 @@
       "brand": "army_painter",
       "productLine": "Skin Tones Paint Set",
       "paintType": "base",
-      "sku": "WP3153",
+      "sku": null,
       "hexColor": "#BF8477",
       "rgb": {
         "r": 191,
@@ -34843,7 +34876,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3155",
+      "sku": null,
       "hexColor": "#E3988B",
       "rgb": {
         "r": 227,
@@ -34873,7 +34906,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1437",
+      "sku": null,
       "hexColor": "#63B0B5",
       "rgb": {
         "r": 99,
@@ -34888,7 +34921,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1437",
+      "sku": "WP1437",
       "hexColor": "#40BAC0",
       "rgb": {
         "r": 64,
@@ -34903,7 +34936,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3142",
+      "sku": null,
       "hexColor": "#34251F",
       "rgb": {
         "r": 52,
@@ -34932,7 +34965,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3110",
+      "sku": null,
       "hexColor": "#513430",
       "rgb": {
         "r": 81,
@@ -34947,7 +34980,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3019",
+      "sku": null,
       "hexColor": "#1A2C53",
       "rgb": {
         "r": 26,
@@ -35006,7 +35039,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic Wash",
       "paintType": "base",
-      "sku": "WP3165",
+      "sku": null,
       "hexColor": "#8D0422",
       "rgb": {
         "r": 141,
@@ -35021,7 +35054,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3186",
+      "sku": null,
       "hexColor": "#635D58",
       "rgb": {
         "r": 99,
@@ -35036,7 +35069,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "WP3184",
+      "sku": "WP1467",
       "hexColor": "#E07D2D",
       "rgb": {
         "r": 224,
@@ -35051,7 +35084,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3184",
+      "sku": null,
       "hexColor": "#6B4731",
       "rgb": {
         "r": 107,
@@ -35066,7 +35099,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "WP3184",
+      "sku": null,
       "hexColor": "#BD5225",
       "rgb": {
         "r": 189,
@@ -35081,7 +35114,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3079",
+      "sku": null,
       "hexColor": "#4B4D3E",
       "rgb": {
         "r": 75,
@@ -35096,7 +35129,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3039",
+      "sku": null,
       "hexColor": "#29B3B9",
       "rgb": {
         "r": 41,
@@ -35111,7 +35144,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4415",
+      "sku": null,
       "hexColor": "#1B455F",
       "rgb": {
         "r": 27,
@@ -35126,7 +35159,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2051",
+      "sku": null,
       "hexColor": "#2A414F",
       "rgb": {
         "r": 42,
@@ -35141,7 +35174,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Primer",
       "paintType": "primer",
-      "sku": "AW1115",
+      "sku": "CP3022",
       "hexColor": "#154275",
       "rgb": {
         "r": 21,
@@ -35156,7 +35189,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1115",
+      "sku": null,
       "hexColor": "#2A4A74",
       "rgb": {
         "r": 42,
@@ -35171,7 +35204,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "AW1115",
+      "sku": null,
       "hexColor": "#284D8E",
       "rgb": {
         "r": 40,
@@ -35186,7 +35219,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1115",
+      "sku": "WP1115",
       "hexColor": "#3B57A5",
       "rgb": {
         "r": 59,
@@ -35229,7 +35262,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3433",
+      "sku": null,
       "hexColor": "#507D35",
       "rgb": {
         "r": 80,
@@ -35244,7 +35277,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3112",
+      "sku": null,
       "hexColor": "#242923",
       "rgb": {
         "r": 36,
@@ -35259,7 +35292,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Primer",
       "paintType": "primer",
-      "sku": "AW1118",
+      "sku": "WP1118P",
       "hexColor": "#545D62",
       "rgb": {
         "r": 84,
@@ -35274,7 +35307,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1118",
+      "sku": null,
       "hexColor": "#555C61",
       "rgb": {
         "r": 85,
@@ -35289,7 +35322,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "AW1118",
+      "sku": null,
       "hexColor": "#6B707C",
       "rgb": {
         "r": 107,
@@ -35304,7 +35337,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1118",
+      "sku": "WP1118",
       "hexColor": "#70737F",
       "rgb": {
         "r": 112,
@@ -35319,7 +35352,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3078",
+      "sku": null,
       "hexColor": "#DBB9AB",
       "rgb": {
         "r": 219,
@@ -35378,7 +35411,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic Wash",
       "paintType": "base",
-      "sku": "WP3168",
+      "sku": null,
       "hexColor": "#61B89B",
       "rgb": {
         "r": 97,
@@ -35422,7 +35455,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3131",
+      "sku": null,
       "hexColor": "#A999C7",
       "rgb": {
         "r": 169,
@@ -35451,7 +35484,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4122",
+      "sku": null,
       "hexColor": "#9B5F4C",
       "rgb": {
         "r": 155,
@@ -35466,7 +35499,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3059",
+      "sku": null,
       "hexColor": "#CFDC51",
       "rgb": {
         "r": 207,
@@ -35496,7 +35529,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3135",
+      "sku": null,
       "hexColor": "#834D9F",
       "rgb": {
         "r": 131,
@@ -35511,7 +35544,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1451",
+      "sku": "WP1451",
       "hexColor": "#C34D81",
       "rgb": {
         "r": 195,
@@ -35526,7 +35559,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1451",
+      "sku": null,
       "hexColor": "#8C345C",
       "rgb": {
         "r": 140,
@@ -35571,7 +35604,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3094",
+      "sku": null,
       "hexColor": "#FED548",
       "rgb": {
         "r": 254,
@@ -35586,7 +35619,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2064",
+      "sku": null,
       "hexColor": "#A37051",
       "rgb": {
         "r": 163,
@@ -35615,7 +35648,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3082",
+      "sku": null,
       "hexColor": "#A38755",
       "rgb": {
         "r": 163,
@@ -35645,7 +35678,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3183",
+      "sku": null,
       "hexColor": "#955610",
       "rgb": {
         "r": 149,
@@ -35660,7 +35693,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "WP3183",
+      "sku": "WP1133",
       "hexColor": "#E47533",
       "rgb": {
         "r": 228,
@@ -35675,7 +35708,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "WP3183",
+      "sku": null,
       "hexColor": "#AD5B33",
       "rgb": {
         "r": 173,
@@ -35690,7 +35723,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3124",
+      "sku": null,
       "hexColor": "#E092BF",
       "rgb": {
         "r": 224,
@@ -35735,7 +35768,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3121",
+      "sku": null,
       "hexColor": "#CE0886",
       "rgb": {
         "r": 206,
@@ -35750,7 +35783,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3053",
+      "sku": null,
       "hexColor": "#46B758",
       "rgb": {
         "r": 70,
@@ -35765,7 +35798,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4126",
+      "sku": null,
       "hexColor": "#DE937B",
       "rgb": {
         "r": 222,
@@ -35780,7 +35813,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3144",
+      "sku": null,
       "hexColor": "#ECC5D7",
       "rgb": {
         "r": 236,
@@ -35810,7 +35843,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW3451",
+      "sku": null,
       "hexColor": "#601841",
       "rgb": {
         "r": 96,
@@ -35825,7 +35858,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1466",
+      "sku": null,
       "hexColor": "#2A6A5B",
       "rgb": {
         "r": 42,
@@ -35840,7 +35873,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1466",
+      "sku": "WP1466",
       "hexColor": "#0F7260",
       "rgb": {
         "r": 15,
@@ -35855,7 +35888,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Primer",
       "paintType": "primer",
-      "sku": "AW1119",
+      "sku": "CP3021",
       "hexColor": "#517383",
       "rgb": {
         "r": 81,
@@ -35870,7 +35903,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW1119",
+      "sku": null,
       "hexColor": "#576F7E",
       "rgb": {
         "r": 87,
@@ -35885,7 +35918,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints",
       "paintType": "base",
-      "sku": "AW1119",
+      "sku": "WP1119",
       "hexColor": "#5E7F9F",
       "rgb": {
         "r": 94,
@@ -35900,7 +35933,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "AW1119",
+      "sku": null,
       "hexColor": "#4F78A3",
       "rgb": {
         "r": 79,
@@ -35915,7 +35948,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3067",
+      "sku": null,
       "hexColor": "#4B6149",
       "rgb": {
         "r": 75,
@@ -35930,7 +35963,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3010",
+      "sku": null,
       "hexColor": "#C4BFB1",
       "rgb": {
         "r": 196,
@@ -35959,7 +35992,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4105",
+      "sku": null,
       "hexColor": "#B43646",
       "rgb": {
         "r": 180,
@@ -35974,7 +36007,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Fanatic",
       "paintType": "base",
-      "sku": "WP3116",
+      "sku": null,
       "hexColor": "#993243",
       "rgb": {
         "r": 153,
@@ -36003,7 +36036,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4121",
+      "sku": null,
       "hexColor": "#C2994D",
       "rgb": {
         "r": 194,
@@ -36018,7 +36051,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4102",
+      "sku": null,
       "hexColor": "#B7BABF",
       "rgb": {
         "r": 183,
@@ -36033,7 +36066,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set 2.0",
       "paintType": "contrast",
-      "sku": "WP2013",
+      "sku": null,
       "hexColor": "#F4D008",
       "rgb": {
         "r": 244,
@@ -36048,7 +36081,7 @@
       "brand": "army_painter",
       "productLine": "Speedpaint Set",
       "paintType": "contrast",
-      "sku": "WP2013",
+      "sku": null,
       "hexColor": "#F1D12F",
       "rgb": {
         "r": 241,
@@ -36091,7 +36124,7 @@
       "brand": "army_painter",
       "productLine": "D&D Nolzur's Marvelous Pigments",
       "paintType": "base",
-      "sku": "AW4108",
+      "sku": null,
       "hexColor": "#B0C194",
       "rgb": {
         "r": 176,
@@ -36106,7 +36139,7 @@
       "brand": "army_painter",
       "productLine": "Warpaints Air",
       "paintType": "air",
-      "sku": "AW4108",
+      "sku": null,
       "hexColor": "#AFB395",
       "rgb": {
         "r": 175,
@@ -36127,7 +36160,8 @@
         "r": 247,
         "g": 155,
         "b": 125
-      }
+      },
+      "ean": "655368242786"
     },
     {
       "id": "cc8adfb0-5e26-5b26-a608-4e473c21a1b2",
@@ -36141,7 +36175,8 @@
         "r": 78,
         "g": 62,
         "b": 40
-      }
+      },
+      "ean": "655368235863"
     },
     {
       "id": "00717775-22f1-5161-9107-e8e85c135c14",
@@ -36155,7 +36190,8 @@
         "r": 70,
         "g": 61,
         "b": 47
-      }
+      },
+      "ean": "655368243646"
     },
     {
       "id": "75680f30-aca7-5878-8c01-ec9ccb2c74f1",
@@ -36169,7 +36205,8 @@
         "r": 128,
         "g": 76,
         "b": 49
-      }
+      },
+      "ean": "655368232244"
     },
     {
       "id": "5c48d56b-aafd-598d-9e24-13266dbb7369",
@@ -36183,7 +36220,8 @@
         "r": 134,
         "g": 53,
         "b": 49
-      }
+      },
+      "ean": "655368226434"
     },
     {
       "id": "7017d3ea-5331-55b8-a95f-5a80ee189111",
@@ -36197,7 +36235,8 @@
         "r": 19,
         "g": 18,
         "b": 18
-      }
+      },
+      "ean": "655368235474"
     },
     {
       "id": "4a7dc405-c3c4-5786-8c0d-1590384ec3c5",
@@ -36211,7 +36250,8 @@
         "r": 143,
         "g": 93,
         "b": 76
-      }
+      },
+      "ean": "655368166358"
     },
     {
       "id": "0935a892-9601-5e31-9894-8c315848eaea",
@@ -36225,7 +36265,8 @@
         "r": 46,
         "g": 27,
         "b": 27
-      }
+      },
+      "ean": "655368164422"
     },
     {
       "id": "c52c4100-2298-5343-bb91-7ae26d37610e",
@@ -36239,7 +36280,8 @@
         "r": 9,
         "g": 32,
         "b": 46
-      }
+      },
+      "ean": "655368157936"
     },
     {
       "id": "1dd34220-42ed-5a27-857f-3e4350fc3af6",
@@ -36253,7 +36295,8 @@
         "r": 41,
         "g": 97,
         "b": 85
-      }
+      },
+      "ean": "655368166112"
     },
     {
       "id": "da7fa32b-ea82-5a7b-ac40-8a60722739de",
@@ -36267,7 +36310,8 @@
         "r": 241,
         "g": 208,
         "b": 161
-      }
+      },
+      "ean": "655368171031"
     },
     {
       "id": "b52b3670-5cde-5db4-b9f1-f101ff069afd",
@@ -36281,7 +36325,8 @@
         "r": 59,
         "g": 35,
         "b": 19
-      }
+      },
+      "ean": "655368163548"
     },
     {
       "id": "e9e0a14b-1c7b-5305-9de9-416015f09dcc",
@@ -36296,7 +36341,7 @@
         "g": 45,
         "b": 40
       },
-      "ean": "628504411407"
+      "ean": "655368007316"
     },
     {
       "id": "e7e73f12-0701-50f2-9244-51e33b49d552",
@@ -36325,7 +36370,8 @@
         "r": 8,
         "g": 5,
         "b": 5
-      }
+      },
+      "ean": "655368002106"
     },
     {
       "id": "15c1db43-d97f-525c-a6c5-7067485173bb",
@@ -36519,7 +36565,8 @@
         "r": 44,
         "g": 23,
         "b": 14
-      }
+      },
+      "ean": "655368003066"
     },
     {
       "id": "df7add19-21d6-5bb1-8040-4bbf41d4fc82",
@@ -36594,7 +36641,7 @@
         "g": 83,
         "b": 55
       },
-      "ean": "628504411209"
+      "ean": "655368007149"
     },
     {
       "id": "873413cb-0323-5923-97f8-7e3815df3669",
@@ -36714,7 +36761,7 @@
         "g": 50,
         "b": 53
       },
-      "ean": "628504411445"
+      "ean": "655368005817"
     },
     {
       "id": "d2592d84-3d7a-5f9d-9a5c-d0152a709638",
@@ -36833,7 +36880,8 @@
         "r": 255,
         "g": 247,
         "b": 204
-      }
+      },
+      "ean": "655368214806"
     },
     {
       "id": "ef68a960-0f42-5b76-8a72-adfac4d7c642",
@@ -36847,7 +36895,8 @@
         "r": 221,
         "g": 165,
         "b": 91
-      }
+      },
+      "ean": "655368212956"
     },
     {
       "id": "30799cfe-9a2d-5b36-8c0a-008c7b2ed4b7",
@@ -36861,7 +36910,8 @@
         "r": 128,
         "g": 95,
         "b": 62
-      }
+      },
+      "ean": "655368212413"
     },
     {
       "id": "053d4720-cc58-5962-80c8-121cff182397",
@@ -36875,7 +36925,8 @@
         "r": 97,
         "g": 69,
         "b": 41
-      }
+      },
+      "ean": "655368207853"
     },
     {
       "id": "b94db07f-6887-5bc2-9293-f3f2a5bf4f31",
@@ -36889,7 +36940,8 @@
         "r": 141,
         "g": 92,
         "b": 37
-      }
+      },
+      "ean": "655368208416"
     },
     {
       "id": "87187d89-6f37-51c8-a1c1-4240edd367c2",
@@ -36903,7 +36955,8 @@
         "r": 128,
         "g": 95,
         "b": 62
-      }
+      },
+      "ean": "655368212376"
     },
     {
       "id": "ad77ac7e-1aa2-5d03-aeb0-bbe06192dfa0",
@@ -36917,7 +36970,8 @@
         "r": 115,
         "g": 66,
         "b": 56
-      }
+      },
+      "ean": "655368003639"
     },
     {
       "id": "ac8c9d16-bfa5-574b-9570-2326ce33aa0f",
@@ -36931,7 +36985,8 @@
         "r": 63,
         "g": 181,
         "b": 73
-      }
+      },
+      "ean": "655368191121"
     },
     {
       "id": "bc948294-0e8e-5025-b7ec-a86bdeb7e0e2",
@@ -36945,7 +37000,8 @@
         "r": 240,
         "g": 77,
         "b": 38
-      }
+      },
+      "ean": "655368189739"
     },
     {
       "id": "349c9356-d57a-542f-91f6-ee3209632b67",
@@ -36959,7 +37015,8 @@
         "r": 238,
         "g": 56,
         "b": 124
-      }
+      },
+      "ean": "655368196300"
     },
     {
       "id": "4ac39d99-81a8-5f6f-b25d-9b2e203fe5c6",
@@ -36973,7 +37030,8 @@
         "r": 163,
         "g": 35,
         "b": 136
-      }
+      },
+      "ean": "655368192623"
     },
     {
       "id": "2f26d860-1b23-507b-baf4-2e88e50e497b",
@@ -36987,7 +37045,8 @@
         "r": 239,
         "g": 58,
         "b": 55
-      }
+      },
+      "ean": "655368189487"
     },
     {
       "id": "51826b8d-1134-54a8-a8d6-4412268d0b8f",
@@ -37001,7 +37060,8 @@
         "r": 242,
         "g": 221,
         "b": 38
-      }
+      },
+      "ean": "655368190766"
     },
     {
       "id": "033727f1-bd65-58b1-aed9-f9ba45a274e5",
@@ -37180,7 +37240,8 @@
         "r": 141,
         "g": 133,
         "b": 126
-      }
+      },
+      "ean": "655368172250"
     },
     {
       "id": "4a70816d-88dc-58aa-b48d-08284e3a952d",
@@ -37194,7 +37255,8 @@
         "r": 75,
         "g": 73,
         "b": 69
-      }
+      },
+      "ean": "655368172199"
     },
     {
       "id": "14491c5f-b975-502b-8a71-5385bdecdd98",
@@ -37208,7 +37270,8 @@
         "r": 63,
         "g": 49,
         "b": 31
-      }
+      },
+      "ean": "655368173257"
     },
     {
       "id": "56dee2a8-60dc-5c2e-bd47-0ab6cfd1ccf8",
@@ -37222,7 +37285,8 @@
         "r": 62,
         "g": 23,
         "b": 20
-      }
+      },
+      "ean": "655368169588"
     },
     {
       "id": "2e8e4948-5801-583c-85cd-3cb31ac07452",
@@ -37236,7 +37300,8 @@
         "r": 25,
         "g": 66,
         "b": 69
-      }
+      },
+      "ean": "655368170119"
     },
     {
       "id": "6fa85c8c-c853-506c-a7d8-ac2433df0143",
@@ -37250,7 +37315,8 @@
         "r": 230,
         "g": 230,
         "b": 230
-      }
+      },
+      "ean": "655368168673"
     },
     {
       "id": "fd6103d1-b3a1-578b-8026-903748b6b2c0",
@@ -37294,7 +37360,8 @@
         "r": 183,
         "g": 180,
         "b": 166
-      }
+      },
+      "ean": "655368112133"
     },
     {
       "id": "1911d678-344d-5ee6-add4-9ecdac013b6b",
@@ -37308,7 +37375,8 @@
         "r": 128,
         "g": 48,
         "b": 63
-      }
+      },
+      "ean": "655368115493"
     },
     {
       "id": "948ced33-fe5f-57b5-8d6c-7eb1899e5d4c",
@@ -37322,7 +37390,8 @@
         "r": 78,
         "g": 59,
         "b": 61
-      }
+      },
+      "ean": "655368119286"
     },
     {
       "id": "49366a31-f198-5aa9-94c7-4635941b7839",
@@ -37336,7 +37405,8 @@
         "r": 197,
         "g": 145,
         "b": 87
-      }
+      },
+      "ean": "655368113321"
     },
     {
       "id": "4eaba069-19cc-54e5-9136-303ab9e7b50a",
@@ -37350,7 +37420,8 @@
         "r": 131,
         "g": 120,
         "b": 118
-      }
+      },
+      "ean": "655368121227"
     },
     {
       "id": "f2391b89-9c97-5717-9dec-df1bb9c6b064",
@@ -37364,7 +37435,8 @@
         "r": 107,
         "g": 75,
         "b": 56
-      }
+      },
+      "ean": "655368113895"
     },
     {
       "id": "79d726a1-3668-5a7f-9b9d-4f5ec031fa02",
@@ -37408,7 +37480,8 @@
         "r": 24,
         "g": 25,
         "b": 27
-      }
+      },
+      "ean": "655368004032"
     },
     {
       "id": "52d7e788-6df8-565f-85e5-e3b4b79d29d8",
@@ -37422,7 +37495,8 @@
         "r": 64,
         "g": 66,
         "b": 64
-      }
+      },
+      "ean": "655368007316"
     },
     {
       "id": "4ce10cec-cc9b-5d6d-adfe-e4b6f516ec92",
@@ -37436,7 +37510,8 @@
         "r": 58,
         "g": 63,
         "b": 57
-      }
+      },
+      "ean": "655368007149"
     },
     {
       "id": "bfd57885-aef6-5ce4-a6e4-5786bbc9cb41",
@@ -37450,7 +37525,8 @@
         "r": 48,
         "g": 56,
         "b": 57
-      }
+      },
+      "ean": "655368005817"
     },
     {
       "id": "503d902c-bfd8-5e59-960b-013c531eed27",
@@ -37464,7 +37540,8 @@
         "r": 231,
         "g": 233,
         "b": 228
-      }
+      },
+      "ean": "655368004063"
     },
     {
       "id": "d920250b-b999-5d16-af1e-d8d2a8c19f8c",
@@ -37568,7 +37645,8 @@
         "r": 249,
         "g": 217,
         "b": 103
-      }
+      },
+      "ean": "655368223952"
     },
     {
       "id": "a1d37d7e-e40b-5a57-8a4c-01dab81010cd",
@@ -37582,7 +37660,8 @@
         "r": 18,
         "g": 163,
         "b": 97
-      }
+      },
+      "ean": "655368221736"
     },
     {
       "id": "37e86666-1c5a-5c42-8abf-b07413b23460",
@@ -37596,7 +37675,8 @@
         "r": 195,
         "g": 44,
         "b": 91
-      }
+      },
+      "ean": "655368220494"
     },
     {
       "id": "ea4b04a4-0760-5a0f-981b-9285d223d9f5",
@@ -37610,7 +37690,8 @@
         "r": 22,
         "g": 125,
         "b": 148
-      }
+      },
+      "ean": "655368221866"
     },
     {
       "id": "9baae85e-0cbd-5e27-99fc-1c5c593d8a2d",
@@ -37624,7 +37705,8 @@
         "r": 229,
         "g": 57,
         "b": 65
-      }
+      },
+      "ean": "655368216183"
     },
     {
       "id": "5e208ab0-b2fb-55c3-a780-1d50b152e9ea",
@@ -37638,7 +37720,8 @@
         "r": 61,
         "g": 94,
         "b": 171
-      }
+      },
+      "ean": "655368221958"
     },
     {
       "id": "45810dd1-8953-5905-8205-76a486f53055",
@@ -37862,7 +37945,8 @@
         "r": 166,
         "g": 142,
         "b": 134
-      }
+      },
+      "ean": "655368111228"
     },
     {
       "id": "867fcfef-2300-5d1f-a083-c24229816951",
@@ -37876,7 +37960,8 @@
         "r": 44,
         "g": 72,
         "b": 85
-      }
+      },
+      "ean": "655368101212"
     },
     {
       "id": "d0eff86a-b2ad-5fe6-be88-67c29612e749",
@@ -37890,7 +37975,8 @@
         "r": 106,
         "g": 117,
         "b": 70
-      }
+      },
+      "ean": "655368111730"
     },
     {
       "id": "07700350-7e3e-5f87-b5dc-5b36cc100b32",
@@ -37904,7 +37990,8 @@
         "r": 45,
         "g": 56,
         "b": 68
-      }
+      },
+      "ean": "655368105555"
     },
     {
       "id": "298fc439-1ebd-5170-8b47-a3f133ca861f",
@@ -37918,7 +38005,8 @@
         "r": 59,
         "g": 48,
         "b": 83
-      }
+      },
+      "ean": "655368107375"
     },
     {
       "id": "1f9ef788-12a9-5303-8a7c-11bb2e068602",
@@ -37932,7 +38020,8 @@
         "r": 175,
         "g": 189,
         "b": 186
-      }
+      },
+      "ean": "655368110849"
     },
     {
       "id": "6e45d15b-f703-570f-b5e3-f8c958b49082",
@@ -38023,531 +38112,6 @@
         "b": 49
       },
       "ean": "628504411384"
-    },
-    {
-      "id": "4f8dc367-fb15-499b-9de7-918d18ec0e65",
-      "name": "Catachan Flesh",
-      "brand": "citadel",
-      "productLine": "Base",
-      "paintType": "base",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921188222"
-    },
-    {
-      "id": "0df45440-044a-4180-aff4-85a84e795fb6",
-      "name": "Casandora Yellow",
-      "brand": "citadel",
-      "productLine": "Shade",
-      "paintType": "shade",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921176519"
-    },
-    {
-      "id": "e46e569a-edf7-488a-bfc8-8fc29954b485",
-      "name": "Kroak Green",
-      "brand": "citadel",
-      "productLine": "Shade",
-      "paintType": "shade",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921176359"
-    },
-    {
-      "id": "ab5d26eb-38b6-4f54-bc0a-8ebebd436e27",
-      "name": "Poxwalker",
-      "brand": "citadel",
-      "productLine": "Shade",
-      "paintType": "shade",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921176410"
-    },
-    {
-      "id": "283e22c1-b392-4783-882d-51e763066b5f",
-      "name": "Targor Rageshade",
-      "brand": "citadel",
-      "productLine": "Shade",
-      "paintType": "shade",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921176366"
-    },
-    {
-      "id": "2ab57286-31ed-4056-87ae-8e6707b2652e",
-      "name": "Mortarion Grime",
-      "brand": "citadel",
-      "productLine": "Shade",
-      "paintType": "shade",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921176373"
-    },
-    {
-      "id": "28d20eac-9d4c-4df9-b239-20bff688e111",
-      "name": "Tyran Blue",
-      "brand": "citadel",
-      "productLine": "Shade",
-      "paintType": "shade",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921176380"
-    },
-    {
-      "id": "06062686-720a-4808-97ca-9982fe593f14",
-      "name": "Berserker Bloodshade",
-      "brand": "citadel",
-      "productLine": "Shade",
-      "paintType": "shade",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921176397"
-    },
-    {
-      "id": "ddcbe348-9252-49cd-b1ef-d500b09a9090",
-      "name": "Soulblight Grey",
-      "brand": "citadel",
-      "productLine": "Shade",
-      "paintType": "shade",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921176403"
-    },
-    {
-      "id": "e2e5f0e2-d312-45e2-a963-a8139881fb91",
-      "name": "Nighthaunt Gloom",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921176342"
-    },
-    {
-      "id": "26d9258b-30a5-4f59-a690-5d2b66bbd1a9",
-      "name": "Hexwraith Flame",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921176335"
-    },
-    {
-      "id": "d1de3849-c0c0-4322-b0b4-af843057b67d",
-      "name": "Garaghak's Sewer",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921145027"
-    },
-    {
-      "id": "d0228bd9-4214-464f-929a-0826a588e784",
-      "name": "Ratling Grime",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921145041"
-    },
-    {
-      "id": "20ef0a5b-a976-4920-9eaa-e682d62d48f2",
-      "name": "Mantis Warriors Grn",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921145058"
-    },
-    {
-      "id": "3a89f33e-47cf-410a-9bd4-ee6da8d5e0be",
-      "name": "Aeldari Emerald",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921145065"
-    },
-    {
-      "id": "e9cfe78c-4315-445f-94fd-e86803b625b6",
-      "name": "Gutrippa Flesh",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921145072"
-    },
-    {
-      "id": "3887f0d9-7172-49b4-aeed-9efcea4858c8",
-      "name": "Karandras Green",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921145089"
-    },
-    {
-      "id": "e82571af-bee8-41b3-bf37-03b062aad0f6",
-      "name": "Scorpion Green",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921145096"
-    },
-    {
-      "id": "bc21301c-25c0-45eb-a58e-3665bd4dab1d",
-      "name": "Ironjawz Yellow",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921145102"
-    },
-    {
-      "id": "69222868-89be-491e-b911-323acf4adec6",
-      "name": "Bad Moon Yellow",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921145119"
-    },
-    {
-      "id": "c8e9475f-2345-4c37-9a9e-06c904e0b0f0",
-      "name": "Imperial Fist",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921145126"
-    },
-    {
-      "id": "fd8ec803-0125-4d5f-8b49-1bae293df5c4",
-      "name": "Kroxigor Scales",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921145133"
-    },
-    {
-      "id": "48ddcc1e-98d4-449e-b53b-bfc832329f77",
-      "name": "Briar Queen Chill",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921145140"
-    },
-    {
-      "id": "c19f3c7e-db24-47e8-8aca-5d6ceec76b1a",
-      "name": "Frostheart",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921145157"
-    },
-    {
-      "id": "fb8f6c32-c05b-4b1e-914b-3c6d3b74cc8c",
-      "name": "Pylar Glacier",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921145164"
-    },
-    {
-      "id": "9f624010-14d8-4cd7-9dbf-c155072f70bb",
-      "name": "Asurmen Blue",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921145171"
-    },
-    {
-      "id": "96c369e4-e105-4e53-a0ee-7e1e194b2bec",
-      "name": "Celestium Blue",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921145188"
-    },
-    {
-      "id": "ddf060af-2bcb-488b-bf34-80dff9d3b289",
-      "name": "Stormfiend",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921145195"
-    },
-    {
-      "id": "2272ac53-266c-4a5a-a440-14dbda70e348",
-      "name": "Leviathan Purple",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921145201"
-    },
-    {
-      "id": "c9e07ae0-43df-4238-acbe-f4c7d820aca5",
-      "name": "Luxion Purple",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921145218"
-    },
-    {
-      "id": "0bd630c5-8b51-4c4e-a103-ed0d8af43917",
-      "name": "Sigvald Burgundy",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921144594"
-    },
-    {
-      "id": "2ff5e1a9-47e1-485d-9b3d-19fbbb7d5e21",
-      "name": "Dreadful Visage",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921144600"
-    },
-    {
-      "id": "13f0fa50-f9bc-46e5-a6b0-925ed8fb36a7",
-      "name": "Doomfire Magenta",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921176304"
-    },
-    {
-      "id": "6a3cdd50-ac85-4ec1-acb3-c327fd3a55c2",
-      "name": "Baal Red",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921176311"
-    },
-    {
-      "id": "85aca6db-d545-4109-8766-6f23840f4bf6",
-      "name": "Magmadroth Flame",
-      "brand": "citadel",
-      "productLine": "Contrast",
-      "paintType": "contrast",
-      "sku": null,
-      "hexColor": "#808080",
-      "rgb": {
-        "r": 128,
-        "g": 128,
-        "b": 128
-      },
-      "ean": "5011921176328"
     }
   ]
 }

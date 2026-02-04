@@ -1,0 +1,66 @@
+{
+  "brand": "monument_hobbies",
+  "source": "gamersphere.au",
+  "startedAt": "2026-02-04T21:37:40.989Z",
+  "lastUpdatedAt": "2026-02-04T21:37:40.989Z",
+  "completedCount": 5,
+  "matchedCount": 5,
+  "totalCount": 5,
+  "results": [
+    {
+      "paintId": "5c48d56b-aafd-598d-9e24-13266dbb7369",
+      "paintName": "AdeptiCon Spray-Team Red Oxide",
+      "brand": "monument_hobbies",
+      "pageTitle": "Monument Pro Acryl Prime - Red Oxide 120ml",
+      "pageUrl": "https://www.gamersphere.au/monument-pro-acryl-prime-red-oxide-120ml",
+      "modelNumber": null,
+      "barcode": "8436607711070",
+      "matchConfidence": "exact",
+      "scrapedAt": "2026-02-04T21:36:31.499Z"
+    },
+    {
+      "paintId": "ad77ac7e-1aa2-5d03-aeb0-bbe06192dfa0",
+      "paintName": "Flesh Wash",
+      "brand": "monument_hobbies",
+      "pageTitle": "Monument Pro Acryl Washes - Flesh Wash 22ml",
+      "pageUrl": "https://www.gamersphere.au/monument-pro-acryl-washes-flesh-wash-22ml",
+      "modelNumber": null,
+      "barcode": "655368003639",
+      "matchConfidence": "exact",
+      "scrapedAt": "2026-02-04T21:36:54.199Z"
+    },
+    {
+      "paintId": "52d7e788-6df8-565f-85e5-e3b4b79d29d8",
+      "paintName": "PRIME Black Brown",
+      "brand": "monument_hobbies",
+      "pageTitle": "Monument Pro Acryl Prime - Black Brown 120ml",
+      "pageUrl": "https://www.gamersphere.au/monument-pro-acryl-prime-black-brown-120ml",
+      "modelNumber": null,
+      "barcode": "655368007316",
+      "matchConfidence": "exact",
+      "scrapedAt": "2026-02-04T21:37:19.378Z"
+    },
+    {
+      "paintId": "4ce10cec-cc9b-5d6d-adfe-e4b6f516ec92",
+      "paintName": "PRIME Dark Camo Green",
+      "brand": "monument_hobbies",
+      "pageTitle": "Monument Pro Acryl Prime - Dark Camo Green 120ml",
+      "pageUrl": "https://www.gamersphere.au/monument-pro-acryl-prime-dark-camo-green-120ml",
+      "modelNumber": null,
+      "barcode": "655368007149",
+      "matchConfidence": "exact",
+      "scrapedAt": "2026-02-04T21:37:20.941Z"
+    },
+    {
+      "paintId": "bfd57885-aef6-5ce4-a6e4-5786bbc9cb41",
+      "paintName": "PRIME Dark Neutral Grey",
+      "brand": "monument_hobbies",
+      "pageTitle": "Monument Pro Acryl Prime - Dark Neutral Grey 120ml",
+      "pageUrl": "https://www.gamersphere.au/monument-pro-acryl-prime-dark-neutral-grey-120ml",
+      "modelNumber": null,
+      "barcode": "655368005817",
+      "matchConfidence": "exact",
+      "scrapedAt": "2026-02-04T21:37:23.968Z"
+    }
+  ]
+}
