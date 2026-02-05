@@ -28,6 +28,7 @@
     "ean:scrape:monument-ebay": "tsx scripts/ean/scrape-ebay-monument.ts",
     "ean:scrape:monument-gamersphere": "tsx scripts/ean/scrape-gamersphere-monument.ts",
     "ean:scrape:monument-official": "tsx scripts/ean/scrape-monumenthobbies-official.ts",
+    "ean:scrape:army-painter-official": "tsx scripts/ean/scrape-army-painter-official.ts",
     "ean:lookup:eandb": "tsx scripts/ean/lookup-ean-db.ts",
     "ean:enumerate:citadel": "tsx scripts/ean/enumerate-citadel-eans.ts",
     "ean:rematch:citadel": "tsx scripts/ean/rematch-citadel-eans.ts",
