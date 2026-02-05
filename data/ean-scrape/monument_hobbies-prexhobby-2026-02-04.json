@@ -1,0 +1,187 @@
+{
+  "brand": "monument_hobbies",
+  "source": "prexhobby.com",
+  "startedAt": "2026-02-04T01:59:39.924Z",
+  "lastUpdatedAt": "2026-02-04T01:59:39.924Z",
+  "completedCount": 16,
+  "matchedCount": 12,
+  "totalCount": 16,
+  "results": [
+    {
+      "paintId": "d2592d84-3d7a-5f9d-9a5c-d0152a709638",
+      "paintName": "Dark Purple",
+      "brand": "monument_hobbies",
+      "shopifyTitle": "Monument Hobbies Pro Acryl Standard Dark Purple 22ml",
+      "shopifyHandle": "monument-hobbies-pro-acryl-standard-dark-purple-22ml",
+      "shopifySku": "MMH-MPA-035",
+      "barcode": "628504411353",
+      "matchConfidence": "exact",
+      "scrapedAt": "2026-02-04T01:59:20.183Z"
+    },
+    {
+      "paintId": "feaa979d-eb2a-59c0-b64b-1d3725ddba36",
+      "paintName": "Ivory",
+      "brand": "monument_hobbies",
+      "shopifyTitle": "Monument Hobbies Pro Acryl Standard Ivory 22ml",
+      "shopifyHandle": "monument-hobbies-pro-acryl-standard-ivory-22ml",
+      "shopifySku": "MMH-MPA-023",
+      "barcode": "628504411230",
+      "matchConfidence": "exact",
+      "scrapedAt": "2026-02-04T01:59:21.580Z"
+    },
+    {
+      "paintId": "0e0cb8e6-2358-5120-b5d9-cb9a9ea005d1",
+      "paintName": "Magenta",
+      "brand": "monument_hobbies",
+      "shopifyTitle": "Monument Hobbies Pro Acryl Standard Magenta 22ml",
+      "shopifyHandle": "monument-hobbies-pro-acryl-standard-magenta-22ml",
+      "shopifySku": "MMH-MPA-011",
+      "barcode": "628504411117",
+      "matchConfidence": "exact",
+      "scrapedAt": "2026-02-04T01:59:22.793Z"
+    },
+    {
+      "paintId": "27abe466-50d1-5fdd-9d75-54906b3d5a90",
+      "paintName": "Orange",
+      "brand": "monument_hobbies",
+      "shopifyTitle": "Monument Hobbies Pro Acryl Standard Orange 22ml",
+      "shopifyHandle": "monument-hobbies-pro-acryl-standard-orange-22ml",
+      "shopifySku": "MMH-MPA-007",
+      "barcode": "628504411070",
+      "matchConfidence": "exact",
+      "scrapedAt": "2026-02-04T01:59:24.139Z"
+    },
+    {
+      "paintId": "0ac69dff-fbaf-5d70-bdcb-58446c9449ee",
+      "paintName": "Green",
+      "brand": "monument_hobbies",
+      "shopifyTitle": "Monument Hobbies Pro Acryl Standard Green 22ml",
+      "shopifyHandle": "monument-hobbies-pro-acryl-standard-green-22ml",
+      "shopifySku": "MMH-MPA-004",
+      "barcode": "628504411049",
+      "matchConfidence": "exact",
+      "scrapedAt": "2026-02-04T01:59:25.460Z"
+    },
+    {
+      "paintId": "97776e99-48b5-5d67-86ee-2fb37d37faaa",
+      "paintName": "Bright Gold",
+      "brand": "monument_hobbies",
+      "shopifyTitle": "Monument Hobbies Pro Acryl Standard Bright Gold 22ml",
+      "shopifyHandle": "monument-hobbies-pro-acryl-standard-bright-gold-22ml",
+      "shopifySku": "MMH-MPA-031",
+      "barcode": "628504411315",
+      "matchConfidence": "exact",
+      "scrapedAt": "2026-02-04T01:59:26.666Z"
+    },
+    {
+      "paintId": "97efd33c-9a61-5a7c-95d1-ee39f22f09e9",
+      "paintName": "Light Umber",
+      "brand": "monument_hobbies",
+      "shopifyTitle": "Monument Hobbies Pro Acryl Standard Light Umber 22ml",
+      "shopifyHandle": "monument-hobbies-pro-acryl-standard-light-umber-22ml",
+      "shopifySku": "MMH-MPA-018",
+      "barcode": "628504411186",
+      "matchConfidence": "exact",
+      "scrapedAt": "2026-02-04T01:59:28.035Z"
+    },
+    {
+      "paintId": "873413cb-0323-5923-97f8-7e3815df3669",
+      "paintName": "Coal Black",
+      "brand": "monument_hobbies",
+      "shopifyTitle": "Monument Hobbies Pro Acryl Standard Coal Black 22ml",
+      "shopifyHandle": "monument-hobbies-pro-acryl-standard-coal-black-22ml",
+      "shopifySku": "MMH-MPA-002",
+      "barcode": "628504411025",
+      "matchConfidence": "exact",
+      "scrapedAt": "2026-02-04T01:59:29.220Z"
+    },
+    {
+      "paintId": null,
+      "paintName": "Monument Hobbies Pro Acryl Base Set - 24 Colors",
+      "brand": "monument_hobbies",
+      "shopifyTitle": "Monument Hobbies Pro Acryl Base Set - 24 Colors",
+      "shopifyHandle": "monument-hobbies-pro-acryl-base-set-24-colors",
+      "shopifySku": "MMH-MPA-SET-BASE",
+      "barcode": "655368064463",
+      "matchConfidence": "none",
+      "scrapedAt": "2026-02-04T01:59:30.410Z"
+    },
+    {
+      "paintId": "3918b6d4-ae98-53e9-801f-029410f22fd6",
+      "paintName": "Light Bronze",
+      "brand": "monument_hobbies",
+      "shopifyTitle": "Monument Hobbies Pro Acryl Standard Light Bronze 22ml",
+      "shopifyHandle": "monument-hobbies-pro-acryl-standard-light-bronze-22ml",
+      "shopifySku": "MMH-MPA-026",
+      "barcode": "628504411261",
+      "matchConfidence": "exact",
+      "scrapedAt": "2026-02-04T01:59:31.612Z"
+    },
+    {
+      "paintId": null,
+      "paintName": "Monument Hobbies Pro Acryl PRIME Airbrush Primers Black",
+      "brand": "monument_hobbies",
+      "shopifyTitle": "Monument Hobbies Pro Acryl PRIME Airbrush Primers Black",
+      "shopifyHandle": "monument-hobbies-pro-acryl-prime-airbrush-primers-black",
+      "shopifySku": "MMH-MPAP-002",
+      "barcode": "655368004032",
+      "matchConfidence": "none",
+      "scrapedAt": "2026-02-04T01:59:32.797Z"
+    },
+    {
+      "paintId": "e9e0a14b-1c7b-5305-9de9-416015f09dcc",
+      "paintName": "Black Brown",
+      "brand": "monument_hobbies",
+      "shopifyTitle": "Monument Hobbies Pro Acryl PRIME Airbrush Primers Black Brown",
+      "shopifyHandle": "monument-hobbies-pro-acryl-prime-airbrush-primers-black-brown",
+      "shopifySku": "MMH-MPAP-011",
+      "barcode": "655368007316",
+      "matchConfidence": "high",
+      "scrapedAt": "2026-02-04T01:59:34.104Z"
+    },
+    {
+      "paintId": "c790d23c-6d77-56d6-9613-a4b1c7c03f02",
+      "paintName": "Dark Neutral Grey",
+      "brand": "monument_hobbies",
+      "shopifyTitle": "Monument Hobbies Pro Acryl PRIME Airbrush Primers Dark Neutral Grey",
+      "shopifyHandle": "monument-hobbies-pro-acryl-prime-airbrush-primers-dark-neutral-grey",
+      "shopifySku": "MMH-MPAP-005",
+      "barcode": "655368005817",
+      "matchConfidence": "high",
+      "scrapedAt": "2026-02-04T01:59:35.313Z"
+    },
+    {
+      "paintId": "c7ceec97-44e8-5d2f-a1a4-61fadb7a7c8c",
+      "paintName": "Camo Green",
+      "brand": "monument_hobbies",
+      "shopifyTitle": "Monument Hobbies Pro Acryl PRIME Airbrush Primers Dark Camo Green",
+      "shopifyHandle": "monument-hobbies-pro-acryl-prime-airbrush-primers-dark-camo-green",
+      "shopifySku": "MMH-MPAP-007",
+      "barcode": "655368007149",
+      "matchConfidence": "high",
+      "scrapedAt": "2026-02-04T01:59:36.500Z"
+    },
+    {
+      "paintId": null,
+      "paintName": "Monument Hobbies Pro Acryl PRIME Airbrush Primers White",
+      "brand": "monument_hobbies",
+      "shopifyTitle": "Monument Hobbies Pro Acryl PRIME Airbrush Primers White",
+      "shopifyHandle": "monument-hobbies-pro-acryl-prime-airbrush-primers-white",
+      "shopifySku": "MMH-MPAP-003",
+      "barcode": "655368004063",
+      "matchConfidence": "none",
+      "scrapedAt": "2026-02-04T01:59:37.730Z"
+    },
+    {
+      "paintId": null,
+      "paintName": "Monument Hobbies Pro Acryl - Mediums Glaze and Wash Medium",
+      "brand": "monument_hobbies",
+      "shopifyTitle": "Monument Hobbies Pro Acryl - Mediums Glaze and Wash Medium",
+      "shopifyHandle": "monument-hobbies-pro-acryl-mediums-glaze-and-wash-medium",
+      "shopifySku": "MMH-MPAM-001",
+      "barcode": "655368002076",
+      "matchConfidence": "none",
+      "scrapedAt": "2026-02-04T01:59:38.922Z"
+    }
+  ]
+}

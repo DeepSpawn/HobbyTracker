@@ -1,7 +1,8 @@
 /**
- * Paint Lookup by EAN Service
+ * Paint Lookup by Barcode Service
  *
- * Provides Firestore lookup functionality to find paints by their EAN-13 barcode.
+ * Provides Firestore lookup functionality to find paints by their barcode.
+ * Supports both EAN-13 (13 digits) and UPC-A (12 digits) formats.
  * Used by the barcode scanner feature (P0b) to quickly identify paints.
  */
 
@@ -9,46 +10,51 @@ import { collection, query, where, getDocs, limit } from 'firebase/firestore';
 import { db, COLLECTIONS } from '../../lib/firebase';
 import type { Paint } from '../../types/paint';
 
-// EAN-13 validation regex
-const EAN_REGEX = /^\d{13}$/;
+// Barcode validation regex (EAN-13 or UPC-12)
+const BARCODE_REGEX = /^\d{12,13}$/;
 
 /**
- * Validate EAN-13 barcode format
+ * Validate barcode format (EAN-13 or UPC-12)
  */
-export function isValidEan(ean: string): boolean {
-  return EAN_REGEX.test(ean);
+export function isValidEan(barcode: string): boolean {
+  return BARCODE_REGEX.test(barcode);
 }
 
 /**
- * Validate EAN-13 checksum
- * EAN-13 uses a modulo 10 checksum algorithm
+ * Validate barcode checksum
+ * Both EAN-13 and UPC-A use the same modulo 10 checksum algorithm
  */
-export function validateEanChecksum(ean: string): boolean {
-  if (!isValidEan(ean)) return false;
+export function validateEanChecksum(barcode: string): boolean {
+  if (!isValidEan(barcode)) return false;
 
-  const digits = ean.split('').map(Number);
+  const digits = barcode.split('').map(Number);
+  const length = digits.length;
   let sum = 0;
 
-  for (let i = 0; i < 12; i++) {
-    sum += digits[i] * (i % 2 === 0 ? 1 : 3);
+  // For both UPC-12 and EAN-13, odd positions (from right) are multiplied by 3
+  for (let i = 0; i < length - 1; i++) {
+    const positionFromRight = length - 1 - i;
+    sum += digits[i] * (positionFromRight % 2 === 0 ? 1 : 3);
   }
 
   const checkDigit = (10 - (sum % 10)) % 10;
-  return checkDigit === digits[12];
+  return checkDigit === digits[length - 1];
 }
 
 /**
- * Look up a paint by its EAN-13 barcode
+ * Look up a paint by its barcode (EAN-13 or UPC-12)
  *
- * @param ean - The EAN-13 barcode to search for
+ * @param barcode - The barcode to search for (12 or 13 digits)
  * @returns The matching paint or null if not found
  */
-export async function lookupPaintByEan(ean: string): Promise<Paint | null> {
-  // Validate EAN format
-  if (!isValidEan(ean)) {
-    console.warn(`Invalid EAN format: ${ean}`);
+export async function lookupPaintByEan(barcode: string): Promise<Paint | null> {
+  // Validate barcode format
+  if (!isValidEan(barcode)) {
+    console.warn(`Invalid barcode format: ${barcode}`);
     return null;
   }
+
+  const ean = barcode; // Keep variable name for Firestore field compatibility
 
   try {
     const paintsRef = collection(db, COLLECTIONS.PAINTS);
@@ -71,10 +77,10 @@ export async function lookupPaintByEan(ean: string): Promise<Paint | null> {
 }
 
 /**
- * Check if an EAN exists in the database
+ * Check if a barcode exists in the database
  *
- * @param ean - The EAN-13 barcode to check
- * @returns True if a paint with this EAN exists
+ * @param barcode - The barcode to check (EAN-13 or UPC-12)
+ * @returns True if a paint with this barcode exists
  */
 export async function eanExists(ean: string): Promise<boolean> {
   const paint = await lookupPaintByEan(ean);

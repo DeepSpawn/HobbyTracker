@@ -1,0 +1,19 @@
+{
+  "_comment": "Manually collected UPCs from eBay research - Feb 2026",
+  "_sources": [
+    "https://www.ebay.com/itm/116322245639 (Khaki 061)",
+    "https://www.ebay.com/p/6064650334 (PRIME Dark Camo Green 007)",
+    "https://www.ebay.com/itm/276746872615 (Signature Adepticon Magnesium S42)",
+    "https://www.ebay.com/itm/116322245699 (Brown Wash 201)",
+    "https://www.ebay.com/p/9062849620 (Glaze & Wash Medium)"
+  ],
+  "_upcs_by_name": {
+    "Khaki": "628504411612",
+    "Dark Camo Green": "655368007149",
+    "AdeptiCon Spray-Team Magnesium": "655368243646",
+    "Brown Wash": "655368003066",
+    "Glaze & Wash Medium": "655368002076",
+    "Burgundy": "628504411698",
+    "Dark Silver": "628504411308"
+  }
+}

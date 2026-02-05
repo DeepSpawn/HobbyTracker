@@ -15,8 +15,8 @@ const COLLECTION_NAME = 'paints';
 // Hex color validation regex
 const HEX_COLOR_REGEX = /^#[A-Fa-f0-9]{6}$/;
 
-// EAN-13 validation regex
-const EAN_REGEX = /^\d{13}$/;
+// Barcode validation regex (EAN-13 or UPC-12)
+const BARCODE_REGEX = /^\d{12,13}$/;
 
 function validateHexColor(hex: string): boolean {
   return HEX_COLOR_REGEX.test(hex);
@@ -24,7 +24,7 @@ function validateHexColor(hex: string): boolean {
 
 function validateEan(ean: string | null | undefined): boolean {
   if (!ean) return true; // null/undefined is valid (means no EAN)
-  return EAN_REGEX.test(ean);
+  return BARCODE_REGEX.test(ean); // Accept UPC-12 or EAN-13
 }
 
 function loadPaintsDatabase(): PaintDatabase {

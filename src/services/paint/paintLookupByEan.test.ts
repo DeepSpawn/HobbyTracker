@@ -7,8 +7,13 @@ describe('isValidEan', () => {
     expect(isValidEan('5011921120963')).toBe(true);
   });
 
-  it('rejects a 12-digit string', () => {
-    expect(isValidEan('501192112096')).toBe(false);
+  it('accepts a valid 12-digit UPC', () => {
+    // Monument Hobbies UPC format
+    expect(isValidEan('628504411421')).toBe(true);
+  });
+
+  it('rejects an 11-digit string', () => {
+    expect(isValidEan('50119211209')).toBe(false);
   });
 
   it('rejects a 14-digit string', () => {
@@ -35,6 +40,11 @@ describe('validateEanChecksum', () => {
 
   it('validates another correct EAN-13 (Vallejo US Dark Green)', () => {
     expect(validateEanChecksum('8429551708593')).toBe(true);
+  });
+
+  it('validates a correct UPC-12 checksum (Monument Hobbies)', () => {
+    // Shadow Flesh UPC from prexhobby.com
+    expect(validateEanChecksum('628504411421')).toBe(true);
   });
 
   it('rejects an EAN with wrong check digit', () => {
